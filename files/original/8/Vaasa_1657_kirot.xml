@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kirot, Vaasa 1657</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Tuomikirjojen loitsut</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Kansallisarkisto</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkriptio</resp>
+          <persName>Lari Ahokas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kommentaari</resp>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-11-29">29.11.2018</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Kansallisarkisto, Raastuvanoikeuksien renovoidut tuomiokirjat, Vaasan raastuvanoikeus, V:1, tuomiokirja 1650−1659, 26.8.1657, s.n., [360] r. 32−36; 
+              http://digi.narc.fi/digi/view.ka?kuid=11824928</repository>
+            <idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="transcription">
+              <bibl>vaasa_1657_c</bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fi-FI">suomi</language>
+        <language ident="se-SE">svenska</language>
+      </langUsage>
+      <particDesc>
+        <person>
+          <persName type="asiakirjat">
+            <surname>Nätyri</surname>
+            <forename>Gertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätyr</surname>
+            <forename>Giertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätur</surname>
+            <forename>Gertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätur</surname>
+            <forename>Giertrudh</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <surname>Nätyri</surname>
+            <forename>Kerttu</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <surname>Naturi</surname>
+            <forename>Kerttu</forename>
+          </persName>
+          <residence>
+            <placeName type="asiakirja">
+              <settlement>Vähäkyrö, Selkämäki</settlement>
+            </placeName>
+            <placeName type="eri_lahteet">
+              <settlement>Vähäkyrö, Ojakangas; Vähäkyrö, Selkämäki</settlement>
+            </placeName>
+          </residence>
+          <birth>
+            <placeName>Kalajoki</placeName>
+          </birth>
+          <occupation>löskona (irtolainen/itsellinen), (parantaja)</occupation>
+        </person>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <name>Vaasa</name>
+          <date when="1657-08-26">26.8.1657</date>
+          <locale>Vaasan raastuvanoikeus</locale>
+          <activity>Oikeudenkäynti- tai muistiinpanopaikka</activity>
+        </setting>
+      </settingDesc>
+      
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="1" facs="Tuomioki_360b_3" />
+        <p>De som skolle wara bannadhe, </p>
+        <p>
+          <l>Kude Jesus Kulta tarha,</l>
+          <l>tarha rautainen rakena,</l>
+          <l>Wierä waskinen weräjä,<label type="commentary" n="loitsu1">1</label></l>
+          <l>Etehen emättömälle,</l>
+          <l>waraxi warattomalle,</l>
+          <l>turwaxi turwattomalle,<label type="commentary" n="loitsu2">2</label></l>
+          <l>Ettei nähda näkelmöita</l>
+          <l>Ottetane Okelmoita,</l>
+          <l>Haudota hauas <unclear>karua</unclear><label type="commentary" n="loitsu3">3</label></l>
+          <l>kudo alta pihtiäxi<label type="commentary" n="loitsu4">4</label></l>
+          <l>Wierä pältä kokioxi,</l>
+          <l>maan mato alati päsi</l>
+          <l>eikä paha ÿlitzi<label type="commentary" n="loitsu5">5</label></l>
+          <l>Hÿwän suowat laskeman</l>
+          <l>Pahan swowat toriman.<label type="commentary" n="loitsu6">6</label></l>
+          <l>Tule Jesus ilman herra <choice><abbr>etc.</abbr><expan>et cetera</expan></choice><label type="commentary" n="loitsu7">7</label></l>
+        </p>
+        <p>Sedan effter hwar lässning läsa. 3 gänger Fadher wår, så skulle werken och ondskan förtagin blifua.</p>
+      </div>
+      <div type="tiedot">
+        <p><emph>Tausta ja konteksti</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Loitsun sanelija Gertrudh Nätyri (Kerttu Nätyri) asui itsellisenä Vähäkyrön Ojaniemen kylässä, mutta oli syntyisin Kalajoelta. Hän joutui Vaasan raastuvanoikeuteen 26.8.1657 
+          noituudesta syytetyn kerjäläisnaisen Marketta Parkoisen ilmiannon perusteella. Oikeusprosessista, joka jatkui syksyyn 1658, tuli poikkeuksellisen pitkä ja laaja-alainen. 
+          Syytettyjä oli lopulta yli tusina, ja kaksi heistä tuomittiin kuolemaan, muut pienempiin rangaistuksiin.</p> 
+        <p>Marketta Parkoisen väitettiin noituneen räätälimestari Rolofin tyttären Kirstin siten, että tämä oli synnyttänyt sammakkomaisia sikiöitä, ja hän väitti Kerttu Nätyriä 
+          osalliseksi tekoon. Nätyri oli antanut Parkoiselle voidetta kipeää jalkaa varten sekä suolapussin; Parkoinen oli liuottanut tästä kolme suolaraetta olueen, jonka hän oli juottanut 
+          Kirstille ja jolla hän oli pessyt Kirstin pään. Nätyri myönsi myös ottaneensa multaa navetan lattialta alta ja sivelleensä sillä Marketta Parkoisen jalkaa. Hän oli kuitenkin 
+          tarkoittanut nämä aineet vain parannukseen.</p> 
+        <p>Kun kävi ilmi, että Nätyri osasi parannusloitsuja, häneltä kirjoitettiin niitä vuonna 1657 peräkkäin neljä 
+          (<ref type="link" target=" http://kalevala-dev.ngrok.io/loitsut/items/show/1">Tulen sanojen</ref> jälkeen 
+          <ref type="link" target=" http://kalevala-dev.ngrok.io/loitsut/items/show/7">Raudan sanat, Vaasa 1657</ref>; <ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/9">Maasta tarttuu, Vaasa 1657</ref>; Kirot, Vaasa 1657) ja asian 
+          jatkokäsittelyssä Isonkyrön ja Vähäkyrön kesäkäräjillä 1658 kolme näiden toisintoa (Kirot, Isokyrö 1658; Tulen sanat I, Isokyrö 1658; Raudan sanat ja Voiteen luku, Isokyrö 1658). 
+          Nätyri kertoi oppineensa loitsut äidiltään Kalajoella.</p>
+        <p>Koko oikeustapauksesta tarkemmin: Vaasa-Isokyrö-Vähäkyrö 1657−1658.</p>
+      </div>
+      <div type="tiedot_b">
+        <p><emph>Loitsu</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Kerttu Nätyrin loitsu <hi rend="italics">Kirot</hi> suojaa noitumalla sairaaksi tehdyn potilaan Jeesuksen rakentamalla metallisella, kiroukset toiselle puolelle sulkevalla 
+          aidalla. Aita ulottuu maasta taivaaseen, sen ali ei pääse maan mato eikä ylitse mikään paha. Loitsu loppuu <hi rend="italics">Voiteen lukuun</hi>, joissa Jeesus ilman herraa 
+          pyydetään parantamaan kivut ja haavat. Niissä myös kuvataan parantavan voiteen – Jeesuksen veren ja neitsyt Maarian maidon – saaminen ylhäältä taivassta.</p>
+        <p>Nätyri ilmoitti tämän loitsun luetuksi niille, jotka ovat joutuneet kirotuiksi (<hi rend="italics">bannadhe</hi>) eli jotka olivat sairastuneet toisen kirouksesta tai noitumisesta. 
+          Käyttötarkoituksen pohjalta sen voi luokitella kiron loitsuihin, jotka SKVR-tietokannassa on hahmotettu teemanimen <hi rend="italics">Kirot</hi> alle. Sisällöltään ja muodoltaan se 
+          on kuitenkin erilainen kuin Länsi-Suomessa tavalliset <hi rend="italics">Kirot</hi>, joissa tautia manataan pois tai takaisin lähettäjälleen.</p> 
+        <p>Sisällön ja muodon kannalta Nätyrin loitsu edustaa vanhakantaisia tietäjän varaussanoja, joissa tietäjä jumalallisia voimia – usein Ukkoa, tässä Jeesusta – avuksi pyytäen ja joskus 
+          konkreettisesti teräaseella piirtäen rakentaa itsensä ja suojattaviensa ympärille "taikapiirin" (yli Euroopan tunnettu <hi rend="italics">Zauberkreis</hi>). Loitsuissa tämä on usein 
+          rautainen aita, tässä myös kultainen tarha, jonka yli eikä ali ei paha pääse, ei edes käärmeen tai linnunhahmoisena. (Haavio 1967, 332−333; Siikala 1992, 193, 201−202, 249−250.) 
+          SKVR-tietokannan teemahakemistossa tämänkaltaisia tekstejä löytyy kohdasta <hi rend="italics">Tietäjän sanat / Kerskaukset ja varaukset</hi>.</p>
+        <p>Tämän viimeisen esittämänsä loitsun jälkeen Nätyri ilmoitti, että jokaisen luennan (<hi rend="italics">läsning</hi>) jälkeen oli kolmasti lausuttava <hi rend="italics">Isä meidän</hi>, 
+          silloin kipu ja paha lähtee. Hän ilmeisesti tarkoitti tällä kaikkia esittämiään loitsuja. Vuoden 1658 loitsujen yhteydessä Nätyri sanoi aloittavansa jokaisen loitsunluennan pyhän 
+          kolminaisuuden nimeen (<hi rend="italics">trinitaarinen formula</hi>) ja lopettavansa <hi rend="italics">Isä meidän</hi> -rukoukseen.</p> 
+      </div>
+      <div type="tiedot_c">
+        <p><emph>Aikaisemmat transkriptiot</emph> <ref type="more">Avaa &#8594;</ref></p>        
+        <p>SKVR XI 715 (var.; viite Herzbergiin väärä, koska siinä vuoden 1658 versio); Luukko 1971, 483.</p>
+      </div>
+      <div type="tiedot_d">
+        <p><emph>Kirjallisuusluettelo</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Eilola, Jari 2003: <hi rend="italics">Rajapinnoilla. Sallitun ja kielletyn määritteleminen 1600-luvun jälkipuoliskon noituus- ja taikuustapauksissa</hi>. Bibliotheca historica 81. SKS.<lb/><lb/>
+          Haavio, Martti 1967: <hi rend="italics">Suomalainen mytologia</hi>. WSOY, 332−333.<lb/><lb/>
+          Heikkinen, Antero 1969: <hi rend="italics">Paholaisen liittolaiset: Noita- ja magiakäsityksiä ja -oikeudenkäyntejä Suomessa 1600-luvun jälkipuoliskolla (n. 1640−1712)</hi>. Historiallisia 
+          tutkimuksia LXXVIII. Suomen historiallinen seura. 201−203.<lb/><lb/>
+          Hertzberg, Rafael 1889: <hi rend="italics">Bidrag till Finlands kulturhistoria på 1600-talet. Vidskepelse</hi>, 97−106.<lb/><lb/>
+          Hästesko, F. A. 1918: <hi rend="italics">Länsisuomalainen loitsurunous</hi>. SKS, 122−126.<lb/><lb/>
+          Juvelius, Einar W. 1930: <hi rend="italics">Suomen kansan aikakirjat</hi>. IV: 1680−1721. Otava, 85−91.<lb/><lb/>
+          Luukko, Armas 1971: <hi rend="italics">Vaasan historia</hi> I, 1606−1721. Vaasan kaupunki, 480−483.<lb/><lb/>
+          Nenonen, Marko &amp; Kervinen, Timo (toim. Anne-Riitta Isohella) 1994: <hi rend="italics">Synnin palkka on kuolema: Suomalaiset noidat ja noitavainot 1500−1700 –luvuilla</hi>, Otava, 22−31 = <lb/><lb/> 
+          Nenonen, Marko &amp; Kervinen, Timo: "Musta koira haukkuu – kun noitavaimoja poltettiin Vaasassa", http://www15.uta.fi/yky/arkisto/historia/noitanetti/musta_koira.html, luettu 18.12.2018.<lb/><lb/>
+          Siikala, Anna-Leena 1992: <hi rend="italics">Suomalainen šamanismi</hi>. SKS, 193, 201−202, 249−250.
+        </p>
+      </div>
+      <div type="nykytulkinta">
+        <p><emph>Loitsun nykykielinen tulkinta</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Loitsuteksti on tässä tulkittu melko vapaasti nykyortografialle ja muotoon, jossa se olisi todennäköisesti myöhemmän aineiston perusteella voinut sanellessa tai laulettaessa esiintyä. 
+          Kyseessä ei ole tieteellinen rekonstruktio, vaan ymmärtämisen avuksi tarkoitettu tulkinta. Suluissa on selityksiä, epävarmoja tulkintoja ja pieniä lisiä. Hakasulkeissa on suurempia, 
+          myöhemmässä aineistossa tyypillisiä elementtejä. Loitsujen ja säemuotojen variaatiosta enemmän kohdassa Loitsuista.</p>
+        <p>
+          <l>Kudo Jeesus kultatarha (kultainen aitaus), </l>
+          <l>tarha rautainen rakenna,</l> 
+          <l>vierrä vaskinen veräjä,</l> 
+          <l>etehen emättömälle (äidittömälle),</l> 
+          <l>varaksi varattomalle (suojattomalle)</l>
+          <l>turvaksi turvattomalle,</l>
+          <l>ettei nähdä näkelmöitä (jonkinlainen paise?),</l> 
+          <l>otettane okelmoita (jonkinlainen paise?),</l> 
+          <l>haudota haavassa karua(?).</l> 
+          <l>Kudo alta pihtiäksi (tihtiäksi, tiheäksi)</l>
+          <l>vierrä päältä korkiaksi,</l> 
+          <l>[ettei] maan mato alatsi pääse</l> 
+          <l>eikä paha ylitsi [lennä],</l>
+          <l>hyvänsuovat laskema(h)an</l> 
+          <l>pahansuovat torjuma(h)an.</l> 
+          <l>Tule Jeesus ilman herra etc.</l>
+        </p>
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="loitsu1">
+          <hi rend="red">1</hi>. "Kude Jesus Kulta tarha, tarha rautainen rakena, Wierä waskinen weräjä"<lb/><lb/>
+          Metallisen aidan rakentaminen on myöhemmissäkin loitsuissa tavallinen suojaava tai tietäjän varustautumiseen liittyvät teema, mutta loitsun ensimmäisen säkeen 
+          kultatarha-mielikuvaa ei ole tallentunut muualta. Kultainen yhdistyy kutomiseen usein lastenlauluissa ja lyyrisissä runoissa, joissa neidot ja tyttäret kutovat 
+          esimerkiksi kultaista kangasta tai vyötä, tai uni sitoo tai kutoo lapsen silmät kultarihmasilla. Lähimmäs Nätyrin loitsun alkua tulee kuitenkin muutama 
+          <hi rend="italics">Sotaan lähtiessä</hi> -teeman versio, kuten "Tje Kesus kivinen kilpi, Tarha rautainen rakenna, Jonga suojasta sotinen" (SKVR VI2 6394; ks. 
+          myös VI2 6398; VII4 1724).
+        </note>
+        <note n="loitsu2">
+          <hi rend="red">2</hi>. "Etehen emättömälle, waraxi warattomalle, turwaxi turwattomalle"<lb/><lb/>
+          Käsitteet emoton, varaton ja turvaton esiintyvät tällaisina sarjoina yleensä lyyrisissä valituslauluissa, eivät loitsuissa (esim. "tuuli viepi turvattoman, 
+          ahavainen armottoman, varattoman vastaranta", SKVR VII2 2158).          
+        </note>
+        <note n="loitsu3">
+          <hi rend="red">3</hi>. "Ettei nähda näkelmöita, Ottetane Okelmoita, Haudota hauas karua"<lb/><lb/>
+          Epäselviä säkeitä, joille ei ole suoria vastineita myöhemmissä aineistoissa ja joiden tulkinta jää avoimeksi. Sanat <hi rend="italics">näkelmä</hi> ja 
+          <hi rend="italics">okelma</hi> muistuttavat paiseen (äkämän) luettelomaisia nimityksiä parannusloitsuissa – <hi rend="italics">ökämä, käkämä, kökömä, kökämä, 
+            mökömä, ykämä, päkämä</hi> (SKVR XI 585, XI 613, XI 625, XI 627, XI 649, XI 1181, XI 1186 jne.). Ne voisivat viitata siihen, että kaatumatautisen Marketan 
+          jalkavaiva oli jonkinlainen paise tai turvotus. Seuraavan vuoden 1658 toisinnossa säkeet on kirjoitettu muotoon "eij Nähdä Näkeltåmöita, åttettane åckelmåita 
+          Hawattome Hafwaskaråja". Säe "Haudot hauas karua / Hawattome Hafwaskaråja" voisi viitata johonkin haavassa (hauas, hafwas > haavas) olevaan, mätään tai visvaan 
+          (karu, karo). Sana "karua" voisi viitata myös karhuun, mutta tämänkaltainen käyttö olisi epätavallista. Hertzberg tulkitsee säkeen muotoon "Haudota hauaskawoja." 
+          – Toisaalta <hi rend="italics">Vipusen virressä</hi> esiintyy <hi rend="italics">okelmoita</hi> muistuttavia sanoja <hi rend="italics">ongervia, onkervoja, 
+            ongermoita, ongelvoita</hi> (loitsu)sanojen kertorakenteena (esim. "Läksi saamaan sanoja, Otetuit’ on ongermoita", SKVR I1 403, vrt. I1 376, I1 426, XII1 72). 
+          Tätä kautta koko Nätyrin arvoituksellisen paralleelisäkeiden jakson voisi tulkita viittaavan pahaan silmään (näkelmöitä), loitsusanoihin (okelmoita), ja viimeisen 
+          epäselvän ilmauksen silmäyksiä ja kiroja noituvaan ihmiseen – vaikka viimeksi mainittuun ei kielellistä vihjettä olekaan löytynyt. 
+        </note>
+        <note n="loitsu4">
+          <hi rend="red">4</hi>. "kudo alta pihtiäxi"<lb/><lb/>
+          Säkeessä saattaa olla kirjoitusvirhe, sillä Nätyrin vuoden 1658 <hi rend="italics">Kirot</hi>-toisinnossa säe kuuluu "Kudå alda tichkiäxi". <hi rend="italics">Tihkiä</hi> 
+          eli 'tiheä' on runoissa harvinainen sana, mutta se esiintyy kiinteästi jo Christfrid Gananderin tunteman metsästysrunon toisinnoissa ("metän tihkiän lävite", 
+          esim. SKVR VI2 4818 ja XV 336 ja komm.).
+        </note>
+        <note n="loitsu5">
+          <hi rend="red">5</hi>. "eikä paha ÿlitsi"<lb/><lb/>
+          Säe esiintyy täydellisempänä Nätyrin vuoden 1658 <hi rend="italics">Kirot</hi>-toisinnossa: "eij Pahat ylitze lenne".
+        </note>
+        <note n="loitsu6">
+          <hi rend="red">6</hi>. "Hÿwän suowat laskeman, Pahan swowat toriman"<lb/><lb/>
+          Kultaisen aidan on tarkoitus laskea hyvänsuovat sisään ja torjua pahansuovat. Nätyrin vuoden 1658 <hi rend="italics">Kirot</hi>-toisinnossa sitä vastoin: "Hywen 
+          Suoman laskemata, Pahan Suåjan Tårjumata". Myöhemmissä loitsuaineistoissa ei ole säkeille tarkkoja vastineita. Lähimmäksi tulevat muihin yhteyksiin liittyvät säkeet 
+          "hyvänsuovan mieltä myöten, pahansuovan päitse mielen" (esim. SKVR I4 670); "jost et pääse päivinäsi - - ennen Luojan laskemata" (SKVR IX3 306); "tämän noijan 
+          noitumata, laskemata Lappalaisen" (SKVR VII3 81).                          
+        </note>
+        <note n="loitsu7">
+          <hi rend="red">7</hi>. "Tule Jesus ilman herra etc"<lb/><lb/>
+          Säe aloittaa pidemmän jakson <hi rend="italics">Voiteen sanoja</hi>, johon Nätyri kertoi kaikien loitsujensa loppuvan ja joka on häneltä kirjoitettu kokonaisena kahdesti 
+          (<ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/1">Tulen sanat, Vaasa 1657</ref>; Raudan sanat I, Isokyrö 1658).
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

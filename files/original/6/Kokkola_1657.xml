@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Puun sanat, Kokkola 1656</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Tuomikirjojen loitsut</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Kansallisarkisto</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkriptio</resp>
+          <persName>Lari Ahokas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kommentaari</resp>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2019-02-18">18.2.2019</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Kansallisarkisto, Kihlakunnanoikeuksien renovoidut tuomiokirjat, Pohjanmaan tuomiokunta, KO a:9, varsinaisten asioiden pöytäkirjat 1655−1656, 
+              Kokkolan talvikäräjät 29.1.1656, f. 427r,9−10; http://digi.narc.fi/digi/view.ka?kuid=3709693"</repository>
+            <idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="transcription">
+              <bibl>kokkola_1656pk</bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fi-FI">suomi</language>
+        <language ident="se-SE">svenska</language>
+      </langUsage>
+      <particDesc>
+        <person>
+          <persName type="tutkimuskirjallisuus">
+            <forename>Dordi Antintytär</forename>
+          </persName>
+          <persName type="asiakirja">
+            <forename>Dårdi Andersdåtter</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <forename>Dordi Andersdotter</forename>
+          </persName>
+          <residence>
+            <placeName type="asiakirja">
+              <settlement>Ala-Veteli</settlement>
+            </placeName>
+            <placeName type="eri_lahteet">
+              <settlement>Ala-Veteli</settlement>
+            </placeName>
+          </residence>
+          <occupation>(parantaja)</occupation>
+        </person>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <name>Kokkola</name>
+          <date when="1656-01-29">29.1.1656</date>
+          <locale>Kokkolan kihlakunnanoikeus</locale>
+          <activity>Oikeudenkäynti- tai muistiinpanopaikka</activity>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="1"  facs="Varsinai_431b"/>
+        <p>
+          <l>Anno 1656. den 29. Januarij hölltz Ordi-</l>
+          <l>narie Häradz winterting med allmogen aff Friherr-</l>
+          <l>skapet, <choice><abbr>G. </abbr><expan>Gamla</expan></choice> Carlibÿ på den wällborne Herres herr</l>
+          <l><unclear>Göstaff</unclear> Baners wägna, frijherres till Carlebÿ herres till</l>
+          <l><unclear>Tuhna</unclear> och Ådhnääss, Sweriges Rijks Rådh, och Krigz Rådh, Nähr-</l>
+          <l>warande</l>
+        </p>
+        <pb n="2" facs="Varsinai_432a"/>
+        <p>
+          <l>warande <choice><abbr> höghbem:<hi rend="superscript">te</hi></abbr><expan>höghbemälte</expan></choice> Herres Befallningzman Daniel <unclear>Store</unclear></l>
+          <l>sampt 	Nämden <unclear>[_]</unclear></l>
+          <l>Daniel Mattzson&#160;&#160;&#160;&#160;Olof Michellson i Kärplax</l>
+          <l>Erich Läsph&#160;&#160;&#160;&#160;Erich <choice><abbr>Sigfredss: </abbr><expan>Sigfredsson</expan></choice> i <unclear>Såka</unclear></l>
+          <l>Erich Anderssån&#160;&#160;&#160;&#160;Larss <choice><abbr>Jönss: </abbr><expan>Jönsson</expan></choice> i <unclear>Nöring</unclear></l>
+          <l>Michill Månson i Närfwie&#160;&#160;&#160;&#160;Erich Olson i <unclear>Wissar</unclear></l>
+          <l>Hans Mårthenssån&#160;&#160;och Hans <unclear>weffware</unclear></l>
+          <l>och</l>
+          <l>Oloff Jacobsson <unclear>Stubb</unclear></l>
+        </p>
+        <p>-----------------------------</p>
+        <p>[Oikeustapauksen transkriptio jatkuu seuraavalla sivulla.]</p>
+        <pb n="3" facs="Varsinai_435a"/>
+        <p>[Oikeustapauksen transkriptio jatkuu sivun toisesta kappaleesta.]</p>
+        <p>-----------------------------</p>
+        <p>
+          <l>Före hades Dårdi Andersdåtter i Nederwätill och Jolkabÿ<label type="commentary" n="tuomio1">1</label> barn-</l>
+          <l>föddh, hwilken beskÿlls att haffuer brukat Löfijerij, <unclear>för[_]stillte</unclear></l>
+          <l>hon aff fordhom Kÿrkoherden <choice><abbr>Sal:</abbr><expan>Salig</expan></choice> <choice><abbr>H.</abbr><expan>Herr</expan></choice> Erich<label type="commentary" n="tuomio2">2</label> haffwer blifwit til-</l>
+          <l>tallter, och bliffwen warnadt att hon skulle hålla för <unclear>oross</unclear> och</l>
+          <l>afståå med sådant, <choice><abbr>hwillkn</abbr><expan>hwillken</expan></choice> warningh icke allenast för <unclear>Rätten</unclear></l>
+          <l>blef Dårdi förställt, Wthan och om Margreta Olofsdåtter<label type="commentary" n="tuomio3">3</label> <choice><abbr>haf</abbr><expan>hafuer</expan></choice></l>
+          <l>bekenndt på henne, enär hon anammade Herrens högh Wör-</l>
+          <l>dige NattWardh och bleeff på rätte <unclear>plåttsen</unclear> för 2 åhr sedhan</l>
+          <l>för sijn begångna missgierningh och trålldoom <unclear>Justificerat</unclear>,</l>
+          <l>det denna Dårdj och schulle weta wmgås med Löfierij, Men in-</l>
+          <l>tet wijdare berättade effter som Probsten i Cronobÿ <choice><abbr>H.</abbr><expan>Herr</expan></choice> Jacobj Bren-</l>
+          <l>nerij<label type="commentary" n="tuomio4">4</label> Rätten <unclear>fråndrogh</unclear>; Huar till Dårdj swarade att <unclear>Mager-</unclear></l>
+          <l><unclear>ta</unclear> schulle hafwa hafft Owänskap med henne, och träte sigh</l>
+          <l><unclear>föörstakat</unclear> om aff, att enär den hafwa <unclear>bedt</unclear> på <unclear>hästbacken</unclear><label type="commentary" n="tuomio5">5</label></l>
+          <l>tillsamman, ded <unclear>åfen</unclear> <unclear>s[_]</unclear> sins emellan warit <unclear>[_]tre</unclear> om någoor</l>
+          <l>Engiar, och sedan <choice><abbr>haf</abbr><expan>hafuer</expan></choice> Margreta <unclear>las[_]tat</unclear> <unclear>förföllia</unclear> henne till</l>
+          <l>knä</l>
+        </p>
+        <pb n="4" facs="Varsinai_435b"/>
+        <p>
+          <l>knä som hon berättade, Wijdare förhölltz Margreta att emedan</l>
+          <l>såsom hon någodt skall hafwa bekiändt för Borgmestere <unclear>Swar-</unclear></l>
+          <l><unclear>ten,</unclear><label type="commentary" n="tuomio6">6</label> alltså frågades henne, hwad dett schulle wara, ded swa-</l>
+          <l>rade att enär någon tillförende kom till henne, och <unclear>[_]d</unclear></l>
+          <l><unclear>de</unclear> henne om någon hiällp till deers siukdoom, hwadh dett </l>
+          <l>då kunde wara för een siuka, då <choice><abbr>haf</abbr><expan>hafuer</expan></choice> hon tagit 9 handha</l>
+          <l>slagz <unclear>t[_]</unclear> trään, och kokat samma trään uti een påtta,</l>
+          <l>och sedan som hon <choice><abbr>haf</abbr><expan>hafuer</expan></choice> botat den siukes kråpp der medh, <choice><abbr>haf</abbr><expan>hafuer</expan></choice></l>
+          <l>hon repeterat desse ordh, Lächtipuuta, Hakopuuta, elikä</l>
+          <l>muuta puta, jumala Caikiwalldias autakon: och detta</l>
+          <l>sade hon sigh hafwa lärdt af sina förfädher §. Mattz Hen-</l>
+          <l>drichsson bekiände, att enär som han hafwer waridt uti Neder-</l>
+          <l>wätill, då <choice><abbr>haf</abbr><expan>hafuer</expan></choice> een bårgare ifrå Ny Carlebÿ med sitt barn kom-</l>
+          <l>mit till <unclear>henne</unclear>, hennes fötter hafwer waridt krömpna, och Eij</l>
+          <l>då bruukat samma kånst, Men sådant hafwer intet kunnat hiäl-</l>
+          <l>pa; Wijdare bekiände Probsten <choice><abbr>H.</abbr><expan>Herr</expan></choice> Jacob i Cronobÿ att enär</l>
+          <l>Margreta Olofzdåtter schulle stå sitt straff, då <choice><abbr>haf</abbr><expan>hafuer</expan></choice> hon sagdt att</l>
+          <l>denna dårdi icke allenast skulle bruuka, bönen, som de kalla,</l>
+          <l>uthan och kunna taga <unclear>modet</unclear> af fållket, huar till dårdi allde-</l>
+          <l>les nekade, Kÿrkoherden seijandes, att först han kom till</l>
+          <l>Cronobÿ<label type="commentary" n="tuomio7">7</label>, då <choice><abbr>haf</abbr><expan>hafuer</expan></choice> han någodt hördt taalas om denna dårdj, Men</l>
+          <l>sådan intet, Lars Mattson ifrå Nederwätill sade, att enär denna</l>
+          <l>dårdi <choice><abbr>haf</abbr><expan>hafuer</expan></choice> kommit till honom een gång, enär han <unclear>slachtade</unclear>, då</l>
+          <l><choice><abbr>haf</abbr><expan>hafuer</expan></choice> hon begiäredt att han wäla gifwa henne brött, <unclear>ha[_]</unclear></l>
+          <l>hon ei fått det, <unclear>allsed</unclear> slött hon deraf, att hon <choice><abbr>haf</abbr><expan>hafuer</expan></choice> twättat hans</l>
+          <l><unclear>bullster</unclear> att hon <choice><abbr>ing</abbr><expan>ingen</expan></choice> lÿcka dett åhret med <unclear>om</unclear> hafft <choice><abbr>haf</abbr><expan>hafuer</expan></choice>. Wij-</l>
+          <l>dare wiste eij någon i denna <choice><abbr>saakn</abbr><expan>saaken</expan></choice> att berätta, och <unclear>endan</unclear> <unclear>såsom</unclear></l>
+          <l>Rätten på sådana tahl, eller den skiäl som <unclear>företallde</unclear> äre eij kunde </l>
+          <unclear>grunda</unclear>
+        </p>
+        <pb n="5" facs="Varsinai_436a"/>
+        <p>
+          <l><unclear>grunda</unclear> någodt wist, alltså bleef hon förmant, dett hon skulle</l>
+          <l>här effter med sådant affståå, Presterskapet och bekiände attt</l>
+          <l>hon uti <unclear>16</unclear> ährs tijdh eij sådan widskiäpellse <choice><abbr>haf</abbr><expan>hafuer</expan></choice> hafft för-</l>
+          <l>händer, Elliest och kunde <choice><abbr>ing</abbr><expan>ingen</expan></choice> kenna för någon trull-</l>
+          <l>doom tilläggia wijdare eij som förmäll är, alltså Wpp-</l>
+          <l>schiötz <choice><abbr>sakn</abbr><expan>saken</expan></choice> till wijdare beskeedh. §.</l>
+        </p>
+        <p>
+          <l>Hwad der Engan anbelangar som Giöstaff <choice><abbr>Gabrielss</abbr><expan>Gabrielsson</expan></choice></l>
+          <l>giorde Jnspråk på till Mattz Henrichsson i Nederwätill på</l>
+          <l>Johan Mattssons wägna, så emedan såsom Giöstaf eij wiste</l>
+          <l>alldeles denna sakzens beskaffenheet dÿ <unclear>wppskiutes</unclear> sådant</l>
+          <l>till Johan Mattzsåns egen ankombst §.</l>
+        </p>
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="tuomio1">
+          <hi rend="red">1</hi>. Jolkabÿ<lb/><lb/>
+          Jolkka, kulmakunta Alavetelissä, nyk. Kruunupyy.</note>
+        <note n="tuomio2">
+          <hi rend="red">2</hi>. Erich<lb/><lb/>
+          Ericus Nicolai Galle (1600−1654), Kokkolan kirkkoherra 1638−1654.</note>
+        <note n="tuomio3">
+          <hi rend="red">3</hi>. Margreta Olofsdåtter<lb/><lb/>
+          Margareta Olofsdotter, syytetty noituudesta Kruunupyyn kesäkäräjillä, teloitettu elokuussa 1655. 
+        </note>
+        <note n="tuomio4">
+          <hi rend="red">4</hi>. Jacobj Brennerij<lb/><lb/>
+          Jacobus Henrici Brennerus (1607−1684/5), Kruunupyyn kirkkoherra 1638–1684/5, lääninrovasti 1656.
+        </note>
+        <note n="tuomio5">
+          <hi rend="red">5</hi>. hästbacken<lb/><lb/>
+          Hästbacken, paikka Kruunupyyssä. [?]
+        </note>
+        <note n="tuomio6">
+          <hi rend="red">6</hi>. Borgmestere <unclear>Swarten,</unclear>
+          Daniel Swart, Kokkolan pormestari 1651−1672. [?]
+        </note>
+        <note n="tuomio7">
+          <hi rend="red">7</hi>. först han kom till Cronobÿ<lb/><lb/>
+          1638?
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

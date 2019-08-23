@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tulen sanat, Vaasa 1657</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Tuomikirjojen loitsut</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Kansallisarkisto</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkriptio</resp>
+          <persName>Lari Ahokas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kommentaari</resp>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-11-29">29.11.2018</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Kansallisarkisto, Vaasan raastuvanoikeus 26.8.1657, s.n., [360] r. 16−24; http://digi.narc.fi/digi/view.ka?kuid=11824928</repository>
+            <idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="transcription">
+              <bibl>vaasa_1657_a</bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fi-FI">suomi</language>
+        <language ident="se-SE">svenska</language>
+      </langUsage>
+      <particDesc>
+        <person>
+          <persName type="asiakirjat">
+            <surname>Nätyri</surname>
+            <forename>Gertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätyr</surname>
+            <forename>Giertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätur</surname>
+            <forename>Gertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätur</surname>
+            <forename>Giertrudh</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <surname>Nätyri</surname>
+            <forename>Kerttu</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <surname>Naturi</surname>
+            <forename>Kerttu</forename>
+          </persName>
+          <residence>
+            <placeName type="asiakirja">
+              <settlement>Vähäkyrö, Selkämäki</settlement>
+            </placeName>
+            <placeName type="eri_lahteet">
+              <settlement>Vähäkyrö, Ojakangas; Vähäkyrö, Selkämäki</settlement>
+            </placeName>
+          </residence>
+          <birth>
+            <placeName>Kalajoki</placeName>
+          </birth>
+          <occupation>löskona (irtolainen/itsellinen), (parantaja)</occupation>
+        </person>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <name>Vaasa</name>
+          <date when="1657-08-26">26.8.1657</date>
+          <locale>Vaasan raastuvanoikeus</locale>
+          <activity>Oikeudenkäynti- tai muistiinpanopaikka</activity>
+        </setting>
+      </settingDesc>
+      
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="1" facs="Tuomioki_360b" />
+        <p>
+          <l>Gertrudh Natÿri nekte och sigh warit i Rådh medh Brotfellingen enär hon grodor</l>
+          <l>giordt Wthan bekende sig hafwa läsit i Salt och gifuit Smörielsse åth Brott</l>
+          <l>fellingens behn der medh hon Smöria skulle och läsa inför Rätten åthskillige</l>
+          <l>lässningar som hon tilsamma Smörielsse läsa skolle, <choice><abbr>Nembl:</abbr><expan>Nembligen</expan></choice> de som woro skadde</l>
+        </p>
+        <p><emph>af Eldh;</emph></p>
+        <p>
+          <l>Kuhna<label type="commentary" n="loitsu1">1</label> tulta Jsketin,</l>
+          <l>Påwehen taiwahan tarhan,</l> 
+          <l>Kengä siella tulta iski,</l> 
+          <l>iski itze ilman Herra,</l>
+          <l>tuiskahutti tulis kipenä,</l>
+          <l>läpi maan, läpi mannon</l>
+          <l>läpi neitzyen Kemmen pään,<label type="commentary" n="loitsu2">2</label></l>
+          <l>sita sitten Putkehen puhalsi,</l>
+          <l>Sihen siansa <app><lem>siu</lem><rdg>sia</rdg></app>.<label type="commentary" n="loitsu3">3</label> <label type="commentary" n="loitsu4">4</label></l>
+        </p>
+        <p>
+          <l>Tule Jesus ilman Herra</l>
+          <l>tänne tarwitan,</l>
+          <l>Satehet sateleman,</l>
+          <l>tulet tuskat tundeman</l>
+          <l>Kipiät Siwelemän,</l>
+          <l>Hawat suret hautoman,</l>
+          <l>Keskelta Kiwoitomaxi,</l>
+          <l>Wiereltä wiatomaxi,</l>
+          <l>waihelta waiwatomaxi,</l>
+          <l>pälta ontumattomaxi<label type="commentary" n="loitsu5">5</label></l>
+          <l>eij onnu, eikä tunnu</l>
+          <l>sina ilmaisa ikänä,</l>
+          <l>kusta woiten tawotaken,<label type="commentary" n="loitsu6">6</label></l>
+          <l>kusta <unclear><del>mullta</del><add>muoltaa</add></unclear>, mutta tuolta<label type="commentary" n="loitsu7">7</label></l>
+          <l>simaisesta taiwahasta,<label type="commentary" n="loitsu8">8</label></l>
+          <l>mustan pilwen syriän alta,</l>
+          <l>Jesuxen weri punainen,</l>
+          <l>Marian makia maito<label type="commentary" n="loitsu9">9</label></l>
+          <l>lihan tukin tulloisehe,<label type="commentary" n="loitsu10">10</label></l>
+          <l>hawoille hapanuisellen,<label type="commentary" n="loitsu11">11</label></l>
+          <l>Kipiälle Woitehexi</l>
+        </p>
+      </div>
+      <div type="tiedot">
+        <p><emph>Tausta ja konteksti</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Loitsun sanelija Gertrudh Nätyri (Kerttu Nätyri) asui itsellisenä Vähäkyrön Ojaniemen kylässä, mutta oli syntyisin Kalajoelta. Hän joutui Vaasan 
+          raastuvanoikeuteen 26.8.1657 noituudesta syytetyn kerjäläisnaisen Marketta Parkoisen ilmiannon perusteella. Oikeusprosessista, joka jatkui syksyyn 
+          1658, tuli poikkeuksellisen pitkä ja laaja-alainen. Syytettyjä oli lopulta yli tusina, ja kaksi heistä tuomittiin kuolemaan, muut pienempiin rangaistuksiin.</p>
+        <p>Marketta Parkoisen väitettiin noituneen räätälimestari Rolofin tyttären Kirstin siten, että tämä oli synnyttänyt sammakkomaisia sikiöitä, ja hän väitti 
+          Kerttu Nätyriä osalliseksi tekoon. Nätyri oli antanut Parkoiselle voidetta kipeää jalkaa varten sekä suolapussin; Parkoinen oli liuottanut tästä kolme 
+          suolaraetta olueen, jonka hän oli juottanut Kirstille ja jolla hän oli pessyt Kirstin pään. Nätyri myönsi myös ottaneensa multaa navetan lattialta alta 
+          ja sivelleensä sillä Marketta Parkoisen jalkaa. Hän oli kuitenkin tarkoittanut nämä aineet vain parannukseen. </p>
+        <p>Kun kävi ilmi, että Nätyri osasi parannusloitsuja, häneltä kirjoitettiin niitä vuonna 1657 peräkkäin neljä (Tulen sanojen jälkeen 
+          <ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/7">Raudan sanat, Vaasa 1657</ref>; <ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/9">Maasta tarttuu, Vaasa 1657</ref>; 
+          <ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/8">Kirot, Vaasa 1657</ref>) 
+          ja asian jatkokäsittelyssä Isonkyrön ja Vähäkyrön kesäkäräjillä 1658 kolme näiden toisintoa 
+          (Kirot, Isokyrö 1658; Tulen sanat I, Isokyrö 1658; Raudan sanat ja Voiteen luku, Isokyrö 1658). Nätyri kertoi oppineensa loitsut äidiltään Kalajoella.</p>
+        <p>Koko oikeustapauksesta tarkemmin: Vaasa-Isokyrö-Vähäkyrö 1657−1658.</p>
+      </div>
+      <div type="tiedot_b">
+        <p><emph>Loitsu</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p><hi rend="italics">Tulen sanat</hi> oli ensimmäinen Nätyrin oikeudessa esittämä loitsu. Sillä parannettiin Nätyrin mukaan tulen aiheuttamia vammoja eli 
+          palohaavoja. Loitsu sisältää sekä myytin <hi rend="italics">Tulen synty</hi> että parantavan rukouksen <hi rend="italics">Voiteen sanat</hi> ja edustaa 
+          siten suomalais-karjalaisen parannusloitsun yleistä kaavaa: synty selvittää pahoja tehneen tulen alkuperän, rukous anoo apuun parantavia hahmoja ja voiteita. 
+        </p>
+        <p><hi rend="italics">Tulen synty</hi> kuvaa, miten ilman herra iski tulta taivaan povessa ja miten tuli sinkoutui taivaasta alas läpi maan ja neitsyen kämmenpäiden 
+          asettuen putkeen. <hi rend="italics">Voiteen sanat</hi> alkaa rukouksella Jeesukselle, ilman herralle, tulla avuksi parantamaan tuskat, kivut ja haavat, jotteivät 
+          nämä enää vaivaisi "sinä ilmaista ikänä". Haavat parantava voide – Jeesuksen punainen veri ja neitsyt Maarian makea maito – on peräisin simaisesta tai sinisestä 
+          taivaasta.</p>
+        <p>Nätyrin <hi rend="italics">Tulen sanat</hi> ja hänen siitä vuonna 1658 esittämänsä toisinto kuuluvat <hi rend="italics">Tulen sanojen</hi> ensimmäisiin tallenteisiin, 
+          joihin tutkimuksessa on usein viitattu. Myöhemmissä aineistoissa <hi rend="italics">Tulen synty</hi> on Länsi-Suomessa yleensä lyhyt eikä kovin yleinen. Etelä-Pohjanmaan 
+          suhteellisen vähälukuisissa muistiinpanoissa tulta iskevät Ilmarinen ja Väinämöinen keskellä merta (esim. SKVR XI 1773, XI 1777, XI 1782, XI 1798), parissa vanhassa 
+          savolaisvaikutteisessa muistiinpanossa taivaalla (SKVR XI 992, XI 1814, vrt. myös XI 1770). Kerttu Nätyrin tulen iskennän "taivaan povessa" tai vuoden 1658 toisinnossa 
+          "päällä taivaan saranan" on tulkittu viittaavan taivaan keskustaan ja siellä sijaitsevaan kannattavaan pylvääseen (Haavio 1967, 375; Siikala 2012, 338). Nätyrin loitsussa 
+          tulta iskee – Etelä-Pohjanmaalla poikkeuksellisesti – itse Ilman herra, jolla hän viittaa Kristukseen.</p> 
+        <p>Asuinseudusta poikkeavat piirteet selittynevät Nätyrin pohjoisemmasta syntymäseudusta, koska hän kertoi oppineensa loitsunsa äidiltään. Toisaalta on huomattava, että 
+          oikeudenkäyntikontekstissa esitetyssä loitsussa oli myös viisasta olla vetoamatta selkeän pakanallisiin olentoihin. "Itse ilman herra Jeesus" on kuitenkin myöhempien 
+          toisintojen perusteella selkeästi vakiintunut, yleinen loitsusäe (esim. SKVR VI1 3407; XII2 6059; XIII3 9240), eli uutta hahmoa tai säettä Nätyri ei Väinämöisen ja Ilmarisen 
+          tilalle keksinyt.</p>
+        <p><hi rend="italics">Voiteen sanoissa</hi> Nätyri viljelee tämän kansanomaisen rukouksen yleisiä aihelmia. Hän pyytää painotetusti itseään tulen iskijää haavojen hoitajaksi 
+          ja lopettaa palaamalla tulen alkuperään, taivaaseen, josta saadaan myös parantavat voiteet. <hi rend="italics">Voiteen sanat</hi> on Nätyrin parannusloitsuissa yleisrukous, 
+          johon hän lopettaa myös <hi rend="italics">Raudan sanat</hi> ja <hi rend="italics">Kirot</hi>.</p> 
+        <p>Viimeisen esittämänsä loitsun (<hi rend="italics">Kirot</hi>) jälkeen Nätyri sanoi, että jokaisen luennan (lässning) jälkeen oli luettava kolmesti <hi rend="italics">Isä meidän</hi>, 
+          silloin kipu ja vaiva häviää. Tällä hän ilmeisesti tarkoitti kaikkia loitsujaan. Vuoden 1658 loitsujen yhteydessä Nätyri sanoi aloittavansa jokaisen loitsunluennan pyhän 
+          kolminaisuuden nimeen ja lopettavansa <hi rend="italics">Isä meidän</hi> -rukoukseen.</p>
+      </div>
+      <div type="tiedot_c">
+        <p><emph>Aikaisemmat transkriptiot</emph> <ref type="more">Avaa &#8594;</ref></p>        
+        <p>Hertzberg 1889, 63−64 &gt; SKVR XI 1797 (var.); Juvelius 1930, 86−87 (var.); Luukko 1971, 482 (var.); Eilola 2003, 66 (ositt.; var.).</p> 
+      </div>
+      <div type="tiedot_d">
+        <p><emph>Kirjallisuusluettelo</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Eilola, Jari 2003: <hi rend="italics">Rajapinnoilla. Sallitun ja kielletyn määritteleminen 1600-luvun jälkipuoliskon noituus- ja taikuustapauksissa</hi>. Bibliotheca historica 81. SKS.<lb/><lb/>
+          Haavio, Martti 1967: <hi rend="italics">Suomalainen mytologia</hi>. WSOY, 367, 373−376.<lb/><lb/>
+          Heikkinen, Antero 1969: <hi rend="italics">Paholaisen liittolaiset: Noita- ja magiakäsityksiä ja -oikeudenkäyntejä Suomessa 1600-luvun jälkipuoliskolla (n. 1640−1712)</hi>. Historiallisia tutkimuksia LXXVIII.  
+          Suomen historiallinen seura. 201−203.<lb/><lb/>
+          Hertzberg, Rafael 1889: <hi rend="italics">Bidrag till Finlands kulturhistoria på 1600-talet. Vidskepelse</hi>, 97−106.<lb/><lb/>
+          Hästesko, F. A. 1918: <hi rend="italics">Länsisuomalainen loitsurunous</hi>. SKS, 35−36.<lb/><lb/>
+          Juvelius, Einar W.: <hi rend="italics">Suomen kansan aikakirjat</hi>. IV: 1680−1721. Otava, 85−91.<lb/><lb/>
+          Krohn, Kaarle 1917: <hi rend="italics">Suomalaiset syntyloitsut</hi>. Vertaileva tutkimus. SKS, 101−105.<lb/><lb/>
+          Luukko, Armas 1971: <hi rend="italics">Vaasan historia</hi> I, 1606−1721. Vaasan kaupunki, 480−483.<lb/><lb/>
+          Nenonen, Marko &amp; Kervinen, Timo (toim. Anne-Riitta Isohella) 1994: <hi rend="italics">Synnin palkka on kuolema: Suomalaiset noidat ja noitavainot 1500−1700 –luvuilla</hi>, Otava, 22−31 =<lb/><lb/>
+          Nenonen, Marko &amp; Kervinen, Timo: "Musta koira haukkuu – kun noitavaimoja poltettiin Vaasassa", 
+          <ref type="link" target="http://www15.uta.fi/yky/arkisto/historia/noitanetti/musta_koira.html">http://www15.uta.fi/yky/arkisto/historia/noitanetti/musta_koira.html</ref> , luettu 18.12.2018.<lb/><lb/>
+          Siikala, Anna-Leena 2012: <hi rend="italics">Itämerensuomalaisten mytologia</hi>. SKS, 335 ff.</p>
+      </div>
+      <div type="nykytulkinta">
+        <p><emph>Loitsun nykykielinen tulkinta</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <lg>
+          <l>Kuhna(s) tulta isketti(h)in?</l> 
+          <l>Povehen taivahan tarhan. </l>   
+          <l>Kenkä siellä tulta iski? </l>
+          <l>Iski itse ilman Herra. </l>         
+          <l>Tuiskahutti tuliskipenä(n) </l>
+          <l>läpi maan, läpi manuen</l>
+          <l>läpi neitsyen kämmenpään, </l>
+          <l>siitä sitten putkehen puhalsi, </l> 
+          <l>siihen sijansa sai. </l>
+        </lg>
+        <lg>
+          <l>Tule Jeesus ilman Herra, </l>   
+          <l> [tule] tänne tarvitahan, </l>        
+          <l>satehet satelemahan, </l>            
+          <l>tule tuskat tuntema(h)an</l>         
+          <l>kipiät sivelemähän, </l>              
+          <l>haavat suuret hautomahan, </l> 
+          <l>keskeltä kivuttomaksi, </l>       
+          <l>viereltä viattomaksi, </l>         
+          <l>vaihelta vaivattomaksi, </l>    
+          <l>päältä ontumattomaksi. </l>  
+          <l>Ei[kä] onnu eikä tunnu</l>             
+          <l>sinä ilmais[n]a ikänä. </l>        
+          <l>Kusta voiteen tavottanen? </l> 
+          <l>Kusta muulta, mutta tuolta</l>   
+          <l>simaisesta taivahasta, </l>        
+          <l>mustan pilven syrjän alta, </l> 
+          <l>Jeesuksen veri punainen, </l>  
+          <l>Marian makia maito  </l>        
+          <l>lihan tuiki tulloisehe[n], </l>   
+          <l>haavoille hapan[n]uis[i]llen, </l>
+          <l>kipiälle voiteheksi. </l>
+        </lg>
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="loitsu1">
+          <hi rend="red">1</hi>. "Kuhna"<lb/><lb/>
+          Kysymyssana, ilmeisesti vastaa sanaa 'missä'. Suomen murteiden sanakirjassa on Etelä-Pohjanmaalta muotoja, kuten "Kuhka se nyt meni?" (=mihin), runoaineistosta 
+          löytyy Etelä-Pohjanmaalta: "kuhunkas meet?" (SKVR XI 820), myös "kuhunka", joskus "kuhunkan" (=siis mihin). <hi rend="italics">Tulen synty</hi> -loitsussa esiintyy 
+          vastaavalla paikalla useita erilaisia kysymyssanoja, yleisimpänä "Missä (on) tulta tuuviteltu" (esim. SKVR XII1 4487, XII1 4527).
+        </note>
+        <note n="loitsu2">
+          <hi rend="red">2</hi>. "läpi neitsyen Kemmen pään"<lb/><lb/>
+          Neitsyt viittaa Neitsyt Mariaan. Myöhemmissä <hi rend="italics">Tulen synnyissä</hi> tuli rikkoo usein alas tullessaan imettävän neitsyen, joskus nimeltään Marian, 
+          rinnat. Vertaa kuitenkin Rovaniemeltä: "Päältä polven Väinämoisen, Läpi kämmenten Jumalan" (XII1 4650).
+        </note>
+        <note n="loitsu3">
+          <hi rend="red">3</hi>. "sita sitten Putkehen puhalsi,<lb/>Sihen siansa siu / sia"<lb/><lb/>
+          Matti Kuusi olettaa säeparin edustavan väistynyttä eteläpohjalaista johdantoa, jossa tuli säilyy isoon putkikasviin eli "umpiputkeen piiloutuneena" (SKVR XV 247). 
+          Joissain itäsuomalaisissa teksteissä tuli kulkee "puhki kuuman tuuranputken, halki kirveen hamaran"; Kaarle Krohn (1917, 105) pitää näitä muista loitsuista 
+          <hi rend="italics">Tulen syntyyn</hi> lainattuina säkeinä. Putkeen puhaltaminen on loitsurunoista muualtakin löytyvä mielikuva, esim. <hi rend="italics">Käärmeen synnyssä</hi> 
+          "piru putkehen puhalsi" (VII2 1025, VII2 1512). Kuitenkin vain Nätyrin loitsussa tuli <hi rend="italics">jää</hi> putkeen. 
+        </note>
+        <note n="loitsu4">
+          <hi rend="red">4</hi>. Sihen siansa siu/a:<lb/><lb/> 
+          Säkeen viimeinen sana on epäselvä, loppukirjan voi olla <hi rend="italics">u</hi> tai <hi rend="italics">a</hi>. Kerttu Nätyrin Tulen sanojen vuoden 1858 toisinnoissa samalla 
+          kohtaa on kirjoitettu "saij". Varhemmissa loitsun transkriptioissa tulkinta vaihtelee: Hertzbergillä, Juveliuksella ja Eilolalla <hi rend="italics">sai</hi>; SKVR-sarjassa: 
+          <hi rend="italics">siuu</hi>. Nätyrin säe on tavallista kalevalamittaista säettä lyhyempi. Tämänkaltaiset lisät ovat myöhemmissä loitsuaineistoissa välillä proosamuotoisia 
+          lisäselityksiä. Toisaalta loitsusäkeet esiintyvät usein myös lyhyempinä muotoina. Vrt. kalevalamittaisia "Siinä syntymä sijasi" (SKVR I4 332 Tulen synty); "siellä on sinun 
+          siasi" (SKVR VII3 733, yleinen manauksissa). 
+        </note>
+        <note n="loitsu5">
+          <hi rend="red">5</hi>. "ontumattomaxi"<lb/><lb/>Ainakin Itä-Suomessa tunnetaan <hi rend="italics">ontua</hi>-verbin merkitys 'riutua', 'huveta' yms. Vrt. <hi rend="italics">untumattomaksi</hi> 
+          lappajärveläisessä loitsussa (XI 1603).
+        </note>
+        <note n="loitsu6">
+          <hi rend="red">6</hi>. "kusta woiten <hi rend="italics">tawotaken</hi>"<lb/><lb/>
+          Myöhemmissä loitsuaineistoissa samantyyppisissä yhteyksissä yleensä <hi rend="italics">tuotanehen</hi> (esim. SKVR VI2 4490). Vrt. varhemmat litteraatiot: Hertzberg: 
+          <hi rend="italics">tawotahen</hi>, SKVR: <hi rend="italics">tauotanehen</hi>, Juvelius: <hi rend="italics">tavottahen</hi>.
+        </note>
+        <note n="loitsu7">
+          <hi rend="red">7</hi>.  "kusta <hi rend="italics">muolta</hi>, mutta tuolta"<lb/><lb/>
+          Alkuperäinen kirjoitusasu todennäköisesti "mullta", korjattu käsikirjoituksessa muotoon "muolta".          
+        </note>
+        <note n="loitsu8">
+          <hi rend="red">8</hi>. "simaisesta taiwahasta"<lb/><lb/>
+          Nätyrin seuraavassa versiossa (<hi rend="underline">Raudan sanat I, Vähäkyrö 1658</hi>) säkeen ensimmäinen sana esiintyy muodossa "sinåisesta". Tulkinta saattaisi siten olla joko 
+          'simaisesta' tai 'sinisestä' taivahasta. Variaatio saattaa selittyä joko loitsun itsensä variaatiolla tai kirjurin väärinkäsityksellä. Säkeelle ei löydy täsmällisiä vastineita 
+          myöhemmästä aineistosta. Yleisempiä muotoja ovat "ylähästä taivahasta" (SKVR VI1 2977) "ylähältä taivahasta" (SKVR VII4 1758), "tulisesta taivahasta" (SKVR VII4 1569, VII4 1652).
+        </note>
+        <note n="loitsu9">
+          <hi rend="red">9</hi>. "Jesuksen veri punainen, Marian makea maito" <lb/><lb/>
+          Loitsuissa ja rukouksissa yleinen, keskiajalta periytyvä parantavan voiteen mielikuva, jonka varhaisin suomenkielinen muistiinpano on vuodelta 1615 
+          (<ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/2">1615, Narva, Voiteen sanat</ref>; ks. myös Kallio et al. 2017, 252−261.)
+        </note>
+        <note n="loitsu10">
+          <hi rend="red">10</hi>. lihan tukin tulloisehe"<lb/><lb/>
+          Myöhemmissä loitsuaineistoissa yleensä <hi rend="italics">tuiki</hi>, esim. "paikoille palaneille, lihan tuiki tulleille" (SKVR XV 253, XV 256, Ganander). Tämä tarkoittaa, että liha 
+          on täysin, pahoin vioittunut. Vanhemmissa transkriptioissa tulkinta varioi: Hertzberg: <hi rend="italics">tukin (tullin?)</hi>, SKVR: <hi rend="italics">tuikin</hi>, Juvelius: 
+          <hi rend="italics">tullin</hi>.
+        </note>
+        <note n="loitsu11">
+          <hi rend="red">11</hi>. "Hawoille hapanuisellen"<lb/><lb/>
+          Saattaa tarkoittaa 'hapanneille eli märkiville haavoille' tai 'hapanneen (sairaan ihmisen) haavoille'.          
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

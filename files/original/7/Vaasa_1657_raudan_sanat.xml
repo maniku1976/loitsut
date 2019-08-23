@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Raudan sanat, Vaasa 1657</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Tuomikirjojen loitsut</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Kansallisarkisto</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkriptio</resp>
+          <persName>Lari Ahokas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kommentaari</resp>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-11-29">29.11.2018</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Kansallisarkisto, Raastuvanoikeuksien renovoidut tuomiokirjat, Vaasan raastuvanoikeus, V:1, tuomiokirja 1650−1659, 26.8.1657, s.n., [360] r. 25−29; 
+              http://digi.narc.fi/digi/view.ka?kuid=11824928</repository>
+            <idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="transcription">
+              <bibl>vaasa_1657_a</bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fi-FI">suomi</language>
+        <language ident="se-SE">svenska</language>
+      </langUsage>
+      <particDesc>
+        <person>
+          <persName type="asiakirjat">
+            <surname>Nätyri</surname>
+            <forename>Gertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätyr</surname>
+            <forename>Giertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätur</surname>
+            <forename>Gertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätur</surname>
+            <forename>Giertrudh</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <surname>Nätyri</surname>
+            <forename>Kerttu</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <surname>Naturi</surname>
+            <forename>Kerttu</forename>
+          </persName>
+          <residence>
+            <placeName type="asiakirja">
+              <settlement>Vähäkyrö, Selkämäki</settlement>
+            </placeName>
+            <placeName type="eri_lahteet">
+              <settlement>Vähäkyrö, Ojakangas; Vähäkyrö, Selkämäki</settlement>
+            </placeName>
+          </residence>
+          <birth>
+            <placeName>Kalajoki</placeName>
+          </birth>
+          <occupation>löskona (irtolainen/itsellinen), (parantaja)</occupation>
+        </person>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <name>Vaasa</name>
+          <date when="1657-08-26">26.8.1657</date>
+          <locale>Vaasan raastuvanoikeus</locale>
+          <activity>Oikeudenkäynti- tai muistiinpanopaikka</activity>
+        </setting>
+      </settingDesc>
+      
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="1" facs="Tuomioki_360b_2" />
+        <p>
+          <l>De som af Jern.</l>
+        </p>
+        <p>
+          <l>Osinuas Rauta raukas,</l>
+          <l>etz sillon kowana ollu,</l>
+          <l>koskas olit neitzÿsin nisillä,</l> 
+          <l>waimon karskin kainalåsa,<label type="commentary" n="loitsu1">1</label></l>
+          <l>lypsie<label type="commentary" n="loitsu2">2</label> neliä neitÿkäistä</l>
+          <l>lypsie mahan maitoian<unclear>,</unclear></l>
+          <l>nettÿhÿn nisÿxiänsä,</l>
+          <l>mahan mättähättöimän<label type="commentary" n="loitsu3">3</label></l>
+          <l>sitä nousi rauta rauka,</l>
+          <l>wexöi wapsahainen,<label type="commentary" n="loitsu4">4</label></l>
+          <l>itki rautahan wihansa,</l>
+          <l>karwahansa karkian,</l>
+          <l>Tule Jesus ilman Herra tänne tarwitahan <choice><abbr>etc.</abbr><expan>et cetera</expan></choice></l>
+        </p>
+      </div>
+      <div type="tiedot">
+        <p><emph>Tausta ja konteksti</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Loitsun sanelija Gertrudh Nätyri (Kerttu Nätyri) asui itsellisenä Vähäkyrön Ojaniemen kylässä, mutta oli syntyisin Kalajoelta. Hän joutui Vaasan raastuvanoikeuteen 26.8.1657 
+          noituudesta syytetyn kerjäläisnaisen Marketta Parkoisen ilmiannon perusteella. Oikeusprosessista, joka jatkui syksyyn 1658, tuli poikkeuksellisen pitkä ja laaja-alainen. 
+          Syytettyjä oli lopulta yli tusina, ja kaksi heistä tuomittiin kuolemaan, muut pienempiin rangaistuksiin.</p> 
+        <p>Marketta Parkoisen väitettiin noituneen räätälimestari Rolofin tyttären Kirstin siten, että tämä oli synnyttänyt sammakkomaisia sikiöitä, ja hän väitti Kerttu Nätyriä 
+          osalliseksi tekoon. Nätyri oli antanut Parkoiselle voidetta kipeää jalkaa varten sekä suolapussin; Parkoinen oli liuottanut tästä kolme suolaraetta olueen, jonka hän oli juottanut 
+          Kirstille ja jolla hän oli pessyt Kirstin pään. Nätyri myönsi myös ottaneensa multaa navetan lattialta alta ja sivelleensä sillä Marketta Parkoisen jalkaa. Hän oli kuitenkin 
+          tarkoittanut nämä aineet vain parannukseen.</p> 
+        <p>Kun kävi ilmi, että Nätyri osasi parannusloitsuja, häneltä kirjoitettiin niitä vuonna 1657 peräkkäin neljä (<ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/1">Tulen sanojen</ref> 
+          jälkeen <hi rend="underline">Raudan sanat, Vaasa 1657</hi>; 
+          <ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/9">Maasta tarttuu, Vaasa 1657</ref>; <ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/8">Kirot, Vaasa 1657</ref>) 
+          ja asian jatkokäsittelyssä Isonkyrön ja Vähäkyrön kesäkäräjillä 1658 kolme 
+          näiden toisintoa (<hi rend="underline">Kirot, Isokyrö 1658</hi>; <hi rend="underline">Tulen sanat I, Isokyrö 1658</hi>; <hi rend="underline">Raudan sanat ja Voiteen luku, Isokyrö 1658</hi>). 
+          Nätyri kertoi oppineensa loitsut äidiltään Kalajoella.</p>
+        <p>Koko oikeustapauksesta tarkemmin: <hi rend="underline">Vaasa-Isokyrö-Vähäkyrö 1657−1658</hi>.</p>
+      </div>
+      <div type="tiedot_b">
+        <p><emph>Loitsu</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Kerttu Nätyri ilmoitti, että loitsu on tarkoitettu vammoille, jotka johtuvat raudasta ("De som af Jern"), siis esimerkiksi kirveen tai viikatteen iskemille haavoille. 
+          Kuten <hi rend="italics">Tulen sanat</hi> -loitsussaan, Nätyri toteuttaa tässä perinteistä loitsukaavaa sanellessaan johdannoksi vahingoittavan ilmiön synnyn (tässä 
+          <hi rend="italics">Raudan synty</hi>) ja päätteeksi parantavat sanat, tässä samanlaisina toistuvat <hi rend="italics">Voiteen sanat</hi>, joista on <hi rend="italics">Raudan synnyn</hi> 
+          yhteyteen kirjoitettu vain ensimmäinen säepari. <hi rend="italics">Voiteen sanat</hi> on Nätyrin parannusloitsuissa yleisrukous, johon hän lopettaa myös <hi rend="italics">Tulen sanat</hi> 
+          (<ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/1">1657 Vaasa, Tulen sanat</ref>) ja <ref type="link" target="http://kalevala-dev.ngrok.io/loitsut/items/show/8">Kirot</ref> (1657 Vaasa, Kirot).</p>
+        <p>Loitsu alkaa "rauta raukan" puhuttelulla, ja muistuttaa, että tämä ei ollut kova ja vahingoittava ollessaan vielä maitona neitojen nisissä. Nämä neljä neitoa lypsivät maitonsa 
+          mättäättömään maahan, ja näin rauta syntyi. Ampiainen eli vaapsahainen itki rautaan vihansa, mikä teki raudasta kovan ja vahingoittamaan pystyvän.</p>
+        <p><hi rend="italics">Raudan synty</hi> -myytistä on myöhemmässä loitsuaineistossa kaksi pääversiota, joista toinen kertoo raudan syntyneen suolla, toinen neitojen (luonnottarien, 
+          nimettömien neitojen, Marian) maidosta. Kumpikin on melko harvinainen Länsi-Suomen loitsuissa. Maito-syntyä edustava Nätyrin teksti on yksi harvoista Etelä-Pohjanmaan esimerkeistä 
+          (muita ovat SKVR XI 1564 Ilmajoelta ja SKVR XI 1595 Ylihärmästä). Tavallisimmin Etelä-Pohjanmaalla vain viitataan maito-syntyyn raudan alkupuhuttelussa, jolla Nätyrikin aloittaa 
+          loitsunsa ja jossa muistutetaan rautaa sen mahdittomasta alkutilasta: et ollut suuri silloin, kun makasit maitona nuoren neitosen nisissä!</p>
+        <p>Nätyrin <hi rend="italics">Raudan sanat</hi> vuodelta 1657 ja laajempi versio vuodelta 1658 ovat vanhimmat <hi rend="italics">Raudan synnyn</hi> muistiinpanot sisältäen, tosin 
+          suppeana, tämän syntyversion keskeisajatuksen: neljä neitoa lypsää maahan maitonsa, ja maidosta syntyy rauta. Syntyä täydentää selitys, miksi rauta on "vihainen" eli vahinkoa aiheuttava: 
+          <hi rend="italics">vapsahainen</hi> eli ampiainen valutti siihen myrkkynsä. Tämä Etelä-Pohjanmaalla poikkeuksellinen aihelma (lisäksi vain Lappajärveltä SKVR XI 1603) liittyy 
+          Itä-Suomessa ja Karjalassa esiintyvään jaksoon, jossa kerrotaan "herhiläisen Hiiden linnun" kantaneen käärmeen myrkkyä raudan karkaisuveteen.</p> 
+        <p>Viimeisen käräjillä esittämänsä loitsun jälkeen Nätyri ilmoitti, että jokaisen luennan (läsning) jälkeen oli kolmasti lausuttava <hi rend="italics">Isä meidän</hi>, silloin kipu ja 
+          paha lähtee. Hän ilmeisesti tarkoitti tällä kaikkia loitsujaan. Vuoden 1658 loitsujen yhteydessä Nätyri sanoi aloittavansa jokaisen loitsunluennan pyhän kolminaisuuden nimeen 
+          (trinitaarinen formula) ja lopettavansa <hi rend="italics">Isä meidän</hi> -rukoukseen.</p>   
+      </div>
+      <div type="tiedot_c">
+        <p><emph>Aikaisemmat transkriptiot</emph> <ref type="more">Avaa &#8594;</ref></p>        
+        <p>Hertzberg 1889, 61 (var.) &gt; SKVR XI 1570 (var); Juvelius 1930, 87 (osa, var.); Luukko 1971, 482 (var.).</p>
+      </div>
+      <div type="tiedot_d">
+        <p><emph>Kirjallisuusluettelo</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Eilola, Jari 2003: <hi rend="italics">Rajapinnoilla. Sallitun ja kielletyn määritteleminen 1600-luvun jälkipuoliskon noituus- ja taikuustapauksissa</hi>. Bibliotheca historica 81. SKS.<lb/><lb/>
+          Haavio, Martti 1967: <hi rend="italics">Suomalainen mytologia</hi>. WSOY, 367, 373−376.<lb/><lb/>
+          Heikkinen, Antero 1969: <hi rend="italics">Paholaisen liittolaiset: Noita- ja magiakäsityksä ja -oikeudenkäyntejä Suomessa 1600-luvun jälkipuoliskolla (n. 1640−1712)</hi>. Historiallisia tutkimuksia LXXVIII.  
+          Suomen historiallinen seura. 201−203.<lb/><lb/>
+          Hertzberg, Rafael 1889: <hi rend="italics">Bidrag till Finlands kulturhistoria på 1600-talet. Vidskepelse</hi>, 97−106.<lb/><lb/>
+          Hästesko, F. A. 1918: <hi rend="italics">Länsisuomalainen loitsurunous</hi>. SKS, 35−36.<lb/><lb/>
+          Juvelius, Einar W.: <hi rend="italics">Suomen kansan aikakirjat</hi>. IV: 1680−1721. Otava, 85−91.<lb/><lb/>
+          Krohn, Kaarle 1917: <hi rend="italics">Suomalaiset syntyloitsut. Vertaileva tutkimus</hi>. SKS, 101−105.<lb/><lb/>
+          Luukko, Armas 1971: <hi rend="italics">Vaasan historia</hi> I, 1606−1721. Vaasan kaupunki, 480−483.<lb/><lb/>
+          Nenonen, Marko &amp; Kervinen, Timo (toim. Anne-Riitta Isohella) 1994: <hi rend="italics">Synnin palkka on kuolema: Suomalaiset noidat ja noitavainot 1500−1700 –luvuilla</hi>, Otava, 22−31 =<lb/><lb/>
+          Nenonen, Marko &amp; Kervinen, Timo: "Musta koira haukkuu – kun noitavaimoja poltettiin Vaasassa", 
+          <ref type="link" target="http://www15.uta.fi/yky/arkisto/historia/noitanetti/musta_koira.html">http://www15.uta.fi/yky/arkisto/historia/noitanetti/musta_koira.html</ref> , luettu 18.12.2018.<lb/><lb/>
+          Siikala, Anna-Leena 2012: <hi rend="italics">Itämerensuomalaisten mytologia</hi>. SKS, 335 ff.</p>
+      </div>
+      <div type="nykytulkinta">
+        <p><emph>Loitsun nykykielinen tulkinta</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Loitsuteksti on tässä tulkittu melko vapaasti nykyortografialle ja muotoon, jossa se olisi todennäköisesti myöhemmän aineiston perusteella voinut sanellessa tai laulettaessa esiintyä. 
+          Kyseessä ei ole tieteellinen rekonstruktio, vaan ymmärtämisen avuksi tarkoitettu tulkinta. Suluissa on selityksiä, epävarmoja tulkintoja ja pieniä lisiä. Hakasulkeissa on suurempia, 
+          myöhemmässä aineistossa tyypillisiä elementtejä. Loitsujen ja säemuotojen variaatiosta enemmän kohdassa <hi rend="underline">Loitsuista.</hi></p>
+        <p>
+          <l>O sinuas rauta raukas (raukka),</l>
+          <l>et(s) sillon kovana ollu, </l>
+          <l>koskas olit neitsysen nisillä, </l>
+          <l>vaimon karskin kainalosa. </l>
+          <l>Lypsi neljä neitykäistä, </l>
+          <l>lypsi(e) maahan maitojaan</l>
+          <l>niittyhyn nisyksiänsä, </l>
+          <l>maahan mättähättömä(h)än. </l>
+          <l>Siitä nousi rauta rauka. </l>
+          <l>[Tuopa] veksöi va(a)psahainen</l>
+          <l>itki rautahan vihansa, </l>
+          <l>karvahansa karkia(h)an. </l>
+          <l>Tule Jeesus ilman herra, </l>
+          <l>[tule] tänne tarvitahan etc. </l>
+        </p> 
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="loitsu1">
+          <hi rend="red">1</hi>. vaimon karskin kainalåsa<lb/><lb/>
+            Myöhemmässä loitsuaineistossa säe on yleensä muodossa "kasvannaisen/kasvajaisen/ kasvavaisen kainalossa". Samassa oikeudenkäyntisarjassa Riitta Erkintytär 
+            käytti kuitenkin <hi rend="italics">Raudan sanoissaan</hi> v. 1658 säettä "åman äitins parmahilla" (1658 Isokyrö ja Vähäkyrö, Raudan sanat &gt; SKVR XI 1587), 
+          ks. myös myöhempi hämäläinen toisinto: "vanhan ämmän kainalossa" (SKVR IX3 809, IX3 810).
+        </note>
+        <note n="loitsu2">
+          <hi rend="red">2</hi>. lypsie<lb/><lb/>
+          Myöhemmässä SKVR-aineistossa yleisin sanamuoto on "lypsi", muutaman kerran esiintyy myös "lypsit". "Lypsie" -muoto ei esiinny, mutta toisaalta kirjuri näyttää 
+          olleen melko tarkka murremuotojen tallentaja, joten kyseessä saattaa olla runokieleen liittyvä tai paikalliseen murteeseen liittyvä muoto.
+        </note>
+        <note n="loitsu3">
+          <hi rend="red">3</hi>. mahan mättähättöimän<lb/><lb/>
+          Säkeellä alkava jakso esiintyy laajempana Nätyrin seuraavan vuoden versiossa (1658, Isonkyrön ja Vähänkyrön kesäkäräjät, Raudan sanat I).
+        </note>
+        <note n="loitsu4">
+          <hi rend="red">4</hi>. Vexsöi wapsahainen<lb/><lb/>
+          <hi rend="italics">Vexöi</hi> on epäselvä sana. Va(a)psahainen tarkoittaa ampiaista, ja esiintyy usein säkeissä mitä erilaisimpien paralleelisanojen kanssa, 
+          kuten "Vapsahainen, vepsähäinen (SKVR IX3 28); vaiveroinen (SKVR XI 1205); "vaatukaanen" (SKVR XI 1246) ja "vipsiäinen" (SKVR VIII 21) <hi rend="italics">Vexöi</hi> 
+          voisi siten olla lyhennelmä jostain runomittaan istuvan <hi rend="italics">veksiöisen</hi> tai <hi rend="italics">vepsähöisen</hi> kaltaisesta sanasta.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

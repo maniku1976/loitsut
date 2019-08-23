@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Puun sanat, Kokkola 1656</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Tuomikirjojen loitsut</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Kansallisarkisto</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkriptio</resp>
+          <persName>Lari Ahokas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kommentaari</resp>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2019-02-18">18.2.2019</date>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Kansallisarkisto, Kihlakunnanoikeuksien renovoidut tuomiokirjat, Pohjanmaan tuomiokunta, KO a:9, varsinaisten asioiden pöytäkirjat 1655−1656, 
+              Kokkolan talvikäräjät 29.1.1656, f. 427r,9−10; http://digi.narc.fi/digi/view.ka?kuid=3709693"</repository>
+            <idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="transcription">
+              <bibl>kokkola_1656_a</bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fi-FI">suomi</language>
+        <language ident="se-SE">svenska</language>
+      </langUsage>
+      <particDesc>
+        <person>
+          <persName type="tutkimuskirjallisuus">
+            <forename>Dordi Antintytär</forename>
+          </persName>
+          <persName type="asiakirja">
+            <forename>Dårdi Andersdåtter</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <forename>Dordi Andersdotter</forename>
+          </persName>
+          <residence>
+            <placeName type="asiakirja">
+              <settlement>Ala-Veteli</settlement>
+            </placeName>
+            <placeName type="eri_lahteet">
+              <settlement>Ala-Veteli</settlement>
+            </placeName>
+          </residence>
+          <occupation>(parantaja)</occupation>
+        </person>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <name>Kokkola</name>
+          <date when="1656-01-29">29.1.1656</date>
+          <locale>Kokkolan kihlakunnanoikeus</locale>
+          <activity>Oikeudenkäynti- tai muistiinpanopaikka</activity>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="1" facs="Varsinai_435b"/>
+        <p>
+          Wijdare förhölltz Margreta att emedan såsom hon någodt skall hafwa bekiändt för Borgmestere <unclear>Swarten,</unclear><label type="commentary" n="loitsu1">1</label> alltså frågades henne, 
+          hwad dett schulle wara, ded swarade att enär någon tillförende kom till henne, och <unclear>[_]d de</unclear> henne om någon hiällp till deers siukdoom, 
+          hwadh dett då kunde wara för een siuka, då <choice><abbr>haf</abbr><expan>hafuer</expan></choice> hon tagit 9 handha slagz <unclear>t[_]</unclear> trään, 
+          och kokat samma trään uti een påtta, och sedan som hon <choice><abbr>haf</abbr><expan>hafuer</expan></choice> botat den siukes kråpp der medh, 
+          <choice><abbr>haf</abbr><expan>hafuer</expan></choice> hon repeterat desse ordh,
+        </p>
+        <p>
+          <l>Lächtipuuta, Hakopuuta,<label type="commentary" n="loitsu2">2</label></l>
+          <l>Elikä muuta puta,<label type="commentary" n="loitsu3">3</label></l>
+          <l>jumala Caikiwalldias autakon:<label type="commentary" n="loitsu4">4</label></l>
+        </p>
+        <p>
+          <l>och detta sade hon sigh hafwa lärdt af sina förfädher §.</l>
+        </p>
+        
+      </div>
+      <div type="tiedot">
+        <p><emph>Tausta ja konteksti</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Kokkolan kihlakunnanoikeuden pöytäkirjassa 29.1.1656 mainitaan oikeuteen kutsutuksi taikuudesta epäiltynä alaveteliläinen, Jolkan kylässä syntynyt Dordi Andersdotter. Jo aiemmin Kokkolan 
+          kirkkoherra Ericus Galle oli kehottanut häntä jättämään tapansa, mutta varsinainen syy haasteeseen oli vuonna 1655 vangitun ja kuolemaantuomitun kruunupyyläisen parantajan Margreta (Margeta) 
+          Olofsdåtterin (Marketta Olavintyttären) ennen teloitustaan tekemä ilmianto. Kruunupyyn kirkkoherra Jakob Brenner (Brennerus) todisti myös, että tiesi Dordin harjoittavan taikuutta.</p> 
+        <p>Pöytäkirjassa selostetaan Dordin vastausta oikeuden kysymyksiin Margretan todistuksesta. Dordi selitti Margretan teon syyksi heidän välisensä epäsovun ja esitti oman näkemyksensä parannustyöstään 
+          sairaiden pyytäessä häneltä apua. Kaikkia vaivoja hän oli parantanut samalla nesteellä ja samoilla sanoilla.</p>
+        <p>Tämän jälkeen kirkkoherra Brenner kertoi, että kärsiessään rangaistustaan Margreta oli vielä sanonut, ettei Dordi harrastanut ainoastaan rukouksia, vaan pystyi viemään ihmisiltä rohkeuden tai 
+          voiman (<hi rend="italics">modet)</hi>. Tämän Dordi kielsi, ja Brenner vahvisti, että tultuaan Kruunupyyhyn hän oli kyllä kuullut Dordista, mutta ei mitään tällaista. Myös Mattz Hendrichsson ja 
+          alaveteliläinen Lars Mattson kuvasivat tapaamisiaan Dordin kanssa, mutta koska mitään vakavampaa ei ilmennyt, oikeus päätyi vain ohjeistamaan Dordin pysymään erossa taikuudesta.</p>
+        <p>Pöytäkirjassa poissaolevanakin vahvan äänen saavan Margreta Olofsdotterin eli Marketta Olavintyttären oli kirkkoherra Jakob Brenner erään lautamiehen kanssa haastanut loitsimisesta Kruunupyyn 
+          käräjille 17.2.1655. Kun oli todistettu myös yhteys paholaiseen, Turun hovioikeus tuomitsi Margretan kuolemaan. Hänet teloitettiin elokuussa 1655. Ennen kuolemaansa hän nimesi Dordin noidaksi. 
+          Viime hetkellään, juuri ennen kuin hänen päänsä laskettiin mestauspölkylle, hän sanoi: "Älkää antako minun kuolla tämä synti mukanani", ja antoi vielä ilmi pietarsaarelaisen Agnis (Agnis, Agneta) 
+          Larsdotterin. (Hertzberg 1889, 90; Mäntylä 1969, 115−116; Kervinen &amp; Nenonen.)</p>
+      </div>
+      <div type="tiedot_b">
+        <p><emph>Loitsu</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Dordi Andersdotterin käyttämän loitsun säkeet viittaavat <hi rend="italics">Puun sanoihin</hi>, joissa yleensä selvitetään, mikä puu on aiheuttanut vahinkoa ja mikä puu sen voisi parantaa. 
+          Teksti on kuitenkin huomattavan lyhyt, ja Dordi antaa ymmärtää sen sopivan myös muihin sairauksiin kuin puiden aiheuttamiin.</p> 
+        <p>Loitsuteksti kytkeytyy Dordin esittämään parannuskertomukseen: kun häneltä pyydettiin apua johonkin sairauteen, mihin milloinkin, hän oli kerännyt yhdeksää eri lajia puuta ja keittänyt niitä 
+          padassa (<hi rend="italics">påtta</hi>). Tällä vedellä potilasta parannettuaan hän oli lausunut loitsun. Parannustavan hän kertoi oppineensa esi-isiltään.</p> 
+        <p>Dordin loitsussa puiden mainitseminen siis viittaa parantavan keitoksen aineksiin, eri puista peräisin oleviin paloihin tai oksiin, ei puun aiheuttamiin vammoihin. Tämä pelkistetty 
+          <hi rend="italics">Puun sanojen</hi> versio tai lyhennelmä näyttää olleen Dordin tapauksessa parantava yleisloitsu.</p> 
+        <p>Rafael Hertzberg (1889) on ilmoittanut loitsun otsikoksi "Öfver medicin af nio träslag", mutta SKVR-sarjassa se on luokiteltu tekstin perusteella puun aiheuttamia vammoja parantaviksi 
+          <hi rend="italics">Puun sanoiksi</hi>. Sanat <hi rend="italics">lehtipuu</hi> ja <hi rend="italics">hakopuu</hi> toistuvatkin monissa <hi rend="italics">Puun sanoissa</hi>, mutta toisenlaisin 
+          muodoin, puun tekemiin haavoihin viitaten (esim. "Jos lehtipuu pahan tekee, Niin hakopuu imehtelöö", SKVR XI 1846). Yhdeksästä tai kolme kertaa yhdeksästä eri lajista tehty keitos on usein toiminut 
+          parantavana voiteena tai juomana, mutta erilaisista puunlajeista keitettynä sellainen esiintyy myöhemmissä aineistoissa yleensä nimenomaan <hi rend="italics">Puun sanojen</hi> yhteydessä 
+          (SKVR XII1 4063, XII1 4064, XII2 8470).</p>
+        <p>Dordin loitsun kaltaisten tekstien lyhyyttä saattaa selittää myös syytettyjen pyrkimys kertoa oikeuden edessä parantamisestaan ja loitsuistaan mahdollisimman vähän. Syitä tähän oli ainakin kaksi: 
+          tarve välttää raskauttavien todisteiden antamista ja toisaalta uskomus siitä, että ainakin tietyt loitsut menettivät voimansa ulkopuolisille kokonaisina kerrottaessa.</p>
+      </div>
+      <div type="tiedot_c">
+        <p><emph>Aikaisemmat transkriptiot</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Hertzberg 1889, 68 (var.) &gt; SKVR XI 1883</p>        
+      </div>
+      <div type="tiedot_d">
+        <p><emph>Kirjallisuusluettelo</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Eilola, Jari 2003: <hi rend="italics">Rajapinnoilla. Sallitun ja kielletyn määritteleminen 1600-luvun jälkipuoliskon noituus- ja taikuustapauksissa</hi>.
+          Bibliotheca historica 81. Helsinki: SKS, 125, 179.<lb/><lb/>
+          Heikkinen, Antero 1969: <hi rend="italics">Paholaisen liittolaiset</hi>. Historiallisia tutkimuksia 78. Helsinki: Suomen Historiallinen Seura, 199.<lb/><lb/>
+          Hertzberg, Rafael 1889: <hi rend="italics">Vidskepelsen i Finland på 1600-talet: bidrag till Finlands kulturhistoria</hi>. [Helsingfors]: [Rafael Hertzberg].<lb/><lb/>
+          Kervinen, Timo &amp; Nenonen, Marko: <hi rend="italics">Noitavainojen ja magian historiaa vuosilukuina</hi>. 
+          <ref type="link" target="https://www15.uta.fi/yky/arkisto/historia/noitanetti/ajat.html#6">https://www15.uta.fi/yky/arkisto/historia/noitanetti/ajat.html#6</ref> [luettu 30.1.2019].<lb/><lb/>
+          Mäntylä, Ilkka 1969: <hi rend="italics">Ja yhteinen rahvas todisti. Kollaasi 1600-luvun suomalaisista tuomiokirjoista</hi>. Prvoo: WSOY, 115.<lb/><lb/>
+          Nenonen, Marko &amp; Kervinen, Timo (toim. Anne-Riitta Isohella) 1994: <hi rend="italics">Synnin palkka on kuolema: Suomalaiset noidat ja noitavainot 1500−1700-luvuilla</hi>, Otava, 217.</p>
+      </div>
+      <div type="nykytulkinta">
+        <p><emph>Loitsun nykykielinen tulkinta</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Loitsuteksti on tässä tulkittu melko vapaasti nykyortografialle ja muotoon, jossa se olisi todennäköisesti myöhemmän aineiston perusteella voinut sanellessa tai laulettaessa esiintyä. 
+          Kyseessä ei ole tieteellinen rekonstruktio, vaan ymmärtämisen avuksi tarkoitettu tulkinta. Suluissa on selityksiä, epävarmoja tulkintoja ja pieniä lisiä. Hakasulkeissa on suurempia, 
+          myöhemmässä aineistossa tyypillisiä elementtejä. Loitsujen ja säemuotojen variaatiosta enemmän kohdassa <hi rend="underline">Loitsuista</hi>.</p>
+        <p>
+          <l>Lehtipuuta, hakopuuta,</l> 
+          <l>elikä [on] muuta puuta,</l> 
+          <l>jumala kaikkivaltias auttakoon!</l>
+        </p> 
+        
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="loitsu1">
+          <hi rend="red">1</hi>. Borgmestere <unclear>Swarten</unclear><lb/><lb/>
+          Daniel Swart, Kokkolan pormestari 1651−1672. 
+        </note>
+        <note n="loitsu2">
+          <hi rend="red">2</hi>. "Lächtipuuta, Hakopuuta"<lb/><lb/>
+          Lehtipuu ja hakopuu esiintyvät paikoin yhdessä myöhemmän loitsuaineiston <hi rend="italics">Puun sanoissa</hi> "Mikä puuko pahon teki, Lehtipuuko, hakopuuko?" 
+          (SKVR XII1 4046), usein kaksisäkeisenä versiona, kuten "Jos lehti-puu pahan teki, Hako-puu paransi" (SKVR XI 1882). Yleensä tämän tyyppisten säkeiden ajatuksena 
+          on selvittää, minkälainen puu on aiheuttanut parannettavan vaivan.
+        </note>
+        <note n="loitsu3">
+          <hi rend="red">3</hi>. "Elikä muuta puta"<lb/><lb/>
+          Mielikuva muista puista on myöhemmissä karjalaisissa <hi rend="italics">Puun sanoissa</hi> yleinen, kuten Vienassa "Pihlaja on pirun tekemä, Leppä lemmon luoma, Haap’ on hiijen hankkima, 
+          Muut puut Jumalan luomat, Vesa Iesuxen vetämä" (SKVR I4 102).
+        </note>
+        <note n="loitsu4">
+          <hi rend="red">4</hi>. "jumala Caikiwalldias autakon"<lb/><lb/> 
+          "jumala Caikiwalldias autakon"
+          Samankaltaisia, runomitattomia avunpyyntöjä esiintyy paikoin myöhemmästäkin loitsuaineistosta, esimerkiksi "Ja Jumala minua auttakhot!" (SKVR XI 1464), "Niin totta Jumala minua 
+          auttakoon sielun ja ruumiin puolesta, amen" (SKVR IX4 7).       
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

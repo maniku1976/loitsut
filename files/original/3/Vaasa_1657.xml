@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tuomiopöytäkirja, Vaasa 1657</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Tuomikirjojen loitsut</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Kansallisarkisto</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkriptio</resp>
+          <persName>Lari Ahokas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kommentaari</resp>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-11-29">29.11.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Kansallisarkisto, Vaasan raastuvanoikeus 26.8.1657, s.n., [360] r. 16−24; http://digi.narc.fi/digi/view.ka?kuid=11824928</repository>
+            <idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="transcription">
+              <bibl>vaasa_1657_a</bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fi-FI">suomi</language>
+        <language ident="se-SE">svenska</language>
+      </langUsage>
+      <particDesc>
+        <person>
+          <persName type="asiakirjat">
+            <surname>Nätyri</surname>
+            <forename>Gertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätyr</surname>
+            <forename>Giertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätur</surname>
+            <forename>Gertrudh</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <surname>Nätur</surname>
+            <forename>Giertrudh</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <surname>Nätyri</surname>
+            <forename>Kerttu</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <surname>Naturi</surname>
+            <forename>Kerttu</forename>
+          </persName>
+          <residence>
+            <placeName type="asiakirja">
+              <settlement>Vähäkyrö, Selkämäki</settlement>
+            </placeName>
+            <placeName type="eri_lahteet">
+              <settlement>Vähäkyrö, Ojakangas; Vähäkyrö, Selkämäki</settlement>
+            </placeName>
+          </residence>
+          <birth>
+            <placeName>Kalajoki</placeName>
+          </birth>
+          <occupation>löskona (irtolainen/itsellinen), (parantaja)</occupation>
+        </person>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <name>Vaasa</name>
+          <date when="1657-08-26">26.8.1657</date>
+          <locale>Vaasan raastuvanoikeus</locale>
+          <activity>Oikeudenkäynti- tai muistiinpanopaikka</activity>
+        </setting>
+      </settingDesc>
+      
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="1" facs="Tuomioki_357a" />
+        <p>
+          <l>1. Anno 1657. den 8 Junij Höltz Rådstugu dagh Wtj Waasa närwarande</l>
+          <l>2. Wtj Borgmestarnes ställe <choice><abbr>Wäl:<hi rend="superscript">t</hi></abbr><expan>Wälbemält</expan></choice> Mattz Oloffsson<label type="commentary" n="tuomio1">1</label></l>
+          <l>3. Rådhman</l>
+          <l>4. Peer Andersson Willam Massman Matz Påhlsson</l>
+          <l>5. Hans Pedhersson Mårthen Erichsson</l>
+        </p>
+        <p>
+          <l>6. Tå framtredde Mester Roloff Hansson Skredder her Wtj Waasa och Wtj</l>
+          <l>7. sin Mågh Matz Mårthenssons frånwaro Angaff een tiggerska och Brotfelling</l>
+          <l>8. Margeta Persdotter <choice><abbr>be:<hi rend="superscript">dh</hi></abbr><expan>benemdh</expan></choice> /: hwilken och för detta berichtat, doch icke lag förder wa-</l>
+          <l>9. rit at hafua förgiordt brygningen för <choice><abbr>Sahl: </abbr><expan>Sahlige</expan></choice> Hans Hansson den äldre :/ J huru såsom</l>
+          <l>10. hon skall hafua förgiort han dotter hustru Kirstin Så at hon een långan tijdh</l>
+          <l>11. hafwer dragit medh förträffelig innan Siucka legat til Sängs och nu i förledne</l>
+          <l>12. Torssdagh som war den 4 Junij sedan hon anlossat bleff hon så <unclear>lagat</unclear> at Matz</l>
+          <l>13. Mårthenssons hustro fÿra lika som Grodor skaffte Vthur sitt liff gifuit, huil-</l>
+          <l>14. ka henne inwertes ätit hafua, der igenom hon aldeles <unclear>[…]echtat</unclear> ähr</l>
+        </p>
+        <pb n="2" facs="Tuomioki_357b" />
+        <p>
+          <l>15. Her till Brotfellingen Margeta aldeles nekadhe sadhe sigh eij heller någon Orsaak der till</l>
+          <l>16. hafft hafua, Frågades fördenskuldh <choice><abbr> be:<hi rend="superscript"> te</hi></abbr><expan>bemelte</expan></choice> Roloff Hansson huruledes han henne til Saaken</l>
+          <l>17. binda wille, Swarade och berättade blifuit openbart af Henrik Sigferssons Swärmoder</l>
+          <l>18. Clara Jöransdotter<label type="commentary" n="tuomio2">2</label> hwilken hade hört Brottfelningens 
+            Vndsegelsse på Matzes hustro</l>
+          <l>19. för det hon henne bannat hafwer för Orsaak at Smör i Kernan war förswunnin</l>
+          <l>20. enär Brottfellingen dertijgdt och tädan Wthan miölk och Smör gått Sielfwe Vndsagun</l>
+          <l>21. ähr denne, Hon skall så smälta i denne Werlden som Smör Smältts i Krukan, detta</l>
+          <l>22. och Clara Edeligen tilstodh sigh hafua hördt, derföre ähr hon antastat werden och för-</l>
+          <l>23. der i Matzes Huus der hon stragst om förlåtelsse bedit, låfuat bettre och framtagit</l>
+          <l>24. treenna Små Saltpåsar, sagt then Ena wara til 9. handa godh som Stadztienare Hans</l>
+          <l>25. Mattzsson wiste witne den Ena framdrog hon för Rätten, sadhe sigh hafua fått af Ger-</l>
+          <l>26. trudh Nätÿri<label type="commentary" n="tuomio3">3</label> i Selkämäkj bÿ och Lilla Kÿro Sochn, der tijdh hon Ondt Wtj sin behn hafft</l>
+          <l>27. der af hon tree Saltkorn Wtj dricka bruka skulle, Så skulle det blifua bedtre Och den</l>
+          <l>28. Andra Påsen sade hon sigh hafua fått af Henrik Hattmakars Swära. Än berettade</l>
+          <l>29. Roloff at een bonde ifrå Storkÿro i <unclear>Westilä</unclear>, Henrich Pohialailin wedh nempn</l>
+          <l>30. hade kommit på gatun gångandes och Brotfellingen honom genom plancket sedte,</l>
+          <l>31. ropat til sigh, helssat på hwar andra, Han frågat Hwadh hafwer du her göra</l>
+          <l>32. Hon swarat, Dhe wille beskÿlla migh, Jagh skulle hafua förgiort Maatmodern</l>
+          <l>33. Här i Gårdhen, han igen swarat, Nogh ähr då <unclear>broff</unclear> qwinna då, Brottfellingen</l>
+          <l>34. såssom och Rolofz hustro bedt honom bonde, komma jn Och enär han ähr inkommin,</l>
+          <l>35. hafuer Brotfellingen sendt för Halffmarck effter Brennwijn, Roloffz hustro begÿnt</l>
+          <l>36. taala om sin dotters Siucka och gifuit Skälden Brottfellinge, Bonden sagt Nogh</l>
+          <l>37. skall det suart blifua witterligit, hempta rinnande Watn Wtj een Skähl imedler</l>
+          <l>38. tijdh iagh gåhr Wth och besteller mina ähranden, Een stundh dereffter bonden igen <choice><abbr>komit</abbr><expan>kommit</expan></choice></l>
+          <l>39. tagit Skåhlen medh rinnande watn Wtj, för sig på bonden Brotfellingen stått medh dören</l>
+          <l>40. der i han fulkombligen seedt hennes Ansichte Och sagt henne wore Wållandhe til hu-</l>
+          <l>41. struus Siukdom och innan effter skulle sÿnas tekn, bedt allena sig taga ett rådt Ägg Och</l>
+          <l>42. giordt Och Brotfellingen tagit af samma rinnande Watn Wpwärmt kastat tree Salt,</l>
+          <l>43. kom er Wtj dermedh twettat Matzes hustro der på straxst fölgdt, <choice><abbr>Nembl</abbr><expan>Nembligen</expan></choice> At Matz</l>
+          <l>44. hustro 4 lijka som grodor ifrån sigh på gålfwe gifuitt och holl, der af större plåga</l>
+          <l>45. än barnsfödzlen plågar wara hafft doch icke wiste huru dhe ifrån henne komo lijk-</l>
+          <l>46. wäl medh sin ringa macht welat taga effter samma grodhor, Men Brotfellingen</l>
+          <l>47. af dem 3. ihiältrampat, allenast bara kijm efftersÿnt och 4:de Wtburit, det</l>
+          <l>48. Matzes hustro medh sin Modher för Rätten berettade.</l>
+        </p>
+        <p>
+          <l>49. Frågades Brottfellingen Margeta hwij hon om förlåtelsse bedit Swarade detta i Håfudh</l>
+          <l>50. Swaghet giordt, Än frågades hwarföre hon Wndsagt Matzes hustro, Sadhe för det hon</l>
+          <l>51. bannat henne, Sadhe sigh och på een illack tidh wara född at alt thet onda hon önska</l>
+          <l>52. skulle, skolle drabba och hende på den Menniskian hon wille. Doch på sidstone effter</l>
+          <l>53. noga förfrågan bekende sigh wara Orsaaken til Matz Mårthenssons hustros Siuk-</l>
+          <l>54. dom, detta genom diefwls macht drifuit och giordt, önskat Törår Wtj henne,</l>
+          <l>55. Men genom Gudz macht skall Henrich Hattmakars Swära Clara Jöransdotter göra</l>
+          <l>56. bättre, Tilfrågades henne Wthaf heem hon detta lärdt Swarades Wthafff <unclear>Påff</unclear></l>
+          <l>57. Lussi hwilken lång för detta döder ähr, Och sålunda tildragit at <unclear>Påff</unclear> Lussi <unclear>Afhent</unclear></l>
+          <l>58. henne Een halfsijda flesk, den hon igenkrafdh, Men hon icke welat igen gifua Wthan</l>
+          <l>59. SPåttat henne tre gånger i Ögonen och blåst 3 gånger i Mun, hijsligen sworit</l>
+          <l>60. gifuit henne een Saltpåsa och sagt enär du hafwer Ondt til någon då skall du</l>
+          <l>61. fälla tree tårar Wthur din Ögon, Såssom och kasta effter digh tree Saltkorn bedher</l>
+          <l>62. fen Onda och Törån fara Wtj der doch på wissa tijder om dagen <choice><abbr>Nembl</abbr><expan>Nembligen</expan></choice> först emot</l>
+          <l>63. klåcken 7 och 8 om Mårgonen, Sedan Klåckan 12 om Middagen, och i Sohlsättningen,</l>
+          <l>64. Men aldrewerst om Torssdaghqwellen, Så skolle det Onda henda den Menniskan,</l>
+          <l>65. ÿtterligare frågades hwad Orda sätt hon henne mehra lärde Swarade hon</l>
+          <l>66. at inthet annat än hon skolle nembna så månge tusenda jllacka komma</l>
+        </p>
+        <pb n="3" facs="Tuomioki_358a" />
+        <p>
+          <l>67. tilhielp, dricka sigh druckin, SPringa ansöhls tre gångar omkringh Skähl fult <unclear>med</unclear></l>
+          <l>68. dricka i handen den Wtdricka Så skolle hon falla på Mark, som een dödh Menniskia</l>
+          <l>69. då skolle hon få den illacka i rådh medh sigh, denne Brottfellingen bekende sig effter</l>
+          <l>70. hennes lärdom giordt, Och i det hon som i brött fallit, warit Wtj Bärge, der af</l>
+          <l>71. illacka rådh tagit.</l>
+        </p>
+        <p>
+          <l>72. Sedhan bekende hon at een Swart Karl hafwer möt henne på Höghålmen<label type="commentary" n="tuomio4">4</label> enär hon skulle</l>
+          <l>73. gå til Stadhen ifrå Höstwesj, Sagt åth henne, Jagh skall hielpa dig i hwadh du <unclear>…</unclear></l>
+          <l>74. allenast du willt tiene migh Och der i Stadhen ähre förmeehra än du ähr Men digh</l>
+          <l>75. skall inthet skadha, Frågades henne hwadh Swarta Karlen lärde och hwadh hon derföre</l>
+          <l>76. Åtgifuit och huruledes dhe ähre då åthskilda, der medh hon ingalunda Wth wille</l>
+          <l>77. Wtan omsijder effter noga förmaningh sadhe sigh willia öfwergifua Sathan och</l>
+          <l>78. blifwa Gudz barn, Bekende det at Swarta Karlen hafwer prustat henne i Mun</l>
+          <l>79. så at hon i marcken fallin ähr, sparkat henne öfwer <unclear>Månen</unclear>, bannatz och sagt Enär</l>
+          <l>80. då lässer Fadher wår tree gånger tilbaka Swär och bannatz så många tusende</l>
+          <l>81. nembner emellan Så skall hende det onda då een menniskia önskatt och derföre</l>
+          <l>82. sade sigh hafua gifuit brödh i lhön, framwijsa och sin tunga der j han bitit och</l>
+          <l>83. <unclear>dijdt</unclear> blodh der Wthur och han sedan fölgdt henne till Grundfäls broo<label type="commentary" n="tuomio5">5</label> ändan der han</l>
+          <l>84. förswunnin ähr, Frågades huru långa hon den illacka tient, Swarade Tretton åhr,</l>
+          <l>85. Än frågades Hwarföre hon grodor i Matz Mårthenssons hustro giordt Swa-</l>
+          <l>86. rade derföre at icke Matzes hustro gifuit henne Smör enär hon kernat och hon då</l>
+          <l>87. dijt inkommin ähr, Wthan bannatz på henne, Sadhe andra wara wärre än hon</l>
+          <l>88. i Sÿnnerhet Simon Anderssons hustro<label type="commentary" n="tuomio6">6</label> her i Stadhen, hwilcken skall hafua förgiort</l>
+          <l>89. <choice><abbr>Sahl:</abbr><expan>Sahlige</expan></choice> Her Jacob<label type="commentary" n="tuomio7">7</label> och Bengt i 
+            Cweflax<label type="commentary" n="tuomio8">8</label>, Frågades huru hon kan det bewijsa, Ju</l>
+          <l>90. sade hon sig hafua öron och höra hwadh omtales och warit medh henne i <unclear>Berge</unclear> när</l>
+          <l>91. hon lärdom af den illacka tagit, hwadh hon honom giöra skulle för det han henne</l>
+          <l>92. wedh Proubste Tinget Angifuit Hafwer och åthskillige gångor allom i  <unclear>ge[…]he</unclear> om</l>
+          <l>93. löfwierj och truldom förmant afstå, Lärdomen ähr denne at hon skulle see genom</l>
+          <l>94. henderne spåtta tree gånger derigenom sweria och bannatz så skulle det drabba honom</l>
+          <l>95. medh <unclear>wederpijs</unclear> Sadhe och henne hafua sendt twå gånger före medh <unclear>wederpijs</unclear></l>
+          <l>96. åth honom, doch icke kunnat wecka flr än 3 gånger i Sundom då han i sin Säkerhet</l>
+          <l>97. war Men Bengt i Cweflax derföre at han skakat ÿxan åth henne enär</l>
+          <l>98. han gådt omkring i Sochnen och <choice><abbr>bedz</abbr><expan>bedit</expan></choice>  Så förgiort at han i sin ÿxa fallit Frågades</l>
+          <l>99. Hwadh bergh dhe i hopa warit och om hon flere der sett och i hwadh tijdh dhe pläga</l>
+          <l>100. der wara Swarade i Cwifwilaberg<label type="commentary" n="tuomio9">9</label> i Storköro der nedan om een stor slätha</l>
+          <l>101. skall wara der ähre den illacka rått hemma, Sadhe sig och der hafua sedt Miuck</l>
+          <l>102. dordj<label type="commentary" n="tuomio10">10</label> i Singsby<label type="commentary" n="tuomio11">11</label>, En hustro i Kaukoila<label type="commentary" n="tuomio12">12</label> 
+            Nÿrhela<label type="commentary" n="tuomio13">13</label> gårdh, <unclear>Kijsse</unclear>i Sundom<label type="commentary" n="tuomio14">14</label> 
+            Oloff <choice><abbr>Anderss<hi rend="superscript">s</hi></abbr><expan>Anderssons</expan></choice></l>
+          <l>103. hustro<label type="commentary" n="tuomio15">15</label> i Smedsby<label type="commentary" n="tuomio16">16</label>. Och der pläga dhe wara i hopa Påska Midsommar och långfredag</l>
+          <l>104. Frågades huru dhe komma dijt och hwadh dhe hafua föra? Rödhfinskan<label type="commentary" n="tuomio17">17</label> medh Swart</l>
+          <l>105. brokot Kalff, Miuck dorde medh een Swart Kalff, Kijsse medh rödh Oloff <choice><abbr>Anderss<hi rend="superscript">s</hi></abbr><expan> Anderssons</expan></choice></l>
+          <l>106. hustro medh Hwijt Sig sielfwe medh en Grijs, Somblige hafua Smör, somblige</l>
+          <l>107. annat före. Så at der i berge ähr alt hwadh man kan nembna Enär dhe Swerie <unclear>hen</unclear></l>
+          <l>108. och gifua den illacka Så hafwer han <unclear>sorgst</unclear> sin dehl der af ehwadh det helst wer-</l>
+          <l>109. kan, der giöra de Rekenskap, dricka och dantza.</l>
+        </p>
+        <p>
+          <l>110. Den 10. Junij Holtz Rådstugu närwarande Wti Borgmestarens stelle</l>
+          <l>111. Mattz Oloffsson Rådhman</l>
+          <l>112. Peer Ondesson Wellam <unclear>Blassman</unclear> Mattz Påhlsson</l>
+          <l>113. Hans Peersson Mårthen Erichsson</l>
+        </p>
+        <p>
+          <l>114. Framdrogh Peer Mattzsson<label type="commentary" n="tuomio18">18</label> at för een tijdh sedan hans hustro Syster Anna Johans</l>
+          <l>115. dotter <choice><abbr>Sahl:</abbr><expan>Sahlige</expan></choice> Oloff <unclear>…</unclear> Enckia och sedermehra Fenrichens Simon Michelssons</l>
+          <l>116. hustro Wti hands frånwaradne Wti Hålt, dödh blifwin, – –</l>
+        </p>
+        <p>
+          <l>117. – – skotz till en annan gångh.</l>
+        </p>
+        <pb n="4" facs="Tuomioki_358b" />
+        <p>
+          <l>118. Nu framhades Brotfellingen och bleff tilfrågat om hon ähr wållande til Matz Mår</l>
+          <l>119. thenssons Hans Hustros och barns Siukedom, då bekende hon sig allenast wara till</l>
+          <l>120. Hustrons och badh Gudh för sin Werdige helge <del>Andhe</del> Nampn skall wille förlåtha</l>
+          <l>121. henne, Men til <unclear>Manssens</unclear> sadhe hon Simon Anderssons hustro wara och för Orsaak</l>
+          <l>122. förgiordt at hon icke skonte henne ifrån <unclear>Stadzwacht</unclear>; Tilspordes Brotfellingen huru hon</l>
+          <l>123. skall weta seija om henne, Swarade hon hwar om icke Jagh hafwer in sedt henne i Ber-</l>
+          <l>124. ga der taga af sin Herre sådana Saaker som hon kan giöra medh Och skall hittas</l>
+          <l>125. Wtj hennes framstugu Wtj een Skrijn förwaradhe; <unclear>Best</unclear> hon detta sadhe föll hon i andra</l>
+          <l>126. tanckar, Enär han åther sigh förekom och henne tilfrågades hwaresa hon nu wandrade</l>
+          <l>127. Sade hon sigh hafwa warit på Höghålmen, taalt medh Swarta Karlen och sadhe til Rådh-</l>
+          <l>128. mannen Peer Ondesson Käre Fadher inthet lefuer du lenge, Än bekende at Matzes hustru</l>
+          <l>129. hade blifuit bättre der icke Rödfinskan hade kommit medh sitt Brennewijn der</l>
+          <l>130. emellan tagit Omkring Matzes hustro tree gånger ansöhls blåst henne i Mun</l>
+          <l>131. deraf hon werre blifuin ähr och så när sett lifwe till der icke Brottfellingen</l>
+          <l>132. hade ingifuit henne Salt laake at hon måste Wpkasta Frågades huru hon Grodhor i</l>
+          <l>133. Matzes hustro giordt, det hon eij bekenna wille, doch omsijder effter noga förfrågan sade</l>
+          <l>134. sigh hafwa giordt af Håår, Skoosåhlar, rödha lappar, och hwadh mehra som hon <unclear>hittar</unclear> i</l>
+          <l>135. <unclear>sumona</unclear> och dem medh diefwls macht hoop fogat sendt åstadh sworit och bannat, spåt-</l>
+          <l>136. tat tre gångor genom fingerne och i fersck SPijsöhl infått Mehra sade sig icke wetha</l>
+          <l>137. bekenna, Wthan detta både för Gudh och Menniskior wälbekenna at hon genom diefuls</l>
+          <l>138. macht detta giort, Men i Gudz nampn will bättra</l>
+        </p>
+        <p>
+          <l>139. Den .3. Augustj ÿtterligare framhades Brottfellingen och tilfrågades om hon ähr</l>
+          <l>140. <unclear>s[…]endig</unclear> sin bekennelsse, Hertil hon Swarade och nekade sig hafua giordt eij heller Kunna</l>
+          <l>141. der medh Om sit hon detta i Hufudh SWaghet bekändt, Wthan <add>sade</add> een Kona i lille Kÿro som</l>
+          <l>142. tilförende hafuer warit hoss Jöran SPrett<label type="commentary" n="tuomio19">19</label> och nu Wtj Mÿntila Lijssbetha<label type="commentary" n="tuomio20">20</label> 
+            <choice><abbr>be:<hi rend="superscript">dh</hi></abbr><expan>benemdh</expan></choice>; <choice> <abbr>haf<hi rend="superscript">r</hi></abbr><expan> hafwer</expan></choice></l>
+          <l>143. giodt Och enär hon giöra skolle gått Wth och icke welat henne see låtha Frågades för</l>
+          <l>144. denskuldh hwarföre hon på sigh sielfua, detta alt her till bekändt och nu på een</l>
+          <l>145. annan wenda will Sade sigh hafua giort i Hufudh Swaghet, Än tilspördes om hon</l>
+          <l>146. weeth at Matzes hustro skall hafua giordt något moot Lijsa; Swarade, icke moot</l>
+          <l>147. Lijssa, War moot sigh, Och Lijssa detta effter hennes begeran giort, tagit <unclear>Grodrun</unclear></l>
+          <l>148. Wnder SPrettens Fåhuus gålfwe Och enär hon sendt åstadh, då sworit och bannatz</l>
+          <l>149. spåttat tree gånger emellan behnen, tilbaka Sade sigh hafua warit i rådh</l>
+          <l>150. medh henne såssom och Gertrudh Nätÿri ifrå Selkämäkj gifuit henne een</l>
+          <l>151. Saltpåse, der Wthaf hon tree Saltkorn til sådant brukat, Än frågades hwar-</l>
+          <l>152. före hon icke nu will bekenne Sanningen som hon her til giort <choice><abbr>haf<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice>. Hon Swarade</l>
+          <l>153. at Rödfinskans dotter medh twå andra hafuer som hon icke kende hade warit</l>
+          <l>154. wedh Kistan och nekat henne bekenna och hwadh hon tilförende bekent återkalla.</l>
+        </p>
+        <p>
+          <l>155. Den 22. <choice><abbr>Aug.</abbr><expan>Augusti</expan></choice> Framhades Henrich Jacobsson Pohialainen ifrå Storköro Sochn</l>
+          <l>156. och Wästiläbÿ hwilkenb för detta. 3 gånger hijt stembder är, doch eij Compare-</l>
+          <l>157. rat hwilken och wed den tijden enär Brotfellingen Margeta Persdotter ähr</l>
+          <l>158. antastat worden och af Matz Mårthenssons hustro, her i Staden hos Matz Mårthensson</l>
+          <l>159. warit, der Wtj een Watnskåhl seedt at Brotfellingen skulle hafua förgiort</l>
+          <l>160. Mattz Mårthenssons hustro; Bleff honom tilfrågat huruleges han det i Watnet</l>
+          <l>161. sågh, Her til Henrich aldeles nekade och sade sigh icke Wtj något watn seedt hafua, <unclear>Wtan</unclear></l>
+          <l>162. beretade at Brotfellingen hade stådt på gården ropat effter honom och frågat hwar</l>
+          <l>163. han war hemma, han Swarat i Kÿro, Hon då sagt Gudh gifua i wille seije min Slecht</l>
+          <l>164. at dhe må komma hijt och befrija migh, de beskÿlla at migh skall hafua förgiordt</l>
+          <l>165. Maatmodhern her i gården, der til han sagt Aldrig hafuer iagh wetat af digh</l>
+          <l>166. Sådant til förende, Mattz Mårthenssons Hustros Modher stådt och på gårdhen bedt</l>
+          <l>167. honom Henrich inkomma at see den Siucke, han då skall swarat Gudh bettre</l>
+          <l>168. det ähr inther wäl Eij heller kan iagh göra det till något, Men lijkwäl ingått</l>
+        </p>
+        <pb n="5" facs="Tuomioki_360a" />
+        <p>
+          <l>169. Frågades Henrich om Brotfellinge, Kende honom eller om han kende henne; Swarade han</l>
+          <l>170. sigh wäll kenna Brotfellingen men icke hon honom dÿ föredrogh då Henrich hwar</l>
+          <l>171. före hon då ropat effter honom, Sade han för Orsaak at hon skolle fråga hwar hon</l>
+          <l>172. war hemma Bleff honom då tilfrågat huru han kende henne, Swarade af det hon</l>
+          <l>173. gådt och tijgdt och många nätter legat i hans huus, der til sadhe Rätten så kendhe hon</l>
+          <l>174. dig lijkwäl, Swarade Henrich kan skee det weeth iagh inthet af, Frågades än Henrich</l>
+          <l>175. om han något i Matz Mårthenssons huus giordt och om han skickat effter Watn, her-</l>
+          <l>176. til han aldeles nekade. Doch lijkwäl |: oansedt har hijt och dijt vasilerade förebar sigh</l>
+          <l>177. hafua seedt Wtj een Öhlskähl Matz Mårthenssons hustros Ansichte, såssom och Mattz</l>
+          <l>178. Mårthenssons hwilken då i Stockholm war, Och at dhen wara bannade, det och Mattz</l>
+          <l>179. Mårthenssons sade af honom wara berettat :| bleff han öfwertÿgat af Roloff Skreddares</l>
+          <l>180. och Mattz Mårthenssons hustro Såssom och Helsings Kirstin och Brottfellinghen</l>
+          <l>181. sielf, det han Henrich effter Kiäll Watn sendt medh Joen Sadelmakeres flicka Och</l>
+          <l>182. enär Watnet hemptat ähr der Wtj skådat och sagt åth Brotfellingen, Henne wetta Or-</l>
+          <l>183. saaken til hustros Siukdomn, fökastat henne seijandes, då går och tigger brödz <unclear>beeten</unclear></l>
+          <l>184. i Gudz nampn Men i Diefuls nampn nÿttar då, denne hennes bedt då taga <add><unclear>[…]</unclear></add> råd lägg</l>
+          <l>185. medh Salt Wtj förtära och der på warmt öhl och <unclear>Ost</unclear> til sig taga, det och Henrich</l>
+          <l>186. bekende, sigh hafua derföre bedt bruka, at der hon Matzes hustro skolle hafua <unclear>innan</unclear></l>
+          <l>187. siucka, som han och tilförende brukat dertill och blifuit bettre, Men til Watnet wille</l>
+          <l>188. han icke minnes och sade derhos at der han Watnet <choice><abbr>haf<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> hempta låtit Så warit för-</l>
+          <l>189. denskull at Matzes hustro skolle twetta sig om hufudh, då skolle hon blifua betre</l>
+          <l>190. Tilspordes honom wijdare om han icke will tilstå hwadh dessa hustror wilia öfuer</l>
+          <l>191. <unclear>tÿga</unclear>, Swarade Henrich hwadh hielper Jagh måste bekenna Sanningen Och Bekende</l>
+          <l>192. sigh både Wtj Öhl och Watn skåhlen seedt at dhe woro bannade och hustron skulle</l>
+          <l>193. blifua bättre, Frågades Henrich om han det fulkombligen sågh at denne Brotfel-</l>
+          <l>194. lingen Margeta skolle hafua förgiort och huru han det sågh, Swarade och sade</l>
+          <l>195. sigh fulleligen det hafua seedt Wtj Watn skåhlen förmedelst, hennes Ansichtes <unclear>lijknelse</unclear></l>
+          <l>196. Men huruledes han det sågh medh wille han icke <app><lem>Wtha</lem><rdg>Wetha</rdg></app>, Wthan sade det wara</l>
+          <l>197. ingen trollkånst och det kunna wäll see.</l>
+        </p>
+        <p>
+          <l>198. Framhades Brotfellingen och bleff henne föredragit denna Henrich Jacobssons beken-</l>
+          <l>199. nelsse, henne wara Orsaaken til Matzes Hustros Siukdoom, det och Henrich nu Wp i</l>
+          <l>200. Ögonen tilstodh, dertil Brottfellingen eij neka Kunde: Wthan bekende sigh wara wållande</l>
+          <l>201. förmedelst sin bannande til Hustrons Siukdom och badh om förlåtelsse.</l>
+        </p>
+        <p>
+          <l>202. Denne Saak Angående Henrichs bekennelsse blef den 17. <choice><abbr>Septemb.</abbr><expan>Septembris</expan></choice> til tinget remitterat och</l>
+          <l>203. Befalningsmans Hans Joensson Extract öfuerlefuererat och honom tilskrifuit at Saken til</l>
+          <l>204. Wijdare Ransakningh och dess Wthslagh Wtförder <choice><abbr>blif<hi rend="superscript">r</hi></abbr><expan>blifuer</expan></choice>.</l>
+        </p>
+        <p>
+          <l>205. Den 26. Augustj Sedermehra framhades Brotfellingen Margeta och bleff tilfrågat</l>
+          <l>206. om hon ähr <unclear>sendigh</unclear> sigh hafua giordt Grodor Wtj Mattz Marthenssons hustro Nekade</l>
+          <l>207. aldeles, Wthan det hon hafwer bannatz och önskat ondet det råkat och drabbat på henne</l>
+          <l>208. Tilsportes medh hwadh onda sätt hon bannades Swarade at Siu tusendh <choice><abbr>dl: </abbr><expan><unclear>dievlar</unclear></expan></choice> må fahra</l>
+          <l>209. Wti henne Och det då önskar migh, drabba på tig sielfuan, Förmantes henne at hon beken-</l>
+          <l>210. ner Saningen, Nekade sig hafua giordt grodor Wtj henne Wthan grodorne warit i</l>
+          <l>211. watnet som bonden hafver bedt inhempta, ÿtterligare förmantes til Sanningens</l>
+          <l>212. bekennelsse, wetandes at det skulle icke hålla finger emillan, Swarade det <unclear>hielpar</unclear></l>
+          <l>213. inthet mehra Wndandraga och bekendt sig hafua illa giordt Men lijsa hos SPrettens</l>
+          <l>214. och Gertrudh Nätÿri ifrå Selkämäkj warit i rådh medh henne, Frågades huru hon och</l>
+          <l>215. fick grodorna Wtj henne enär hon war i Kÿro och hustron her i Staden 2 mijl <unclear>emellan</unclear></l>
+          <l>216. och hwaraf hon grodorne giordt, Bekende och sade at dhe wore af <unclear>grodrum</unclear> giorda</l>
+          <l>217. som Gertrudh Nätÿri Wndan SPrettens Fähuus gålfwe skall Wptaget hafua</l>
+          <l>218. den medh jordh blandat och Wtj nedan och nordan wäder å stadh sendt SPottat <unclear>genom</unclear></l>
+          <l>219. fingre och sprungit tree gånger ansöhls Nembdh så många tusändh illacka fahra</l>
+          <l>220. Wtj henne lijka som grodor och om Torssdaghqwällen Wtj een Badstugu wrå detta</l>
+          <l>221. giordt, Än frågades för hwadh orsaak desse, lijsa och Gertrudh hafua warit i rådh</l>
+          <l>222. medh henne och om dhe kom tilstädes om hon kunde dem sådant bewijssa</l>
+        </p>
+        <pb n="6" facs="Tuomioki_360b" />
+        <p>
+          <l>223. Nu Corrigerade hon sigh Seijändes den icke warit i rådh medh sigh Wthan allena</l>
+          <l>224. detta giordt Men det at hon dem her Wtj <unclear>inmengia</unclear> wille giort förtÿ at hon der igenom <add>will</add></l>
+          <l>225. sigh derifrån wekla kunde, Menandes der medh Wndslippa Och sade dem allenast gifuit</l>
+          <l>226. sigh salt och giordt Smörielsse til behnen.</l>
+        </p>
+        <p>
+          <l>227. Lijkwäl framhades <choice><abbr>be:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Lijsa och Gertrudh hwilcka hijt för Brotfellingens Angifuande</l>
+          <l>228. stemde ware, och bleff Lijsa föredragit Brotfellingens beskÿllningen at hon skolle</l>
+          <l>229. warit i rådh medh Brotfellingen enär hon grodor i Matz Mårthenssons hustru</l>
+          <l>230. giordt, Hertil hon aldeles nekadhe Och bekende sigh allena hafua gifuit Smörielsse af</l>
+          <l>231. Jster giordt der medh Brotfellingen sin behn der j hon beklagat sig ondt af jorden</l>
+          <l>232. fått, smöria skulle strÿka der opå och läsa Fadher wår 3 gånger, det hon af sin <choice><abbr>Sahl:</abbr><expan>Sahliga</expan></choice></l>
+          <l>233. Modher tilförende lärdt, Till annat nekte hon sig kunna, Eij heller <choice><abbr>Brottfell:</abbr><expan>Brottfellingen</expan></choice> henne bewijsa wille</l>
+        </p>
+        <p>
+          <l>234. Gertrudh Natÿri nekte och sigh warit i Rådh medh Brotfellingen enär hon grodor</l>
+          <l>235. giordt Wthan bekende sig hafwa läsit i Salt och gifuit Smörielsse åth Brott</l>
+          <l>236. fellingens behn der medh hon Smöria skulle och läsa inför Rätten åthskillige</l>
+          <l>237. lässningar som hon tilsamma Smörielsse läsa skolle,  <choice><abbr>Nembl:</abbr><expan>Nembligen</expan></choice> de som woro skadde</l>
+          <l>238. af Eldh; Kuhna tulta Jsketin, Påwehen taiwahan tarhan, Kengä siella</l>
+          <l>239. tulta iski, iski itze ilman Herra, tuiskahutti tulis kipenä, läpi maan, läpi man-</l>
+          <l>240. non läpi neitzyen Kemmen pään, sita sitten Putkehen puhalsi, Sihen siansa <app><lem>siu</lem><rdg>sia</rdg></app>.</l>
+        </p>
+        <p>
+          <l>241. Tule Jesus ilman Herra tänne tarwitan, Satehet sateleman, tulet tuskat tun-</l>
+          <l>242. deman Kipiät Siwelemän, Hawat suret hautoman, Keskelta Kiwoitomaxi, Wiereltä</l>
+          <l>243. wiatomaxi, waihelta waiwatomaxi, pälta ontumattomaxi eij onnu, eikä tunnu sina</l>
+          <l>244. ilmaisa ikänä, kusta woiten tawotaken, kusta <unclear><del>mullta</del></unclear><unclear><add>muolta</add></unclear>, mutta tuolta simaisesta taiwa-</l>
+          <l>245. hasta, mustan pilwen syriän alta, Jesuxen weri punainen, Marian makia maito</l>
+          <l>246. lihan tukin tulloisehe, hawoille hapanuisellen, Kipiälle Woitehexi</l>
+        </p>
+        <p>
+          <l>247. <ref target="http://kalevala-dev.ngrok.io/loitsut/items/show/7" type="spell_link" n="linkki: Raudan sanat">De som af Jern</ref>. Osinuas Rauta raukas, etz sillon kowana ollu, koskas olit neitzysin</l>
+          <l>248. nisillä, waimon karskin kainalåsa, lypsie nelia neitykäistä lypsie mahan maitoian-</l>
+          <l>249. nettyhyn nisyxiänsä, mahan mättähättöimän sitä nousi rauta rauka, wexöi wa-</l>
+          <l>250. psahainen, itki rautahan wihansa, karwahansa karkian , Tule Jesus ilman</l>
+          <l>251. Herra tänne tarwitahan <choice><abbr>etc.</abbr><expan>et cetera</expan></choice></l>
+        </p>
+        <p>
+          <l>252. <ref target="http://kalevala-dev.ngrok.io/loitsut/items/show/9" type="spell_link" n="linkki: Maasta tarttuu">De som af Jorden</ref>, Mene mahan mättähittömän, Kantohon wesattoman, Puhun iu-</l>
+          <l>253. rittoman , Tule Jesus ilman herra tänne tarwitahan <choice><abbr>etc.</abbr><expan>et cetera</expan></choice> </l>
+        </p>
+        <p>
+          <l>254. <ref target="http://kalevala-dev.ngrok.io/loitsut/items/show/8" type="spell_link" n="linkki: Kirot">De som skolle wara bannadhe</ref>, Kude Jesus Kulta tarha, tarha rautainen rakena Wie-</l>
+          <l>255. rä waskinen weräjä, Etehen emättömälle, waraxi warattomalle, turwaxi</l>
+          <l>256. turwattomalle. Ettei nähda näkelmöita Ottetane Okelmoita, Haudota hauas <unclear>karua</unclear></l>
+          <l>257. kudo alta pihtiäxi Wierä pältä kokioxi, maan mato alati päsi eikä paha ylitzi</l>
+          <l>258. Hywän suowat laskeman Pahan swowat toriman. Tule Jesus ilman herra <choice><abbr>etc.</abbr><expan>et cetera</expan></choice> </l>
+          <l>259. Sedan effter hwar lässning läsa. 3 gänger Fadher wår, så skulle werken och</l>
+          <l>260. ondskan förtagin blifua.  Frågades Gertrudh om hon <unclear>Grodrum</unclear> Wnden gålfue</l>
+          <l>261. tagit, Neij sadhe hon Wthan lijtet af jorden der medh strukit brotfellingens</l>
+          <l>262. behn och i samma <unclear>rum</unclear> jorden igenlagt, seijandes warit brukelig af <unclear>hans</unclear> <choice><abbr>Sal:</abbr><expan>Salige</expan></choice> Fader</l>
+          <l>263. til det, som ondt af jorden hafft.</l>
+        </p>
+        <p>
+          <l>264. Frågades Brotfellingen huru många Grodor Matzes hustru ifrån sig gifuit, Swarade</l>
+          <l>265. 3. Mer lijkwäl bewistes warit 4. Wthaf hwilka hon. 3 i hiältrampat och den 4:<hi rend="superscript">de</hi> </l>
+          <l>266. Wtburit det hon of sielff bekende af orsaak i hiältrampat at ingen skolle see detta</l>
+          <l>267. framwijsa hon och sin tunga såde at hon då hon i brått fallit den emellan tenderna</l>
+          <l>268. siin gekrossat</l>
+        </p>
+        <p>
+          <l>269. Den. 24 <choice><abbr>Septemb.</abbr><expan>Septembris</expan></choice> Framhades än ÿterligare Brotfellingen och blef förmant at</l>
+          <l>270. hon må Sanningen bekoma om grodors giörning Wtj Matz Mårthenssons hustro</l>
+          <l>271. Her til hon hårdeligen nekade <unclear>Sij</unclear> wara någon orsaak Wthan dem i watnet warit</l>
+          <l>272. enär flickan der inhemptat, Men <unclear>…</unclear> bekende at watnet war klart och</l>
+          <l>273. inthet der Wtj någon grodha; Dÿ gaf Skulden åt Gertrudh Nätÿri och Lijsa frän-</l>
+          <l>274. ka her tilförende framhadhe ähre och hon sielf <unclear>dembefrijat</unclear> Frågades för hwadh</l>
+          <l>275. Orsaak hon dem befrijat och nu åther tilläggia will, Swarade dem hafua <unclear>lest</unclear></l>
+        </p>
+        <pb n="7" facs="Tuomioki_361a" />
+        <p>
+          <l>276. henne Men lijkwäl dem hafua giordt effter hennes begäran, Och sade wara i</l>
+          <l>277. Saningh at dhe som hon her förnembdh hafwa warit i <unclear>berge</unclear> Men sig sielfuan Exci-</l>
+          <l>278. perades, Tilspordes huru hon skoll wetha då at dhe andre hafua warit dher,</l>
+          <l>279. föregaff af een Hustro wara beretet den hon icke kende; Förmantes at hon på sin</l>
+          <l>280. Siäl Salighet må bekenna Sanningen och inthet hafwa medh <unclear>flåtian</unclear> wetandes at det</l>
+          <l>281. skall inthet falla finger emellan, Swarade Brotfellingen och sade sig icke kunna</l>
+          <l>282. mehra Wndandraga <unclear>[…]</unclear> Oh Gudh hafwa mig fattig Sÿndare Jagh hafwer illa</l>
+          <l>283. giordt at iagh hafwer sagt Osanningen på dem som iagh Angifuit hafwer at</l>
+          <l>284. warit i berge och aldrig kan Sanningh bestå, Wthan på der tilförendhe</l>
+          <l>285. sagt i Hufudh Swaghet och genom anders berättelsse son hon hört om dhem</l>
+          <l>286. taalas.</l>
+        </p>
+        <p>
+          <l>287. Resolutio.</l>
+        </p>
+        <p>
+          <l>288. Huruwähl den Tiggerska och Brottfellingh Margetha Peersdotter finnes <unclear>ostadig</unclear></l>
+          <l>289. i sin bekennelsse, lijkawisa pröfwer Rätte at ha, wedh sin förste taalan</l>
+          <l>290. effter det 23. <choice><abbr>Cap:</abbr><expan>Capitel</expan></choice> i Tingmåla<label type="commentary" n="tuomio21">21</label> och 
+            9. <choice><abbr>Cap:</abbr><expan>Capitel</expan></choice> i Rådhstugu Balcken<label type="commentary" n="tuomio22">22</label> förblifwar</l>
+          <l>291. Och emedan af dhe Skiähl som framtedde ähre befinnas henne icke hafwa för-</l>
+          <l>292. giordt någon til lijfwet Fördenskuld Erkänner Rätten at hon Brotfellingen</l>
+          <l>293. blifwer fallin til 60 <choice><abbr>mr.</abbr><expan>marker</expan></choice> effter det. 11. <choice><abbr>Cap:</abbr><expan>Capitel</expan></choice> i 
+            Högmåla Balcken<label type="commentary" n="tuomio23">23</label> för förgerningh</l>
+          <l>294. <unclear>s[…]</unclear>, Doch Wtj Wnderdånighet remittere til den <choice><abbr>Högl:</abbr><expan>Högloflige</expan></choice> <choice><abbr>Kongl:</abbr><expan>Konglige</expan></choice> 
+            Hoffråttz</l>
+          <l>295. wijdare Resolution.</l>
+        </p>
+        <p>
+          <l>296. Anbelängande Clara Jöransdotter Henrich Hattmakers Swermodher som wijda</l>
+          <l>297. hennes Saak i denne Act widkommer, Ähr til wijdare Ransakan differerat.^</l>
+        </p>
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="tuomio1">
+          <hi rend="red">1</hi>. Mattz Oloffsson<lb/><lb/>
+          Vaasan edellinen pormestari Per Sivelsson oli tapahtumien aikaan erotettu, ja virkaa hoiti vuonna 1657 raatimiesten vanhin Matts Olofsson. Käsillä oleva Margareta Parkoisen noitaoikeudenkäynti kytkeytyi 
+          samaan aikaan Vaasan raastuvanoikeudessa puituun Margareta Christersdotter Rödfinskan noitaprosessiin, joka liittyi Olofssonin langon, Vaasan ja Mustasaaren kappalaisen Jakob Waseniuksen kuolemaan; 
+          toisessa jutussa todistajana ollut Sivelsson oli puolestaan Waseniuksen appi. Luukko 1971, 73, 372−373, 483−484, 498.
+        </note>
+        <note n="tuomio2">
+          <hi rend="red">2</hi>. Clara Jöransdotter<lb/><lb/>
+          Clara Jöransdotter, Henrik Sigfredssonin (Henrik Hattmakare) anoppi, syytettynä noituudesta Vaasan raastuvanoikeudessa 30.6.1658.</note>
+        <note n="tuomio3">
+          <hi rend="red">3</hi>. Gertrudh Nätÿri<lb/><lb/>
+          Itsellinen Gertrud Nätyri Vähästäkyröstä, syntyisin Kalajoelta, syytettynä noituudesta Vähänkyrön käräjillä 29.3.−2.4.1658 ja 5.−10.7.1658.</note>
+        <note n="tuomio4">
+          <hi rend="red">4</hi>. Höghålmen<lb/><lb/>
+          Högholmen, Norra Grundfjärden, Vaasa, kivinen kumpu Vaasan vanhan kaupungin ja Höstveden kylän välisen tien vieressä, teloituspaikka vuoteen 1677, jossa myös noitia poltettiin. 
+          Blomqvist, Anna: "Höstvesi" (83−84), <hi rend="italics">Vaasan kaupunki: Kulttuuriympäristöselvitys</hi>. Vaasan kaupunkisuunnittelu, Vaasa 2010, 83. 
+          <ref type="link" target="https://www.vaasa.fi/sites/default/files/vaasa_kulttuuriymparistoselvitys.pdf">https://www.vaasa.fi/sites/default/files/vaasa_kulttuuriymparistoselvitys.pdf</ref>. 
+        </note>
+        <note n="tuomio5">
+          <hi rend="red">5</hi>. Grundfäls broo<lb/><lb/>
+          Grundfjärdenin silta[?]. Grundfjärden on umpeutunut merenlahti Vaasan vanhan kaupungin ja Höstveden kylän välissä. 1600-luvun puolivälissä pohjoispuoli (Norra Grundfjärden) oli 
+          jo umpeutunut, mutta eteläpuoli (Södra Grundfjärden) vielä vesialuetta. Vrt. Vaasan kaupungin kulttuuriympäristöselvitys 2010.</note>
+        <note n="tuomio6">
+          <hi rend="red">6</hi>. Simon Anderssons hustro<lb/><lb/>
+          Simon Anderssonin vaimo Margeta Christersdotter, lisänimeltään Rödfinska ('Punasuomalainen'), Vaasan raastuvanoikeudessa 
+          13.6.−17.10.1657 noituudesta syytetty kerjäläinen, jonka syyttämiseksi Parkoiselta kerättiin todistusaineistoa.</note>
+        <note n="tuomio7">
+          <hi rend="red">7</hi>. Her Jacob<lb/><lb/>
+          Jacob Wasenius (kuollut 1656), Vaasan ja Mustasaaren kappalainen (1646−1656), jonka kuolemasta Margeta Christersdotter oli epäiltynä. Raatimies Matts Olofsson, joka johti 
+          Parkoisen tapauksen käsittelyä raastuvanoikeudessa, oli Waseniuksen lanko. Vrt. Luukko 1971, 73, 483−484, 498.</note>
+        <note n="tuomio8">
+          <hi rend="red">8</hi>. Cweflax<lb/><lb/>
+          Koivulahti (Kvevlax), Vaasan naapuripitäjä, nykyisin osa Mustasaarta.</note>
+        <note n="tuomio9">
+          <hi rend="red">9</hi>. Cwifwilaberg<lb/><lb/>
+          Kuivilanvuori Isonkyrön Kuivilassa, mainittu noitasapatin paikkana myös myöhemmässä kansanperinteessä[?]. Heikkinen 1969, 203; vrt. Alanen 1945, 70.</note>
+        <note n="tuomio10">
+          <hi rend="red">10</hi>. Miuck dordj<lb/><lb/>
+          Leski Dordi Mångsdotter Mjuk, syytettynä noituudesta Mustasaaren käräjillä 11.−15.8. ja 31.8.−1.9.1657.</note>
+        <note n="tuomio11">
+          <hi rend="red">11</hi>. Singsby<lb/><lb/>
+          Singsby, kylä Mustasaaressa.</note>
+        <note n="tuomio12">
+          <hi rend="red">12</hi>. Kaukoila<lb/><lb/>
+          Kaukola, kylä Ylistarossa, nykyisessä Isossakyrössä.</note>
+        <note n="tuomio13">
+          <hi rend="red">13</hi>. Nÿrhela<lb/><lb/>
+          Nyrhilä, paikannimi Ylistarossa, nykyisessä Isossakyrössä, Kaukolan kylän lähellä.
+        </note>
+        <note n="tuomio14">
+          <hi rend="red">14</hi>. Sundom<lb/><lb/>
+          Sundom, kylä Sulvan pitäjässä, nykyisin osa Vaasan kaupunkia.</note>
+        <note n="tuomio15">
+          <hi rend="red">15</hi>. Oloff Anderss<hi rend="superscript">s</hi> hustro<lb/><lb/>
+          Olof Anderssonin vaimo Anna Hendricksdotter, syytettynä noituudesta Mustasaaren käräjillä 11.−15.8.1657.</note>
+        <note n="tuomio16">
+          <hi rend="red">16</hi>. Smedsby<lb/><lb/>
+          Smedsby, kylä Mustasaaressa, nykyisin Sepänkylä, Mustasaaren kunnan keskustaajama.</note>
+        <note rend="red" n="tuomio17">
+          <hi rend="red">17</hi>. Rödhfinskan<lb/><lb/>
+          Simon Anderssonin vaimo Margeta Christersdotter, lisänimeltään Rödfinska ('Punasuomalainen'), Vaasan raastuvanoikeudessa 13.6.−17.10.1657 noituudesta syytetty kerjäläinen, jota 
+          vastaan Parkoiselta kerättiin lisänäyttöä.</note>
+        <note n="tuomio18">
+          <hi rend="red">18</hi>. Framdrogh Peer Mattzsson<lb/><lb/>
+          Toinen oikeustapaus kirjattu 10.6.1657 istunnon alkuun, minkä jälkeen Parkoisen tapauksen käsittely jatkuu pöytäkirjassa yhtenäisenä aktina.</note>
+        <note n="tuomio19">
+          <hi rend="red">19</hi>. Jöran SPrett<lb/><lb/>
+          Jöran Sprett, talonpoika Vähänkyrön Savilahdesta, jonka poika tunnetaan Vaasassa myöhemmin porvarina ja laivanvarustajana. Luukko 1971, 63, 255.
+        </note>
+        <note n="tuomio20">
+          <hi rend="red">20</hi>. Lijssbetha<lb/><lb/>
+          Piika Liisa Mattsdotter Vähästäkyröstä, syntyisin Pyhäjoelta, syytettynä noituudesta Vähänkyrön käräjillä 5.−10.7.1658.</note>
+        <note n="tuomio21">
+          <hi rend="red">21</hi>. 23. Cap: i Tingmåla
+          Kristofferin maanlaki 1442 (KrML), Käräjäkaari 23 § ristiriitaisesta lausunnosta. Vrt. esim. Kollanius 1648 [Koll1648-153-Kär-23], VKS: 
+          <ref type="link" target="http://kaino.kotus.fi/korpus/vks/meta/lait/koll.ml_rdf.xml">http://kaino.kotus.fi/korpus/vks/meta/lait/koll.ml_rdf.xml</ref>.  
+        </note>
+        <note n="tuomio22">
+          <hi rend="red">22</hi>. 9. Cap: i Rådhstugu Balcken<lb/><lb/>
+          Maunu Eerikinpojan kaupunginlaki 1348 (MEKL), Raatihuoneenkaari 9 § ristiriitaisesta lausunnosta ja kanteen hylkäämisestä. Vrt. esim. Kollanius 1648 [Koll1648-366-Neu-9], VKS:
+          <ref type="link" target="http://kaino.kotus.fi/korpus/vks/meta/lait/koll.kl_rdf.xml">http://kaino.kotus.fi/korpus/vks/meta/lait/koll.kl_rdf.xml</ref>.</note>
+        <note n="tuomio23">
+          <hi rend="red">23</hi>. 11. Cap: i Högmåla Balcken<lb/><lb/>
+          MEKL Törkeitten asiain kaari 11 § surmaamisesta myrkyllä. Vrt. esim. Kollanius 1648 [Koll1648-398-Kor-11], VKS: 
+          <ref type="link" target="http://kaino.kotus.fi/korpus/vks/meta/lait/koll.kl_rdf.xml">http://kaino.kotus.fi/korpus/vks/meta/lait/koll.kl_rdf.xml</ref>. Vrt. KrML Törkeitten asiain kaari 
+          15 § surmaamisesta myrkyllä tai noituudella, Kollanius 1648 [Koll1648-189-Kor-15], <ref type="link" target="http://kaino.kotus.fi/korpus/vks/meta/lait/koll.ml_rdf.xml">http://kaino.kotus.fi/korpus/vks/meta/lait/koll.ml_rdf.xml</ref>.</note>
+      </div>
+    </body>
+  </text>
+</TEI>
