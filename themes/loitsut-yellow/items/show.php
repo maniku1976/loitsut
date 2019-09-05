@@ -53,7 +53,7 @@
       $files = $item->Files;
       foreach ($files as $file) {
         if ($file->getExtension() == 'jpg' || $file->getExtension() == 'JPG') {
-          echo '<img class="pic" src="http://kalevala-dev.ngrok.io/loitsut/files/original/'.metadata($file, 'filename').'" />';
+          echo '<img class="pic" src="http://loitsut.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
         }
       }
       ?>
@@ -71,9 +71,9 @@
       foreach ($files as $file) {
         if ($file->getExtension() == 'xml') {
           $xmlDoc = new DOMDocument();
-          $xmlDoc->load("http://kalevala-dev.ngrok.io/loitsut/files/original/".metadata($file, 'filename'));
+          $xmlDoc->load("http://loitsut.finlit.fi/files/original/".metadata($file, 'filename'));
           $xslDoc = new DOMDocument();
-          $xslDoc->load("http://kalevala-dev.ngrok.io/loitsut/files/TEI-to-HTML.xsl");
+          $xslDoc->load("http://loitsut.finlit.fi/files/TEI-to-HTML.xsl");
           $proc = new XSLTProcessor();
           $proc->importStylesheet($xslDoc);
           echo $proc->transformToXML($xmlDoc);
@@ -91,9 +91,9 @@
       foreach ($files as $file) {
         if ($file->getExtension() == 'xml') {
           $xmlDoc = new DOMDocument();
-          $xmlDoc->load("http://kalevala-dev.ngrok.io/loitsut/files/original/".metadata($file, 'filename'));
+          $xmlDoc->load("http://loitsut.finlit.fi/files/original/".metadata($file, 'filename'));
           $xslDoc = new DOMDocument();
-          $xslDoc->load("http://kalevala-dev.ngrok.io/loitsut/files/TEI-to-HTML.xsl");
+          $xslDoc->load("http://loitsut.finlit.fi/files/TEI-to-HTML.xsl");
           $proc = new XSLTProcessor();
           $proc->importStylesheet($xslDoc);
           echo $proc->transformToXML($xmlDoc);

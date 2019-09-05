@@ -118,19 +118,19 @@
             <div id="site-title">
               <span>Uuden ajan alun</span><br>
               <?php echo link_to_home_page(theme_logo()); ?>
-              <img src="http://kalevala-dev.ngrok.io/loitsut/logo-SKS@2x.png" />
+              <img src="http://loitsut.finlit.fi/logo-SKS@2x.png" />
             </div>
             <div style="width: 100%; display:inline;">
             <nav class="navbar navbar-expand-md">
               <ul class="navbar-nav">
                  <li class="nav-item">
-                   <a class="nav-link" href="/loitsut">Etusivu</a>
+                   <a class="nav-link" href="/">Etusivu</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/loitsut/esittely">Esittely</a>
+                   <a class="nav-link" href="/esittely">Esittely</a>
                  </li>
                  <li class="nav-item" id ="spells">
-                  <a class="nav-link" href="/loitsut/items/browse">Loitsut</a>
+                  <a class="nav-link" href="/items/browse">Loitsut</a>
                 </li>
               </ul>
             </nav>
@@ -138,7 +138,7 @@
               <ul class="navbar-nav">
 
                 <li class="nav-item" id ="search_help">
-                  <a class="nav-link" href="/loitsut/ohjeet" target="_blank">Ohjeet</a>
+                  <a class="nav-link" href="/ohjeet" target="_blank">Ohjeet</a>
                 </li>
                 <li class="nav-item" id="solr_box">
                   <?php echo search_form(); ?>
