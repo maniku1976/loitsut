@@ -100,7 +100,6 @@
     queue_js_file('globals');
     queue_js_file('default');
     queue_js_file('wheelzoom');
-    queue_js_file('comments');
     queue_js_file('skvr');
     queue_js_file('imageviewer');
     queue_js_file('linkactions');
