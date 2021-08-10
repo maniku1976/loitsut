@@ -138,8 +138,47 @@ abstract class Omeka_Controller_AbstractActionController extends Zend_Controller
         }
         
         $this->view->assign(array($pluralName => $records, 'total_results' => $totalRecords));
-    }
+
     
+    // Modification: need unpaginated browse results for adding TEI files to downloadable zip
+    $allRecords = $this->_helper->db->findBy($params);
+
+    // Modification if zip button is clicked in browse view, create and download zip of TEI files
+    if(isset($_POST['tei'])){
+        $zip = new ZipArchive();
+        $zip_name = "tei.zip";
+        $zip->open(sys_get_temp_dir().'/'.$zip_name, ZipArchive::CREATE);
+
+    // Loop through browse records stored in $all_records and copy their TEI files locally
+    foreach ($allRecords as $record) {
+        $files = $record->Files;
+        foreach ($files as $file) {
+            if ($file->getExtension() == 'xml') {
+                $xml = 'http://kalevala-dev.ngrok.io/loitsut/files/original/'.metadata($file, 'filename');
+                copy($xml, sys_get_temp_dir().'/'.basename($xml));
+            }
+        }
+    }
+
+    // Add local copies of TEI files to zip
+    foreach (glob(sys_get_temp_dir().'/*.xml') as $tei) {
+      $zip->addFile($tei, basename($tei));
+    }
+
+    $zip->close();
+
+    // Download zip file
+    header('Content-Type: application/zip');
+    header('Content-Disposition: attachment; filename='.sys_get_temp_dir().'/'.$zip_name);
+    header('Content-Length: ' . filesize(sys_get_temp_dir().'/'.$zip_name));
+    ob_clean();
+    flush();
+    readfile(sys_get_temp_dir().'/'.$zip_name);
+    array_map('unlink', glob(sys_get_temp_dir().'/*.xml')); //delete TEI files from tmp folder after downloading zip
+    unlink(sys_get_temp_dir().'/'.'tei.zip'); //delete tmp zip file after download
+    exit();
+  }
+}
     /**
      * Retrieve a single record and render it.
      * 

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ammus, Asikkala 1655</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Tuomikirjojen loitsut</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Kansallisarkisto</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkriptio</resp>
+          <persName>Lari Ahokas / SKS</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kommentaari</resp>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas / SKS</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2019-02-18">18.02.2019</date>
+        <availability><p>CC-BY 4.0: https://creativecommons.org/licenses/by/4.0</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Kansallisarkisto, Kihlakunnanoikeuksien renovoidut tuomiokirjat, Hollolan tuomiokunta, I KO a:7 (ee:6), varsinaisten asioiden pöytäkirjat 1653−1657, Asikkalan 
+              talvikäräjät 6.3.1655, f. 488r,23−30 
+            </repository>
+            <idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="transcription">
+              <bibl>asikkala1655a</bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fi-FI">suomi</language>
+        <language ident="se-SE">svenska</language>
+      </langUsage>
+      <particDesc>
+        <person>
+          <persName type="tutkimuskirjallisuus">
+            <forename>Tuomas Juhonpoika</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <forename>Tuomas Juhanpoika</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <forename>Tuomas Jussinpoika</forename>
+          </persName>
+          <persName type="tama_asiakirja">
+            <forename>Thomas Johansson</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <forename>Thomas Johansson</forename>
+          </persName>
+          <residence>
+            <placeName type="tama_asiakirja">
+              <settlement>Marjoniemi (nykyisin osa Heinolan kaupunkia)</settlement>
+            </placeName>
+            <placeName type="eri_lahteet">
+              <settlement>Marjoniemi</settlement>
+            </placeName>
+          </residence>
+          <occupation>lampuoti; noita ("Trullkarll")</occupation>
+          <state type="rooli_loitsu"><label>alkuperäinen esittäjä</label></state>
+          <state type="rooli_oikeudenkaynti"><label>syytetty</label></state>
+        </person>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <name>Asikkala</name>
+          <date when="1655-03-06">6.3.1655</date>
+          <locale>Padasjoki, Jokioisten nimismiehentalo</locale>
+          <activity>oikeudenkäynti- tai muistiinpanopaikka</activity>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="488r" ed="folionumero" facs="509b"/>
+        <p>
+          <l>Och effter dhet att han widh förrige Ransacknigen som i den 3 puncten förmålas, bekände sigh kunna boota Siukdomar, Såsom eenkannerligen rifningen i lijfwet, bådhe på follk och fää, och han 
+            lijkwäll då inthet wille Vthseija på huadh sätt, eller orda form han dhet göra skulle, alltså blef han ännu wijdare därom tillspordt, och ehuruwäll han nödigt wille dher till, Så bekände han 
+            lijkwäll omsijder, och sade sigh först, fallandes på sin Knää, läsa fader wår, Troon, och sedan denna effterfölliande Rämsa. </l>
+        </p>
+        <p>
+          <l>Tauti on tullut taiwahast, </l>
+          <l>Pusku<label type="commentary" n="loitsu1">1</label> pilwistä pudonnut, </l>
+          <l>Cuhunga minä pahat panen, </l>
+          <l>Jhosta Jnhimisen,<label type="commentary" n="loitsu2">2</label> </l>
+          <l>Carwoista capian cansan,<label type="commentary" n="loitsu3">3</label> </l>
+          <l>Lapin Lasten öÿ sijoilla,<label type="commentary" n="loitsu4">4</label> </l>
+          <l>Pohian pengeren perällä </l>
+        </p>
+        <p>
+          <l>och fader wår på nytt igen, därnäst </l>
+        </p>
+        <p>
+          <l>Herra Jumall andacon awun ia heittäkön helpon, sillä Syndisellä Jhmisellä cuin minä Rucoilen edest, alias för Booskapen, tällä Luondocappalella, Jongas olet Luonut Ichmisen tarpexi, </l>
+        </p>
+        <p>
+          <l>Och detta gör han tre gånger, blåsandes på Sallt Ööll och watn, hwadh honom hällst tillhanda kommer, och så, sade han, att Gudh hörer hans böön och dhe blifwa bättre; </l>
+        </p>
+      </div>
+      <div type="tiedot">
+        <p><emph>Loitsun tallentumiskonteksti</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Asikkalan (nykyisen Heinolan) Marjoniemen kartanon lampuotitalon isännän Tuomas Juhonpojan (Thomas Johansson) tiesi jokainen tunnetuksi "ilmiselvänä noitamiehenä" ("Vppenbar Trullkarll"). Hän joutui 
+          käräjille 4.12.1654, mutta noituudelle ei saatu tuolloin pitävää näyttöä. Asia siirtyi seuraavan vuoden maaliskuuhun (6.3.1655), ja syytetty tuomittiin kuolemaan. Tapaus on kiinnostava siksikin, että 
+          se sisältää Tuomas Juhonpojan saneleman loitsun lisäksi lukuisia hänen suomenkielisiä lausahduksiaan, jotka lopulta todistettiin kanssaihmisten omaisuudelle ja hengelle tuhoa aiheuttaneeksi noituudeksi. 
+          Pöytäkirjojen mukaan tapauksen kulku on seuraava.</p>
+        <p>Joulukuussa 1654 Tuomaasta esitettiin kolme todistusta:<lb/> 
+          1) Michell Hansson oli uhannut periä Tuomaalta tämän laiminlyömiä tuomarin maksuja, mistä suuttuneena Tuomas oli sanonut todistajalle, talonpoika ja kihlakunnan tuomarin palkkioiden kantaja Clemet Erichssonille: 
+          "Kÿllä Perkelen pitä hänen Taskuns Kerroist Rahan Vlos wiemän" eli 'kyllä Perkeleen pitää hänen taskunsa vuorista rahan ulos viemän' ja iskenyt nyrkkinsä pöytään. Pian karhu tappoi Michel Hanssonilta 
+          kaksi hevosta, ja sudet söivät hänen lampaitaan ja vasikoitaan. Syytetty vastasi, ettei tiedä asiasta mitään.<lb/> 
+          2) Tuomaan tavaroista löydettiin kolme pientä räteistä kiedottua pussia, joista yhdessä oli tuhkaa, toisessa suolaa ja kolmannessa keltaista puunpurua. Kolmas pussi oli haettu käräjäpöydälle. Syytetty 
+          tunnusti, että kun hänen tyttärensä oli menossa naimisiin Kalkkisen kylään, oli otettu multaa hänen entisen asuntonsa lattian alta, ja se multa oli tyttären heitettävä miehensä jalkojen alle; silloin hän 
+          viihtyisi uudessa kodissaan yhtä hyvin kuin vanhassa. Suola oli tarkoitettu tyttären hampaita varten.<lb/> 
+          3) Simon Sigfredsson todisti, että kun Berendt Matzson oli moittinut Tuomasta kalojen varastamisesta verkostaan, oli Tuomas suuttunut ja sanonut: "Kÿllä minä nÿttin nijn laitan että Cuut Lehmistäns metzän 
+          Jääwät, Jo minä hänen ennengin nijn panin menemän cuunsa corpehen." Näin oli Berendtille tapahtunut: karhu oli syönyt lehmistä "cuut" eli ihrat.</p>
+        <p>Tuomas kielsi lähettäneensä karhun syömään ihmisten hevosia ja karjaa, ja sanoi osaavansa vain parantaa vatsakipuja ("Rifningar i Lijfwet") rukoilemalla ja ajamalla kivut kantoihin ja kiviin. Tällä keinoin 
+          hän oli parantanut Marjoniemessä Hans Hindrichssonin tyttären Margretan. Vaikka lautamies Matti Henrikinpoika (Matz Henrichsson) tiesi sanoa, että syytetty tekee mitä tahtoo, koska jokainen pelkää häntä, 
+          ei kyllin vahvoja todisteita hänen noituudestaan kuultu.</p>
+        <p>Maaliskuun istuntoon 1655 oli hankittu järeämpi todiste. Sen esitti lautamies Matti Henrikinpoika: Kun hän kahdeksan vuotta aiemmin oli syytetyn kanssa Porvoossa juomassa olutta, hänen naapurinsa Erkki 
+          Martinpoika (Erich Mårthensson) tuli pöytään ja joi heidän kannustaan, mistä Tuomas suuttui, ja tuli tappelu. Kun Erkki tarttui veitseensä (joskaan ei käyttänyt sitä), Tuomas sanoi: "Sillä weitzellä sinun 
+          pitä sen teuran tekemen, Jostas Kauwan Kÿllä Juosta saat." Vielä kotimatkalla oli Tuomas Matille manannut Erkkiä (jolla oli hyvä hevonen), sanoen: "eij sinun pidä Cauwan sinun hewoisellans Kÿndämän, Kÿllä 
+          Hän mainitan, ennen midsommarita, mutta älä näitä minun sanoiani, kertoi ÿstäwäisen." Matti yritti rauhoittaa Tuomasta: "eij sinut Jkenä sitä mieltä ole." Mutta Tuomas vastasi: "Minäkö? En minä sitten ikänens 
+          Thomas ole, Jolleij Hän toten tapahdu." Eikä aikaakaan, kun karhu tappoi Erkin hevosen, ja Erkki tappoi veitsellään naapurinsa Nuutti Eskikinpoijan (Knut Eskillsson) ja joutui siitä lähin juoksemaan pakosalla.</p> 
+        <p>Lautamies Matti Henrikinpoika vahvisti Clemet Erichssonin edellisessä istunnossa kertomaa ja nytkin toistamaa todistusta Michell Hanssonin noitumisesta sanoen itsekin kuulleensa syytetyn uhkailevan 
+          Michelliä: "Kyllä Perkälen pitä hänen taskuns kerroista Rahan Vloswiemän", ja vielä lisänneen: "Jo heneldä wähä ennengin on wienÿt, mutta wasta paramin ennen Michillin päiwä." Itse Michell Hansson vahvisti, 
+          että hän oli Tuomaan toimesta menettänyt kaksi hevosta sekä vasikoita, lehmiä ja lampaita, ja vaati, että Tuomas saisi ansaitsemansa rangaistuksen. Vaikka Tuomas yritti kieltää kaiken, ilmestyi paikalle 
+          uusi todistaja Bärendt Matzsson, joka kertoi että kun hän keskimmäisenä rukouspäivänä tuli Tuomaan kanssa veneellä kirkosta, oli ollut puhetta Michellistä, ja Tuomas oli heilauttanut kättään ja sanonut: 
+          "Tuolda caicki Perkelet Hänen Engelinens mengön pesemän puchdistaman hänen elons elämästäns", ja vielä lisännyt: "Kÿllä Perkelen pitä hänen elons ja elämäns Puchdistaman nijn tÿhiäx Cuin hänne Kielens on, 
+          ia taskungin Kerroist Rahan Vlos wiemän."</p>
+        <p>Kuulustelijat palasivat vielä Tuomaan taikoihin ja parannustoimintaan, joista ei edellisellä kerralla saatu kunnolla selvää. Tuomas toisti multa- ja tuhkapussiensa käytön tyttärensä kotiuttamiseksi aviokotiin 
+          ja kertoi tarkemmin vatsakivun parannusriittinsä loitsuineen. Sitten häneltä kysyttiin, että jos hän kerran osaa parantaa, hän varmasti myös osaa tehdä pahaa ("skÿnda ondt på någon annan igen"), minkä hän 
+          kielsi. Mutta kun hänelle toistettiin kaikki hänen pahat tekonsa − hevosten ja karjan hävitys ja yhden ihmisen kuoleman aiheuttaminen − hän alkoi katkerasti itkeä ja tunnusti kaiken. Hänet tuomittiin 
+          noituudesta ("Trulldom och Förgärningar"), joka oli aiheuttanut monille terveyden ja omaisuuden vahinkoja sekä yhden lähimmäisen surman, kuolemaan: teilattavaksi tai roviolla poltettavaksi. Perusteena oli 
+          törkeitten asiain kaaren ("Högmåla Ballken") 15. pykälä, joka koskee toisen ihmisen surmaamista myrkyllä tai noituudella. Tuomion täytäntöönpanosta ei ole säilynyt tietoa, mutta tuomio on silti 
+          todennäköisesti pantu täytäntöön, sillä Tuomas Juhonpoika häviää henkikirjoista vuoden 1655 jälkeen (Wilmi 1988, 252).</p> 
+        <p>Mirkka Lappalaisen mukaan Tuomas Juhonpojan rankan ajojahdin ja tekoihin nähden kohtuuttoman rangaistuksen aiheutti toisaalta se, että maine petojen nostattajana oli tehnyt hänestä pelätyn, sekä toisaalta 
+          se, että hän oli kostanut tuomarin palkkioiden kerääjälle. Tilanteen sinetöi syyllisyyden tunnustus. (Lappalainen 2018, 133−135.)</p>
+      </div>
+      <div type="tiedot_b">
+        <p><emph>Loitsu</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Tuomas Juhopoika esitti kahdessa oikeuden istunnossa kuvauksen vatsakivun parannusrituaalistaan rukouksineen ja apuaineineen, sekä toisella kerralla myös tähän liittyvän loitsun. Ensimmäisen kuvauksen 
+          viittaus toisenlaiseen tautien manauspaikkaan (kiviin ja kantoihin) kuin toisella kertaa annetussa loitsussa (kauas Pohjolaan) viittaa siihen, että sekä kuvaus että loitsu ovat vain lyhyitä viitteitä hänen 
+          hallitsemaansa loitsuperinteeseen. Parannustoimintakin oli vain oikeudenkäynnin sivujuonne: keskeisenä sisältönä olivat tapauskommentaarissa referoidut vahinkoa aikaan saaneet kiroukset. Nämä ovat luonteeltaan 
+          vapaamittaisia ja kirkollisen kielen rakenteita muistuttavia (esimerkiksi verbit usein lauseiden lopussa), eikä niitä ei ole otettu omaksi kokonaisuudeksen tähän editioon. Ne ovat kuitenkin selkeästi 
+          kiteytyneitä ja loitsunomaisesti vaikuttaviksi koettuja lausumia. Sanotun voimaan uskovassa yhteisössä rajaa loitsun ja muun puheella tai laululla vaikuttamisen välille onkin vaikea vetää.</p>
+        <p>Tuomas Juhonpojan paljastamassa lyhyessä kalevalamittaisessa loitsussa määritetään ensin taudin tulleen taivaasta ja pudonneen pilvistä. Loitsu kysyy, mihin lähettää taudin aiheuttaneet "pahat" pois ihmisen 
+          ihosta ja toteaa, että mahdollisimman kauas pohjoiseen ja pimeään. Loitsulla on myöhemmissä aineistoissa lukuisasti vertailukohtia, vaikka kahdelle sen säkeelle ei löydy täysin samanlaisia vastineita. 
+          Tapaukselle on erityistä harvinaisen tarkka käyttökuvaus rukouksineen, asentoineen ja apuaineineen.</p>
+        <p>Tuomas Juhonpoikaa kuulusteltiin kahdesti hänen parannustoiminnastaan. Ensimmäisellä kerralla, 4.12.1614 hän sanoi osaavansa parantaa vatsakipuja ("Rifningar i Lifvet") ja selitti tähän liittyvää riittiä 
+          hyvin suppeasti: ensin hän lukee <hi rend="italics">Isä meidän</hi> -rukouksen ja sitten muuten pyytää Jumalalta, että sairaus lähtisi kantoihin ja kiviin. Tässä on jo viite loitsuun, jota hän ei kuitenkaan 
+          lue. Tuomas kertoi kokeilleensa tätä parannusta kotkylässään Hans Hindrichssonin tyttäreen Margretaan.</p>
+        <p>Toisella kerralla, 6.3.1655, kun häneltä taas kysyttiin asiasta, hän aluksi ei halunnut puhua, mutta lopulta kertoi, että hän osaa parantaa vatsakipua niin ihmisiltä kuin eläimiltä. Ensin hän polvistuen 
+          lukee <hi rend="italics">Isä meidän</hi> -rukouksen, sitten uskontunnustuksen sekä seuraavan lorun ("Rämsa") eli loitsun. Sen jälkeen luetaan uudelleen <hi rend="italics">Isä meidän</hi> sekä vielä rukoillaan 
+          Jumalaa auttamaan tätä syntistä ihmistä tai, jos kyse on eläimestä, tätä luontokappaletta jonka Jumala on ihmisten tarpeeksi luonut. Tämä − ilmeisesti koko rituaali − toistetaan kolmeen kertaan ja samalla 
+          puhalletaan suolaan, olueen tai veteen, mitä milloinkin on saatavilla.</p>
+        <p>Voi olla, että loitsun nimeäminen loruksi oli pyrkimys vähätellä kalevalamittaista kansanomaista osuutta parantamisessa ja korostaa selkeän kristillisiä piirteitä. Toisaalta tämä kertonee myös yleisemmästä 
+          tulkintatavasta: tapa kehystää kalevalamittaiset loitsut kirkollisilla rukouksilla ja siunauksilla oli paitsi maagista vaikuttamista, myös tapa asettaa ne kristilliseen kehykseen, jopa osaksi rukousta.</p>
+        <p>Tuomas Juhonpojan parannusaktin keskellä esittämä loitsu muistuttaa lähinnä niin kutsuttuja ammuksen sanoja (<hi rend="italics">Ammus</hi>), joilla parannetaan äkillistä, ikään kuin ilman läpi ammuttua kipua. 
+          Tämän loitsun monissa itäsuomalaisissa teksteissä kuvataan aluksi samalla tavalla taudin tuloa taivaasta pilvien halki. Säkeillä on yhteyksiä myös loitsuteemaan <hi rend="italics">Ähky</hi> − loitsun alun 
+          "pusku" voi kuvata paitsi äkillistä, myös ähkyn tuomaa puskevaa kipua. Tuomas Juhonpoika on ilmeisesti käyttänyt tätä loitsua kaikenlaisiin vatsakipuihin niin ihmisillä kuin eläimillä.</p>
+        <p>Loitsun loppuosa on manaus, jossa kipu ajetaan ihmistä tai eläintä kiusaamasta mahdollisimman kauas: Lappiin lasten yösijoille, Pohjolan penkereen perälle. Kun Tuomas edellisvuonna sanoi lähettävänsä taudin 
+          kantoihin ja kiviin, hänellä oli luultavasti mielessään toinen tavallinen ja varioiva manauspaikan mielikuva, joka esiintyy myöhemmissä loitsuaineistoissa esimerkiksi muodoissa "Mene puustih mettših, 
+          Kivilöih, kantoloih, Kivilöi kivistämäh" (<ref type="link" target="https://skvr.fi/poems?id=skvr07229520">SKVR VII4 loitsut 2952</ref>) "Tuanne mä sun paan, Kivisen kallion taa, Kantoja syämhän, Ja kiviä 
+          järsimhän" (<ref type="link" target="https://skvr.fi/poems?id=skvr11108120">SKVR XI 812</ref>) ja "Kynsin kylmähän kivehen, Hampahin vesi hakohon" 
+          (esim. <ref type="link" target="https://skvr.fi/poems?id=skvr01208180">SKVR I4 818</ref>) − (vesi)hako on maatunut tai vettynyt puunrunko (KKS: hako). Manaukset voivat esiintyä pitkinäkin sarjoina: 
+          "Kahen kallion välihin, Suolle räikenettömähän, Tielle tietömättömälle, Venäläisen veitsen päiksi, Pilli ruokoin sisähän, Vuahterisihin vesohin, Kantohin kynnepäisihin" 
+          (<ref type="link" target="https://skvr.fi/poems?id=skvr07221190">SKVR VII4 loitsut 2119</ref>).</p> 
+      </div>
+      <div type="tiedot_c">
+        <p><emph>Aikaisemmat transkriptiot</emph> <ref type="more">Avaa &#8594;</ref></p>        
+        <p>Hertzberg 1889, 64−65 &gt; <ref type="link" target="https://skvr.fi/poems?id=skvr09302410">SKVR IX3 241</ref>; Mäntylä 1969, 118; Lappalainen 2018, 133.</p> 
+      </div>
+      <div type="tiedot_d">
+        <p><emph>Kirjallisuusluettelo</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Blomstedt, Yrjö 1981: <hi rend="italics">Asikkalan historia</hi>. Asikkala: Asikkalan kunta.<lb/><lb/> 
+          Hertzberg, Rafael 1889: <hi rend="italics">Vidskepelsen i Finland på 1600-talet: bidrag till Finlands kulturhistoria</hi>. Helsingfors: [Rafael Hertzberg].<lb/><lb/> 
+          Hästesko, F. A. 1910: <hi rend="italics">Länsisuomalaiset tautien loitsut</hi>. Helsinki: SKS. (Tästä loitsusta s. 119−121, 317.)<lb/><lb/>
+          Kollanius, Abraham Abrahamsson 1648. <hi rend="italics">Kristoffer kuninkaan maanlaki. Painettu teoksessa Suomen kielen muistomerkkejä: Monumenta lingvae fennicae. 3: 1, Kristoffer kuninkaan maanlaki = 
+            Legisterium regni sveciae christophorianvm</hi>. Suomeksi kääntänyt Abraham Kollanius [1648], toim. Martti Rapola. Helsinki: SKS, 1926. Julkaistu sähköisenä: Kollanius, Abraham 1648: Kristoffer kuninkaan 
+          maanlaki. <hi rend="italics">Vanhan kirjasuomen korpus</hi>. Helsinki: Kotus. 
+          <ref type="link" target="http://kaino.kotus.fi/korpus/vks/meta/lait/koll.ml_rdf.xml">http://kaino.kotus.fi/korpus/vks/meta/lait/koll.ml_rdf.xml </ref>.<lb/><lb/> 
+          Lappalainen, Mirkka 2018: <hi rend="italics">Pohjoisen noidat. Oikeus ja totuus 1600-luvun Ruotsissa ja Suomessa</hi>. Helsinki: Otava. (Tästä tapauksesta s. 132−135.)<lb/><lb/>
+          Mäntylä, Ilkka 1969: <hi rend="italics">Ja yhteinen rahvas todisti. Kollaasi 1600-luvun suomalaisista tuomiokirjoista</hi>. Porvoo &amp; Helsinki: WSOY. (Tästä tapauksesta s. 118−119.)<lb/><lb/>
+          Nenonen, Marko ja Timo Kervinen 1988: Noidat ja noitavainot Hämeessä ja Ylä-Satakunnassa. −<hi rend="italics">Tampere: Tutkimuksia ja kuvauksia</hi> 9, toimittaneet Jouko Jaakkola, Pekka Koskinen ja Viljo 
+          Rasila. Tampereen Historiallisen Seuran julkaisuja 14. Tampere: Tampereen Historiallinen Seura. (Tästä tapauksesta s. 33 ja 59 n. 7.)<lb/><lb/>
+          Nenonen, Marko ja Timo Kervinen 1994: <hi rend="italics">Synnin palkka on kuolema: Suomalaiset noidat ja noitavainot 1500−1700 –luvuilla</hi>, toimittanut Anne-Riitta Isohella. Helsinki: Otava. 
+          (Tästä tapauksesta s. 60.)<lb/><lb/>
+          SAOB: <hi rend="italics">Svenska Akademiens Ordbok</hi>. Stockholm: Svenska Akademien. <ref type="link" target="https://www.saob.se/"> https://www.saob.se/</ref><lb/><lb/>
+          SKVR I−XV = <hi rend="italics">Suomen kansan vanhat runot</hi>. 1908−1997. Eri toimittajia. Helsinki: SKS. Käytetty sähköisenä: <hi rend="italics">SKVR-tietokanta</hi>. 2004−. 
+          <ref type="link" target="http://www.skvr.fi"> http://www.skvr.fi</ref>. Käytetty myös <hi rend="italics">Octavo</hi>-liittymän kautta 2018−2020.<lb/><lb/> 
+          SMS: <hi rend="italics">Suomen murteiden sanakirja</hi>. Helsinki: Kotimaisten kielten keskus. Päivittyvä julkaisu. <ref type="link" target="http://kaino.kotus.fi/sms"> 
+            http://kaino.kotus.fi/sms </ref><lb/><lb/>
+          VKS: Vanhan kirjasuomen sanakirja. Helsinki: Kotimaisten kielten keskus. Päivittyvä julkaisu. <ref type="link" target="http://kaino.kotus.fi/vks"> http://kaino.kotus.fi/vks </ref>
+          Wilmi, Jorma 1988: <hi rend="italics">Heinolan pitäjän historia 1860-luvulle</hi>. Heinola: Heinolan maalaiskunta, Heinolan maaseurakunta &amp; Manttaalikunnan säätiö. (Tästä tapauksta erit. 250−252.)</p>
+      </div>
+      <div type="nykytulkinta">
+        <p><emph>Tulkinta nykyortografialla</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>
+          <l>Tauti on tullut taivahast(a),</l>
+          <l>pusku pilvistä pudonnut.</l>
+          <l>Kuhunka minä pahat panen,</l> 
+          <l>ihosta inhimisen,</l> 
+          <l>karvoista kapian kansan?</l> 
+          <l>Lapin lasten öisijoilla,</l> 
+          <l>Pohjan penkereen perällä.</l>
+        </p>
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="loitsu1">
+          <hi rend="red">1</hi>. "Pusku"<lb/><lb/>
+          Taudin kertosana "pusku" esiintyy usein "ammuksen" kertosanana <hi rend="italics">Ammuksen</hi> sanoissa (esim. SKVR VI2 4286: "Pusku pilvestä putosi, amputauti taivahasta"). Muissa loitsutyypeissä 
+          "pusku" voi esiintyä myös "ähkyn" kertosanana (esim. SKVR X2 3824), kuvaten ähkyn aiheuttamaa puskevaa kipua. Christfried Ganander sanookin puskusta sanakirjassaan: "Kuin ähky vattaa vääntelöö" (SKVR XV 321).
+        </note>
+        <note n="loitsu2">
+          <hi rend="red">2</hi>. "Ihosta inhimisen"<lb/><lb/>
+          Säe esiintyy myöhemmässä aineistossa tyypillisesti pidemmässä runomittaa noudattavassa muodossa "ihosta imento raukan", "ihosta ihmenis-raukan", "ihosta imehen raukan" (esim. SKVR I4 279, I4 402; XV 654), 
+          myös esimerkiksi "ihosta imeinolaisen (SKVR VI2 4086) ja "ihosta imentolaisen (SKVR I4 936), joka on hyvin voinut lyhentyä lyhyempään, puhekielisempään muotoon. Säe esiintyy myös muodossa "pois 
+          ihmisen ihosta" (esim. SKVR IX3 310). Sanamuoto "inhiminen" esiintyy satakuntalaisissa <hi rend="italics">Käärmeen sanoissa</hi> säkeessä "inhimistä puremaha" (SKVR X1 2786). (Sanan variaatiosta ks. 
+          myös SMS: Ihminen.) 
+        </note>
+        <note n="loitsu3">
+          <hi rend="red">3</hi>. "Carwoista capian cansan"<lb/><lb/>
+          Vastaava säe kuuluu myöhemmässä aineistossa tavallisesti esimerkiksi "karvoista kavon tekemän", "karvasta emon kapeen", myös esimerkiksi "karvoo emon kapian" (esim. SKVR VI2 3217, VI2 4130; VII2 loitsut 1080; 
+          SKVR IX3 310). Pohjoiskarjalaisessa <hi rend="italics">Pistoksen</hi> loitsussa esiintyy muunnelma "Iholta imehon raukan, Kauvalta[!] emon kapia, Emon tuoman ruumiilta."<lb/><lb/> 
+          Varioiva substantiiviryhmä <hi rend="italics">kave, kape, kavo, kapo</hi> tarkoittaa olentoa tai ihmistä, runoissa joskus erityisesti nuorta naista (SKVR-tietokanta, esim. haut: "kangasta kutovi", 
+          "kangasta kutoo" ja "kangasta kuto"; Ganander 1997, 7131 ("kapeet"), 7161 ("kapo"), 7689 ("kawo"); SMS: kape, kapea2, kave5). Adjektiivinä 'kapia' tarkoittaa kapeaa, kaitaa, ohutta, hoikkaa, vähäistä, 
+          tukalaa (SMS: kapea).<lb/><lb/>
+          Säetyypissä ja sen paralleelisäkeissä on siis yleensä kyse (nais)olennon (kave) "tekemästä" eli synnyttämästä ihmisestä, jonka karvasta, ihosta ja ruumiista tautia ja sen aiheuttamaan pahaa yritetään 
+          karkoittaa. Tässä kyseessä on luultavasti säkeen variaatio, jota ei myöhemmin ole tallentunut: "karvoista kapian kansan". Tällöin säe voisi tarkoittaa 'karvoista kapean eli heikon kansan eli ihmisen' tai 
+          'karvoista kapeen eli naisen (tekemän) kansan eli ihmisen'. 
+        </note>
+        <note n="loitsu4">
+          <hi rend="red">4</hi>. "Lapin lasten öy sijoilla"<lb/><lb/>
+          Murrremuoto "öy" merkityksessä 'yö' esiintyy myöhemmässä aineistossa harvoin, mutta kerran myös hyvin samankaltaisessa yhteydessä, savolaisessa pitkässä tyrän loitsussa (<hi rend="italics">Tyrä</hi>) 
+          jaksossa "Mänek tuonne, kun̄ek käsken, Mäne öytä vieryviä, Päiviä pakenevia, Iholta imehnon raukan, Ohuisia ottamasta, Syömästä, kaluamasta, Repimästä, roatomasta." (SKVR VI1 3496.)<lb/><lb/> 
+          Sanaa "yösija" ei yleensä esiinny tämänkaltaisissa manaussäkeissä, mutta Pohjan penkereet, Lapin lasten valkeat tai valkamat on tavallinen tautien manauspaikka, esim. "Pohjan penkerien perille, Lapin lasten 
+          valkialle" (SKVR IX3 670), Lapin lasten valkamille (SKVR VI1 3882). Yhdessä vienankarjalaisessa riiden loitsussa (<hi rend="italics">Riisi</hi>) pahaa manataan "Urosten uni sijoille, Miesten menneihen kotihin!" 
+          (SKVR I4 916). Sijamuoto -lla (adessiivi) voi runokielessä ja murteissa tarkoittaa myös samaa kuin -lle (allatiivi) eli tässä jonnekin panemista.<lb/><lb/>
+          Kirjoitusmerkkejä "ij" käytetään 1600-luvun käsinkirjoitetussa tekstissä usein merkitsemään sekä y:tä että ij:tä. Usein kirjoittajat eivät tee eroa kirjoitusmerkkien välille, ja merkitys on pääteltävä 
+          kontekstista, jolloin se on tässä editiossa merkitty ÿ:llä. Tässä tuomiokirjassa kirjoittaja piirtää kuitenkin y:n ja ij:n alaslaskevan varren selvästi erilaisiksi (vrt. sÿntisen, sijoilla), joten tässä 
+          tapauksessa voidaan varmuudella sanoa, että kyse on yksiselitteisesti kyse y-kirjaimesta.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

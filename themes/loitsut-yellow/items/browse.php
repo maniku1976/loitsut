@@ -10,7 +10,10 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 <?php endif;?>
 <?php endforeach;?>
 <h1><?php echo $pageTitle;?> <?php echo __('(%s total)', $totalnr); ?></h1>
-
+<form class="zip" method='post' action=''>
+      <label for="tei"><?php echo '<i class="fa fa-download"></i> TEI'; ?></label>
+      <input id="tei" type='submit' name='tei' hidden />
+    </form>
 <nav class="items-nav navigation secondary-nav">
     <?php echo public_nav_items(); ?>
 </nav>

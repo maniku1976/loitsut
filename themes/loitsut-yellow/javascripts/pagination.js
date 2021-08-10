@@ -52,5 +52,9 @@ $(document).ready(function() {
       }
     });
 
+    $('')
+
+    $('#show_col_3').find('a.more').html('<i class="fas fa-chevron-down"></i>');
+
  
 });

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tuomiokirja, Elimäki 1643</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Tuomikirjojen loitsut</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Kansallisarkisto</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkriptio</resp>
+          <persName>Lari Ahokas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kommentaarit</resp>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2019-02-18">18.2.2918</date>
+        <availability><p>CC-BY 4.0: https://creativecommons.org/licenses/by/4.0</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Kansallisarkisto, Kihlakunnanoikeuksien renovoidut tuomiokirjat, Lappeen tuomiokunta, I KO a:2 (jj:3), varsinaisten asioiden pöytäkirjat 1639−1643, kuulustelu, 
+              Elimäki 20.4.1643, f. 231v−232r, 232v−236r.</repository>
+            <idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="transcription">
+              <bibl>elimaki1643tp</bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fi-FI">suomi</language>
+        <language ident="se-SE">svenska</language>
+      </langUsage>
+      <settingDesc>
+        <setting>
+          <name>Elimäki</name>
+          <date when="1643-04-20">19.4.1643 (otsakesivu), 20.4.1643</date>
+          <locale>Kymenkartanon kuninkaankartano</locale>
+          <activity>Oikeudenkäynti- tai muistiinpanopaikka</activity>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="231v" ed="folionumero" facs="Varsinai_269a"/>
+        <p>
+          <l>[1.] Anno 1643 den 19 Aprilis Tå Knecht-</l>
+          <l>[2.] skrifningh höltz medh allmoghen aff Kym-</l>
+          <l>[3.] menegårdz lhän på Kymmenegårdh, wthaf</l>
+          <l>[4.] Commissarierne dhen höghedhle och Wälborne</l>
+          <l>[5.] her Carll Mörner till Thuna och Näs: Landz-</l>
+          <l>[6.] höfdinge i Carelen <choice><abbr>öf:<hi rend="superscript">r</hi></abbr><expan>öfuer</expan></choice> Wijborgz Slått medh</l>
+          <l>[7.] dess wnderliggiande sampt Kymmenegårdz</l>
+          <l>[8.] lhän: Och den Edle och Wälborne</l>
+          <l>[9.] Bärendt Taube till Kawandhålm etc.</l>
+          <l>[10.] <choice><abbr>öf:<hi rend="superscript">r</hi></abbr><expan>öfuerste</expan></choice> leutenant <choice><abbr>öf:<hi rend="superscript">r</hi></abbr><expan>öfuer</expan></choice> Carelska Regemente</l>
+          <l>[11.] till häst i Närwarande Öfwerst leutenan-</l>
+          <l>[12.] ten <choice><abbr>Wälb:<hi rend="superscript">ge</hi></abbr><expan>Wälbördige</expan></choice> Johan Patkull till N N:</l>
+          <l>[13.] Bokhollaren <choice><abbr>wäl:<hi rend="superscript">t</hi></abbr><expan>wälbemält</expan></choice> Johan Hållander Secrete-</l>
+          <l>[14.] raren <choice><abbr>Wäl:<hi rend="superscript">t</hi></abbr><expan>Wälbemält</expan></choice> Sigfredh Jörensson, Befall-</l>
+          <l>[15.] ningzmannen här sammastädz <choice><abbr>Wäl:<hi rend="superscript">t</hi></abbr><expan>Wälbemält</expan></choice> da-</l>
+          <l>[16.] widh Bihlefältt: och Nämden af Pyttis</l>
+          <l>[17.] Elime Wächke och Wirolaxi Soknar</l>
+          <l>[18.] sampt fleere Erliga män då försambla-</l>
+          <l>[19.] dhe: Och sossom laghläsaren <choice><abbr>öf:<hi rend="superscript">r</hi></abbr><expan>öfuer</expan></choice> dätta</l>
+          <l>[20.] lhänet <choice><abbr>Wäl:<hi rend="superscript">t</hi></abbr><expan>Wälbemält</expan></choice> Samuel Masson |: huilken </l>
+          <l>[21.] hadhe boort sossom han och enkannerligen</l>
+          <l>[22.] <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> vthlåfuat wara för tillstädhes :| icke</l>
+          <l>[23.] sijn plicht fullbordade; eij heller sijnn för-</l>
+          <l>[24.] felss witne förekomma leet, Ty på ladhe</l>
+          <l>[25.] hans <choice><abbr>härl:<hi rend="superscript">t</hi></abbr><expan><unclear>härlighet</unclear></expan></choice> landzhöfdingen migh wnderskrifuen </l>
+          <l>[26.] laghläsare</l>
+        </p>
+        <pb n="232r" ed="folionumero" facs="Varsinai_269b"/>
+        <p>
+          <l>[1.] laghläsare Embethe för denna gångh för sam-</l>
+          <l>[2.] mastädz beträdhe, hwilket hans <choice><abbr>herl:<hi rend="superscript">tz</hi></abbr><expan><unclear>herlighetz</unclear></expan></choice> påbudh</l>
+          <l>[3.] iagh icke kunde försättia för den skull i</l>
+          <l>[4.] <unclear>pennan</unclear>  författadh, the saker som de passe-</l>
+          <l>[5.] radhe effter som föllier.</l>
+        </p>
+        <p>
+          <l>[6.] J förståne beswardhe sigh hans <choice><abbr>förb:<hi rend="superscript">t</hi></abbr><expan>förbemält</expan></choice></l>
+          <l>[7.] landzhöfdingen deruth<choice><abbr>öf:<hi rend="superscript">r</hi></abbr><expan>öfuer</expan></choice> at när noghon</l>
+          <l>[8.] stämning i dätta lhänet stå skall, antten</l>
+          <l>[9.] till Tingh eller wthskrifning eller nogon</l>
+          <l>[10.] annan stämning och sammankomst så</l>
+          <l>[11.] måtte hans <choice><abbr>förb:<hi rend="superscript">t</hi></abbr><expan>förbemält</expan></choice> så wäl som allmoghen fa-</l>
+          <l>[12.] ra will <del>få</del> om huus och herbärghe i så måt-</l>
+          <l>[13.] to att the wnder tijdhen skoole sökia stäm-</l>
+          <l>[14.] ningen på een ort, wnder tijdhen på annan</l>
+          <l>[15.] och tridie, det allmoghen <unclear>märtte</unclear> <unclear>willar</unclear></l>
+          <l>[16.] i stämninger för den skull <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> hans <choice><abbr>härl:<hi rend="superscript">t</hi></abbr><expan><unclear>härlighet</unclear></expan></choice></l>
+          <l>[17.] landzhöfdingen för gått funit at låtha byg-</l>
+          <l>[18.] gia een Crono gårdh widh högh fårss där </l>
+          <l>[19.] Tynis Böisman <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> boot |: däer och Crono-</l>
+          <l>[20.] nes bodh är thär Kymmenegårdz Räntter föresamb-</l>
+          <l>[21.] lass :| och någre huus wpsatt medh så skääl</l>
+          <l>[22.] är alla somtill Tingh och stämmer sökia</l>
+          <l>[23.] wele skoola af <unclear>huelie</unclear> 2 hemman wth fö-</l>
+          <l>[24.] ra een ståck om 6 hempnar längh så wäl</l>
+          <l>[25.] af frällsis landbönder som Ryttare; Och</l>
+        </p>
+        <pb n="232v" ed="folionumero" facs="Varsinai_270a"/>
+        <p>
+          <l>[1.] Crono som lagh och Rätt åthniuta wela <choice><abbr>öf:<hi rend="superscript">r</hi></abbr><expan>öfuer</expan></choice></l>
+          <l>[2.] alt detta lhänet, huarupå Befalningzman-</l>
+          <l>[3.] nen at drijfua på lagt blef och henrich <unclear>[…]</unclear></l>
+          <l>[4.] sson i <unclear>Ahuis</unclear> som hans medh hielpare i <unclear>S[…]</unclear>. §.</l>
+        </p>
+        <p>
+          <l>[5.] <add>Om någre trull-</add></l>
+          <l>[6.] <add>karlar.</add> <hi rend="underline">Sedhan n. den 20 dato</hi> förhördes Wmmel</l>
+          <l>[7.] iåki boor i Elimä Sochn, hwilka äre</l>
+          <l>[8.] beskylltte medh Trolldoms last, och det </l>
+          <l>[9.] först wthi Elima nämdz närwaro såm äre</l>
+          <l>[10.] Jöran Jörensson, Thomas Erichsson,</l>
+          <l>[11.] Jacob Mårthensson, Jacob Thomasson,</l>
+          <l>[12.] Bertill Persson, Anders Masson,</l>
+          <l>[13.] Bertill Knutssoon, Anders Thomasson,</l>
+          <l>[14.] Thomas Thomasson, Sigfredh Marthensson,</l>
+          <l>[15.] Matz Michelsson, och Eskill Olufzsson</l>
+        </p>
+        <p>
+          <l>[16.] Erich Nillsson i wmmeljåki framhadhes</l>
+          <l>[17.] <unclear>fängzligh</unclear> som han <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> warit fången</l>
+          <l>[18.] alt sedhan som wthi Elimä senast<label type="commentary" n="tuomio1">1</label> om hans</l>
+          <l>[19.] <unclear>Fauter:</unclear></l>
+        </p>
+        <pb n="233r" ed="folionumero" facs="Varsinai_270b"/>
+        <p>
+          <l>[1.] <unclear>Fauter:</unclear> Ransakadh är, aff Lagh läsaren Samu-</l>
+          <l>[2.] el Masson, hoos hwilken och dess <choice><abbr>Act</abbr><expan>Actus</expan></choice> finnas,</l>
+          <l>[3.] och när denne Erich Nillsson förekom, kende </l>
+          <l>[4.] honom <choice><abbr>öf:<hi rend="superscript">r</hi></abbr><expan>öfuer</expan></choice> leutenantten <choice><abbr>Wälb:<hi rend="superscript">te</hi></abbr><expan>Wälbemälte</expan></choice> <unclear>Patkul</unclear><label type="commentary" n="tuomio2">2</label> och </l>
+          <l>[5.] sadhe at han är een <choice><abbr>gamal</abbr><expan>gammal</expan></choice> knecht then 3 ree-</l>
+          <l>[6.] sor <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> <unclear>förrymdt</unclear> sitt Compagnij frå Rijga</l>
+          <l>[7.] och den tijdh han hafuer warit i tiensten</l>
+          <l>[8.] <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> den gemeene man altijdh burit <unclear>fara</unclear></l>
+          <l>[9.] för honom lijka som för sakhen medhan han</l>
+          <l>[10.] altijdh war <unclear>berychtader</unclear> att hafwa öfwadh</l>
+          <l>[11.] trolldoms kånster. iblandh alt annat loof-</l>
+          <l>[12.] werij som han tå begågnadt <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> så <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> han</l>
+          <l>[13.] skaffat igen någre <unclear>guldringar</unclear> som <choice><abbr>öf:<hi rend="superscript">r</hi></abbr><expan>öfuer</expan></choice>st</l>
+          <l>[14.] <choice><abbr>leut:<hi rend="superscript">adh </hi></abbr><expan>leutnadh</expan></choice> huusfrues modher syster äre af stul-</l>
+          <l>[15.] na. dätta blef alt så Erich Nillson före-</l>
+          <l>[16.] hållit, men han nekadhe där till, dåch om-</l>
+          <l>[17.] sijdher sadhe han, det war nu inthet ondt</l>
+          <l>[18.] giort at hoon fick sitt igen. §.</l>
+        </p>
+        <p>
+          <l>[19.] Erich Masson i wmmeljåki framhades</l>
+          <l>[20.] fängzligh effter som han samma lunda </l>
+          <l>[21.] <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> sutidh fången: Emot huilken witna-</l>
+          <l>[22.] dhe i förståne hans egna granne Marckus</l>
+          <l>[23.] Erichsson <unclear>muldamies</unclear><label type="commentary" n="tuomio3">3</label> i så matto at för 10 åhr</l>
+          <l>[24.] sedhan är denna Erich Masson kommen</l>
+        </p>
+        <pb n="233v" ed="folionumero" facs="Varsinai_271a"/>
+        <p>
+          <l>[1.] i bästa höö <unclear>andz</unclear> tijdhen till honom bittijdhe</l>
+          <l>[2.] om Mårgonen och druckit sigh druken,</l>
+          <l>[3.] och lagt sigh såfua framstupadh på Knään,</l>
+          <l>[4.] och armarna wth på Mårcken, <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> så wp-</l>
+          <l>[5.] waknadt nogåt effter middagen och sagt,</l>
+          <l>[6.] huadh tro må wara, bidit på daghen, der</l>
+          <l>[7.] till Markus swaradh <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> nogot wth<choice><abbr>öf:<hi rend="superscript">r</hi></abbr><expan>öfuer</expan></choice>,</l>
+          <l>[8.] middaghen. <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> så åther Erich Masson sagt,</l>
+          <l>[9.] höras inthet frå aniala? Markus swaradhe</l>
+          <l>[10.] neij alzinthet. Erich masson efter igen</l>
+          <l>[11.] <unclear>söf</unclear> litedh; det skall fulle snart höras, det</l>
+          <l>[12.] är och <unclear>enuu</unclear> inthedt tijdh och så Såmpnadh i-</l>
+          <l>[13.] ghen eller och <unclear>lådz</unclear> såfua. J medher tijdh</l>
+          <l>[14.] <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> Thomas Sigfredsson i Wmmeljåki kom.</l>
+          <l>[15.] mit till Markus ther honom frågat hafuer</l>
+          <l>[16.] seijandes, <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> tu något hört frå aniala?</l>
+          <l>[17.] där till Thomas swaradh hadhe, Gudh <unclear>betre</unclear></l>
+          <l>[18.] tidhen höres ondt ty deres Booskap är sån-</l>
+          <l>[19.] der rifuen, aff biörnen. Tå <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> Erich</l>
+          <l>[20.] Masson waknadh wp hastigt, och sagt,</l>
+          <l>[21.] Ja seer tu fulla Marckus, huadh tycker</l>
+          <l>[22.] digh? håller tu migh och nu för een man? </l>
+          <l>[23.] wthaf dätta wptåget Marckus sigh för <unclear>skal</unclear></l>
+          <l>[24.] <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> och aldrigh alt sedhan <unclear>tordz</unclear> <unclear>giöra</unclear></l>
+          <l>[25.] honom något emoth, uthan till behagh <unclear>medh</unclear></l>
+          <l>[26.] äta och dricka enär Erich <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> fordrat</l>
+          <l>[27.] Ännu</l>
+        </p>
+        <pb n="234r" ed="folionumero" facs="Varsinai_271b"/>
+        <p>
+          <l>[1.] Än Witnadhe Markus Erichsson att för</l>
+          <l>[2.] 4 åhr sedhan om Sommaren tå han een</l>
+          <l>[3.] <unclear>reeso</unclear> wår kommen till sijn Systerman Tho-</l>
+          <l>[4.] mas Mårthensson i Wijala by<label type="commentary" n="tuomio4">4</label> och Wekelax Sochn</l>
+          <l>[5.] och begynt dricka, <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> så denne Erich Masson</l>
+          <l>[6.] kommit där och så <unclear>gående</unclear> till huilken Markus</l>
+          <l>[7.] <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> sagt |: docht medh för skräkt hiertta emoth</l>
+          <l>[8.] sijna willia sadhe Marckus  :| Kom och drick</l>
+          <l>[9.] det och Erich <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> öffwerkommit.</l>
+          <l>[10.] Omsijdher <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> Marckus sagt till Erich så-</l>
+          <l>[11.] dane män som du äst wore wärdhe at</l>
+          <l>[12.] brinna på Eeldhen: du <unclear>foor</unclear> fulla huadh för</l>
+          <l>[13.] öl detta är, Gudh bättre, det ästu wållande</l>
+          <l>[14.] till och sådana fleere som du äst, at mijn </l>
+          <l>[15.] syster icke i långh tijdh <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> kunnadh fåå öl</l>
+          <l>[16.] det nogon dricka kan der till Erich swaradh</l>
+          <l>[17.] sadhe, Ja, men så frampt Jagh icke blifuer</l>
+          <l>[18.] wäl tilllfridz <unclear>skulltter</unclear> så skall det eij heller</l>
+          <l>[19.] ännu skee, wpå dätta samtal anders Eri[ch]-</l>
+          <l>[20.] sson i Wijala och så hördtt <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> och nu in-</l>
+          <l>[21.] för Rätta Wittnadhe.</l>
+        </p>
+        <p>
+          <l>[22.] Lars Johansson i Wijala betygadhe att för-</l>
+          <l>[23.] lidne <choice><abbr>S.</abbr><expan>Sankt</expan></choice> Staffans dagh om afftonen</l>
+          <l>[24.] hafue denne Erich Masson och åfuanbemälte</l>
+          <l>[25.] Erich Nillsson kommit till honom thär han</l>
+          <l>[26.] hafuer hafft sijne granne hoos sigh til gästabudhi</l>
+        </p>
+        <pb n="234v" ed="folionumero" facs="Varsinai_272a"/>
+        <p>
+          <l>[1.] och medhan alla i denna landz ort <unclear>bära fare</unclear></l>
+          <l>[2.] för them och deras trolldom ty hafuer han inthet</l>
+          <l>[3.] annat tordz göra än gifua them fultt vpdric-</l>
+          <l>[4.] ka, sedhan the hafua druckit,  <unclear>ruus</unclear> wppå hafua the begynt quäda<label type="commentary" n="tuomio6">5</label> een hoop trolldoms wijsor,</l>
+          <l>[5.] iblandh annat minnes Lars Johansson desse ordh, Kyllä kårppi koota<label type="commentary" n="tuomio8">6</label> sapi<label type="commentary" n="tuomio9">7</label> illman </l>
+          <l>[6.] linduiset liha, thet är, nogh får kårppor </l>
+          <l>[7.] köt så wäl som andra wärldenes foghlar.</l>
+          <l>[8.] Huarföre sedhan Lars Johanssons Gäster haf- </l>
+          <l>[9.] ua kört thesse quädhare uthur stufuan. </l>
+          <l>[10.] hur emot the inthet seija kundhe. §,</l>
+        </p>
+        <p>
+          <l>[11.] Framhadhes och så Erich Massons Sån Lars</l>
+          <l>[12.] huilken blef <choice><abbr>öf:<hi rend="superscript">r</hi>tygadh </abbr><expan>öfuertygadh</expan></choice> nogot <unclear>hoot</unclear> doch </l>
+          <l>[13.] inthet hafuer begångit <add><hi rend="superscript">det</hi></add> ringaste som ondt <unclear>war</unclear></l>
+          <l>[14.] effter som Nämden och fleere på Tingzstanden </l>
+          <l>[15.] betygandhe, huarföre han och blef löös-</l>
+          <l>[16.] gifuen för denna gångh, doch blef honom </l>
+          <l>[17.] före slagit at om han medh sijn ondh </l>
+          <l>[18.] kunde wälia, sijn fadher för fullkomligh</l>
+          <l>[19.] trulldom? der till han swaradhe det kan </l>
+          <l>[20.] icke Jagh göra, Gudh bewara mich der före.</l>
+          <l>[21.] Eskill</l>
+        </p>
+        <pb n="235r" ed="folionumero" facs="Varsinai_272b"/>
+        <p>
+          <l>[1.] Eskell Knutsson laamain framhades</l>
+          <l>[2.] och så, huilken är <unclear>berychtadh</unclear> at hafue för</l>
+          <l>[3.] <unclear>giorte</unclear> sijn Kÿrkioheerde Saligh her <del>affuedh</del><add>arfuedh</add></l>
+          <l>[4.] Johannis<label type="commentary" n="tuomio10">8</label> som sedhan han dödde blef wp-</l>
+          <l>[5.] skuren och befunnadt uthi hans lijf een</l>
+          <l>[6.] hoop för gärningar |: effter som wthan trijfuat </l>
+          <l>[7.] tillförenne <unclear>agerat</unclear> är och wthi acterna hoos</l>
+          <l>[8.] laghläsande Samuell Masson funnas</l>
+          <l>[9.] författadh wore :| som denna laamain kan</l>
+          <l>[10.] hafua begongit och han nu nekadhe till </l>
+          <l>[11.] Biudandes sigh till <unclear>Wäriemål.</unclear> huilket</l>
+          <l>[12.] honom tillåtidh blef at fullgiora å nästa</l>
+          <l>[13.] <unclear>tinge</unclear> medh tålf mannom derupå, han och </l>
+          <l>[14.] nästa ställa bårghen effter skrifuen bohlfasta <unclear>män</unclear></l>
+          <l>[15.] Jacob Masson, Thomas Clemetsson,</l>
+          <l>[16.] Matz Erichsson, Anders Nillsson,</l>
+          <l>[17.] Marckus Erichsson, Jacob Thomasson,</l>
+          <l>[18.] Eskill Erkillsson, Michel Clemetsson,</l>
+          <l>[19.] Thomas Mårthensson, Jören Knuutsson</l>
+          <l>[20.] Jacob Mårthensson, och Matz Mårthensson</l>
+          <l>[21.] i Elimä. §.</l>
+        </p>
+        <pb n="235v" ed="folionumero" facs="Varsinai_273a"/>
+        <p>
+          <l>[1.] Än framkom Michel Carell och Sigfredh </l>
+          <l>[2.] Erichsson i Suthela |: Pyttis och Weckelaxi </l>
+          <l>[3.] Sochnar :| huilka witnadhe at då</l>
+          <l>[4.] desse <choice><abbr> åfuanbe:<hi rend="superscript">te</hi></abbr><expan>åfuanbemälte</expan></choice> och berychtade Troll-</l>
+          <l>[5.] karlar <unclear>ala</unclear> fängzladhe hafuer the sagt</l>
+          <l>[6.] Wij äre fängzladhe, men 3 äre <unclear>hemma</unclear></l>
+          <l>[7.] i wår by såm myckit wärre äre</l>
+          <l>[8.] <unclear>änssom</unclear> wij, Men Wij äre oskyllige.</l>
+          <l>[9.] huarföre nu frågadhes them huilka</l>
+          <l>[10.] the äre som wärre woro. Tå Roopadhe</l>
+          <l>[11.] laamain Wpå Jören Masson, huilken </l>
+          <l>[12.] nekadhe der till, och laamain låfuadhe</l>
+          <l>[13.] <choice><abbr>öf:<hi rend="superscript">r</hi>tyghan</abbr><expan>öfuertyghan</expan></choice> till nästa Tinge, huarföre</l>
+          <l>[14.] Jören Masson och måste ställa bårghen</l>
+          <l>[15.] at han första stämningen Comparera</l>
+          <l>[16.] will. Oh bårgadhe honom der upå:</l>
+          <l>[17.] Anders Thomasson, Sigfredh Marckusson,</l>
+          <l>[18.] Thomas Thomasson, Mattz Michelsson</l>
+          <l>[19.] Bärent Eskellsson och Erich Simonsson.</l>
+        </p>
+        <p>
+          <l>[20.] <add><unclear>[Fr]amhadhes</unclear> och så</add> Mårthen Knutsson i Wmmelljåki ssom är</l>
+          <l>[21.] beskyltter aff her Matz i Wäckalaxi</l>
+          <l>[22.] for Trolldom, och medhan her Matz icke</l>
+        </p>
+        <pb n="236r" ed="folionumero" facs="Varsinai_273b"/>
+        <p>
+          <l>[1.] nu till städes är blef Mårthen löös gifuen</l>
+          <l>[2.] wnder bårghen at han måste Tinge Comparera</l>
+          <l>[3.] skalt der wpå honom bårgedhe.</l>
+          <l>[4.] Johan Jöransson, Thomas Erichsson,</l>
+          <l>[5.] Eskill Olufsson, Bertill Pedersson,</l>
+          <l>[6.] Jacob Mårthensson och Jacob Thomasson. §.</l>
+        </p>
+        <pb n="236v" ed="folionumero" facs="Varsinai_274a"/>
+        <p>
+          <l>[1.] Den 21 dato Wthi Nämdens när-</l>
+          <l>[2.] waro aff</l>
+        </p>
+        <p>
+          <l>[3.] Wächkalaxi Sochn</l>
+        </p>
+        <p>
+          <l>[4.] Jören Jacobsson i Ruodzula, Jören Hansson i <unclear>Ruodila</unclear>,</l>
+          <l>[5.] Oluf Mårthensson i <unclear>Kuiwala</unclear>, Lars <choice><abbr>Michelsso</abbr><expan>Michelsson</expan></choice> i <unclear>orawala</unclear></l>
+          <l>[6.] Michell Carel, Matz Jacobsson i <unclear>Sippålä</unclear></l>
+          <l>[7.] Matz Eruchsson i Kannusiärf, Anders Erichsson i Wijala,</l>
+          <l>[8.] Philip Knutsson i <unclear>Sarema</unclear>, Jöran Ollsson i Skoghby,</l>
+          <l>[9.] Mårthen <unclear>Tynisson</unclear> i <unclear>Kåurula</unclear> och Henrich Masson <unclear>Råndu</unclear>.</l>
+        </p>
+        <p>
+          <l>[10.] Fram <unclear>hadhes</unclear> åther igen <choice><abbr>förbe:<hi rend="superscript">te</hi></abbr><expan>förbemälte</expan></choice> Erich Masson</l>
+          <l>[11.] huilken förmanades at bekenna om sijna</l>
+          <l>[12.] trolldoms kånster, och bekende han sigh</l>
+          <l>[13.] inthet annat kunna giöra än att komma Biör-</l>
+          <l>[14.] nen till giöra skadhe. Och brukar der till <unclear><choice><abbr>dene</abbr><expan>denne</expan></choice></unclear></l>
+          <l>[15.] process. Man måtte läggia sigh nedh på Jorden</l>
+          <l>[16.] uppå Knään och Armarna, och Krafzsa i Jorden</l>
+          <l>[17.] Säijandes, Nåus Wijthast Wiha<add>in</add>, Kåruest</l>
+          <l>[18.] Kåwera Kåura, Siliet Silpaiseman, Kaunist</l>
+          <l>[19.] mahan kataman; Ja mäne Kåchden Kåchdin</l>
+          <l>[20.] sijhen quin minä käsin, ia ole mies mändyässi.</l>
+          <l>[21.] dätta bekende han sigh hafua lärt aff een Tiggiare</l>
+          <l>[22.] frå Tawast landh <choice><abbr>be:<hi rend="superscript">dh</hi></abbr><expan>benemdh</expan></choice> Eskill Olufzsson</l>
+          <l>[23.] eller och Kårwen. Eskå och gifuit honom i</l>
+          <l>[24.] löön 2 wackor Spannmål.</l>
+          <l>[25.] Blef</l>
+        </p>
+        <pb n="237r" ed="folionumero" facs="Varsinai_274b"/>
+        <p>
+          <l>[1.] Blef och denne Erich Masson af klädher och </l>
+          <l>[2.] Ransakadt om han något skulle hafua hoos sigh</l>
+          <l>[3.] huar medh han kunde sigh wäria frå någon <unclear>sam[_?]</unclear></l>
+          <l>[4.] bekennellsse eller elliest annat, Tå befans</l>
+          <l>[5.] at han hadhe eet lijtedh stycke af leer såm war </l>
+          <l>[6.] håårt lijka som teghell wnder wänster fothen</l>
+          <l>[7.] emellan strumpporna till huadh enda han sådant</l>
+          <l>[8.] sadhe wnder fothen wille han inthet bekenna,</l>
+          <l>[9.] wthan omsijdher sadhe Mijn Sånahustro hoon </l>
+          <l>[10.] ladhe thet uthi mijn skoo när Jagh blef fängzladhe §.</l>
+        </p>
+        <p>
+          <l>[11.] Än bekände han sigh hafua låtidh Biörnen</l>
+          <l>[12.] i hiäl slå Eskill Knutssons laamans 2 köör </l>
+          <l>[13.] för det laman <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> nedher brutidh och </l>
+          <l>[14.] fölt hans grundz gårdh.</l>
+        </p>
+        <p>
+          <l>[15.] Än bekände han |: doch laamain till behagh</l>
+          <l>[16.] <unclear>uthom</unclear> ting ställe :| at Pedher Lambertsson</l>
+          <l>[17.] <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> sagt: J Rausila<label type="commentary" n="tuomio12">9</label> är then som <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> för</l>
+          <l>[18.] giört Saligh her arfuedh och inthet annor</l>
+          <l>[19.] des war ingen Nämdt Och Aldenstundh</l>
+          <l>[20.] Pedher Lambertsson icke är tillstedes wp-</l>
+          <l>[21.] skötz rätte till näste Tinge wijdare, att</l>
+          <l>[22.] Ransakas.</l>
+        </p>
+        <pb n="237v" ed="folionumero" facs="Varsinai_275a"/>
+        <p>
+          <l>[1.] Erich Nillsson framhadhes och så huilken |:</l>
+          <l>[2.] <unclear>end</unclear> och <unclear></unclear> heela häradet <unclear>berychtade</unclear> och <unclear>tillwijsa</unclear></l>
+          <l>[3.] honom så wäl som Erich Masson ia nästan alla</l>
+          <l>[4.] i Vmmelioki by för största trollkarlar :| neka-</l>
+          <l>[5.] dhe sigh hafua något ondt begååt <unclear>andra</unclear> än det</l>
+          <l>[6.] at han hafuer låtidh Biörnen i hiäl slå sijn</l>
+          <l>[7.] grannes Jöran Jöranssons häst, thet en Tawäst</l>
+          <l>[8.] <choice><abbr>be:<hi rend="superscript">dh</hi></abbr><expan>benemdh</expan></choice> Erich i Hartioila, Jttimä Kyrko gäldh</l>
+          <l>[9.] <unclear>fordom</unclear> Saligh her Erich Ryningz skytt</l>
+          <l>[10.] honom lärt hafuer, och brukar där till <unclear>thes-</unclear></l>
+          <l>[11.] se ordh: Nåus ylös nåstettas, käy ylös</l>
+          <l>[12.] käskettäs, Siliet Silpuman ia Kaunist</l>
+          <l>[13.] Kataman.<label type="commentary" n="tuomio15">13</label></l>
+        </p>
+        <p>
+          <l>[14.] Desse Berychtadhe Pärssoner Enkannerli-</l>
+          <l>[15.] ga Erich Masson och Erich Nillsson för-</l>
+          <l>[16.] manades at bekenna om the icke kuna åstad-</l>
+          <l>[17.] komma nogot annat ondt fråst köldh och</l>
+          <l>[18.] mera sådant framföre heela häradz allmoge</l>
+          <l>[19.] them håller mistäncktte; Men the wille inthet</l>
+          <l>[20.] ther till. Kunde allt så för denna gångh intet</l>
+          <l>[21.] mera för till giort blijfua uthan at the <unclear>[…]</unclear></l>
+          <l>[22.] Järnsladhe och förde till Wijborgz Slått</l>
+          <l>[23.] så lenge ytterligare om döms bedriffwe Ran-</l>
+          <l>[24.] sakas Kan, helst och emedan ingen them</l>
+          <l>[25.] bårga wållt. §. </l>
+          <l>[26.] <unclear>N N. </unclear></l>
+        </p>
+        <pb n="239r" ed="folionumero" facs="Varsinai_276b"/>
+        <p>
+          <l>[1.] Hwadh meera Passerat är å detta Extra-</l>
+          <l>[2.] ordinarie Tinge blef medh Wpskof Muntteli-</l>
+          <l>[3.] ghe Resoluerat och elliest wthan på huars</l>
+          <l>[4.] och eens Supplication och inn <unclear>lagho</unclear> anteknadh</l>
+          <l>[5.] Och alt dätta såssom eet Tingz witne aff</l>
+          <l>[6.] migh häradz dom hafwande i Euraepae Jäskis</l>
+          <l>[7.] och Strandhäradher wnder egin heredt och</l>
+          <l>[8.] Signethe medh deles Tempore et loco ut Supra. §.</l>
+          <l>[9.] <choice><abbr>L: S:</abbr><expan>Locum Signetis</expan></choice> 	Erich Hansson<choice><abbr>ia</abbr><expan>manu propria</expan></choice></l>
+        </p>       
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="tuomio1">
+          I KO a:3 (jj:4), Lappee 1642−1650, Elimäki, talvikäräjät, 13.−14.3.1643, f. 14r−v (<ref type="link" target="http://digi.narc.fi/digi/view.ka?kuid=3735916">http://digi.narc.fi/digi/view.ka?kuid=3735916</ref>), 
+          viittaa tapauksen aiempaan käsittelyyn, jota ei ilmeisesti ole säilynyt renovoiduissa tuomiokirjoissa; tapauksen akti lienee lähetetty hovioikeuteen, vrt. I KO a:3 (jj:4), Lappee 1642−1650, Vehkalahti, 
+          syyskäräjät 14.10.1647, f. 212v (<ref type="link" target="http://digi.narc.fi/digi/view.ka?kuid=3736131">http://digi.narc.fi/digi/view.ka?kuid=3736131</ref>); I KO a:3 (jj:4), Lappee 1642−1650, Elimäki, 
+          syyskäräjät 21−22.10.1647, f. 216r (<ref type="link" target="http://digi.narc.fi/digi/view.ka?kuid=37361314">http://digi.narc.fi/digi/view.ka?kuid=37361314</ref>).
+        </note>
+        <note n="tuomio2">
+          Johan Patkull, everstiluutnantti (ks. yllä, f. 120v).
+        </note>
+        <note n="tuomio3">
+          Markus Eriksson Multamies, Ummeljoen kylän johtohahmoja, itsekin syytteessä noituudesta vuonna 1641 (Oksanen 1981, 150−151).
+        </note>
+        <note n="tuomio4">
+          Viiala, kylä Vehkalahden pitäjässä, nykyisin Myllykosken taajama Kouvolassa, Kymijoen vastarannalla Ummeljoen kohdalla.
+        </note>
+        <note n="tuomio6">
+          "quäda": "kväda", loitsurunon esittämiseen tuomiokirjoissa liittyvä ilmaus, vrt. SAOB, kväda, kväde.
+        </note>
+        <note n="tuomio8">
+          "koota": Mahdollisesti "kuuta" ('rasvaa', 'lihaa'), vrt. Asikkalan talvikäräjät 6.3.1655, f. 450r: "'Kÿllä minä nÿttin nijn laitan että Cuut Lehmistäns metzän Jääwät, Jo minä hänen ennengin nijn 
+          panin menemän cuunsa corpehen', dhet ähr att han skulle laga så, att hans Booskap skulle mista Tallgen och Jnellfwerna, i Skogen, hwillket och honom bådhe för och sedan skedt ähr." Vrt. aikalaiskäännös 
+          tuomiokirjassa: "nogh får kårppor köt så wäl som andra wärldenes foghlar". SAOB: kött, -et: "1) − − om de under huden belägna (av muskulatur m.m. bestående) mjuka delarna av kroppen hos människor och 
+          djur; muskulatur (o. fett) − − motsatt: ben, inälvor"
+        </note>
+        <note n="tuomio9">
+          "sapi": Saapi. Lukutapa yksiselitteisesti "sapi", ei "sopi"; vrt. aikalaiskäännös tuomiokirjassa: "nogh får kårppor köt så wäl som andra wärldenes foghlar" (vrt. Mäntylä 1969, 109; Nenonen 1992, 164).
+        </note>
+        <note n="tuomio10">
+          Arvidus Johannis Wiborg,  Elimäen kappalainen 1639−1641 ja ensimmäinen kirkkoherra 1641 alkaen. Hänen kuolemastaan tai Eskeli Nuutinpojan murhasyytteestä ei tunneta mainintoja Elimäen tuomiokirjoista. 
+          Seuraavana Elimäen kirkkoherrana mainitaan syyskäräjillä 4.9.1643 "herra Israel" (Kÿrkioheerden her Israell), mahdollisesti sama kuin Elimäen kappalaisena 1642−1646 tunnettu Israel Caroli Ithimaeus.
+        </note>
+        <note n="tuomio12">
+          Raussila, kylä Elimäellä (nykyisin osa Kouvolan kaupunkia), n. 16 km Ummeljoelta lounaaseen.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

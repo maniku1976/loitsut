@@ -1,0 +1,501 @@
+2019-09-11T13:15:18+03:00 ERR (3): Zend_Application_Resource_Exception: A host is necessary for smtp transport, but none was given in /var/www/html/loitsut/application/libraries/Zend/Application/Resource/Mail.php:135
+Stack trace:
+#0 /var/www/html/loitsut/application/libraries/Zend/Application/Resource/Mail.php(67): Zend_Application_Resource_Mail->_setupTransport(Array)
+#1 /var/www/html/loitsut/application/libraries/Zend/Application/Resource/Mail.php(48): Zend_Application_Resource_Mail->getMail()
+#2 /var/www/html/loitsut/application/libraries/Omeka/Application/Resource/Mail.php(51): Zend_Application_Resource_Mail->init()
+#3 /var/www/html/loitsut/application/libraries/Zend/Application/Bootstrap/BootstrapAbstract.php(695): Omeka_Application_Resource_Mail->init()
+#4 /var/www/html/loitsut/application/libraries/Zend/Application/Bootstrap/BootstrapAbstract.php(638): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('mail')
+#5 /var/www/html/loitsut/application/libraries/Zend/Application/Bootstrap/BootstrapAbstract.php(598): Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap('mail')
+#6 /var/www/html/loitsut/application/libraries/Zend/Application.php(373): Zend_Application_Bootstrap_BootstrapAbstract->bootstrap(NULL)
+#7 /var/www/html/loitsut/application/libraries/Omeka/Application.php(49): Zend_Application->bootstrap()
+#8 /var/www/html/loitsut/index.php(23): Omeka_Application->initialize()
+#9 {main}
+2019-09-11T13:17:41+03:00 ERR (3): Zend_Mail_Protocol_Exception: Network is unreachable in /var/www/html/loitsut/application/libraries/Zend/Mail/Protocol/Abstract.php:277
+Stack trace:
+#0 /var/www/html/loitsut/application/libraries/Zend/Mail/Protocol/Smtp.php(167): Zend_Mail_Protocol_Abstract->_connect('tcp://smtp.gmai...')
+#1 /var/www/html/loitsut/application/libraries/Zend/Mail/Transport/Smtp.php(199): Zend_Mail_Protocol_Smtp->connect()
+#2 /var/www/html/loitsut/application/libraries/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#3 /var/www/html/loitsut/application/libraries/Zend/Mail.php(1201): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#4 /var/www/html/loitsut/application/controllers/UsersController.php(395): Zend_Mail->send()
+#5 /var/www/html/loitsut/application/controllers/UsersController.php(217): UsersController->sendActivationEmail(Object(User))
+#6 /var/www/html/loitsut/application/libraries/Zend/Controller/Action.php(516): UsersController->editAction()
+#7 /var/www/html/loitsut/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('editAction')
+#8 /var/www/html/loitsut/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#9 /var/www/html/loitsut/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#10 /var/www/html/loitsut/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#11 /var/www/html/loitsut/application/libraries/Omeka/Application.php(77): Zend_Application->run()
+#12 /var/www/html/loitsut/admin/index.php(28): Omeka_Application->run()
+#13 {main}
+2019-09-11T13:19:03+03:00 ERR (3): Zend_Mail_Protocol_Exception: Connection refused in /var/www/html/loitsut/application/libraries/Zend/Mail/Protocol/Abstract.php:277
+Stack trace:
+#0 /var/www/html/loitsut/application/libraries/Zend/Mail/Protocol/Smtp.php(167): Zend_Mail_Protocol_Abstract->_connect('tcp://10.214.32...')
+#1 /var/www/html/loitsut/application/libraries/Zend/Mail/Transport/Smtp.php(199): Zend_Mail_Protocol_Smtp->connect()
+#2 /var/www/html/loitsut/application/libraries/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#3 /var/www/html/loitsut/application/libraries/Zend/Mail.php(1201): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#4 /var/www/html/loitsut/application/controllers/UsersController.php(395): Zend_Mail->send()
+#5 /var/www/html/loitsut/application/controllers/UsersController.php(217): UsersController->sendActivationEmail(Object(User))
+#6 /var/www/html/loitsut/application/libraries/Zend/Controller/Action.php(516): UsersController->editAction()
+#7 /var/www/html/loitsut/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('editAction')
+#8 /var/www/html/loitsut/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#9 /var/www/html/loitsut/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#10 /var/www/html/loitsut/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#11 /var/www/html/loitsut/application/libraries/Omeka/Application.php(77): Zend_Application->run()
+#12 /var/www/html/loitsut/admin/index.php(28): Omeka_Application->run()
+#13 {main}
+2019-09-11T13:19:36+03:00 ERR (3): Zend_Mail_Transport_Exception: Unable to send mail.  in /var/www/html/loitsut/application/libraries/Zend/Mail/Transport/Sendmail.php:137
+Stack trace:
+#0 /var/www/html/loitsut/application/libraries/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 /var/www/html/loitsut/application/libraries/Zend/Mail.php(1201): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 /var/www/html/loitsut/application/controllers/UsersController.php(395): Zend_Mail->send()
+#3 /var/www/html/loitsut/application/controllers/UsersController.php(217): UsersController->sendActivationEmail(Object(User))
+#4 /var/www/html/loitsut/application/libraries/Zend/Controller/Action.php(516): UsersController->editAction()
+#5 /var/www/html/loitsut/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('editAction')
+#6 /var/www/html/loitsut/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 /var/www/html/loitsut/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#8 /var/www/html/loitsut/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#9 /var/www/html/loitsut/application/libraries/Omeka/Application.php(77): Zend_Application->run()
+#10 /var/www/html/loitsut/admin/index.php(28): Omeka_Application->run()
+#11 {main}
+2020-01-13T10:41:57+02:00 ERR (3): Omeka_Record_Exception: Kenttää  "Item Type Metadata", "XML File" ei ole olemassa. in /var/www/html/loitsut/application/models/Mixin/ElementText.php:293
+Stack trace:
+#0 /var/www/html/loitsut/application/models/Mixin/ElementText.php(214): Mixin_ElementText->getElement('Item Type Metad...', 'XML File')
+#1 /var/www/html/loitsut/application/libraries/Omeka/Record/AbstractRecord.php(251): Mixin_ElementText->getElementTexts('Item Type Metad...', 'XML File')
+#2 /var/www/html/loitsut/application/libraries/Omeka/Record/AbstractRecord.php(210): Omeka_Record_AbstractRecord->delegateToMixins('getElementTexts', Array)
+#3 /var/www/html/loitsut/application/views/helpers/Metadata.php(183): Omeka_Record_AbstractRecord->__call('getElementTexts', Array)
+#4 /var/www/html/loitsut/application/views/helpers/Metadata.php(149): Omeka_View_Helper_Metadata->_getElementText(Object(Item), 'Item Type Metad...', 'XML File')
+#5 /var/www/html/loitsut/application/views/helpers/Metadata.php(73): Omeka_View_Helper_Metadata->_getText(Object(Item), Array)
+#6 /var/www/html/loitsut/application/libraries/Zend/View/Abstract.php(349): Omeka_View_Helper_Metadata->metadata(Object(Item), Array, Array)
+#7 /var/www/html/loitsut/application/libraries/globals.php(2038): Zend_View_Abstract->__call('metadata', Array)
+#8 /var/www/html/loitsut/themes/loitsut-yellow/items/show.php(28): metadata('item', Array)
+#9 /var/www/html/loitsut/application/libraries/Omeka/View.php(117): include('/var/www/html/l...')
+#10 /var/www/html/loitsut/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/var/www/html/l...')
+#11 /var/www/html/loitsut/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(912): Zend_View_Abstract->render(NULL)
+#12 /var/www/html/loitsut/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(933): Zend_Controller_Action_Helper_ViewRenderer->renderScript('items/show.php', NULL)
+#13 /var/www/html/loitsut/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(972): Zend_Controller_Action_Helper_ViewRenderer->render()
+#14 /var/www/html/loitsut/application/libraries/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#15 /var/www/html/loitsut/application/libraries/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#16 /var/www/html/loitsut/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('showAction')
+#17 /var/www/html/loitsut/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#18 /var/www/html/loitsut/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#19 /var/www/html/loitsut/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#20 /var/www/html/loitsut/application/libraries/Omeka/Application.php(77): Zend_Application->run()
+#21 /var/www/html/loitsut/index.php(23): Omeka_Application->run()
+#22 {main}
+2020-01-13T11:25:00+02:00 ERR (3): Omeka_Record_Exception: Kenttää  "Item Type Metadata", "XML File" ei ole olemassa. in /var/www/html/loitsut/application/models/Mixin/ElementText.php:293
+Stack trace:
+#0 /var/www/html/loitsut/application/models/Mixin/ElementText.php(214): Mixin_ElementText->getElement('Item Type Metad...', 'XML File')
+#1 /var/www/html/loitsut/application/libraries/Omeka/Record/AbstractRecord.php(251): Mixin_ElementText->getElementTexts('Item Type Metad...', 'XML File')
+#2 /var/www/html/loitsut/application/libraries/Omeka/Record/AbstractRecord.php(210): Omeka_Record_AbstractRecord->delegateToMixins('getElementTexts', Array)
+#3 /var/www/html/loitsut/application/views/helpers/Metadata.php(183): Omeka_Record_AbstractRecord->__call('getElementTexts', Array)
+#4 /var/www/html/loitsut/application/views/helpers/Metadata.php(149): Omeka_View_Helper_Metadata->_getElementText(Object(Item), 'Item Type Metad...', 'XML File')
+#5 /var/www/html/loitsut/application/views/helpers/Metadata.php(73): Omeka_View_Helper_Metadata->_getText(Object(Item), Array)
+#6 /var/www/html/loitsut/application/libraries/Zend/View/Abstract.php(349): Omeka_View_Helper_Metadata->metadata(Object(Item), Array, Array)
+#7 /var/www/html/loitsut/application/libraries/globals.php(2038): Zend_View_Abstract->__call('metadata', Array)
+#8 /var/www/html/loitsut/application/libraries/Omeka/Controller/AbstractActionController.php(154): metadata(Object(Item), Array)
+#9 /var/www/html/loitsut/application/controllers/ItemsController.php(183): Omeka_Controller_AbstractActionController->browseAction()
+#10 /var/www/html/loitsut/application/libraries/Zend/Controller/Action.php(516): ItemsController->browseAction()
+#11 /var/www/html/loitsut/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('browseAction')
+#12 /var/www/html/loitsut/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#13 /var/www/html/loitsut/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#14 /var/www/html/loitsut/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#15 /var/www/html/loitsut/application/libraries/Omeka/Application.php(77): Zend_Application->run()
+#16 /var/www/html/loitsut/index.php(23): Omeka_Application->run()
+#17 {main}
+2020-01-24T09:40:37+02:00 ERR (3): Apache_Solr_HttpTransportException: '400' Status: Bad Request in /var/www/html/loitsut/plugins/SolrSearch/lib/solr-php-client/Service.php:364
+Stack trace:
+#0 /var/www/html/loitsut/plugins/SolrSearch/lib/solr-php-client/Service.php(669): Apache_Solr_Service->_sendRawPost('http://localhos...', '<add><doc><fiel...')
+#1 /var/www/html/loitsut/plugins/SolrSearch/lib/solr-php-client/Service.php(737): Apache_Solr_Service->add('<add><doc><fiel...')
+#2 /var/www/html/loitsut/plugins/SolrSearch/SolrSearchPlugin.php(198): Apache_Solr_Service->addDocuments(Array)
+#3 /var/www/html/loitsut/application/libraries/Omeka/Plugin/Broker.php(157): SolrSearchPlugin->hookAfterSaveItem(Array)
+#4 /var/www/html/loitsut/application/libraries/Omeka/Record/AbstractRecord.php(298): Omeka_Plugin_Broker->callHook('after_save_item', Array)
+#5 /var/www/html/loitsut/application/libraries/Omeka/Record/AbstractRecord.php(550): Omeka_Record_AbstractRecord->runCallbacks('afterSave', Array)
+#6 /var/www/html/loitsut/application/libraries/Omeka/Controller/AbstractActionController.php(268): Omeka_Record_AbstractRecord->save(false)
+#7 /var/www/html/loitsut/application/controllers/ItemsController.php(91): Omeka_Controller_AbstractActionController->editAction()
+#8 /var/www/html/loitsut/application/libraries/Zend/Controller/Action.php(516): ItemsController->editAction()
+#9 /var/www/html/loitsut/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('editAction')
+#10 /var/www/html/loitsut/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 /var/www/html/loitsut/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#12 /var/www/html/loitsut/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#13 /var/www/html/loitsut/application/libraries/Omeka/Application.php(77): Zend_Application->run()
+#14 /var/www/html/loitsut/admin/index.php(28): Omeka_Application->run()
+#15 {main}
+2020-01-24T10:29:41+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-44818357Ex1AclG9' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_7a18dcfc4ae691743be71914def089d0.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T10:29:41+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:02:06+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8948uaukNlTwVo1b' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_292906c1c7bb33c5bc2a09beda14b896.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:02:06+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:02:34+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8957a7EpSu9kPWGR' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_71811475a8165d9a71da23ffe975b9d7.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:02:34+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:03:45+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8968LxtQ69PueY6r' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_338909e419d34ac3e8e83c274c1e54fd.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:03:45+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:05:39+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9019cM-o7HxbT1n3' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_8086c4ff957776c090cf8d0df7809559.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:05:39+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:08:38+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9057JgcaSdtcasnR' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_19a27e4c29380b3d0a834c9aa4831e63.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:08:38+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:10:40+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-91792xxcZcAhzBzM' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_19fadb676bf8d5095816cec832b93f37.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:10:40+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:11:44+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9199kQw7vqb8zda6' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_e89a81b93d21fa7b85adc179c7c02768.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:11:44+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:12:27+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9208ocXgsIwNaqAg' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_d926f3365de618df10c06495ceae62d3.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:12:27+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:17:26+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9283mYp07VeZR30b' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_b15837d5dba80545465ae5e281e0032a.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:17:26+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:23:00+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9377N1_ZCUcHQJU3' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_5f869d310fa49704c414204f5ce6a670.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:23:00+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:25:33+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9398vmgrvRyiBUCx' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_8b412765ffa4320aef3a645596f8e844.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:25:33+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:28:00+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9457bcRl2uTm8oji' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_1eec209709ba531c5e1f8d9ec60484e9.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:28:00+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-24T13:31:04+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-952660MTiI8i3aLx' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_f95af20b95c68bc621bc575af6dca2d3.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-24T13:31:04+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T09:17:48+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-10329zNBptHQF6dpw' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_ca0eefbd83c1da232d398b6de9830585.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T09:17:48+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T09:18:04+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-10340SyTjGWmL3ptO' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_0a86a18ce5b13026b0721e5b47c7eef8.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T09:18:04+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:07:07+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11424cIRbA40c8VLg' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_db8570131a273374525d89e9885b23e5.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:07:07+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:09:06+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11510MLsRZJZYnfYJ' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_54249ccb552fc578e822879edc5dd0b6.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:09:06+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:11:13+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11520JtPiCuW6iiog' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_760f4cb8540923f777fb6198fcd52e6f.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:11:13+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:12:07+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11528xxOOKAFB5w5g' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_f9c930db4ddbac4396e46f5e3b107640.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:12:07+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:12:50+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11536MfWlgKxbOXnu' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_a587e7eebdef41f05fc282beed4aa3ba.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:12:50+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:13:34+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11545D8b8ZgKqTU7N' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_4c0de519e1b79ad056311dbd173d80bc.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:13:34+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:14:12+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11555-Bemwn01SAA6' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_cbf781682863715f663af16a594c10ec.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:14:12+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:14:55+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11566fFBxSUG0gggO' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_6f5804ef3bd5284d66a52215c47e79ee.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:14:55+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:20:31+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11606sHSxBi6RgoMc' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_8364658ee82324e02b20ed04f476e847.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:20:31+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:20:55+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11614DBE0xSCd0hU1' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_99c8d5ce8bfdf462d1e3f271484b6081.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:20:55+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:21:12+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11623L6Egl1982Tqz' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_5930833d833f58c75fadf95f000e44e1.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:21:12+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T13:42:07+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11746JXDJDyXZBmxM' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_b2305516319a978ee437c91a4b91a02a.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T13:42:07+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T15:50:54+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13970NrsL2A0nGLqh' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_54f8af3ccae8f75634e44c897876b014.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T15:50:54+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T16:02:51+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-14038v0QJOih7hFAi' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_e603af1893d519480dbfef2b7b893d46.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T16:02:51+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T16:03:40+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-14048R09JVSJSwqKA' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_8de401c34160128d1b0e8039865e2c1f.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T16:03:40+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T16:09:52+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-1415077SdIZWCru73' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_5ff6bd61ae4ce448b435058be58538ca.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T16:09:52+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-27T16:17:26+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-15051D3feVkgTuXHN' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_ee70882dc9e04fe4622f27204f9fd023.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-27T16:17:26+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T08:48:44+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-20872mlDl3y1XRVy4' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_497203b68d2a76da5a0fe71c3166327e.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T08:48:44+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T08:59:46+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-21044Bvd8GYQyxQtn' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_00f3ae5073cb17f5fa76703c005c0cf5.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T08:59:46+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T09:36:13+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-21504X952XCelARGF' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_dabb15872d7b5337734e48e7919798f3.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T09:36:13+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T09:38:02+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-21520y98SJxm90TDe' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_32b03f2aab42714411d28b4636784cbb.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T09:38:02+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T10:23:28+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-23009rLjCa6GGfszh' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_03b7935b85b591798c013fd645e41c25.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T10:23:28+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T12:12:38+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-26808zhkYjMmKz1LA' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_1cffec99a9f67a119b17a7e37f9b8cf5.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T12:12:38+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T12:18:55+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-26869_VMiUIcL8atB' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_9fe6fa59c586c5857cea5d1e5068c71d.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T12:18:55+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T12:20:20+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-26907tQ0Xz4ZsGQYc' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_a5eb3abea1062d12dff4084e8b02284e.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T12:20:20+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T12:33:34+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-27141KI_2XJlwckow' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_ebc479079d0070844563e958b21d1d79.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T12:33:34+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T12:38:38+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-273171nrJXQ39YF0E' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_4d09214f8e823ac54fa014c06579275f.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T12:38:38+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T12:39:21+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-27402uIoq5WX9vYxM' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_6b796b2e1f0881663f0d8c2ce81ea93f.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T12:39:21+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T13:07:31+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-279037kobvAPXNhvF' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_c57f478d84f1d6967af867b3ca24bcc8.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T13:07:31+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T14:48:25+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-29659MSz_LnfKptXe' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_deb792c2b8acaed49c81275822663067.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T14:48:25+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-28T14:50:32+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-296869g1I40TXhHsh' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_028775d08ea59d3bd8de9af0e78f32b3.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-28T14:50:32+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-01-29T10:31:18+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-2518643hqsNbFGc8A' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_5ac51af7c614e490d07b85287788d129.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-01-29T10:31:18+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-10T12:11:29+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-5315Kpbb1cplqujT' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_4f1e7909766e4b9e3e4f3e1a9f9c207f.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-10T12:11:29+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-10T13:27:06+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8741QVU3dqvQbXXx' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_615e6aa57424b51d33ce5fb947f005bc.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-10T13:27:06+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-14T09:18:07+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17077xoCyEnFw0YMz' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_b4824677185f2b446b43e1553f9c7eb7.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-14T09:18:07+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-14T09:25:23+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17113ZKjxp6Kmor8N' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_1e304d9282929b8360a5f9ab2ed21d67.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-14T09:25:23+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-14T09:28:10+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17122AidRWyo5ez7S' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_128bfa2d229d8b3019ab357176295185.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-14T09:28:10+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-14T09:43:15+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17247tuW-5ACHIswq' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_3a2b4829ab651840b66452d5584b2a16.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-14T09:43:15+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-14T10:06:23+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17316PBFB_lGIiTbV' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_e3caa0ec96093e4e0190c655472f62bf.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-14T10:06:23+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-14T10:11:39+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17398w_QniCmPQDlh' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_c081bec46b4dcb1bd2e7e96e9915e630.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-14T10:11:39+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-14T10:14:25+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17409O-ArKUJyg0kp' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_f30ddf60160440dfa822d8bc95b3e86c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-14T10:14:25+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-14T10:15:32+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-174180UfAkAG0JHwV' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_c2818564fdc5694b2db4f5b4c32c520f.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-14T10:15:32+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-14T10:18:57+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17430izw61WpKBmO2' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_820cdddef5b2a31163514759ca194c0e.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-14T10:18:57+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:02:26+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-2449935naofCtCcaX' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_a42908fd8957ac2fc1dd178363bbb641.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:02:26+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:04:59+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-24513NDooHqFS6w4e' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_e697ed5c77c0dc9388684840cef5b779.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:04:59+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:05:59+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-24522C25rRqrMNmB7' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_f65b46a98e940d05093b81287a7adf2f.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:05:59+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:12:43+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-24609pA_lSCNYjukG' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_8b5e7603e4cb6536006f6f52876f0b18.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:12:43+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:13:02+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-24617q4h8nR9fh8rT' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_1498b6ec2f6d66fc1d0a73152eebe91d.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:13:02+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:13:22+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-24625KDRAyTGMqFmZ' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_1d71996f60f63fb6d783de9cc46748fe.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:13:22+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:13:37+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-24633dn1z1tX98E2N' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_797a79e59ee3c296b8daf74c39ebc6b9.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:13:37+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:15:24+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-24644oCwEQXy3QhOL' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_f821b018c3aeb697a3c0d9b336cb9294.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:15:24+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:15:40+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-246535WkjbaRfO3vs' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_479bdf840484bacaffeba870798246f1.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:15:40+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:15:56+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-24662FVvzWTXb85Sw' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_4d258a176411a41fda3abe8a98e5d219.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:15:56+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T10:50:31+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-24822rYZLSMxFfh8O' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_7f1a7717d62310dc56fdf905edb9a684.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T10:50:31+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T11:57:54+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-25098lrkYCrLvbMaG' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_068868d33d7a6e500cbb53027bed6bb3.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T11:57:54+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T11:58:10+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-25106kmIMde6D89gD' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_bf7be7c2e4acf4d44deef8cd221b7706.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T11:58:10+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T11:58:27+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-25114eqEF2pNdUVmw' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_79cd1492a6dcc4b971c63b45f7038341.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T11:58:27+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T11:58:41+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-25122yxYB_SoG1wdd' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_fa819a606a3e02d10475df77ec4aa814.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T11:58:41+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T12:06:17+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-251618bmP1vyeqX2q' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_f3d08b072ae0305bcd3ff9a48f595aba.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T12:06:17+02:00 ERR (3): ImageMagick failed with status code 1.
+2020-02-26T12:06:32+02:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-251690MR_2IXu77UT' @ error/mvg.c/ReadMVGImage/185.
+convert: no images defined `/tmp/fullsize_cd2c97a4a09a3866a1fc1c783cc7f5af.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2020-02-26T12:06:32+02:00 ERR (3): ImageMagick failed with status code 1.

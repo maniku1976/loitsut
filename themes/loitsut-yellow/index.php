@@ -1,5 +1,6 @@
 <?php echo head(array('bodyid'=>'home', 'bodyclass' =>'two-col')); ?>
 <div id="primary">
+    <p><img src="themes/loitsut-yellow/images/PAAKUVA@2x.png" /></p>
     <?php if ($homepageText = get_theme_option('Homepage Text')): ?>
     <p><?php echo $homepageText; ?></p>
     <?php endif; ?>
@@ -10,6 +11,7 @@
 <div>
 </div>
 <div id="secondary">
+
     <?php
     $recentItems = get_theme_option('Homepage Recent Items');
     if ($recentItems === null || $recentItems === ''):
@@ -20,8 +22,8 @@
     if ($recentItems):
     ?>
     <div id="recent-items">
+        <h2>Poimintoja</h2>
         <?php echo recent_items($recentItems); ?>
-        <p class="view-items-link"><a href="<?php echo html_escape(url('items')); ?>"><?php echo __('View All Items'); ?></a></p>
     </div><!--end recent-items -->
     <?php endif; ?>
 

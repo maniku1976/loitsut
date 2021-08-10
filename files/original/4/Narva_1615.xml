@@ -4,13 +4,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Voiteen sanat, Narva 1657</title>
+        <title>Tuomiokirja, Narva 1615</title>
       </titleStmt>
       <editionStmt>
         <edition>Tuomikirjojen loitsut</edition>
         <respStmt>
           <resp>Kuvat ja digitointi</resp>
-          <orgName>Kansallisarkisto</orgName>
+          <orgName>Rahvusarhiiv</orgName>
         </respStmt>
         <respStmt>
           <resp>Transkriptio</resp>
@@ -24,37 +24,18 @@
       <publicationStmt>
         <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
         <date when="2018-11-29">29.11.2018</date>
+        <availability><p>CC-BY 4.0: https://creativecommons.org/licenses/by/4.0</p></availability>
       </publicationStmt>
-      <notesStmt>
-        <note n="loitsu1">
-          1. kipullen woiteixi.<lb/> 
-          Hauoillen parendehax"<lb/><lb/>
-          Säepari on Etelä-Karjalassa ja Inkerissä yleinen <hi rend="italics">Voiteen luvussa</hi>, mutta myöhemmässä aineistossa yleensä muodossa "kipehille voiteheks(i)/voitehiks(i), haavoille 
-          parantehiks(i)/parantajaks(i)/parannukseks". Sanan <hi rend="italics">parendehax</hi> läheisin muoto on Inkerin Tyröstä tallennettu <hi rend="italics">parentehiiks</hi> (SKVR IV3 4351).
-        </note>
-        <note  n="loitsu2">
-          2. "Noe olcon"<lb/><lb/>
-          Proosamuotoinen välihuomautus, vaillinainen säe tai seuraavan säkeen tavallista pidempi, epätyypillinen aluke: ne tai nuo (Kristuksen veri ja Marian maito?) olkoon, viidelle veljekselle…  
-          Vastaavissa yhteyksissä myöhemmissä aineistoissa usein <hi rend="italics">olkoon</hi>: "Neitsy Maarian makia maito haavaan parannukseks’ olkoon"; "Jesuksen veri punanen, Marian makia maito 
-          Olkoon tähän voiteheks'" (SKVR IX3 776, XII1 4561).
-        </note>
-        <note  n="loitsu3">
-          3. "5. Weliexellen. Eli: 9. Wierahallen"<lb/><lb/>
-          Vastineita säeparille ei myöhemmästä aineistosta löydy. Tarkoittaa todennäköisesti, että voiteet olkoon avuksi viidelle veljekselle ja yhdeksälle vieraalle eli monille ihmisille. Heinrich 
-          Johann Hansen pitää säkeitä käsittämättöminä, mutta tuntematon kääntäjä vuonna 1848 tulkitsee kolme viimeistä säettä mahdollisesti viron kielen mukaan assosioiden seuraavasti: "Es sei Hexerei. 
-          5 für Brüder. 9 für Fremden" eli olkoon tämä noitus, viisi (kertaa?) veljeksille, yhdeksän (kertaa) vierahille (Ein Hexenprocess in Narwa, 322). 
-        </note>
-      </notesStmt>
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Helsinki</settlement>
-            <repository>Kansallisarkisto, Vaasan raastuvanoikeus 26.8.1657, s.n., [360] r. 16−24; http://digi.narc.fi/digi/view.ka?kuid=11824928</repository>
+            <settlement>Tartto</settlement>
+            <repository>Tartu, Rahvusarhiiv: Narva magistraat: Kolleegium: Kantselei : Protokollid: EAA 1646.1.74 Протоколы 1603–1622, s. 341–361</repository>
             <idno></idno>
           </msIdentifier>
           <msContents>
             <msItem n="1" class="transcription">
-              <bibl>narva_1615tp</bibl>
+              <bibl>narva1615tp</bibl>
             </msItem>
           </msContents>
         </msDesc>
@@ -65,28 +46,6 @@
         <language ident="fi-FI">suomi</language>
         <language ident="de-DE">Deutsch</language>
       </langUsage>
-      <particDesc>
-        <person>
-          <persName type="asiakirjat">
-            <forename>Birgitta</forename>
-          </persName>
-          <persName type="tutkimuskirjallisuus">
-             <forename>Birgitta</forename>
-          </persName>
-          <persName type="tutkimuskirjallisuus">
-            <forename>Brigitta</forename>
-          </persName>
-          <residence>
-            <placeName type="asiakirja">
-              <settlement>Narva</settlement>
-            </placeName>
-            <placeName type="eri_lahteet">
-              <settlement>Narva</settlement>
-            </placeName>
-          </residence>
-          <occupation>vääpelin (Wachtmeister) vaimo</occupation>
-        </person>
-      </particDesc>
       <settingDesc>
         <setting>
           <name>Narva</name>
@@ -100,518 +59,578 @@
   <text>
     <body>
       <div type="teksti">
-        <pb n="1" facs="eaa1646_001_0000074_00345" />
-        <gap extent="several lines" />
+        <pb n="345" facs="eaa1646_001_0000074_00345" />
         <p>
-          <l>1. Anno i6i5. den .28. April. §</l>
-          <l>2. Jst das Bericht erschinen <choice><abbr>S.</abbr><expan>Seligen</expan></choice> Herrn Johan Watzons Nach-</l>
-          <l>3. gelassene Wittibe, Vndt hat demütiglichen Zuer Kennen</l>
-          <l>4. gegeben, Was massen Vngefehr für dies Jahres Ein fin-</l>
-          <l>5. nisch Weib mit Nahmen Birgitta, so einen Wachtmeister</l>
-          <l>6. alhier Zum Ehemann hatte, Zu Ihrer Tochter Marien</l>
-          <l>7. <choice><abbr>S.</abbr><expan>Seligen</expan></choice> <unclear>Robert</unclear> Jacobssons Nachgelassene Wittibe, ins haus</l>
-          <l>8. Kommen, Vndt Von der Magdt ein stoff Bier begehret, </l>
-          <l>9. Welches ihr die Magdt geweigert, Endtlich auf Viel-</l>
-          <l>10. faltiges anhalten ihr den noch gegeben. Wir nun gedacht</l>
-          <l>11. ihre Tochter <unclear>mit</unclear> ihrem Kleinen Kindelein, so Sie ebes</l>
-          <l>12. Zu der Zeit gefänget im bette gelegen Vndt ads Weibes</l>
-          <l>13. gewahr Worden, Auch gefragt, Was ihr begehren Wahre, </l>
-          <l>14. Hette</l>
+          <l>[Oikeustapaus alkaa riviltä 10.]</l>
+        </p>        
+        <p>
+          <l>[10.] Anno i6i5. den .28. April. §</l>
+          <l>[11.] Jst vor Gericht erschinen <choice><abbr>.S.</abbr><expan>Seligen</expan></choice> Herrn Johan Watzons<label type="commentary" n="tuomio1">1</label> Nach-</l>
+          <l>[12.] gelassene Wittibe<label type="commentary" n="tuomio2">2</label>, Vndt hat demütiglichen Zuerkennen</l>
+          <l>[13.] gegeben, Was massen Vngefehr fur dreij Jahren Ein fin-</l>
+          <l>[14.] nisch Weib mit Nahmen Brigitta, so einen Wachtmeister</l>
+          <l>[15.] alhier Zum Ehemann hatte, Zu Ihrer Tochter Marien<label type="commentary" n="tuomio3">3</label></l>
+          <l>[16.] <choice><abbr>S.</abbr><expan>Seligen</expan></choice> <unclear>Gobert</unclear> Jacobssons<label type="commentary" n="tuomio4">4</label> Nachgelassene Wittibe, ins haus</l>
+          <l>[17.] Kommen, Vndt Von der Magdt ein stoff Bier begehret, </l>
+          <l>[18.] Welches ihr die Magdt geweigert, Endtlich auf Viel-</l>
+          <l>[19.] faltiges anhalten ihr den noch gegeben. Wir nun gedachte</l>
+          <l>[20.] ihre Tochter <unclear>mit</unclear> ihrem Kleinen Kindelein, so Sie eben</l>
+          <l>[21.] Zu der Zeit gefänget im bette gelegen Vndt des Weibes</l>
+          <l>[22.] gewahr Worden, Auch gefragt, Was ihr begehren Wehre,</l>
+          <l>[23.] Hette</l>
         </p>
-        <pb n="2" facs="eaa1646_001_0000074_00346a" />
+        <pb n="346" facs="eaa1646_001_0000074_00346a" />
         <p>
-          <l>15. Hette Sie abermahls Von Bier geredet, Vnangesehen ihr</l>
-          <l>16. die Magdt albereit gegeben dessen ihr die swarte auch</l>
-          <l>17. aberschlagen, Wndt gesaget; Sie hatte Kein Bier.</l>
-          <l>18. Hier auf das Weib Weggang, Vndt etliche Wort <unclear>binnen</unclear></l>
-          <l>19. mundes geredet, Von stundt an Wehre ihr Tochter,</l>
-          <l>20.  Kindt dermassen mit Kranckheit befallen, des </l>
-          <l>21.  es auch in Eilff Wochen der Mtte Brüste nicht </l>
-          <l>22.  saugen Wollen. Jn Wehrenden diesen Eilff Wochen</l>
-          <l>23.  hetten Viel leut diesen raht gegeben, das man das </l>
-          <l>24.  Weib fördern, Vndt dem Kinde Zuhelffen, bitten solle</l>
-          <l>25. Welches geschehen, Aber das Weib seij alle Zeit aussen,</l>
-          <l>26. blieben bis Endtlich Sie die Watzensche mit ihrer</l>
-          <l>27. Tochter Marien Vndt <choice><abbr>S.</abbr><expan>Seligen</expan></choice> Jochim Ferings Hausfrauw</l>
-          <l>28. Zu ihr ganzen da Sie das haus dermassen <unclear>Verbol-</unclear></l>
-          <l>29. <unclear>Wercket</unclear> funden, das Sie nicht hinein Kommen</l>
-          <l>30. Können; 	Nach langem anklopffen aber, Vndt</l>
-          <l>31. Wie sie sich bemühet, das holtz wor der thüren Weg Zu stoss,</l>
-          <l>32. Wehrt das Weib heraus kommen Vndt die thure</l>
-          <l>33. aufgemacht, da Sie dan alle mitein ander bebehten</l>
-          <l>34. dem Krancken Kinde Zu helffen, Auch gedrewet,</l>
-          <l>35. Wo ferme Sie dem Kinde nicht helffen Würde,</l>
-          <l>36. alsstan Sie der ObrigKeit Zu Schloss solches Wolten</l>
-          <l>37. Klagende Zuerkennen geben, darauf Beklagtinne</l>
-          <l>38. geantwortett</l>
+          <l>[1.] Hette Sie abermahls Von Bier geredet, Vnangesehen ihr</l>
+          <l>[2.] die Magdt albereit gegeben, dessen ihr die frauwe auch</l>
+          <l>[3.] abgeschlagen, Wndt gesaget; Sie haette Kein Bier.</l>
+          <l>[4.] Hier auf das Weib Weggang, Vndt etliche Wort <unclear>binnen</unclear></l>
+          <l>[5.] mundes geredet, Von stundt an Wehre ihre Tochter,</l>
+          <l>[6.] Kindt dermassen mit Kranckheit befallen, das </l>
+          <l>[7.] es auch in Eilff Wochen der Mutter Brüste nicht </l>
+          <l>[8.] saugen Wollen. Jn Wehrenden diesen Eilff Wochen</l>
+          <l>[9.] hetten Viel leut diesen raht gegeben, das man das</l>
+          <l>[10.] Weib fördern, Vndt dem Kinde Zuhelffen, bitten solle</l>
+          <l>[11.] Welches geschehen, Aber das Weib seij alle Zeit aussen,</l>
+          <l>[12.] blieben bis Endtlich Sie die Watzensche mit ihrer</l>
+          <l>[13.] Tochter Marien Vndt <choice><abbr>.S.</abbr><expan>Seligen</expan></choice> Jochim Ferings Hausfrauw</l>
+          <l>[14.] Zu ihr ganzen, da Sie das haus dermassen <unclear>Verbol-</unclear></l>
+          <l>[15.] <unclear>Wercket</unclear> funden, das Sie nicht hinein Kommen</l>
+          <l>[16.] Können; Nach langem anklopffen aber, Vndt</l>
+          <l>[17.] Wie sie sich bemühet, das holtz wor der thüren Weg Zustoss,</l>
+          <l>[18.] Wehrt das Weib heraus kommen, Vndt die thure</l>
+          <l>[19.] aufgemacht, da Sie dan alle mitein ander bebehten</l>
+          <l>[20.] dem Krancken Kinde Zu helffen, Auch gedrewet,</l>
+          <l>[21.] Wo ferne Sie dem Kinde nicht helffen Würde,</l>
+          <l>[22.] alssdan Sie der ObrigKeit Zu Schloss solches Wolten</l>
+          <l>[23.] Klagende Zuerkennen geben, darauf Beklagtinne</l>
+          <l>[24.] geantwortett</l>
         </p>
-        <pb n="3" facs="eaa1646_001_0000074_00346b" />
+        <pb n="347" facs="eaa1646_001_0000074_00346b" />
         <p>
-          <l>39. geantwortett, Wer <choice><abbr>S.</abbr><expan>Selige</expan></choice> Robert Jacobsson Wmb den halb</l>
-          <l>40. gebracht? Alss nun Klagerin die <unclear>Watzensche</unclear> gesagt, das</l>
-          <l>41. hette ohn Zweifel Gott gethan, doch möchte ab der Be-</l>
-          <l>42. Klagtinnen bewust sein, Ob sie auch darzu <choice><abbr>geholf</abbr><expan>geholfen</expan></choice>. §</l>
-          <l>43. Beklagtinne gesagt, Sie solten Zu haus gehen, das</l>
-          <l>44. Kindt Wurde Woll Wieder gesundt Werden, Welches</l>
-          <l>45. dan auch geschehen, den da Klagerin mit ihrer Tochter</l>
-          <l>46. Marian Zu Haus Kommen, hette Sie gesagt, Nun das</l>
-          <l>47. Kindt an Deine brust Vndt Versuche doch, ob es die</l>
-          <l>48. selbe Eil an nehmen, Hierauf ihdre Tochter Maria</l>
-          <l>49. desselbe gethan, Vndt Mehre befunden, das ihre Kindt</l>
-          <l>50. gesundt Worden, Vndt, gott lob, bis Zu dieser Zeit</l>
-          <l>51. gesundt geblieben. §</l>
-        </p>
-        <p>
-          <l>52. Zum Andern bringet auch Klagerin Vor, das Vn-</l>
-          <l>53. gefahr Vor Neün Wochen Beklagtinne Zu ihrer</l>
-          <l>54. andern Tochter Elisabethen, morgens frühe, Vndt da</l>
-          <l>55. ihre Eheman Peter <unclear>Lessle</unclear> nach Riga Verreiset ge-</l>
-          <l>56. Wesen, Vndt Sie die frauw albst noch in der beij-</l>
-          <l>57. Kammar ins bette gelegen, Kommen, Vndt Von der</l>
-          <l>58. Magdt Wein begehret: Alss nun desselbe ihr won der</l>
-          <l>59. Magdt egweigert, Wehre Beklagtinne in die Kam-</l>
-          <l>60. mer gangen, Vndt Von der frauen selbst Wein Geför-</l>
-          <l>61. dertt</l>
-        </p>
-        <pb n="4" facs="eaa1646_001_0000074_00347a" />
-        <p>
-          <l>62. dert, welche Zur Antwort geben, Sie haette Keinen Wein,</l>
-          <l>63. Beklagtinne gesagt, Sie solte holen lassen, das Sie</l>
-          <l>64. die frauw auch nicht thun Wollen, darauf ihr alss-</l>
-          <l>65. baldt, Ein Ring Vmb den hals gewachssen, Vndt</l>
-          <l>66. also ausgeschlag, das es Zuerbarmen, Auch durch</l>
-          <l>67. grossen fleis des herrn Obristen Coburns Feldt-</l>
-          <l>68. schernes geheilet Werden mussen. §</l>
+          <l>[1.] geantwortett, Wer <choice><abbr>.S.</abbr><expan>Selige</expan></choice> Gobert Jacobsson Vmb den halb</l>
+          <l>[2.] gebracht? Alss nun Klagerin die <unclear>Watzensche</unclear> gesagt, das</l>
+          <l>[3.] hette ohn Zweifel Gott gethan, doch möchte ab der Be-</l>
+          <l>[4.] Klagtinnen bewust sein, Ob sie auch darzu <choice><abbr>geholf</abbr><expan>geholfen</expan></choice>. §</l>
+          <l>[5.] Beklagtinne gesagt, Sie solten Zu haus gehen, das</l>
+          <l>[6.] Kindt Wurde Woll Wieder gesundt Werden, Welches</l>
+          <l>[7.] dan auch geschehen, den da Klaegerin mit ihrer Tochter</l>
+          <l>[8.] Marian Zu Haus Kommen, hette Sie gesagt, Nun das</l>
+          <l>[9.] Kindt an Deine brust Vndt Versuche doch, ob es die</l>
+          <l>[10.] selbe Wil annehmen, Hierauf ihre Tochter Maria</l>
+          <l>[11.] desselbe gethan, Vndt Wehre befunden, das ihre Kindt</l>
+          <l>[12.] gesundt Worden, Vndt, gott lob, bis Zu dieser Zeit</l>
+          <l>[13.] gesundt geblieben. §</l>
         </p>
         <p>
-          <l>69. Nachmals hatte Klagerin die Beklagtinne durch</l>
-          <l>70. Eine Magdt bitten lassen Zu ihr Zu kommen, Vndt</l>
-          <l>71. ihre Tochter Wieder Zu heilen, den Sie schultig daran</l>
-          <l>72. Wahre, Welches Beklagtinne Zuthun <unclear>d[_]</unclear>, angelobet,</l>
-          <l>73. Wahre aber aussenblieben. § </l>
+          <l>[14.] Zum Andern bringet auch Klagerin Vor, das Vn-</l>
+          <l>[15.] gefahr Vor Neün Wochen Beklagtinne Zu ihrer</l>
+          <l>[16.] andern Tochter Elisabethen,<label type="commentary" n="tuomio5">5</label> morgens frühe, Vndt da</l>
+          <l>[17.] ihre Eheman Peter <unclear>Lessle</unclear><label type="commentary" n="tuomio6">6</label> nach Riga Verreiset ge-</l>
+          <l>[18.] Wesen, Vndt Sie die frauw selbst noch in der beij-</l>
+          <l>[19.] Kammar ins bette gelegen, Kommen, Vndt Von der</l>
+          <l>[20.] Magdt Wein begehret: Alss nun derselbe ihr won der</l>
+          <l>[21.] Magdt geweigert, Wehre Beklagtinne in die Kam-</l>
+          <l>[22.] mer gangen, Vndt Von der frauen selbst Wein Geför-</l>
+          <l>[23.] dertt</l>
+        </p>
+        <pb n="348" facs="eaa1646_001_0000074_00347a" />
+        <p>
+          <l>[1.] dert, welche Zur Antwort geben, Sie haette Keinen Wein,</l>
+          <l>[2.] Beklagtinne gesagt, Sie solte holen lassen, das Sie</l>
+          <l>[3.] die frauw auch nicht thun Wollen, darauf ihr alss-</l>
+          <l>[4.] baldt, Ein Ring Vmb den hals gewachssen, Vndt</l>
+          <l>[5.] also ausgeschlag, das es Zuerbarmen, Auch durch</l>
+          <l>[6.] grossen fleis des herrn Obristen Cobruns<label type="commentary" n="tuomio7">7</label> Feldt-</l>
+          <l>[7.] schernes geheilet Werden mussen. §</l>
         </p>
         <p>
-          <l>74. Bittet also Klagerin, <add><hi rend="superscript">§</hi></add>Ein Erb-Bericht Ampts-</l>
-          <l>75. halbes dieses alles, Vndt insonderheit solche Hoch-</l>
-          <l>76. Wichtige praesumptiones Wol Betrachten, die haernach-</l>
-          <l>77. benante Persohner, so Von der Beklagtinnen auch</l>
-          <l>78. etwas Zusagen Wüsten, fleissig examinieren,</l>
-          <l>79. Wndt Hernach, Was Recht sein Würden, judiciren </l>
-          <l>80. Vndt Vrtheilen Wolte. §</l>
+          <l>[8.] Nachmals hatte Klagerin die Beklagtinne durch</l>
+          <l>[9.] Eine Magdt bitten lassen Zu ihr Zu kommen, Vndt</l>
+          <l>[10.] ihre Tochter Wieder Zu heilen, den Sie schultig daran</l>
+          <l>[11.] Wehre, Welches Beklagtinne Zuthun <unclear>den</unclear>, angelobet,</l>
+          <l>[12.] Wehre aber aussenblieben. § </l>
         </p>
         <p>
-          <l>81. Nomina Testium. §</l>
-          <l>82. .j. Berendt Zimmerman</l>
-          <l>83. .2. Agneta, Jacob Zimmermans Eheweib. §</l>
-          <l>84. .3. Hans</l>
-        </p>
-        <pb n="5" facs="eaa1646_001_0000074_00347b" />
-        <p>
-          <l>85. .3. Hans Niehoff.</l>
-          <l>86. .4. Frantz der Wachtmeister.</l>
-          <l>87. .5. Philip Erichsson.</l>
-          <l>88. .6. Elisabetha Koch, <choice><abbr>S.</abbr><expan>Selige</expan></choice> Wolff Gminders</l>
-          <l>89. Nachgelassene Wittibe.</l>
-          <l>90. .7. Ebela, Paul Dolchs gewesene Magdt. §</l>
+          <l>[13.] Bittet also Klagerin, Ein <choice><abbr>Erb.</abbr><expan>Erbare</expan></choice> Gericht Ampts-</l>
+          <l>[14.] halbes dieses alles, Vndt insonderheit solche Hoch-</l>
+          <l>[15.] Wichtige praesumptiones wol Betrachten, die haernach-</l>
+          <l>[16.] benante Persohner, so Von der Beklagtinnen auch</l>
+          <l>[17.] etwas Zusagen Wüsten, fleissig examinieren,</l>
+          <l>[18.] Vndt Hernach, Was Recht sein Würden, judiciren </l>
+          <l>[19.] Vndt Vrtheilen Wolte. §</l>
         </p>
         <p>
-          <l>91. Testis. .j.</l>
+          <l>[20.] Nomina Testium. §</l>
+          <l>[21.] .j. Berendt Zimmerman</l>
+          <l>[22.] .2. Agneta, Jacob Zimmermans Eheweib. §</l>
+          <l>[23.] .3. Hans</l>
+        </p>
+        <pb n="349" facs="eaa1646_001_0000074_00347b" />
+        <p>
+          <l>[1.] .3. Hans Niehoff.</l>
+          <l>[2.] .4. Frantz der Wachtmeister.</l>
+          <l>[3.] .5. Philip Erichsson.</l>
+          <l>[4.] .6. Elisabetha Kochs, <choice><abbr>S.</abbr><expan>Selige</expan></choice> Wolff Gminders<label type="commentary" n="tuomio8">8</label></l>
+          <l>[5.] Nachgelassene Wittibe.</l>
+          <l>[6.] .7. Ebela, Paul dolchs gewesene Magdt. §</l>
         </p>
         <p>
-          <l>92. Berendt Zimmerman Ein Becker. §</l>
+          <l>[7.] Testis. .j.</l>
         </p>
         <p>
-          <l>93. Sagt auss, das Beklagtinne in sein haus Kommen,</l>
-          <l>94. Vndt bier begehrt, Wie ihr nun solches geweigert,</l>
-          <l>95. Wahre Sie Weggangen, Vndt im aussgehen, salva</l>
-          <l>96. reverentia Zumelden, in Einen Kuhedreck getreten,</l>
-          <l>97. darauf Sie alssbaldt gedrewet, des Zeugen Kühe </l>
-          <l>98. Zu <unclear>une</unclear> Zaubern, das Sie an stat der Milch nicht anderss</l>
-          <l>99. dan blut geben solten, Welches auch alssbaldt geschehen,</l>
-          <l>100. den seine Kühe dreij tage nacheinander an stat der </l>
-          <l>101. Milch blut gegeben; Hernach Wahre auch seine </l>
-          <l>102. frauw Kranck Worden also das Sie in Siben</l>
-          <l>103. Wochen Vom Bette nicht Kommen Können, dan Was </l>
-          <l>104. die Eine seite etwas besser, Wahre die ander Wieder</l>
-          <l>105. lahm geworden, biss endtlich Zeuge auf etlicher Leühte</l>
-          <l>106. raht</l>
-        </p>
-        <pb n="6" facs="eaa1646_001_0000074_00348a" />
-        <p>
-          <l>107. raht, das Er Beklagtinne blutig schlahen, alssdan möchte es </l>
-          <l>108. Vielnicht besser Werden, das Weib, nemlich die Be-</l>
-          <l>109. klagtinne geschlagen, aber nicht blutig, Vndt Wahre</l>
-          <l>110. auch nicht allein sein Viehe, sondern auch sein Weib dar-</l>
-          <l>111. für Er Gott dancken <unclear>thate</unclear>, Wieder gesundt <choice><abbr>Word</abbr><expan>Worden</expan></choice>.</l>
-          <l>112. Beschleust hier mit seine Aussage, Vndt kan dieselbe</l>
-          <l>113. Man es erfördert Wirdt, mit einem Cörperlich</l>
-          <l>114. Eide erhalten. §</l>
+          <l>[8.] Berendt Zimmerman Ein Becker. §</l>
         </p>
         <p>
-          <l>115. Testis .2.</l>
+          <l>[9.] Sagt auss, das Beklagtinne in sein haus Kommen,</l>
+          <l>[10.] Vndt bier begehrt, Wie ihr nun solches geweigert,</l>
+          <l>[11.] Wahre Sie Weggangen, Vndt im aussgehen, salva</l>
+          <l>[12.] reverentia Zumelden, in Einen Kuhedreck getreten,</l>
+          <l>[13.] darauf Sie alssbaldt gedrewet, des Zeugen Kühe</l>
+          <l>[14.] Zu <unclear>uer</unclear> Zaubern, das Sie an stat der Milch nicht anderss</l>
+          <l>[15.] dan blut geben solten, Welches auch alssbaldt geschehen,</l>
+          <l>[16.] den seine Kühe dreij tage nacheinander an stat der</l>
+          <l>[17.] Milch blut gegeben; Hernach Wehre auch seine</l>
+          <l>[18.] frauw Kranck Worden also das Sie in Siben</l>
+          <l>[19.] Wochen Vom Bette nicht Kommen Können, dan Was </l>
+          <l>[20.] die Eine seite etwas besser, Wahre die ander Wieder</l>
+          <l>[21.] lahm geworden, biss endtlich Zeuge auf etlicher Leühte</l>
+          <l>[22.] raht</l>
+        </p>
+        <pb n="350" facs="eaa1646_001_0000074_00348a" />
+        <p>
+          <l>[1.] raht, das Er Beklagtinne blutig schlahen, alssdan möchte es</l>
+          <l>[2.] Vielnicht besser Werden, das Weib, nemlich die Be-</l>
+          <l>[3.] klagtinne geschlagen, aber nicht blutig, Vndt Wehre</l>
+          <l>[4.] auch nicht allein sein Viehe, sondern auch sein Weib, dar-</l>
+          <l>[5.] für Er Gott dancken <unclear>thete</unclear>, Wieder gesundt <choice><abbr>Word</abbr><expan>Worden</expan></choice>.</l>
+          <l>[6.] Beschleust hier mit seine Aussage, Vndt kan dieselbe</l>
+          <l>[7.] Wan es erfördert Wirdt, mit einem Cörperlich</l>
+          <l>[8.] Eide erhalten. §</l>
         </p>
         <p>
-          <l>116. Agneta, Jacob Simmermans EheWeib. §</l>
+          <l>[9.] Testis .2.</l>
         </p>
         <p>
-          <l>117. Sagt auss, das Beklagtinne zu ihr Kommen, Vndt Ein</l>
-          <l>118. Stoff bier begehret, da ihr Zeügin geantWortet, Sie hette</l>
-          <l>119. Bier Vor gelt Vndt nichts Vmbsonst, im <unclear>dehme</unclear> ihre Kleine</l>
-          <l>120.  Kindt, so seines alters ins dritte Jahr in der stuben</l>
-          <l>121.  Herumb geloffen, Vndt gespielet, Beklagtinne dasselb</l>
-          <l>122.  Zu sich geruffen, Vndt gesagt, Ach Wolte Gott das</l>
-          <l>123.  Jch ein Solch Kindt haben möchte; Zeuginne geant-</l>
-          <l>124.  wortet mache dir eins, Vndt lass mein Kindt <choice><abbr>Zufrid</abbr><expan> Zufriden</expan></choice>,</l>
-          <l>125. Hier1auf Wahre BeKlagtinne Weggangen, der Zeüginnen</l>
-          <l>126. Kindt aber alssbaldt so Kranck Worden, das es in </l>
-          <l>127. etlichen Wochen an essen nicht das geringstes geniessen</l>
-          <l>128. Können, Vndt Was es getruncken, hatte es alssbaldt</l>
-          <l>129. Wieder Von sich geben: Zeuginne das Kindt gefragt,</l>
-          <l>130. Ob ihme</l>
-        </p>
-        <pb n="7" facs="eaa1646_001_0000074_00348b" />
-        <p>
-          <l>131. Ob ihme das alte Weib ettWas gethan, das Kindt ge-</l>
-          <l>132. antWortett, Sie hatte ihm dreij haber Körner in der </l>
-          <l>133. mundt gesteckt, Alss Zeuginne dieses gehöret, hatte</l>
-          <l>134. Sie ihre Magdt Zu Beklagtinne geschickt, Vnd begehrt,</l>
-          <l>135. Sie Wolte Zu ihr Kommen, Beklagtinne gefragt, Was</l>
-          <l>136. sol ich dar machen? Wer ist Kranck in Ewrem Hause?</l>
-          <l>137. Vieleicht Wil deine frauw nichtmihr Zaucken, Vndt</l>
-          <l>138. Wahre nicht Kommen.</l>
+          <l>[10.] Agneta, Jacob Zimmermans EheWeib. §</l>
         </p>
         <p>
-          <l>139. Hierauf Zeügin selbst hingangen, Vndt gesagt, du hast</l>
-          <l>140. mein Kindt Kranck gemacht, Wirstu es nicht Wieder</l>
-          <l>141. gesundt machen, Wil ich dich Verklagen, Vndt es dahin</l>
-          <l>142. bringen, das <unclear>man</unclear> dich brennen soll.</l>
+          <l>[11.] Sagt auss, das Beklagtinne zu ihr Kommen, Vndt Ein</l>
+          <l>[12.] Stoff bier begehret, da ihr Zeügin geantWortet, Sie hette</l>
+          <l>[13.] Bier Vor gelt Vndt nichts Vmbsonst, im <unclear>dehme</unclear> ihre Kleine</l>
+          <l>[14.] Kindt, so seines alters ins dritte Jahr in der stuben</l>
+          <l>[15.] Herumb geloffen, Vndt gespielet, Beklagtinne dasselb</l>
+          <l>[16.] Zu sich geruffen, Vndt gesagt, Ach Wolte Gott das</l>
+          <l>[17.] Jch ein Solch Kindt haben möchte; Zeuginne geant-</l>
+          <l>[18.] wortet mache dir eins, Vndt lass mein Kindt <choice><abbr>Zufrid</abbr><expan> Zufriden</expan></choice>,</l>
+          <l>[19.] Hierauf Wehre BeKlagtinne Weggangen, der Zeüginnen</l>
+          <l>[20.] Kindt aber alssbaldt so Kranck Worden, das es in </l>
+          <l>[21.] etlichen Wochen an essen nicht das geringstes geniessen</l>
+          <l>[22.] Können, Vndt Was es getruncken, hatte es alssbaldt</l>
+          <l>[23.] Wieder Von sich geben: Zeuginne das Kindt gefragt,</l>
+          <l>[24.] Ob ihme</l>
+        </p>
+        <pb n="351" facs="eaa1646_001_0000074_00348b" />
+        <p>
+          <l>[1.] Ob ihme das alte Weib ettWas gethan, das Kindt ge-</l>
+          <l>[2.] antWortett, Sie hatte ihm dreij haber Körner in der </l>
+          <l>[3.] mundt gesteckt, Alss Zeuginne dieses gehöret, hatte</l>
+          <l>[4.] Sie ihre Magdt Zu Beklagtinne geschickt, Vnd begehrt,</l>
+          <l>[5.] Sie Wolte Zu ihr Kommen, Beklagtinne gefragt, Was</l>
+          <l>[6.] sol ich dar machen? Wer ist Kranck in Ewrem Hause?</l>
+          <l>[7.] Vieleicht Wil deine frauw nichtmihr Zaucken, Vndt</l>
+          <l>[8.] Wahre nicht Kommen.</l>
         </p>
         <p>
-          <l>143. Beklagtinne sich entschültiget, Wndt gesagt, es Würde</l>
-          <l>144. mit dem Kinde Wol besser Werden, Sie Wolte auch </l>
-          <l>145. selbst hin Kommen Vndt helffen.</l>
+          <l>[9.] Hierauf Zeügin selbst hingangen, Vndt gesagt, du hast</l>
+          <l>[10.] mein Kindt Kranck gemacht, Wirstu es nicht Wieder</l>
+          <l>[11.] gesundt machen, Wil ich dich Verklagen, Vndt es dahin</l>
+          <l>[12.] bringen, das <unclear>man</unclear> dich brennen soll.</l>
         </p>
         <p>
-          <l>146. Zeuginne hier auf Zu Haus gangen, Vndt ihr Kindt</l>
-          <l>147. schlaffendt gefunden, da es doch Zu fohr nicht schlaffen</l>
-          <l>148. können. Vnleugst Wahre Beklagtinne gefolget,</l>
-          <l>149.  da das Kindt noch geschlaffen, Vndt begehret, Zeuginne</l>
-          <l>150. solte es aus dem schlaffe nehmen, dessen Zeüginne</l>
-          <l>151. sich geWeigert; Beklagtinne gesagt, nim es nur</l>
-          <l>152. auf mein Wort auss dem shclaffe, Gott Wirdt ihme</l>
-          <l>153. Woll</l>
-        </p>
-        <pb n="8" facs="eaa1646_001_0000074_00349a" />
-        <p>
-          <l>154. Woll Wieder schlaff geben, da es den Zeügen gethan,</l>
-          <l>155. Beklagtinne das Kindt genohmen, in ihre hände <unclear>gespen</unclear>,</l>
-          <l>156. Vndt ges Kindes Kopff darmit geslichtet, ihme auch </l>
-          <l>157. in den mundt geblasen, Vndt endtlich einen <unclear>fadem</unclear> aus</l>
-          <l>158. dem beutel  genohmen, dem Kinde Vmbb leib gebund</l>
-          <l>159. mit befehl, denselben das andern tages WegZunehmen,</l>
-          <l>160. in einer Creutz strassen ZuWerffen, Vndt also ruck-</l>
-          <l>161. <unclear>lings</unclear>Wieder anheimb Zugehen, Welches alles Zeügen</l>
-          <l>162. gethan, Vndt Wahre ihre Kindt gesundt Worden</l>
-          <l>163. Vndt, got lob, bis anhero gesundt blieben, Weis</l>
-          <l>164. sonsten nicht mehr, Vndt bescleüst auch ihre Aussage</l>
-          <l>165. mit ebenmeessigem erbietes des Cörprelichen </l>
-          <l>166. Eides, Wie Voriger Zeüge. §</l>
+          <l>[13.] Beklagtinne sich entschültiget, Vndt gesagt, es Würde</l>
+          <l>[14.] mit dem Kinde Wol besser Werden, Sie Wolte auch </l>
+          <l>[15.] selbst hin Kommen Vndt helffen.</l>
         </p>
         <p>
-          <l>167. Testis .3.</l>
+          <l>[16.] Zeuginne hier auf Zu Haus gangen, Vndt ihr Kindt</l>
+          <l>[17.] schlaffendt gefunden, da es doch Zu fohr nicht schlaffen</l>
+          <l>[18.] können. Vnleugst Wehre Beklagtinne gefolget,</l>
+          <l>[19.] da das Kindt noch geschlaffen, Vndt begehret, Zeuginne</l>
+          <l>[20.] solte es aus dem schlaffe nehmen, dessen Zeüginne</l>
+          <l>[21.] sich geWeigert; Beklagtinne gesagt, nim es nur</l>
+          <l>[22.] auf mein Wort auss dem schlaffe, Gott Wirdt ihme</l>
+          <l>[23.] Woll</l>
+        </p>        
+        <pb n="352" facs="eaa1646_001_0000074_00349a" />
+        <p>
+          <l>[1.] Woll Wieder schlaff geben, da es dan Zeügin gethan,</l>
+          <l>[2.] Beklagtinne das Kindt genohmen, in ihre hände <unclear>gespin</unclear>,</l>
+          <l>[3.] Vndt des Kindes Kopff darmit geschlichtet, ihme auch </l>
+          <l>[4.] in den mundt geblasen, Vndt endtlich einen <unclear>fadem</unclear> aus</l>
+          <l>[5.] dem beutel genohmen, dem Kinde Vmbs leib <choice><abbr>gebund</abbr><expan> gebunden</expan></choice></l>
+          <l>[6.] mit befehl, denselben das andern tages WegZunehmen,</l>
+          <l>[7.] in einer Creutz strassen ZuWerffen, Vndt also rück-</l>
+          <l>[8.] <unclear>lings</unclear>Wieder anheimb Zugehen, Welches alles Zeügin</l>
+          <l>[9.] gethan, Vndt Wehre ihre Kindt gesundt Worden,</l>
+          <l>[10.] Vndt, got lob, biss anhero gesundt blieben, Weis</l>
+          <l>[11.] sonsten nicht mehr, Vndt beschleust auch ihre Aussage</l>
+          <l>[12.] mit ebenmeessigem erbietes des Cörperlichen</l>
+          <l>[13.] Eides, Wie Voriger Zeüge. §</l>
         </p>
         <p>
-          <l>168. Hans Niehoff Ein Kauffman</l>
-          <l>169. Enrt Burger alshier. §</l>
+          <l>[14.] Testis .3.</l>
         </p>
         <p>
-          <l>170. Sagt auss, das Beklagtinne, Wie seine haus frawe</l>
-          <l>171. schwanger gewesen, Zu ihm Kommen, Vndt bier be-</l>
-          <l>172. gehret, fa ihr dasselbe geWeigert, Wahre Sie Wieder</l>
-          <l>173. Weggangen; Alss nun seine Haus frauw Vnlengst Hernach</l>
-          <l>174. ihrer Weiblicher Bürden entbunden, habe das Kindt</l>
-          <l>175. der Mutterbrüste durchaus nich saugen Wollen,</l>
-          <l>176. sondern</l>
-        </p>
-        <pb n="9" facs="eaa1646_001_0000074_00349b" />
-        <p>
-          <l>177. sondern gantzen Siben Wochen Sehr Krancch gelagen, Vndt Wan</l>
-          <l>178. man es an der Mutter brüsten lag[en?] Wollen, gantz sehr ge-</l>
-          <l>179. schrien Vndt geruff[en]. §</l>
+          <l>[15.] Hans Niehoff<label type="commentary" n="tuomio9">9</label> Ein Kauffman</l>
+          <l>[16.] Vndt Burger alhier. §</l>
         </p>
         <p>
-          <l>180. Nach Verflossenen Siben Wochen Hette Ein ander finnisch</l>
-          <l>181. Weib, Wie ihre Zeügen berichtet Worden der Beklagtinnen</l>
-          <l>182. Vogeworfen, das Sie dasselbe Kindt Kranck gemacht, Auch</l>
-          <l>183. ferner angehengt, Sie solte Zusehen, Was ihr begegnen Würde,</l>
-          <l>184. Wo ferne das Kindt seine gesundtheit nicht erlangete.</l>
-          <l>185. Hierauf Wehre Beklagtinne in Zeügen Haus Kommen, </l>
-          <l>186. Vndt gefragt, Wie es mit edm Kinde Wahre, Alss ihr</l>
-          <l>187. geantWortett, das es noch sehr Kranck, habe Be-</l>
-          <l>188. klagtinne gesagt, es Wirdt baldt besser Werden, Vndt</l>
-          <l>189. Weggangen, das Kindt in continenti frisch Vndt gesundt</l>
-          <l>190. Worden, Auch der Mutter brüste gerne angenohmen.</l>
-          <l>191. Ob nun Gott oder Beklagtinne diese Kranckheit</l>
-          <l>192. dem Kinde Zugefügt Vndt Wieder abgeholfen, ist dem</l>
-          <l>193. Zeügen VnWeissendt, Beschleust hiermit auch seine</l>
-          <l>194. Aussage. § </l>
+          <l>[17.] Sagt auss, das Beklagtinne, Wie seine haus frawe</l>
+          <l>[18.] schwanger gewesen, Zu ihm Kommen, Vndt bier be-</l>
+          <l>[19.] gehret, da ihr dasselbe geweigert, Wehre Sie Wieder</l>
+          <l>[20.] Weggangen; Alss nun seine Haus frauw Vnlengst hernach</l>
+          <l>[21.] ihrer Weiblicher Bürden entbunden, habe das Kindt</l>
+          <l>[22.] der Mutterbrüste durchaus nicht saugen Wollen,</l>
+          <l>[23.] sondern</l>
+        </p>
+        <pb n="353" facs="eaa1646_001_0000074_00349b" />
+        <p>
+          <l>[1.] sondern gantzen Siben Wochen Sehr Kranch gelegen, Vndt Wan</l>
+          <l>[2.] man es an der Mutter brüsten <choice><abbr>leg</abbr><expan>legen</expan></choice> Wollen, gantz sehr ge-</l>
+          <l>[3.] schrien Vndt <choice><abbr>geruff</abbr><expan>geruffen</expan></choice>. §</l>
         </p>
         <p>
-          <l>195. Testis .4.</l>
+          <l>[4.] Nach Verflossenen Siben Wochen Hette Ein ander finnisch</l>
+          <l>[5.] Weib, Wie ihme Zeügen berichtet Worden, der Beklagtinnen</l>
+          <l>[6.] Vorgeworfen, das Sie dasselbe Kindt Kranck gemacht, Auch</l>
+          <l>[7.] ferner angehengt, Sie solte Zusehen, Was ihr begegnen Würde,</l>
+          <l>[8.] Wo ferne das Kindt seine gesundtheit nicht erlangete.</l>
+          <l>[9.] Hierauf Wehre Beklagtinne in Zeügen Haus Kommen,</l>
+          <l>[10.] Vndt gefragt, Wie es mit dem Kinde Wehre, Alss ihr</l>
+          <l>[11.] geantWortett, das es noch sehr Kranck, habe Be-</l>
+          <l>[12.] klagtinne gesagt, es Wirdt baldt besser Werden, Vndt</l>
+          <l>[13.] Weggangen, das Kindt in continenti frisch Vndt gesundt</l>
+          <l>[14.] Worden, Auch der Mutter brüste gerne angenohmen.</l>
+          <l>[15.] Ob nun Gott, oder Beklagtinne diese Kranckheit</l>
+          <l>[16.] dem Kinde Zugefügt Vndt Wieder abgeholfen, ist dem</l>
+          <l>[17.] Zeügen VnWissendt, Beschleust hiermit auch seine</l>
+          <l>[18.] Aussage. § </l>
         </p>
         <p>
-          <l>196. Frantz der Wachtmeister. §</l>
+          <l>[19.] Testis .4.</l>
         </p>
         <p>
-          <l>197. Sagt auss, Er habe erfahren, das Beklagtinne ge-</l>
-          <l>198. drewet, ihme sein Bier <unclear>Zuwergeben</unclear> Vndt Zubezaubern,</l>
-          <l>199. Wahre aber nicht geschehen, den so baldt ers efahren,</l>
-          <l>200. Wehre </l>
-        </p>
-        <pb n="10" facs="eaa1646_001_0000074_00350a" />
-        <p>
-          <l>201. Wehre Er Zu ihr gangen, Vndt gesagt, Wan ihm Wurde an</l>
-          <l>202. Bier oder sonsten schaden geschehen, solte Sie Zusehen, Was</l>
-          <l>203. Er mit ihr anfang Wolte, War bis es <choice><abbr>geblieb</abbr><expan>geblieben</expan></choice>. §</l>
+          <l>[20.] Frantz der Wachtmeister. §</l>
         </p>
         <p>
-          <l>204. Testis .5.</l>
+          <l>[21.] Sagt auss, Er habe erfahren, das Beklagtinne ge-</l>
+          <l>[22.] drewet, ihme sein Bier <unclear>Zuuergeben</unclear>, Vndt Zubezaubern,</l>
+          <l>[23.] Wehre aber nicht geschehen, den so baldt ers efahren,</l>
+          <l>[24.] Wehre </l>
+        </p>
+        <pb n="354" facs="eaa1646_001_0000074_00350a" />
+        <p>
+          <l>[1.] Wehre Er Zu ihr gangen, Vndt gesagt, Wan ihm Würde an</l>
+          <l>[2.] Bier oder sonsten schaden geschehen, solte Sie Zusehen, Was</l>
+          <l>[3.] Er mit ihr anfang Wolte, War beij es <choice><abbr>geblieb</abbr><expan>geblieben</expan></choice>. §</l>
         </p>
         <p>
-          <l>205. Philip Erichsson Ein Burger</l>
-          <l>206. alshier. §</l>
+          <l>[4.] Testis .5.</l>
         </p>
         <p>
-          <l>207. Sagt aus, Beklagtinne Wehre Vor etlichen Jahren Zu</l>
-          <l>208. ihm Kommen, Vndt drincken begehrt, Zeuge gesagt,</l>
-          <l>209. Er habe kein Bier. Beklagtinne geantWortet</l>
-          <l>210. du hast nunmehr beij dreij Jahr fast alle Zeit bier in</l>
-          <l>211. deinem Keller gehabt, Vndt Wiltu mihr nicht geben,</l>
-          <l>212. so soltu Künfftig nicht bier, sonder Roggen Vnd ander</l>
-          <l>213. <unclear>VngeZiefen</unclear> darin haben, Welches Zeüge nicht geachtet</l>
-          <l>214. Aber Kurtz hernach mit grossem schaden erfrahren, den</l>
-          <l>215. Er drijmahl nacheinander gebrawen, desselbe ihme </l>
-          <l>216. aber nicht gerahten Wollen, sondern so gantz <choice><abbr>Verderb</abbr><expan>Verderben</expan></choice>,</l>
-          <l>217. das maus im gernigsten nicht geniessen mögen.</l>
+          <l>[5.] Philip Erichsson Ein Burger</l>
+          <l>[6.] alhier. §</l>
         </p>
         <p>
-          <l>218. Zum Andern berichtet Zeüge, Er hatte einsmahls ausser</l>
-          <l>219. Stadt beij Kabacke Nils gedrucken, daselbst BeKlagtinne</l>
-          <l>220. auch hin Kommen, Zeuge Jn ihr gesagt, An allen <unclear>öhrtem</unclear></l>
-          <l>221. Wo Jch Komme, daselbst führet dich der teuffel hin.</l>
-          <l>222. Wien un Zeuge Zu Haus gangen, seij Er an seinem ge-</l>
-          <l>223. sichte dermasssen Versehret, Vndt sonsten Kranck geWesen,</l>
-          <l>224. das</l>
-        </p>
-        <pb n="11" facs="eaa1646_001_0000074_00350b" />
-        <p>
-          <l>225. Das Er auch Keinen Mauschen Kennen Können Vndt</l>
-          <l>226. solches habe Er bis in den dritten Tag gehabt,  da es</l>
-          <l>227. Wieder besser nmit ihme <choice><abbr>geword</abbr><expan> geworden</expan></choice>. §.</l>
+          <l>[7.] Sagt aus, Beklagtinne Wehre Vor etlichen Jahren Zu</l>
+          <l>[8.] ihm Kommen, Vndt drincken begehrt, Zeuge gesagt,</l>
+          <l>[9.] Er habe kein Bier. Beklagtinne geantwortett</l>
+          <l>[10.] du hast nunmehr beij dreij Jahr fast alle Zeit bier in</l>
+          <l>[11.] deinem Keller gehabt, Vndt Wiltu mihr nicht geben,</l>
+          <l>[12.] so soltu Künfftig nicht bier, sonder Poggen Vnd ander</l>
+          <l>[13.] <unclear>VngeZiefer</unclear> darin haben, Welches Zeüge nicht geachtet,</l>
+          <l>[14.] Aber Kurtz hernach mit grossem schaden erfahren, den</l>
+          <l>[15.] Er drijmahl nacheinander gebrawen, desselbe ihme </l>
+          <l>[16.] aber nicht gerahten Wollen, sondern so gantz <choice><abbr>Verderb</abbr><expan>Verderben</expan></choice>,</l>
+          <l>[17.] das mans im geringsten nicht geniessen mögen.</l>
         </p>
         <p>
-          <l>228. Zum dritten berichtet auch Zeuge, das Er Vngefehr</l>
-          <l>229. Vor dreij Wochen in Daniel Simonssons Keller Kommen,</l>
-          <l>230. da ihm dessen Hausfrauw einen drunck Wein angeboten,</l>
-          <l>231. Vndt gegeben, in dehme Wahre BeKlagtinne auch dahin</l>
-          <l>232. Kommen: <unclear>Aldieweil</unclear> nun die BeKlagtinne dem</l>
-          <l>233. Zeugen lange Zeit mit etlichen schulden Verhafftet,</l>
-          <l>234. Habe Er Sie daselbst Wmb BeZahlung angeredett,</l>
-          <l>235. <unclear>sein</unclear> ihme diese antwortt gegeben, Er solle baldt be-</l>
-          <l>236. Zahlet werden. Die Zeuge Zu Haus Kommen, seij</l>
-          <l>237. Er abermahls so Kranck worden, vas Er in etlichen</l>
-          <l>238. Wochen nicht Vom bette Kommen Können, biss Er</l>
-          <l>239. endtlich die Beklagtinne lassen drewen, des ferne </l>
-          <l>240. Sie ihn nicht Wieder Würde gefundt machen, den Er</l>
-          <l>241. diese Kranckheit nirgendt anderst, dan Vor ihr</l>
-          <l>242. hette, alssdan Wolte Er Sie VerKlagen, Vndt die</l>
-          <l>243. sache so Weit treiben,das es ihr <unclear>gungsam</unclear> solte Ver-</l>
-          <l>244. gelten Werden. §</l>
+          <l>[18.] Zum Andern berichtet Zeüge, Er hatte einsmahls ausser</l>
+          <l>[19.] Stadt beij Kabacke Nils gedrucken, daselbst BeKlagtinne</l>
+          <l>[20.] auch hin Kommen, Zeuge Zu ihr gesagt, An allen <unclear>öhrtern</unclear></l>
+          <l>[21.] Wo Jch Komme, daselbst führet dich der teuffel hin.</l>
+          <l>[22.] Wie nun Zeuge Zu Haus gangen, seij Er an seinem ge-</l>
+          <l>[23.] sichte dermasssen Versehret, Vndt sonsten Kranck geWesen,</l>
+          <l>[24.] das</l>
+        </p>
+        <pb n="355" facs="eaa1646_001_0000074_00350b" />
+        <p>
+          <l>[1.] Das Er auch Keinen Menschen Kennen Können, Vndt</l>
+          <l>[2.] solches habe Er bis in den dritten Tag gehabt, da es</l>
+          <l>[3.] Wieder besser mit ihme <choice><abbr>geword</abbr><expan> geworden</expan></choice>. §.</l>
         </p>
         <p>
-          <l>245. Auf geschehene diese <unclear>dreWung</unclear>  Wahre Beklagtinne</l>
-          <l>246. Zu ihm Kommen Vndt gesagt, Er solte Wol gefundt <choice><abbr>Werd</abbr><expan> Werden</expan></choice></l>
-          <l>247. den</l>
-        </p>
-        <pb n="12" facs="eaa1646_001_0000074_00351a" />
-        <p>
-          <l>248. den Sie einen fadem am grünen donnerstage (so domahls</l>
-          <l>249. gar nahe gewesen) ffeinen, Vnd ihm darmit helfen Wolte,</l>
-          <l>250. Welches den geschehen, Vndt Beklagtinne den fadem gebracht,</l>
-          <l>251. ihme demselben im der badtstuben Vmbs leib gebunden</l>
-          <l>252. etliche Woortt binnen mundt geredet, mit Einem Quast,</l>
-          <l>253. Darin etliche Kreuter gewesen, Vndt den Sin Selbst </l>
-          <l>254. mitgebracht ihn gebadett, Vndt befholen, Zeüge <choice><abbr>demselb</abbr><expan>demselben</expan></choice></l>
-          <l>255. faden des andern Tages abbinden, in einer Creutzst-</l>
-          <l>256. rassen Werffen, rücklichs Wieder Zu haus gehen, Vndt </l>
-          <l>257. Keinen einigen Menschen daruon sagen solte, dan der</l>
-          <l>258. Erste, so Vber dem sadem ginge, muste dieselbe</l>
-          <l>259. Kranckheit Wiederumb empfangen. Zeuge dessebe</l>
-          <l>260. gethan Vndt gefundt <choice><abbr>Word</abbr><expan> Worden</expan></choice>, Ob es durch Gottes</l>
-          <l>261. oder ihre hülffe geschehen. wisse Er nicht.</l>
-          <l>262. Beschleunst hiermit seine aussage, mit diesem anhang, </l>
-          <l>263. dieselbe Wahr seij, so Wahr ihm gott an leib Vndt </l>
-          <l>264. Seel helffen sollt. §</l>
+          <l>[4.] Zum dritten berichtet auch Zeuge, das Er Vngefehr</l>
+          <l>[5.] Vor dreij Wochen in Daniel Simonssons Keller Kommen,</l>
+          <l>[6.] da ihm dessen Hausfrauw einen drunck Wein angeboten,</l>
+          <l>[7.] Vndt gegeben, in dehme Wehre Beklagtinne auch dahin</l>
+          <l>[8.] Kommen: <unclear>Aldieweil</unclear> nun die Beklagtinne dem</l>
+          <l>[9.] Zeugen lange Zeit mit etlichen schulden Verhafftet,</l>
+          <l>[10.] Habe Er Sie daselbst Vmb BeZahlung angeredett,</l>
+          <l>[11.] <unclear>seij</unclear> ihme diese antwortt gegeben, Er solle baldt be-</l>
+          <l>[12.] Zahlet werden. <unclear>Dein</unclear> Zeuge Zu Haus Kommen, seij</l>
+          <l>[13.] Er abermahls so Kranck worden, vas Er in etlichen</l>
+          <l>[14.] Wochen nicht Vom bette Kommen Können, biss Er</l>
+          <l>[15.] endtlich die Beklagtinne lassen drewen, des ferne </l>
+          <l>[16.] Sie ihn nicht Wieder Würde gesundt machen, den Er</l>
+          <l>[17.] diese Kranckheit nirgendt anderst, dan Vor ihr</l>
+          <l>[18.] hette, alssdan Wolte Er Sie Verklagen, Vndt die</l>
+          <l>[19.] sache so Weit treiben, das es ihr <unclear>gnugsam</unclear> solte Ver-</l>
+          <l>[20.] golten Werden. §</l>
         </p>
         <p>
-          <l>265. Test: .6.</l>
+          <l>[21.] Auf geschehene diese <unclear>dreWung</unclear> Wehre Beklagtinne</l>
+          <l>[22.] Zu ihm Kommen Vndt gesagt, Er solte Wol gesundt <choice><abbr>Werd</abbr><expan> Werden</expan></choice></l>
+          <l>[23.] den</l>
+        </p>
+        <pb n="356" facs="eaa1646_001_0000074_00351a" />
+        <p>
+          <l>[1.] den Sie einen fadem am grünen donnerstage (so domahls</l>
+          <l>[2.] gar nahe gewesen) spinnen, Vnd ihm darmit helfen Wolte,</l>
+          <l>[3.] Welches den geschehen, Vndt Beklagtinne den fadem gebracht,</l>
+          <l>[4.] ihme demselben im der badtstuben Vmbs leib gebunden</l>
+          <l>[5.] etliche Wortt binnen mundt geredet, mit Einem Quast,</l>
+          <l>[6.] Darin etliche Kreuter gewesen, Vndt den Sie Selbst </l>
+          <l>[7.] mitgebracht ihn gebadett, Vndt befholen, Zeüge <choice><abbr>demselb</abbr><expan>demselben</expan></choice></l>
+          <l>[8.] faden des andern Tages abbinden, in einer Creutzst-</l>
+          <l>[9.] rassen Werffen, rücklichs Wieder Zu haus gehen, Vndt </l>
+          <l>[20.] Keinem einigen Menschen daruon sagen solte, dan der</l>
+          <l>[21.] Erste, so Vber dem fadem ginge, muste dieselbe</l>
+          <l>[22.] Kranckheit Wiederumb empfangen. Zeuge dasselbe</l>
+          <l>[23.] gethan Vndt gesundt <choice><abbr>Word</abbr><expan> Worden</expan></choice>, Ob es durch Gottes</l>
+          <l>[24.] oder ihre hülffe geschehen, Wisse Er nicht.</l>
+          <l>[25.] Beschleust hiermit seine Aussage, mit diesem anhang, </l>
+          <l>[26.] dieselbe Wahr seij, so Wahr ihm gott an leib Vndt </l>
+          <l>[27.] Seel helffen sollt. §</l>
         </p>
         <p>
-          <l>266. Elisabetha, <choice><abbr>S.</abbr><expan>Selige</expan></choice> Wolff Gminders</l>
-          <l>267. Nachgelassene Wittibe. §.</l>
+          <l>[28.] <choice><abbr>Test:</abbr><expan>Testis</expan></choice> .6.</l>
         </p>
         <p>
-          <l>268. Sagt aus, ihre Tochter Mararetha Wehre Vorm Jahre</l>
-          <l>269. sehr Kranck geWesen, Wndt durch dieselbe Kranckheit </l>
-          <l>270. also</l>
-        </p>
-        <pb n="13" facs="eaa1646_001_0000074_00351b" />
-        <p>
-          <l>271. also geplaget, das Sie oftmals Wan es müglich sein Kön-</l>
-          <l>272. nen, in die Erde Kriechen Wollen,</l>
+          <l>[29.] Elisabetha, <choice><abbr>S.</abbr><expan>Selige</expan></choice> Wolff Gminders</l>
+          <l>[30.] Nachgelassene Wittibe. §.</l>
         </p>
         <p>
-          <l>273. Zeugnisse die BeKlagtinne hörten lassen, die den ihre</l>
-          <l>274. Tochter in der Bradtstuben gehabt, Vndt auch Wasser</l>
-          <l>275. Von Thomas Köners Acker begehret ihre Tochter darmit</l>
-          <l>276. gebadet, Vndt also gesundt Worden, Weiss sonstes nichts</l>
-          <l>277. mehr, Vndt Beschleust ihre Aussage. §.</l>
+          <l>[31.] Sagt aus, ihre Tochter Margretha<label type="commentary" n="tuomio10">10</label> Wehre Vorm Jahre</l>
+          <l>[32.] sehr Kranck gewesen, Wndt durch dieselbe Kranckheit </l>
+          <l>[33.] also</l>
+        </p>
+        <pb n="357" facs="eaa1646_001_0000074_00351b" />
+        <p>
+          <l>[1.] also geplaget, das Sie oftmals, Wan es müglich sein Kön-</l>
+          <l>[2.] nen, in die Erde Kriechen Wollen,</l>
         </p>
         <p>
-          <l>278. Test: .7.</l>
+          <l>[3.] Zeügnisse die Beklagtinne hörten lassen, die den ihre</l>
+          <l>[4.] Tochter in der Badtstuben gehabt, Vndt auch Wasser</l>
+          <l>[5.] Von Thomas Köners Acker begehret ihre Tochter darmit</l>
+          <l>[6.] gebadet, Vndt also gesundt Worden, Weiss sonstes nichts</l>
+          <l>[7.] mehr, Vndt Beschleust ihre Aussage. §.</l>
         </p>
         <p>
-          <l>279. Ebela, Paul Dolchs geWesene Magdt. §</l>
+          <l>[8.] Test: .7.</l>
         </p>
         <p>
-          <l>280. Sagt aus, das Beklagtinne Zu Vnterschiedlichen mahlen</l>
-          <l>281. hiebefohr zu ihr Kommen, da ihr Zeüginne Bier oder</l>
-          <l>282. BrandtWein zu Trincken gegeben, Nachmals Wahre es</l>
-          <l>283. ihr Von ihren Nachbarinnen gerahten <choice><abbr>Word</abbr><expan> Worden</expan></choice>, Sie solte</l>
-          <l>284. ihr nichts mehr geben; Wie nun Beklagtinne ihrer </l>
-          <l>285. alten gewonheit nach Wieder Kommen, Vndt Trincken</l>
-          <l>286. begehret, hatte Zeüginne ihr dasselbe abeschlagen, die</l>
-          <l>287. Beklatinne gesagt, Wiltu mihr nicht drincken <choice><abbr>geb</abbr><expan> geben</expan></choice>,</l>
-          <l>288. es sohl dir Woll beZahlet Werden, Hierauf Wahre</l>
-          <l>289. Zeuginne straxs kranck Werden, da Sie Beklagtinne,</l>
-          <l>290. gebethen, Sie Wolle ihre doch Zu ihrer Vorigen gesundt-</l>
-          <l>291. heit Wieder Verhelfen, Welches Beklagtinne gethan,</l>
-          <l>292. <unclear>ihre</unclear> heüpt abgemeessen, Vndt etliche Wort binnen Mundt</l>
-          <l>293. geredet,</l>
-        </p>
-        <pb n="14" facs="eaa1646_001_0000074_00352a" />
-        <p>
-          <l>294. geredet, <unclear>Woruon</unclear> Zeüginne alssbaldt Wieder gesundt </l>
-          <l>295. Worden. §</l>
+          <l>[9.] Ebela, Paul Dolchs gewesene Magdt. §</l>
         </p>
         <p>
-          <l>296. Die Zeügen haben hier auf nachfolgendne Eidt Wierklich</l>
-          <l>297. praestiren Vndt leisten mussen. §</l>
+          <l>[10.] Sagt aus, das Beklagtinne Zu Vnterschiedlichen mahlen</l>
+          <l>[11.] hiebefohr zu ihr Kommen, da ihr Zeüginne Bier oder</l>
+          <l>[12.] BrandtWein zu Trincken gegeben, Nachmals Wahre es</l>
+          <l>[13.] ihr Von ihren Nachbarinnen gerahten <choice><abbr>Word</abbr><expan> Worden</expan></choice>, Sie solte</l>
+          <l>[14.] ihr nichts mehr geben; Wie nun Beklagtinne ihrer </l>
+          <l>[15.] alten gewonheit nach Wieder Kommen, Vndt Trincken</l>
+          <l>[16.] begehret, hatte Zeüginne ihr dasselbe abeschlagen, die</l>
+          <l>[17.] Beklatinne gesagt, Wiltu mihr nicht drincken <choice><abbr>geb</abbr><expan> geben</expan></choice>,</l>
+          <l>[18.] es sohl dir Woll bezahlet Werden, Hierauf Wehre</l>
+          <l>[19.] Zeüginne straxs kranck Werden, da Sie Beklagtinne,</l>
+          <l>[20.] gebethen, Sie Wolle ihre doch Zu ihrer Vorigen gesundt-</l>
+          <l>[21.] heit Wieder Verhelfen, Welches Beklagtinne gethan,</l>
+          <l>[22.] <unclear>ihre</unclear> heüpt abgemeessen, Vndt etliche Wort binnen Mundt</l>
+          <l>[23.] geredet,</l>
+        </p>
+        <pb n="358" facs="eaa1646_001_0000074_00352a" />
+        <p>
+          <l>[1.] geredet, <unclear>Woruon</unclear> Zeüginne alssbaldt Wieder gesundt </l>
+          <l>[2.] Worden. §</l>
         </p>
         <p>
-          <l>298. Formula iuramentj. §</l>
+          <l>[3.] Die Zeügen haben hier auf nachfolgenden Eidt Wircklich</l>
+          <l>[4.] praestiren Vndt leisten mussen. §</l>
         </p>
         <p>
-          <l>299. Jch .N. N. schwere hiermit zu Gott dem Almechtigen <choice><abbr>d</abbr><expan> den</expan></choice>den</l>
-          <l>300. alle dem Jenige, so Jch Wieder Beklagtinne Brigitta</l>
-          <l>301. aussgeredes, die lautere Warheit, Vndt mihr mich anderss</l>
-          <l>302. bewust seij, so wahr mihr Gott helffe Vndt sein </l>
-          <l>303. Heilig Euangelium. §</l>
+          <l>[5.] Formula iuramentj. §</l>
         </p>
         <p>
-          <l>304. Auf diesen geleisteten Eide ist Beklagtinnen Brigitta</l>
-          <l>305. Zweijmahl durch den Büttell ins Wasser, mehres be-</l>
-          <l>306. Weises halber geworffen Vor des, Vndt befunden, </l>
-          <l>307. das Sie jedes mahl oben geschwimmt, Vndt nicht Zu</l>
-          <l>308. Vnter Wasser Kommen mögen.</l>
+          <l>[6.] Jch .N. N. schwere hiermit zu Gott dem Almechtigen, <choice><abbr>d</abbr><expan> den</expan></choice>den</l>
+          <l>[7.] alle dem Jenige, so Jch Wieder Beklagtinne Brigitta</l>
+          <l>[8.] aussgeredes, die lautere Warheit, Vndt mihr nicht anderss</l>
+          <l>[9.] bewust seij, so wehr mihr Gott helffe Vndt sein </l>
+          <l>[10.] Heilig Euangelium. §</l>
         </p>
         <p>
-          <l>309. Ob sie nun Wol hierauf durch Einen Pastorn in </l>
-          <l>310. der gute Vielfaltig Vermahnet, Sie solle ihre Arme</l>
-          <l>311. Seele erretten, ihre begangene Missethates dem</l>
-          <l>312. Lieben Gott abbitten, Vndt die Zeitliche straffe gantz</l>
-          <l>313. nicht, sondern Viel mehr die Ewige furchten: dennoch</l>
-          <l>314. Hatt Sie nichts bekennen Wollen, nur allein, Sie hette</l>
-          <l>315. Zu Wijborg in finlandt beij Einem Priester. i2. Jhar ge-</l>
-          <l>316. dienet</l>
-        </p>
-        <pb n="15" facs="eaa1646_001_0000074_00352b" />
-        <p>
-          <l>317. daselbst nicht Zaubereij, oder sonsten böses, sondern gottes</l>
-          <l>318. furcht Vndt frömmigkeit gelernt, die Zeit ihres lebens</l>
-          <l>319. niemandt böses Zugefügt, der Wolff Gminderschen Tochter</l>
-          <l>320. habe Sie geheilet, Vndt darzu gebraucht Wasser, darin ein</l>
-          <l>321. Todter Cörper geWaschen, Baldt hernach sage sin</l>
-          <l>322. das Wasser seij aus Einem Springbrunne geholet Word[en]</l>
-          <l>323. Von Philip Erichssons Vndt rer andrem Zeug Ausssag</l>
-          <l>324. <unclear>Weil</unclear> Sie gar nichts Weissen, Worbeij es fur dissmahl </l>
-          <l>325. geblieben.  §</l>
+          <l>[11.] Auf diesen geleisteten Eidt ist Beklagtinnen Brigitta</l>
+          <l>[12.] Zweijmahl durch den Büttell ins Wasser, mehres be-</l>
+          <l>[13.] Weises halber geworffen Vor des, Vndt befunden, </l>
+          <l>[14.] das Sie jedes mahl oben geschwimmet, Vndt nicht <del>Zu</del></l>
+          <l>[15.] Vnter Wasser Kommen mögen.</l>
         </p>
         <p>
-          <l>326. Anno i6i5. Den. 2. Maij ist man mit der Tortur</l>
-          <l>327. fortgefahren, da die Zeug auch nochmals sampt Vndt </l>
-          <l>328. Sonders Wass Sie aussgesagt, der Beklagtinnen Vnter </l>
-          <l>329. augen geredet, Worauf Sie edntlich bekant Vndt gesgt,</l>
-          <l>330. das es alles Wahr, Was die <choice><abbr>Zeug</abbr><expan> Zeugen</expan></choice> Wieder ihr deponirt,</l>
-          <l>331. insonderheit Zu Vnter schidelichen mahlen geruffen,</l>
+          <l>[16.] Ob sie nun Wol hierauf durch Einen Pastorn<label type="commentary" n="tuomio12">11</label> in</l>
+          <l>[17.] der gute Vielfaltig Vermahnet, Sie solle ihre Arme</l>
+          <l>[18.] Seele erretten, ihre begangene Missethates dem</l>
+          <l>[19.] Lieben Gott abbitten, Vndt die Zeitliche straffe gantz</l>
+          <l>[20.] nicht, sondern Viel mehr die Ewige furchten: dennoch</l>
+          <l>[21.] Hatt Sie nichts bekennen Wollen, nur allein, Sie hette</l>
+          <l>[22.] Zu Wijborg in finlandt beij Einem Priester. i2. Jhar ge-</l>
+          <l>[23.] dienet</l>
+        </p>
+        
+        <pb n="359" facs="eaa1646_001_0000074_00352b" />
+        <p>
+          <l>[1.] daselbst nicht Zaubereij, oder sonsten böses, sondern gottes</l>
+          <l>[2.] furcht Vndt frömmigkeit gelernt, die Zeit ihres lebens</l>
+          <l>[3.] niemandt böses Zugefügt, der Wolff Gminderschen Tochter</l>
+          <l>[4.] habe Sie geheilet, Vndt darzu gebraucht Wasser, darin Ein</l>
+          <l>[5.] Todter Cörper geWaschen, Baldt hernach saget sie,</l>
+          <l>[6.] das Wasser seij aus Einem Springbrunne geholet <choice><abbr>Word</abbr><expan>Worden</expan></choice></l>
+          <l>[7.] Von Philip Erichssons Vndt der andrem Zeug <choice><abbr> Aussag</abbr><expan>Aussagen</expan></choice> </l>
+          <l>[8.] <unclear>Wil</unclear> Sie gar nichts Wissen, Worbeij es fur dissmahl </l>
+          <l>[9.] geblieben. §</l>
         </p>
         <p>
-          <l>332. Ô Philip, Philip, meinende Philip Erichsson solte </l>
-          <l>333. solches nicht offenbahrt haben. §</l>
+          <l>[10.] Anno i6i5. Den. 2. Maij ist man mit der Tortur</l>
+          <l>[11.] fortgefahren, da die <choice><abbr>Zeug</abbr><expan>Zeugen</expan></choice> auch nochmals sampt Vndt </l>
+          <l>[12.] sonders, Wass Sie aussgesagt, der Beklagtinnen Vnter </l>
+          <l>[13.] augen geredet, Worauf Sie endtlich bekant Vndt gesagt,</l>
+          <l>[14.] das es alles Wahr, Was die <choice><abbr>Zeug</abbr><expan> Zeugen</expan></choice> Wieder ihr deponirt,</l>
+          <l>[15.] insonderheit Zu Vnterschiedlichen mahlen geruffen,</l>
         </p>
         <p>
-          <l>334. Die Formalien so Sie in ihren Teüffels Künsten hat</l>
-          <l>335. pflegen zugebrauchen seindt diese: </l>
+          <l>[16.] Ô Philip, Philip, meinende Philip Erichsson solte</l>
+          <l>[17.] solches nicht offenbahrt haben. §</l>
         </p>
         <p>
-          <l>336. Jesuxen weri punainen. Marian makia </l>
-          <l>337. maito kipullen woiteixi. Hauoillen </l>
-          <l>338. parendehax. <del>Noe</del><add><hi rend="superscript">Noe</hi></add> olcon .5. Weliexellen. </l>
-          <l>339. Eli:9. Wierahallen.  §</l>
-          <l>340. Anno</l>
-        </p>
-        <pb n="16" facs="eaa1646_001_0000074_00353a" />
-        <p>
-          <l>341. Anno i6i5. den .4. Maij ist diss Weib nochmals</l>
-          <l>342. der Zeugen aussage Vndt ihrer eigenen bekentnis</l>
-          <l>343. halber, Wie dan auch, Ob sie auch noch andere, die</l>
-          <l>344. auch diese Kunst Könten, Wuste, befraget Worden:</l>
-          <l>345. gibt Zur antWortt, Was die Zeügen ausgeredet, </l>
-          <l>346. Vndt Sie bekant, das Wehre Sie noch gestendig </l>
-          <l>347. Wüste aber Von Keinne andern, die sich auch solten</l>
-          <l>348. dieser Kunst befliessen haben.</l>
+          <l>[18.] Die Formalien so Sie in ihren Teüffels Künsten hat</l>
+          <l>[19.] pflegen zugebrauchen seindt diese:</l>
         </p>
         <p>
-          <l>349. Jtem ist gefragt: demnach man Von ihrem Ehemanne</l>
-          <l>350. erfahren, das Sie manche nacht auss den Hause Wahre</l>
-          <l>351. geWesen Wo Sie Zu derselben Zeit such aufenthalten?</l>
-          <l>352. Sagt, Sie habe Einen hundt gehabt, den habe Sie </l>
-          <l>353. auss heren Johan Möllers Haus <unclear>gewohnen</unclear> derselbe</l>
-          <l>354. hette ihr hasen gefangen, die Sie der fleisch <unclear>Jacobsch[en?] </unclear></l>
-          <l>355. gebracht, Vndt bier Vndt brandtwein darfür be-</l>
-          <l>356. kommen, beij <choice><abbr>derselb</abbr><expan>derselben</expan></choice>der Wahre Sie auch bissWeilen die</l>
-          <l>357. Nacht geblieben. §</l>
+          <l>[20.] Jesuxen weri punainen. Marian makia </l>
+          <l>[21.] maito kipullen woiteixi. Hauoillen </l>
+          <l>[22.] parendehax. <del><unclear>N[…]e</unclear></del><add><hi rend="superscript">Nae</hi></add><label type="commentary" n="tuomio14">13</label> olcon .5. Weliexellen. </l>
+          <l>[23.] Eli:9. Wierahallen. §</l>
+          <l>[24.] Anno</l>
+        </p>
+        <pb n="360" facs="eaa1646_001_0000074_00353a" />
+        <p>
+          <l>[1.] Anno i6i5. den .4. Maij ist diss Weib nochmals</l>
+          <l>[2.] der Zeugen aussage Vndt ihrer eigenen bekentnis</l>
+          <l>[3.] halber, Wie dan auch, Ob sie auch noch andere, die</l>
+          <l>[4.] auch diese Kunst Könten, Wuste, befraget Worden:</l>
+          <l>[5.] gibt Zur antwortt, Was die Zeügen ausgeredet,</l>
+          <l>[6.] Vndt Sie bekant, das Wehre Sie noch gestendig,</l>
+          <l>[7.] Wüste aber Von Keinen andern, die sich auch solten</l>
+          <l>[8.] dieser Kunst befliessen haben.</l>
         </p>
         <p>
-          <l>358. Vrtheil.</l>
+          <l>[9.] Jtem ist gefragt: demnach man Von ihrem Ehemanne</l>
+          <l>[10.] erfahren, das Sie manche nacht auss den Hause Wehre</l>
+          <l>[11.] gewesen, Wo Sie Zu derselben Zeit sich aufenthalten?</l>
+          <l>[12.] Sagt, Sie habe Einen hundt gehabt, den habe Sie </l>
+          <l>[13.] auss herrn Johan Möllers Haus genohmen, derselbe</l>
+          <l>[14.] hette ihr hasen gefangen, die Sie der fleisch <unclear><choice><abbr>Jacobsch</abbr><expan>Jacobschen</expan></choice></unclear></l>
+          <l>[15.] gebracht, Vndt bier Vndt brandtwein darfur be-</l>
+          <l>[16.] kommen, beij <choice><abbr>derselb</abbr><expan>derselben</expan></choice> Wehre Sie auch bissWeilen die</l>
+          <l>[17.] Nacht geblieben. §</l>
         </p>
         <p>
-          <l>359. AldreWeil auss der Zeügen Aussage, Wndt der Be-</l>
-          <l>360. klagtinnen eigener bekentnis befindtlich, das die</l>
-          <l>361. Beklagtinne etlicher teuffels Künste sich gebrauchet</l>
-          <l>362. dem Einen geholffen, dem andern die Krancheit</l>
-          <l>363. Wieder Zugefügt: So erkennet Ein Erb: Gericht</l>
-          <l>364. das</l>
-        </p>
-        <pb n="16" facs="eaa1646_001_0000074_00353b" />
-        <p>
-          <l>365. das Sie dieser ihrer bösen thatt halber <unclear>billich</unclear> mit</l>
-          <l>366. feur Wom leben Zum Tode gebracht Werde. V. R. W. §.</l>
+          <l>[18.] Vrtheil.</l>
         </p>
         <p>
-          <l>367. Diese Wrtheil ist folgendes den .5. exequirt Vndt </l>
-          <l>368. VollgeZogen Worden. §.</l>
+          <l>[19.] AldieWeil auss der Zeügen Aussage, Vndt der Be-</l>
+          <l>[20.] klagtinnen eigener bekentnis befindtlich, das die</l>
+          <l>[21.] Beklagtinne etlicher teuffels Künste sich gebrauchet,</l>
+          <l>[22.] dem Einen geholffen, dem andern die Kranckheit</l>
+          <l>[23.] Wieder Zugefügt: So erkennet Ein <choice><abbr>Erb:</abbr><expan>Erbare</expan></choice> Gericht</l>
+          <l>[24.] das</l>
         </p>
+        <pb n="361" facs="eaa1646_001_0000074_00353b" />
+        <p>
+          <l>[1.] das Sie dieser ihrer bösen thatt halber <unclear>billich</unclear> mit</l>
+          <l>[2.] feur Vom leben Zum Tode gebracht Werde. <choice><abbr> V. R. W.</abbr><expan>Von Rechts Wegen</expan></choice> §.</l>
+        </p>
+        <p>
+          <l>[3.] Diese Vrtheil ist folgendes den .5. exequirt Vndt </l>
+          <l>[4.] Vollenzogen Worden. §.</l>
+        </p>
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="tuomio1">
+          John (Johann, Hans) Watson (kuollut 1605), Aberdeenista syntyisin oleva kauppias Narvan kaupungissa vuodesta 1588 alkaen, sittemmin raatimies. Narvan kaupungin raadin pöytäkirjanotteessa 
+          mainituista Watsonin tyttäristä vanhin tytär Maria (ks. alla) oli naimisissa ensin Goudasta syntyisin olevan Gobert Jacobsonin ja sittemmin Aberdeenista syntyisin olevan George (Jürgen) 
+          Leslien kanssa sekä Elisabeth (ks. alla) Aberdeenista syntyisin olevan Peter Leslien kanssa. Muita tyttäriä oli tiettävästi ainakin kaksi, joiden puolisot olivat saksalaissyntyisiä Narvan 
+          porvareita: Lucian puoliso oli vuodesta 1620 myöhempi pormestari, Westfalenin Herfordista syntyisin oleva Cordt Pöppelmann (kauppias Narvassa 1614, pormestari 1628−1651, Hermamäen eli Hermansbergin 
+          kartanonherra Vaivaran pitäjässä Virumaalla, kuollut 1650−1660-luvulla) ja Catharinan puoliso Altmarkin Salzwedelistä syntyisin oleva raatimies Dirich Wernecke (Narvan raatimies 1615, pormestari 
+          1620−1645 välillä, kuollut 1645). (Bunz 2018, 141, 143−144; Erpenbeck 1998, 132, 141; Hansen 1858, 77.) 
+        </note>
+        <note n="tuomio2">
+          Elisabeth Agnes (kuollut 1640), John (Johann) Watsonin leski, harjoitti kaupankäyntiä miehensä jälkeen (Bunz 2018, 141, 143). 
+        </note>
+        <note n="tuomio3">
+          Maria Watson (kuollut n. 1644), John (Johann) Watsonin vanhin tytär, ensimmäinen avioliitto Goudasta syntyisin olevan Gobert Jacobsonin (kuollut 1611) kanssa; toinen puoliso vuodesta 1627 hänen 
+          äitinsä Elisabeth Agnesin liikekumppani, Aberdeenista syntyisin oleva George (Jürgen) Leslie (porvarina Tartossa 1624, Sakan eli Sackhofin kartanonherra Luganusen pitäjässä Virumaalla, vuodesta 
+          1626, Narvan porvari vuodesta 1627, raatimies 1646, kuollut 1651). (Bunz 2018, 143−144.)
+        </note>
+        <note n="tuomio4">
+          Gobert Jacobson (kuollut 1611), Goudasta syntyisin oleva kauppias Narvassa, Maria Watsonin puoliso. (Bunz 2018, 144; Erpenbeck 1998, 132.)
+        </note>
+        <note n="tuomio5">
+          Elisabeth Watson (n. 1590−1628), skotlantilaissyntyisen narvalaisen kauppiaan John (Johann) Watsonin tytär, Peter Leslien puoliso vuoden 1614 alusta. (Bunz 2018, 141.)
+        </note>
+        <note n="tuomio6">
+          Peter Leslie (kuollut 5.12.1617 Tartto), skotlantilaissyntyinen porvari Narvan kaupungissa, vannonut porvarinvalan 11.5.1614, Johann (John) Watsonin vävy. (Bunz 2018, 141; Erpenbeck 1998, 132.)
+        </note>
+        <note n="tuomio7">
+          Samuel Cockburn (Cobron; n. 1574−1621), skotlantilaissyntyinen palkkasotilas Ruotsin armeijassa, rykmentinkomentaja (överste), sotilasarvoltaan kenraalimajuri (generalfältvaktmästare), otti 
+          osaa Ruotsin ja Venäjän väliseen Inkerin sotaan (1610−1617), sotatoimissa Pihkovan seudulla vuodesta 1613, tukikohtina Narva ja Ivangorod. Keväästä syksyyn 1615 Cockburnin rykmentti, johon 
+          kuului myös ruotsalaisia ja suomalaisia sotilaita, otti osaa Pihkovan piiritykseen Kustaa II Adolfin johdolla.
+        </note>
+        <note n="tuomio8">
+          Wulf Gminder (Gemünder), Ruotsin kuninkaan saksankielinen kansliakirjuri 1576−1594, Narvan kaupungin tullikirjuri 1594−1603, Narvan kaupungin raatimies 1600-luvun alussa, vangittuna 
+          maanpetoksesta epäiltynä Ruotsissa 1604−1605, sittemmin vapautettu syytteistä. Gemünderillä oli ilmeisesti ainakin toinen tytär tuomiokirjassa mainitun Margarethan lisäksi. 
+          (Svalenius 1991, 206; Naber 1995, 21; Luther 1972; Hansen 1858, 63.)
+        </note>
+        <note n="tuomio9">
+          Porvari Hans Niehoff esiintyy Narvan raadin pöytäkirjan otteessa myös 17.6.1615 skotlantilaissyntyisen värjäri Carl Bockin (Douglas) porvarinvalan toisena takaajana yhdessä Heinrich von Bergenin kanssa. 
+        </note>
+        <note n="tuomio10">
+          Margaretha Wolfsdotter Gemünder, mainitaan Narvan porvarina vuodesta 1616 tunnetun tallinnalaisen Thomas Hansson Schmidtin puolisona. − Margarethan tytär Christina Schmidt (kuollut 1682) oli 
+          vuodesta 1637 naimisissa inkerinmaalaisen Skuoritsan pitäjän (1625−1642) kirkkoherran, sittemmin mm. Nevanlinnan kirkkoherran sekä Pähkinälinnan rovastin Erland Jonsson (Erlandus Jonae) Hiärnen 
+          (1596−1654) kanssa. Heidän poikansa, Margarethan tyttärenpoika, oli sittemmin Ruotsin vuosien 1668−1676 suurista noitaprosesseista tunnettu lääkäri ja luonnontieteilijä Urban Hjärne (1641−1724). 
+          (Gren 2000, 27−28; Väänänen 1987, 296.) 
+        </note>
+        <note n="tuomio12">
+          Papin nimeä ei tunneta. Narvan kaupungissa asuvat suomalaiset kuuluivat 1600-luvun alkupuolella ruotsalaisen seurakunnan alaisuuteen, jonka papeista tunnetaan vuodelta 1615 kirkkoherra Jonas 
+          Petri (Jöns Persson) Walwich; varhaisin maininta suomalaisesta saarnaajasta Narvassa on vasta vuodelta 1628. (Väänänen 1987, 122−123, 294.) Sotilaan vaimona Birgitta on voinut saada ripin myös 
+          sotilaspapilta.
+        </note>
+        <note n="tuomio14">
+          N[…]e: Kirjuri on viivannut yli ensin kirjoittamansa sanan, jonka ensimmäinen kirjain on varmasti suuraakkos-N ja viimeinen pienaakkos-e. Keskelle jää peittoon todennäköisesti yksi kirjainmerkki, 
+          josta ei saa yliviivauksen takia täyttä varmuutta. Kuvaa käsittelemällä voi olettaa, että keskimmäinen kirjainmerkki on pyöreämuotoinen ja perusviivojen väliin jäävä, jolloin mahdollisuudet ovat 
+          a ("Nae"), o ("Noe") ja e ("Nee"). 
+        </note>
       </div>
     </body>
   </text>

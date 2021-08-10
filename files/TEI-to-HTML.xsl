@@ -44,7 +44,7 @@
     </xsl:template>
 
     <xsl:template match="tei:pb">
-      <span class="pb"><xsl:value-of select="." /></span>
+      <p class="pb"><xsl:value-of select="current()/@n" /></p>
     </xsl:template>
 
     <xsl:template match="tei:note[@type = 'tuomioc']">

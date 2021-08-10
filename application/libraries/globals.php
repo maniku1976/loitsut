@@ -2254,9 +2254,22 @@ function items_search_form($props = array(), $formActionUri = null, $buttonText 
  * @param integer $num The maximum number of recent items to return
  * @return array
  */
-function get_recent_items($num = 10)
+
+ /*EDIT: change recent items display to show three random items, filtered by Dublin Core 'type' element*/
+function get_recent_items($num = 3)
 {
-    return get_db()->getTable('Item')->findBy(array('sort_field' => 'added', 'sort_dir' => 'd'), $num);
+    /*return get_db()->getTable('Item')->findBy(array('Dublin Core, Type' => 'loitsu', 'sort_field' => 'random'), $num);*/
+
+    $items = get_records('Item', array('advanced' =>
+    array(
+        array(
+            'element_id' => 51,
+            'type' => 'is exactly',
+            'terms' => 'loitsu'
+        )
+        ), 'sort_field' => 'random'
+    ), $num);
+    return $items;
 }
 
 /**
@@ -2284,7 +2297,7 @@ function get_random_featured_items($num = 5, $hasImage = null)
  * @param int $count Maximum number of recent items to show.
  * @return string
  */
-function recent_items($count = 10)
+function recent_items($count = 3)
 {
     $items = get_recent_items($count);
     if ($items) {
@@ -2577,7 +2590,7 @@ function link_to_items_rss($text = null, $params=array())
 function link_to_next_item_show($text = null, $props = array())
 {
     if (!$text) {
-        $text = __("Next Item &rarr;");
+        $text = __("Next Item")." <i class='fas fa-arrow-right'></i>";
     }
     $item = get_current_record('item');
     if($next = $item->next()) {
@@ -2597,7 +2610,7 @@ function link_to_next_item_show($text = null, $props = array())
 function link_to_previous_item_show($text = null, $props = array())
 {
     if (!$text) {
-        $text = __('&larr; Previous Item');
+        $text = '<i class="fas fa-arrow-left"></i> '.'Edellinen';
     }
     $item = get_current_record('item');
     if($previous = $item->previous()) {

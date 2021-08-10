@@ -23,7 +23,7 @@
 
     <!-- Stylesheets -->
     <?php
-    queue_css_file(array('iconfonts','style','bootstrap.min','fontawesome.min'));
+    queue_css_file(array('iconfonts','style','bootstrap.min','all'));
     queue_css_url('//fonts.googleapis.com/css?family=Overpass');
     queue_css_url('//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css');
     echo head_css();
@@ -99,6 +99,7 @@
     queue_js_file('vendor/jquery-accessibleMegaMenu');
     queue_js_file('globals');
     queue_js_file('default');
+    queue_js_file('all');
     queue_js_file('wheelzoom');
     queue_js_file('skvr');
     queue_js_file('imageviewer');
@@ -115,30 +116,28 @@
         <header role="banner">
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
             <div id="site-title">
-              <span>Uuden ajan alun</span><br>
-              <?php echo link_to_home_page(theme_logo()); ?>
-              <img src="http://loitsut.finlit.fi/logo-SKS@2x.png" />
+              <?php echo '<span>Uuden ajan alun</span>'.link_to_home_page(); ?>
+              <img src="http://kalevala-dev.ngrok.io/loitsut/SKS-logo@2x.png" />
             </div>
-            <div style="width: 100%; display:inline;">
+            <div>
             <nav class="navbar navbar-expand-md">
               <ul class="navbar-nav">
                  <li class="nav-item">
-                   <a class="nav-link" href="/">Etusivu</a>
+                   <a class="nav-link" href="/loitsut">Etusivu</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/esittely">Esittely</a>
+                   <a class="nav-link" href="/loitsut/esittely">Esittely</a>
                  </li>
                  <li class="nav-item" id ="spells">
-                  <a class="nav-link" href="/items/browse">Loitsut</a>
+                  <a class="nav-link" href="/loitsut/items/browse">Loitsut</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/loitsut/ohjeet">Ohjeet</a>
                 </li>
               </ul>
             </nav>
             <nav class="navbar navbar-expand-md">
               <ul class="navbar-nav">
-
-                <li class="nav-item" id ="search_help">
-                  <a class="nav-link" href="/ohjeet" target="_blank">Ohjeet</a>
-                </li>
                 <li class="nav-item" id="solr_box">
                   <?php echo search_form(); ?>
                 </li>

@@ -58,7 +58,7 @@ class SolrSearch_Helpers_Index
       foreach ($item->getFiles() as $file) {
         if ($file->getExtension() == 'xml') {
           // Fetch TEI file for indexing, reads it into string
-          $contents = file_get_contents("http://loitsut.finlit.fi/files/original/".metadata($file,'filename'));
+          $contents = file_get_contents("http://10.214.32.28/loitsut/files/original/".metadata($file,'filename'));
           // Cut out teiHeader
           $cut1 = strpos($contents, '<div type="teksti">');
           $cut2 = strpos($contents, '<div type="tiedot">');

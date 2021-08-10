@@ -4,38 +4,38 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Voiteen sanat, Narva 1657</title>
+        <title>Voiteen sanat, Narva 1615</title>
       </titleStmt>
       <editionStmt>
         <edition>Tuomikirjojen loitsut</edition>
         <respStmt>
           <resp>Kuvat ja digitointi</resp>
-          <orgName>Kansallisarkisto</orgName>
+          <orgName>Rahvusarhiiv</orgName>
         </respStmt>
         <respStmt>
           <resp>Transkriptio</resp>
-          <persName>Lari Ahokas</persName>
+          <persName>Lari Ahokas / SKS</persName>
         </respStmt>
         <respStmt>
           <resp>Kommentaari</resp>
-          <persName>Senni Timonen, Kati Kallio, Lari Ahokas</persName>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas / SKS</persName>
         </respStmt>
       </editionStmt>
       <publicationStmt>
         <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
-        <date when="2018-11-29">29.11.2018</date>
+        <date when="2019-02-18">18.02.2019</date>
+        <availability><p>CC-BY 4.0: https://creativecommons.org/licenses/by/4.0</p></availability>
       </publicationStmt>
-      
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <settlement>Helsinki</settlement>
-            <repository>Kansallisarkisto, Vaasan raastuvanoikeus 26.8.1657, s.n., [360] r. 16−24; http://digi.narc.fi/digi/view.ka?kuid=11824928</repository>
+            <settlement>Tartto</settlement>
+            <repository>Tartu, Rahvusarhiiv: Narva magistraat: Kolleegium: Kantselei : Protokollid: EAA 1646.1.74 Протоколы 1603–1622, s. 359</repository>
             <idno></idno>
           </msIdentifier>
           <msContents>
             <msItem n="1" class="transcription">
-              <bibl>narva_1615_a</bibl>
+              <bibl>narva1615a</bibl>
             </msItem>
           </msContents>
         </msDesc>
@@ -48,24 +48,22 @@
       </langUsage>
       <particDesc>
         <person>
-          <persName type="asiakirjat">
+          <persName type="tutkimuskirjallisuus">
             <forename>Birgitta</forename>
           </persName>
-          <persName type="tutkimuskirjallisuus">
-             <forename>Birgitta</forename>
+          <persName type="tutkimuskirjallisuus2">
+            <forename>Brigitta</forename>
           </persName>
-          <persName type="tutkimuskirjallisuus">
+          <persName type="asiakirjat">
             <forename>Brigitta</forename>
           </persName>
           <residence>
-            <placeName type="asiakirja">
-              <settlement>Narva</settlement>
-            </placeName>
-            <placeName type="eri_lahteet">
+            <placeName>
               <settlement>Narva</settlement>
             </placeName>
           </residence>
           <occupation>vääpelin (Wachtmeister) vaimo</occupation>
+          <state type="rooli_oikeudenkaynnissa"><label>syytetty</label></state>
         </person>
       </particDesc>
       <settingDesc>
@@ -81,14 +79,14 @@
   <text>
     <body>
       <div type="teksti">
-        <pb n="1" facs="eaa1646_001_0000074_00352b" />
+        <pb n="359" facs="eaa1646_001_0000074_00352b" />
         <p>
           <l>Anno i6i5. Den. 2. Maij ist man mit der Tortur</l>
-          <l>fortgefahren, da die Zeug auch nochmals sampt Vndt</l>
-          <l>Sonders Wass Sie aussgesagt, der Beklagtinnen Vnter</l>
-          <l>augen geredet, Worauf Sie edntlich bekant Vndt gesgt,</l>
+          <l>fortgefahren, da die <choice><abbr>Zeug</abbr><expan>Zeugen</expan></choice> auch nochmals sampt Vndt </l>
+          <l>sonders, Wass Sie aussgesagt, der Beklagtinnen Vnter </l>
+          <l>augen geredet, Worauf Sie endtlich bekant Vndt gesagt,</l>
           <l>das es alles Wahr, Was die <choice><abbr>Zeug</abbr><expan> Zeugen</expan></choice> Wieder ihr deponirt,</l>
-          <l>insonderheit Zu Vnter schidelichen mahlen geruffen,</l>
+          <l>insonderheit Zu Vnterschiedlichen mahlen geruffen,</l>
         </p>
         <p>
           <l>Ô Philip, Philip, meinende Philip Erichsson solte</l>
@@ -101,9 +99,9 @@
         <p>
           <l>Jesuxen weri punainen.</l>
           <l>Marian makia maito</l>
-          <l>kipullen woiteixi.<label type="commentary" n="loitsu1">1</label></l>
-          <l>Hauoillen parendehax.</l>
-          <l><del>Noe</del><add><hi rend="superscript">Noe</hi></add> olcon.<label type="commentary" n="loitsu2">2</label></l>
+          <l>kipullen woiteixi.</l>
+          <l>Hauoillen parendehax.<label type="commentary" n="loitsu1">1</label></l>
+          <l><unclear><del>N[…]e</del></unclear><add><hi rend="superscript">Nae</hi></add> olcon.<label type="commentary" n="loitsu2">2</label></l>
           <l>5. Weliexellen.</l>
           <l>Eli:9. Wierahallen. §<label type="commentary" n="loitsu3">3</label></l>
         </p>
@@ -113,66 +111,100 @@
       </div>
       <div type="tiedot">
         <p><emph>Loitsun tallentumiskonteksti</emph> <ref type="more">Avaa &#8594;</ref></p>
-        <p>Narvalaisen Johann Watzonin (Watssonin) leski syytti Narvan käräjillä 28.4.1615 suomalaista vääpelin vaimoa Birgittaa (Brigittaa) tyttärensä lapsen sekä toisen tyttärensä, 
-          Peter Lisslen vaimon, sairastuttamisesta. Kummassakin tapauksessa Birgitta oli tullut tyttären kotiin, pyytänyt olutta tai viiniä, ja kun sitä ei annettu, Birgitta oli omaisten 
-          tulkinnan mukaan noitunut toisen tyttären lapsen ja toisen tyttären itsensä. Sylilapsi ei ollut huolinut rintaa kuukauteen, ja raskaana olevan tyttären kaulalla oli siitä lähtien 
-          tuntunut rengas. Birgitta oli Wattsonin lesken pyynnöstä parantanut lapsen, mutta Lisslen vaimo ei ollut vieläkään terve.</p>
-        <p>Käräjille oli hankittu, ilmeisesti Watssonin lesken ja hänen vävynsä toimesta, seitsemän valaehtoista todistajaa. Näistä ainakin viidelle Birgitta oli tehnyt pahaa, sairastuttanut 
-          ihmisen tai lehmän, kun ei annettu olutta, jota Birgitta pyysi. Hän oli myös parantanut joitakin. Selittämättä jää, pyysikö Birgitta olutta parannustyötään varten vai muista syistä. </p>
-        <p>Birgitta kertoi papille, joka kävi hänen sieluaan hoitamassa, että hän oli Viipurissa 12 vuotta palvellut erästä pappia, ja oli siellä oppinut ainoastaan "jumalanpelkoa ja hurskautta".  
-          Pappi kehotti häntä pelastamaan sielunsa ja pyytämään anteeksi Jumalalta, niin hänen ei tarvitsi pelätä maallisia rangaistuksia, mutta Birgitta ei tunnustanut. Hän sanoi, että ei ollut 
-          elämässään mitään pahaa tehnyt kellekään, vaan oli parantanut ihmisiä, esimerkiksi Wolf Gminderin tyttären, minkä Gminderin leski todistikin. Gminderin tytärtä parantaessaan Birgitta 
-          ensin kertoi käyttäneensä, jossa oli pesty kuollut ihminen; myöhemmin hän sanoi, että vesi oli otettu lähteestä.</p> 
-        <p>Birgitta vietiin kahdesti vesikokeeseen, jossa hän kellui eikä uponnut – tämä todisti häntä vastaan. Koe perustui ajatukselle, että luonnollinen vesi hylki luonnotonta noitaa, joten 
-          noita ei voinut upota tai hukkua. Toukokuun 2. päivänä jatkettiin Birgittaa kiduttamalla, ja todistajat antoivat vielä kerran lausuntonsa syytetyn kuullen. Nyt Birgitta murtui ja sanoi, 
-          että todistajien puheet ovat totta. Tässä istunnossa hän saneli loitsunsa ("Formalien"), jota hän noituudessaan oli käyttänyt.</p> 
-        <p>Toukokuun 4. päivänä Birgittaa kuulusteltiin viimeisen kerran. Häneltä kysyttiin muita, jotka käyttivät samoja temppuja, mutta hän ei sanonut tietävänsä muista. Aviomies kertoi hänen 
-          olleen öitä poissa kotona, ja Birgitalta kysyttiin, missä. Kävi ilmi, että hän ostanut olutta ja paloviinaa siveettömyyden takia tuomituilta henkilöiltä sekä yöpynyt heidän luonaan. 
-          Tämä varmasti pahensi Birgitan tilannetta. Oikeus tuomitsi hänet kuolemaan tulella ("mit Feuer"), koska hän oli käyttänyt toiminnassaan saatanan keinoja ja tehnyt pahaa sairastuttamalla 
-          muita. Teloitus tapahtui seuraavana päivänä, 5.5.1615.</p> 
+        <p>Narvalaisen Johann Watsonin (Watzon) leski syytti Narvan käräjillä 28.4.1615 suomalaista vääpelin (wachtmeister) vaimoa Birgittaa (Brigitta) tyttärensä, Gobert Jacobsonin lesken Marian, lapsen 
+          sekä toisen tyttärensä, Peter Leslien (Lessle) vaimon Elisabethin, sairastuttamisesta. Kummassakin tapauksessa Birgitta oli tullut tyttären kotiin, pyytänyt olutta tai viiniä, ja kun sitä ei annettu, 
+          hän oli omaisten tulkinnan mukaan noitunut toisen tyttären ja tämän lapsen. Marian talosta lähtiessään hän oli lausunut joitakin sanoja ("etliche Wort binnen mundes geredet"). Sylilapsi oli sitten 
+          sairastunut eikä ollut huolinut rintaa kahteen kuukauteen. Elisabethin kaulalla oli siitä lähtien tuntunut rengas. Birgitta oli Watsonin lesken pyynnöstä parantanut lapsen, mutta Leslien vaimoa hän 
+          ei pyynnöstä huolimatta tullut parantamaan.</p>
+        <p>Käräjille oli hankittu, ilmeisesti Watsonin lesken ja hänen vävynsä toimesta, seitsemän valaehtoista todistajaa. Näistä viidelle Birgitta oli noitumalla kostanut, useimmiten siitä syystä ettei saanut 
+          pyytämäänsä olutta: Leipuri Berendt Zimmermannin lehmät lypsivät kolme päivää verta ja vaimo sairasti seitsemän viikkoa. Jacob Zimmermanin vaimon Agnetan kolmannella vuodella oleva lapsi sairastui, 
+          niin ettei useaan viikkoon syönyt. Kauppias Hans Niehoffin vaimon vastasyntynyt lapsi ei seitsemään viikkoon imenyt äitinsä rintaa. Porvari Philip Erichsson kertoi kolme esimerkkiä Birgitan noitumisista: 
+          kerran Birgitta pilasi hänen oluensa, toisen kerran sairastutti hänet kolmeksi päiväksi, ja kolmannella kerralla sairastutti hänet viikoiksi vuoteeseen. Myös Paul Dolchin entinen piika Ebela sairastui 
+          pahasti. Kuudes todistaja, vääpeli Frantz, kertoi että Birgitta oli uhannut noitua ("Zuuergeben Vndt Zubezaubern") hänen oluensa, mutta hän oli pelotellut tätä niin, ettei niin tapahtunut. Selittämättä 
+          jää, pyysikö Birgitta olutta parannustyötään varten vai muista syistä.</p> 
+        <p>Elisabeth Koch, Wolf Gemünderin (Gminder) leski, oli ainoa jolle Birgitta oli tehnyt vain hyvää. Elisabethin tytär Margaretha oli ollut niin sairas, että oli joutunut konttaamaan maassa. Birgitta oli 
+          vienyt hänet saunaan ("Badstube"), pyytänyt vettä Thomas Könerin pellolta ja kylvettänyt sillä tyttären terveeksi.</p>
+        <p>Todistajien noitumistulkinta perustui usein Birgitan suuttuneena pois lähtiessään esittämiin sanoihin tai taikoihin. Maria luota poistuessaan hän oli sanonut joitakin sanoja, leipuri Zimmermannin lehmät 
+          hän oli uhannut noitua ("verzaubern"). Agnetan lapsesta hän oli sanonut, että "kunpa Jumala soisi että minulla olisi tuollainen lapsi" ("Ach Wolte Gott das Jch ein Solch Kindt haben möchte") ja laittanut 
+          lapsen suuhun kolme kauranjyvää. Piika Ebelalle oli Birgitta sanonut, että "jollet anna minulle juotavaa, se maksetaan sinulle täydesti" (Wiltu mihr nicht drincken geben, es sohl dir Woll bezahlet Werden"). 
+          Jotkut antoivat onnettomuuksille vain sen selityksen, että Birgitta ei saanut mitä halusi.</p> 
+        <p>Moni kertoi pyytäneensä Birgittaa itseään parantamaan aiheuttamansa sairauden, usein muiden neuvosta, ja tämän hän useimmiten tekikin. Philip Erichssonin Birgitta oli parantanut sitomalla hänet saunassa 
+          kiirastorstaina valmistamallaan langalla, kylvettänyt hänet yrteistä kootulla vastalla ja käskenyt häntä seuraavana päivänä heittämään langan tienristeykseen ja palaamaan takaperin kellekään puhumatta – 
+          näin sairaus ei tarttuisi. Myös Agnetan lapsen parannusrituaali on pöytäkirjassa selostettu tarkasti. Sekä Philip Ericssonia että Ebelaa parantaessaan Birgitta oli mutissut joitakin sanoja ("etliche Wort 
+          binnen Mundt geredet"). Näin lähes jokaisesta noituustodistuksesta tuli samalla parannuskertomus.</p>
+        <p>Birgitta kertoi papille, joka kävi hänen sieluaan hoitamassa, että hän oli Viipurissa 12 vuotta palvellut erästä pappia, ja oli siellä oppinut ainoastaan "jumalanpelkoa ja hurskautta". Pappi kehotti häntä 
+          pelastamaan sielunsa ja pyytämään anteeksi Jumalalta, niin hänen ei tarvitsi pelätä maallisia rangaistuksia, mutta Birgitta ei tunnustanut. Hän sanoi, että ei ollut elämässään mitään pahaa tehnyt kellekään, 
+          vaan oli parantanut ihmisiä, esimerkiksi Wolf Gemünderin tyttären, minkä Gemünderin leski todistikin. Gemünderin tytärtä parantaessaan Birgitta ensin kertoi käyttäneensä vettä, jota oli käytetty ruumiin pesuun; 
+          myöhemmin hän sanoi, että vesi oli otettu lähteestä.</p>
+        <p>Birgitta vietiin kahdesti vesikokeeseen, jossa hän kellui eikä uponnut – tämä todisti häntä vastaan. Koe perustui ajatukselle, että luonnollinen vesi hylki luonnotonta noitaa, joten noita ei voinut upota 
+          tai hukkua. Toukokuun 2. päivänä jatkettiin asian käsittelyä Birgittaa kiduttamalla, ja todistajat antoivat vielä kerran lausuntonsa syytetyn kuullen. Nyt Birgitta murtui, myönsi todistajien puhuneen totta 
+          ja huusi moneen kertaan "O Philip, Philip"; sanat oli kohdistettu Philip Erichssonille, joka oli vahvasti todistanut häntä vastaan. Tässä istunnossa hän saneli lyhyet loitsusanansa ("Formalien"), joita hän 
+          noituudessaan oli käyttänyt.</p>
+        <p>Toukokuun 4. päivänä Birgittaa kuulusteltiin viimeisen kerran. Häneltä kysyttiin muita, jotka käyttivät samoja temppuja, mutta hän ei sanonut tietävänsä. Aviomies kertoi hänen olleen öitä poissa kotoa, 
+          ja kävi ilmi, että hän ostanut olutta ja paloviinaa siveettömyyden takia tuomitulta henkilöltä sekä yöpynyt hänen luonaan. Tämä varmasti pahensi Birgitan tilannetta. Oikeus tuomitsi hänet kuolemaan tulella 
+          ("mit Feur"), koska hän oli käyttänyt toiminnassaan saatanan keinoja toista auttamalla, toista sairastuttamalla ("etlicher teuffels Künste sich gebrauchet dem Einen geholffen, dem andern die Krancheit 
+          Wieder Zugefügt"). Antero Heikkinen (1969, 45) arvelee tuomioon voineen myös vaikuttaa, että Birgitta oli kotoisin muualta. Teloitus tapahtui seuraavana päivänä, 5.5.1615.</p>  
+        <p>Birgitan nimi esiintyy pöytäkirjassa Ruotsin alueella epätyypillisessä muodossa Brigitta. Tämä liittynee siihen, että tapauksen syyttäjät olivat skotlantilaissyntyisiä, joten he ovat todennäköisesti 
+          käyttäneet nimen alkuperäistä kelttiläistä muotoa Brigitta. Ruotsin kielellä muoto on ollut Birgitta, suomen kielellä kutsumanimenä on voinut olla Pirkko tai Piritta.</p>
       </div>
       <div type="tiedot_b">
         <p><emph>Loitsu</emph> <ref type="more">Avaa &#8594;</ref></p>
-        <p>Birgitan "Formalien" on loitsuissa yleinen <hi rend="italics">Voiteen luvuksi</hi> kutsuttu teema. Sitä on käytetty kaikkien mahdollisten vaivojen yhteydessä, ikään kuin loppurukouksena, 
-          voiteluna, mutta tavallisimmin sellaisissa tapauksissa, joissa vamma todella edellytti voidetta. <hi rend="italics">Voiteen luvun</hi> myöhemmät versiot ovat usein laajoja: niissä 
-          rukoillaan voiteita niin kristillisiltä kuin epäkristillistä auttajilta ja voidaan laajasti kuvata, miten voiteet ovat syntyneet (<hi rend="italics">Voiteen synty</hi>) tai kertoa 
-          niiden matkasta tänne esimerkiksi mehiläisen mukana. 
-        </p>
-        <p>Birgitan esittämän loitsun ydinteema, Jeesuksen punainen veri ja Marian makea maito parantavana voiteena, on tämän aiheen varhaisin suomenkielinen muistiinpano. Seuraavat tekstit saneli 
-          vähäkyröläinen Kerttu Nätyri vuosina 1657 ja 1658. Säepari kuuluu (<hi rend="italics">Voiteen luvun</hi> toistuviin elementteihin myöhemminkin koko Suomen, Inkerin ja Karjalan alueella.</p>
-        <p>Aihe on tunnettu myös Euroopassa; suomenkielisen muodon lähin vastine on suomenruotsalainen "Marie mjölk så söt, Å Kristi blod så röd" (FSF VII 100−102, 121−122; ks. Krohn 1917, 234; Kallio 
-          et al. 2017, 274). Ajatuksen pohjana on keskiaikainen läntinen traditio, jossa niin Kristuksen verelle kuin Marian maidolle annettiin parantavia, pyhiä, ihmiskuntaa pelastavia merkityksiä. 
-          Veren ja maidon ylistykset toistuivat kirkollisissa tekstissä ja kirkkotaiteessa, ja niitä omaksuttiin kansankulttuurin käytäntöihin ja ilmaisuihin. Itä-Suomen ja Karjalan kalevalamittaisessa 
-          loitsuperinteessä etenkään Marian maito -aihe ei rajoittunut tähän säepariin, vaan sitä kehiteltiin omaperäisiin, rikkaisiin muotoihin. (Kallio et al. 2017, 53, 228, 273−277, 285−286, 289−290.)</p>
-        <p>Birgitan loitsu noudattaa alkuosaltaan myöhemmässäkin perinteessä toistuvia, lähinnä Etelä-Karjalasta ja Inkeristä tallennetuja muotoja. Kolme viimeistä säettä poikkeavat tunnetuista ja jäävät 
-          tulkinnan varaan.</p>
+        <p>Birgitan (Brigitta) loitsukaava eli pöytäkirjan sanoin "Formalien" on myöhemmissä loitsutallenteissa yleinen <hi rend="italics">Voiteen luvuksi</hi> kutsuttu teema. Sitä on käytetty kaikkien mahdollisten 
+          vaivojen yhteydessä ikään kuin loppurukouksena − tavallisimmin sellaisissa tapauksissa, joissa vamma todella edellytti voidetta. <hi rend="italics">Voiteen luvun</hi> myöhemmät versiot ovat usein laajoja. 
+          Niissä rukoillaan voiteita niin kristillisiltä kuin epäkristillistä auttajilta ja saatetaan kuvata laajasti, miten voiteet ovat syntyneet (<hi rend="italics">Voiteen synty</hi>) tai kertoa niiden matkasta 
+          esimerkiksi mehiläisen mukana.</p> 
+        <p>Loitsu pyytää Jeesuksen punaista verta ja Marian makeaa maitoa kivuille voiteeksi ja haavoille parannukseksi. Loitsun kolme viimeistä säettä poikkeavat myöhemmin tallennetuista, ja niiden tulkinta jää osin 
+          epävarmaksi. Ilmeisesti kyse on toivotuksesta, että voide tai loitsusanat olisivat avuksi monille ihmisille, sekä oman perheen jäsenille (veljeksille) että vieraille.</p>
+        <p>Birgitan esittämän loitsun ydinteema, Jeesuksen punainen veri ja Marian makea maito parantavana voiteena, on tämän aiheen varhaisin suomenkielinen muistiinpano. Seuraavat tekstit saneli vähäkyröläinen 
+          Kerttu Nätyri vuosina 1657 ja 1658. Säepari kuuluu <hi rend="italics">Voiteen luvun</hi> myöhemmissäkin aineistoissa toistuviin elementteihin koko Suomen, Inkerin ja Karjalan alueella.</p>
+        <p>Aihe on tunnettu myös Euroopassa; suomenkielisen muodon lähin vastine on suomenruotsalainen "Marie mjölk så söt, Å Kristi blod så röd" (FSF VII:5 100−102, 121−122; ks. Krohn 1917, 234; Kallio et al. 2017, 274). 
+          Ajatuksen pohjana on keskiaikainen läntinen traditio, jossa niin Kristuksen verelle kuin Marian maidolle annettiin parantavia, pyhiä, ihmiskuntaa pelastavia merkityksiä. Veren ja maidon ylistykset toistuivat 
+          kirkollisissa teksteissä ja kirkkotaiteessa, ja niitä omaksuttiin kansankulttuurin käytäntöihin ja ilmaisuihin. Itä-Suomen ja Karjalan kalevalamittaisessa loitsuperinteessä etenkään Marian maito -aihe ei 
+          rajoittunut tähän säepariin, vaan sitä kehiteltiin omaperäisiin, rikkaisiin muotoihin. (Kallio et al. 2017, 53, 228, 273−277, 285−286, 289−290.)</p>
       </div>
       <div type="tiedot_c">
         <p><emph>Aikaisemmat transkriptiot</emph> <ref type="more">Avaa &#8594;</ref></p>        
-        <p>Hansen 1858, 79 &gt; Suomen kielen muistomerkki, 45.</p> 
+        <p>Hansen 1858, 79 &gt; Suomen kielen muistomerkki, 45 &gt; Krohn 1917, 234; Kallio et al. 2017, 253 (&gt; Hansen 1848, 79).</p> 
       </div>
       <div type="tiedot_d">
         <p><emph>Kirjallisuusluettelo</emph> <ref type="more">Avaa &#8594;</ref></p>
-        <p>Hansen, Heinrich Johann 1858: <hi rend="italics">Geschichte der Stadt Narva. Ergänzende Nachrichten zur Geschichte der Stadt Narva vom Jahre 1558</hi>. Dorpat, 78−79.<lb/><lb/>
-          Heikkinen, Antero 1969: <hi rend="italics">Paholaisen liittolaiset: Noita- ja magiakäsityksiä ja -oikeudenkäyntejä Suomessa 1600-luvun jälkipuoliskolla (n. 1640−1720)</hi>. Helsinki: SHS, 44−45. <lb/><lb/>          
-          Ein Hexenprocess in Narwa. – Das Inland 1848 (38), 818−822.<lb/><lb/>
-          Kallio et al. 2017: Kati Kallio, Tuomas M. S. Lehtonen, Senni Timonen, Irma-Riitta Järvinen ja Ilkka Leskelä, <hi rend="italics">Laulut ja kirjoitukset: suullinen ja kirjallinen kulttuuri uuden ajan alun 
-          Suomessa</hi>. SKS, 252−253. <lb/><lb/>
-          Krohn, Kaarle 1917: <hi rend="italics">Suomalaiset syntyloitsut. Vertaileva tutkimus</hi>. SKS. <lb/><lb/>
-          <hi rend="italics">Suomen kielen muistomerkki</hi>. – Suomen Museo 1894, 45.<lb/><lb/>
-        </p>
+        <p>Bunz, Rainer 2018: <hi rend="italics">Von Leslie: Schottischer Adel in Deutschland und Österreich</hi>. Norderstedt: BoD.<lb/><lb/>
+          Erpenbeck, Dirk-Gerd 1998: Kaufleute und Unternehmer in Narva: Deutsche Migration an die Ostgrenze des Schwedischen Reiches und ihre Kontinuität in russischer Zeit. − Robert Schweitzer, Waltraud 
+          Bastman-Bühner (Hrsg.): <hi rend="italics">Der finnische Meerbusen als Brennpunkt: Wandern und Wirken deutschsprachiger Menschen im europäischen Nordosten: Beiträge anläßlich des "I. Internationalen 
+            Symposiums zur deutschen Kultur im europäischen Nordosten" der Stiftung zur Förderung deutscher Kultur (Aue-Stiftung) Helsinki und der Ostsee-Akademie Lübeck-Travemünde in Zusammenarbeit mit dem
+            Deutschen Kulturinstitut Tallinn und dem Finnland-Institut Tallinn vom 6. bis 10. September 1995 in Tallinn/Estland</hi>, Saksalaisen kulttuurin edistämissäätiön julkaisuja 9. Helsinki: Stiftung zur 
+          Förderung deutscher Kultur, 129−145.<lb/><lb/>
+          FSF: <hi rend="italics">Finlands Svenska Folkdiktning</hi>. VII. Folktro och trolldom. 5. Magisk folkmedicin. Utgivet av Valter W. Forsblom. Skrifter utgivna av Svenska Litteratursällskapet i Finland CXCV. 
+          Helsingfors: Svenska Litteratursällskapet i Finland.<lb/><lb/>
+          Gren, Erik (toim.) 2000: <hi rend="italics">Värmlands nation i Uppsala 1595−1677</hi>. Nationen och hembygden: Skriftserie utgiven av Värmlands nation i Uppsala och Värmlands nations kamratförening 16. 
+          Uppsala: Värmlands nation i Uppsala och Värmlands nations kamratförening.<lb/><lb/>
+          Hansen, Heinrich Johann 1858: <hi rend="italics">Geschichte der Stadt Narva. Ergänzende Nachrichten zur Geschichte der Stadt Narva vom Jahre 1558</hi>. Dorpat. (Tästä tapauksesta s. 78−79.)<lb/><lb/>
+          Heikkinen, Antero 1969: <hi rend="italics">Paholaisen liittolaiset: Noita- ja magiakäsityksiä ja –oikeudenkäyntejä Suomessa 1600-luvun jälkipuoliskolla (n. 1640−1720)</hi>. Helsinki: SHS. (Tästä 
+          tapauksesta s. 44−45.)<lb/><lb/>
+          Ein Hexenprocess in Narwa. <hi rend="italics">Das Inland</hi> 1848 (38), 818−822.<lb/><lb/>
+          Kallio, Kati, Tuomas M. S. Lehtonen, Senni Timonen, Irma-Riitta Järvinen ja Ilkka Leskelä 2017: <hi rend="italics">Laulut ja kirjoitukset: suullinen ja kirjallinen kulttuuri uuden ajan alun Suomessa</hi>. 
+          Helsinki: SKS. <ref type="link" target="http://dx.doi.org/10.21435/skst.1427">http://dx.doi.org/10.21435/skst.1427</ref>. (Tästä loitsusta erit. s. 252−253.)<lb/><lb/>
+          Krohn, Kaarle 1917: <hi rend="italics">Suomalaiset syntyloitsut. Vertaileva tutkimus</hi>. Helsinki: SKS. (Tästä loitsusta erit. s. 234−240.)<lb/><lb/>
+          Luther, Georg 1972: Hur hänger Soldanerna samman? <hi rend="italics">Genos</hi> 43, 29−41.<lb/><lb/>
+          Naber, Jaak 1995: <hi rend="italics">Motsättningarnas Narva: Statlig svenskhetspolitik och tyskt lokalvälde i ett statsreglerat samhälle, 1581−1704</hi>. Opuscula Historica Upsaliensia 15. Uppsala: 
+          Historiska institutionen vid Uppsala universitet.<lb/><lb/>
+          SKVR I−XV = <hi rend="italics">Suomen kansan vanhat runot</hi>. 1908−1997. Eri toimittajia. Helsinki: SKS. Käytetty sähköisenä: <hi rend="italics">SKVR-tietokanta</hi>. 
+          2004−. <ref type="link" target="http://www.skvr.fi"> http://www.skvr.fi </ref>. Käytetty myös <hi rend="italics">Octavo</hi>-liittymän kautta 2018−2020.<lb/><lb/> 
+          SMS: <hi rend="italics">Suomen murteiden sanakirja</hi>. Helsinki: Kotimaisten kielten keskus. Päivittyvä julkaisu. <ref type="link" target="http://kaino.kotus.fi/sms"> http://kaino.kotus.fi/sms</ref><lb/><lb/> 
+          Suomen kielen muistomerkki. <hi rend="italics">Suomen Museo</hi> 1894, 45.<lb/><lb/>
+          Svalenius, Ivan 1991: <hi rend="italics">Rikskansliet i Sverige 1560−1592</hi>. Skrifter utgivna av Svenska Riksarkivet 7. Stockholm: Riksarkivet.<lb/><lb/>
+          VKS: Vanhan kirjasuomen sanakirja. Helsinki: Kotimaisten kielten keskus. Päivittyvä julkaisu. <ref type="link" target="http://kaino.kotus.fi/vks"> http://kaino.kotus.fi/vks </ref><lb/><lb/> 
+          Väänänen, Kyösti 1987: <hi rend="italics">Herdaminne för Ingermanland I: Lutherska stiftsstyrelsen, församlingarnas prästerskap och skollärare i Ingermanland under den svenska tiden</hi>. Helsingfors: 
+          Svenska litteratursällskapet i Finland.</p>
       </div>
       <div type="nykytulkinta">
-        <p><emph>Loitsun nykykielinen tulkinta</emph> <ref type="more">Avaa &#8594;</ref></p>
-        <p>Loitsuteksti on tässä tulkittu melko vapaasti nykyortografialle ja muotoon, jossa se olisi todennäköisesti myöhemmän aineiston perusteella voinut sanellessa 
-          tai laulettaessa esiintyä. Kyseessä ei ole tieteellinen rekonstruktio, vaan ymmärtämisen avuksi tarkoitettu tulkinta. Suluissa on selityksiä, epävarmoja tulkintoja 
-          ja pieniä lisiä. Hakasulkeissa on suurempia, myöhemmässä aineistossa tyypillisiä elementtejä. Loitsujen ja säemuotojen variaatiosta enemmän kohdassa Loitsuista.</p>
+        <p><emph>Loitsu nykyortografialla</emph> <ref type="more">Avaa &#8594;</ref></p>
         <lg>
-          <l>Jeesuksen veri punainen</l> 
-          <l>Marian makia maito</l>   
-          <l>kipu(hi)llen voite(h)iksi</l>
-          <l>haavoillen parentehiks(i)</l>         
-          <l>Ne (nuo) olkoon</l>
+          <l>Jeesuksen veri punainen,</l> 
+          <l>Marian makia maito,</l>
+          <l>kipu[hi]llen voite[h]iksi</l> 
+          <l>haavoillen parentahaksi.</l> 
+          <l>Ne olkoon</l>
           <l>viidelle veljeksellen,</l>
           <l>eli yhdeksälle vierahallen.</l>
         </lg>
@@ -182,20 +214,23 @@
         <note n="loitsu1">
           <hi rend="red">1</hi>. kipullen woiteixi.<lb/> 
           Hauoillen parendehax"<lb/><lb/>
-          Säepari on Etelä-Karjalassa ja Inkerissä yleinen <hi rend="italics">Voiteen luvussa</hi>, mutta myöhemmässä aineistossa yleensä muodossa "kipehille voiteheks(i)/voitehiks(i), haavoille 
-          parantehiks(i)/parantajaks(i)/parannukseks". Sanan <hi rend="italics">parendehax</hi> läheisin muoto on Inkerin Tyröstä tallennettu <hi rend="italics">parentehiiks</hi> (SKVR IV3 4351).
+          Säepari on myöhemmässä aineistossa yleinen Etelä-Karjalan ja Inkerin <hi rend="italics">Voiteen luvussa</hi>, yleensä muodossa "kipehille voiteheks(i)/voitehiks(i), 
+          haavoille parantehiks(i)/parantajaks(i)/parannukseks". Muoto "kipuhille" esiintyy yhdessä voiteen sanojen toisinnossa Länsi-Inkerin Soikkolassa (SKVR III3 4423), sanan <hi rend="italics">parendehax</hi> 
+          läheisin muoto on Inkerin Tyröstä tallennettu <hi rend="italics">parentehiiks</hi> (SKVR IV3 4351).
         </note>
         <note n="loitsu2">
-          <hi rend="red">2</hi>. "Noe olcon"<lb/><lb/>
-          Proosamuotoinen välihuomautus, vaillinainen säe tai seuraavan säkeen tavallista pidempi, epätyypillinen aluke: ne tai nuo (Kristuksen veri ja Marian maito?) olkoon, viidelle veljekselle…  
-          Vastaavissa yhteyksissä myöhemmissä aineistoissa usein <hi rend="italics">olkoon</hi>: "Neitsy Maarian makia maito haavaan parannukseks’ olkoon"; "Jesuksen veri punanen, Marian makia maito 
-          Olkoon tähän voiteheks'" (SKVR IX3 776, XII1 4561).
+          <hi rend="red">2</hi>. "Nae olcon"<lb/><lb/>
+          Proosamuotoinen välihuomautus, vaillinainen säe tai seuraavan säkeen tavallista pidempi, epätyypillinen aluke: ne (Kristuksen veri ja Marian maito?) olkoon, viidelle veljekselle… Vastaavissa 
+          yhteyksissä myöhemmissä aineistoissa usein <hi rend="italics">olkoon</hi>: "Neitsy Maarian makia maito, haavaan parannukseks’ olkoon"; "Jesuksen veri punanen, Marian makia maito, Olkoon tähän 
+          voiteheks'" (SKVR IX3 776, XII1 4561). Pronomini on aiemmin paikoin tulkittu muotoon nœ (noe). Tätä ligatuuria ei kuitenkaan esiinny pöytäkirjanotteessa, sen sijaan æ-ligatuuri (transkriptiossa 
+          ae; vrt. praesumptiones, praestiren) on yleinen, ja vastaa äännearvoltaan lähinnä e:tä. Todennäköisin transkriptio on siis ’ne’.
         </note>
         <note n="loitsu3">
           <hi rend="red">3</hi>. "5. Weliexellen. Eli: 9. Wierahallen"<lb/><lb/>
-          Vastineita säeparille ei myöhemmästä aineistosta löydy. Tarkoittaa todennäköisesti, että voiteet olkoon avuksi viidelle veljekselle ja yhdeksälle vieraalle eli monille ihmisille. Heinrich 
-          Johann Hansen pitää säkeitä käsittämättöminä, mutta tuntematon kääntäjä vuonna 1848 tulkitsee kolme viimeistä säettä mahdollisesti viron kielen mukaan assosioiden seuraavasti: "Es sei Hexerei. 
-          5 für Brüder. 9 für Fremden" eli olkoon tämä noitus, viisi (kertaa?) veljeksille, yhdeksän (kertaa) vierahille (Ein Hexenprocess in Narwa, 322). 
+          Tarkkaa vastinetta säeparille ei myöhemmästä aineistosta löydy. Viisi veljestä on kalevalamittaisessa runoudessa yleinen ilmaus, muotoa yhdeksälle vierahallen ei esiinny. Sinänsä esimerkiksi 
+          muodossa "viidelle on veljekselle, yhdeksälle vierahallen" olisi tyylipuhdasta kalevalamittaa. S’epari todennäköisesti tarkoittaa, että voiteet olkoon avuksi viidelle veljekselle ja yhdeksälle 
+          vieraalle, eli lukuisille ihmisille. Heinrich Johann Hansen pitää säkeitä käsittämättöminä, mutta tuntematon kääntäjä vuonna 1848 tulkitsee kolme viimeistä säettä mahdollisesti viron kielen 
+          mukaan assosioiden seuraavasti: "Es sei Hexerei. 5 für Brüder. 9 für Fremden" eli olkoon tämä noituus, viisi (kertaa?) veljeksille, yhdeksän (kertaa) vierahille (Ein Hexenprocess in Narwa, 322).  
         </note>
       </div>
     </body>

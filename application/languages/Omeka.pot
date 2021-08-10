@@ -3048,7 +3048,7 @@ msgid "Next Item &rarr;"
 msgstr ""
 
 #: application/libraries/globals.php:2595
-msgid "&larr; Previous Item"
+msgid "Previous Item"
 msgstr ""
 
 #: application/libraries/globals.php:2776
@@ -3751,4 +3751,10 @@ msgid "Spatial Coverage"
 msgstr ""
 
 msgid "Spatial coverage"
+msgstr ""
+
+msgid "starts with"
+msgstr ""
+
+msgid "ends with"
 msgstr ""

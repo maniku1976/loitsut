@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tuomiokirja, Asikkala 1655</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Tuomikirjojen loitsut</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Kansallisarkisto</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkriptio</resp>
+          <persName>Lari Ahokas</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kommentaarit</resp>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2019-02-18">18.2.2918</date>
+        <availability><p>CC-BY 4.0: https://creativecommons.org/licenses/by/4.0</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Kansallisarkisto, Kihlakunnanoikeuksien renovoidut tuomiokirjat, Hollolan tuomiokunta, I KO a:7 (ee:6), varsinaisten asioiden pöytäkirjat 1653−1657, 
+              1) Asikkalan syyskäräjät 4.12.1654, f. 447r, 449r−450v; 2) Asikkalan talvikäräjät 6.3.1655, f. 485r, 487r−489r.
+            </repository>
+            <idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="transcription">
+              <bibl>asikkala1655tp</bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fi-FI">suomi</language>
+        <language ident="se-SE">svenska</language>
+      </langUsage>
+      <settingDesc>
+        <setting>
+          <name>Asikkala</name>
+          <date when="1655-03-06">1) 4.12.1654, 2) 6.3.1655</date>
+          <locale>Padasjoki, Jokioisten nimismiehentalo</locale>
+          <activity>Oikeudenkäynti- tai muistiinpanopaikka</activity>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="447r" ed="folionumero" facs="467b"/>
+        <p>
+          <l>[1.] Anno 1654 Den 4 Decembris Blef Laga Hä-</l>
+          <l>[2.] redz höst tingh hållit medh Allmogen af Asickala Sochn</l>
+          <l>[3.] Vthi Jokiois Länsmans gårdh i Padas Joki, Närwa-</l>
+          <l>[4.] randes Landzhåfdingen Vthöfwer Nÿlandh och Taf-</l>
+          <l>[5.] wastehuus Lähn, den Wällboren Herren Ernest</l>
+          <l>[6.] Johann Creutz frijherre till Casaritz <choice><abbr>etc:</abbr><expan>etcetera</expan></choice> och flee-</l>
+          <l>[7.] re godhe Männe sambt</l>
+        </p>
+        <p>
+          <l>[8.] Nämbden</l>
+          <l>[9.] Erich Sigfredsson i Wanaia,&#032;&#032; &#032; &#032;Philip Erichsson i Wesiwehma</l>
+          <l>[10.] Simon Thomasson i Kalliola,&#032;&#032; &#032; &#032;Thomas Thomasson i Lumiala</l>
+          <l>[11.] Grells Bertillsson i Anianpeldo&#032;&#032; &#032; &#032;Simon Erichsson i Kurhila</l>
+          <l>[12.] Hindrich Markusson i Asickala,&#032;&#032; &#032; &#032;Grells Rasmusson i Kurhila,</l>
+          <l>[13.] Eskill Andesson } i Vra Järwi,&#032;&#032; &#032; &#032;Sigfredh Mårthsnsson i Laitiala,</l>
+          <l>[14.] Erich Påållsson..} [i Vra Järwi,&#032;&#032; &#032; &#032;Matz Hindrichsson i Kallkis,</l>
+        </p>
+        <p>[välissä useita sivuja]</p>
+        <pb n="449r" ed="folionumero" facs="469b"/>
+        <p>
+          <l>[18.] Framhades een <choice><abbr>ben:<hi rend="superscript">d</hi></abbr><expan>benemd</expan></choice> Thomas Johansson<label type="commentary" n="tuomio1">1</label> som nu een</l>
+          <l>[19.] tidh sitt tillhålld hafwer hafft i Marjoniemi<label type="commentary" n="tuomio2">2</label></l>
+          <l>[20.] bÿ och Asickala Sochn, hwillken af hwar Man </l>
+          <l>[21.] ähr Wthropat och berÿchtat för een Wppen-</l>
+          <l>[22.] bar Trullkarll, och blef fördenskull ad Läns-</l>
+          <l>[23.] mannen Michell Manninen<label type="commentary" n="tuomio3">3</label> Anklagatt på</l>
+          <l>[24.] sätt och wijs som föllier.</l>
+        </p>
+        <p>
+          <l>[25.] 1) Först <unclear>framädskade</unclear> Länsman een Bonde ifrån</l>
+          <l>[26.] Pullkila<label type="commentary" n="tuomio4">4</label> Clemet ERichsson<label type="commentary" n="tuomio5">5</label> <choice><abbr>ben:<hi rend="superscript">d</hi></abbr><expan>benemd</expan></choice> 
+            hwillken i </l>
+          <l>[27.] fiord <choice><abbr>653</abbr><expan>1653</expan></choice> war Häradz höfdinge penningars</l>
+          <l>[28.] Vpbördzman, och bekände effter sworen Eedh</l>
+          <l>[29.] å Book, att då han war Kommen till <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice></l>
+          <l>[30.] Thomas att Vthfordra penningar, då hade</l>
+          <l>[31.] han, och orsaak att Michell Hansson<label type="commentary" n="tuomio6">6</label> i Lusi,<label type="commentary" n="tuomio7">7</label></l>
+          <l>[32.] skulle honom på Vpbördz Längden hafwa Lå-</l>
+          <l>[33.] tet införa, hootat, honom, Michell Hansson, </l>
+          <l>[34.] medh desse ord, Kÿllä Perkelen pitä hänen</l>
+          <l>[35.] Taskuns Kerroist Rahan Vlos wiemän, Såsom</l>
+          <l>[36.] och slaget Näfwen i Bordet, hwareffter och</l>
+          <l>[37.] sades</l>
+        </p>
+        <pb n="449v" ed="folionumero" facs="470a"/>
+        <p>
+          <l>[1.] sades att föllgt ähr, dhet Biörnen skulle för</l>
+          <l>[2.] honom innan någre dagar däreffter hans</l>
+          <l>[3.] Rustnings häst, medh een Annan Arbetz häst ne-</l>
+          <l>[4.] derslaget, Såsom och wargarna hans fåhre</l>
+          <l>[5.] sampt och kallfwar Vpätet och fördärfwat</l>
+          <l>[6.] hafwa, Hwartill <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Thomas Johansson swa-</l>
+          <l>[7.] rade och sade sigh ingen ting weeta.</l>
+        </p>
+        <p>
+          <l>[8.] 2) Witnade och bekände Länssmans Son Hartwijk</l>
+          <l>[9.] Michellsson<label type="commentary" n="tuomio8">8</label> sampt Gevaldigers tienaren Eskell</l>
+          <l>[10.] dhe där honom antastade och lagförde, effter</l>
+          <l>[11.] sworen Eedh, att dhe hade funnit tränne små</l>
+          <l>[12.] kluter, der eena mde åska full, och Sallt Vthj</l>
+          <l>[13.] den andra, och <unclear>Gult Matke</unclear> miöl<label type="commentary" n="tuomio9">9</label> Vthj</l>
+          <l>[14.] den tridie, af hwillka dhe nu tränne på Tings</l>
+          <l>[15.] Bordet lade och bewijste, och sade honom hafwa </l>
+          <l>[16.] sagt den uthan wara åkermull, Men nu</l>
+          <l>[17.] bekände <del>han</del> och förwände <choice><abbr>be:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Thomas dherså,</l>
+          <l>[18.] att såsom hans dotter skulle blifwa gifft till</l>
+          <l>[19.] Kallkis<label type="commentary" n="tuomio10">10</label>, därföre skulle hon hafwa taget </l>
+          <l>[20.] Mull Vnder Gållfwet af hans förre boostäl-</l>
+          <l>[21.] le i Waippilais<label type="commentary" n="tuomio11">11</label> i Sÿssmä Sochn och dhet för-</l>
+          <l>[22.] sta hon skulle komma Vthj huset medh in </l>
+          <l>[23.] Man, så skulle hon kasta den Mullan Vn-</l>
+          <l>[24.] der hans fötter, på dhet hon skulle trifwas </l>
+          <l>[25.] dhär, så wäll som hoos honom tillförenne,</l>
+          <l>[26.] män Salltet hade han, att hans dotter skul-</l>
+          <l>[27.] le hafwa låtet tillaga för sina tänder.</l>
+        </p>
+        <p>
+          <l>[28.] 3) Män till den beskÿllningen att han skulle</l>
+          <l>[29.] kunna Laga och förgöra Biörnen att Vpäta </l>
+          <l>[30.] hwars Hästar och Booskap han wille; Nee-</l>
+          <l>[31.] kade han Alldeles, och sade sigh dugen tingh</l>
+          <l>[32.] kunna göra eller förrätta annat, ähn bota </l>
+          <l>[33.] dem som hafwa Rifningar i Lijfwet. Såsom</l>
+          <l>[34.] och till frågan, huru han dhet skulle </l>
+          <l>[35.] kunna åstadkomma? Swaradhe han och sa-</l>
+          <l>[36.] de sigh. först läsa Fader wår, och sedan </l>
+          <l>[37.] elliest bidia Gudh att SIukdomen skulle </l>
+          <l>[38.] draga</l>
+        </p>
+        <pb n="450r" ed="folionumero" facs="470b"/>
+        <p>
+          <l>[1.] draga för Stockar och Stänar etc. hwillken </l>
+          <l>[2.] Kånst han på Marjoniemi Hans Hindrichssons<label type="commentary" n="tuomio12">12</label></l>
+          <l>[3.] dotter Margreta skule pröfwat hafwa. §.</l>
+        </p>
+        <p>
+          <l>[4.] 4) Därnäst framkom Simon Sigfredsson<label type="commentary" n="tuomio13">13</label> ifrån </l>
+          <l>[5.] Wappilais, och effter Aflagdan Eedh å Lagboken</l>
+          <l>[6.] Wittnade och bekände, dhet <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> berÿchtade</l>
+          <l>[7.] trullkarll för någon tijdh sedan hade hemb-</l>
+          <l>[8.] ligen taget Bast Vthur onalisto<label type="commentary" n="tuomio14">14</label> Vthmark,</l>
+          <l>[9.] såsom och fijsk af Berendt Matzsons<label type="commentary" n="tuomio15">15</label> Näth, Men</l>
+          <l>[10.] för dhet att <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Berendt honom därföre</l>
+          <l>[11.] hade låtet tilltala, så hade han Vndsagt</l>
+          <l>[12.] honom därföre och sagt,: sigh willia så laga, </l>
+          <l>[13.] att han skulle finna feell på sin Booskap,</l>
+          <l>[14.] medh desse ord, Kÿllä minä nÿttin nijn laitan</l>
+          <l>[15.] että Cuut Lehmistäns metzän Jääwät, Jo minä</l>
+          <l>[16.] hänen ennengin nijn panin menemän cuunsa</l>
+          <l>[17.] corpehen, dhet ähr att han skulle laga så, att </l>
+          <l>[18.] hans Booskap skulle mista Tallgen och Jnellf-</l>
+          <l>[19.] werne, i Skogen, hwillket och honom bådhe</l>
+          <l>[20.] för och sedan skedt ähr.</l>
+        </p>
+        <p>
+          <l>[21.] 5) Bekände och Nämbdemannen Matz Hindrichsson </l>
+          <l>[22.] i Kallkis, at hwar man bär fahra för honom,</l>
+          <l>[23.]  och låta honom föllia allt hwadh som han å-</l>
+          <l>[24.] stundar och begärer, hwillket allt honom </l>
+          <l>[25.] wäll skulle öfwertÿgat blifwa, så frampt </l>
+          <l>[26.] att follket som effter hans Vndseijellser nå-</l>
+          <l>[27.] gon skada händt ähr, # <add># hade wist honom</add>, Nu till detta tinget</l>
+          <l>[28.] tillstädes hämbtes och förskaffes.</l>
+        </p>
+        <p>
+          <l>[29.] Så alldenstundh att nu inga fleera Åklagare</l>
+          <l>[30.] eller deres wittnen tillstädes woro, som </l>
+          <l>[31.] honom något annat mehra ondt hade kun-</l>
+          <l>[32.] nat öfwertÿga, och hwar man lijkwäll in-</l>
+          <l>[33.] ständigt badh, att han till Nästa Ting för-</l>
+          <l>[34.] waras skulle. Alltså leet och Wällborne </l>
+          <l>[35.] herren Landzhöfdingen honom föra till Ta-</l>
+          <l>[36.] wast-</l>
+        </p>
+        <pb n="451v" ed="folionumero" facs="471"/>
+        <p>
+          <l>[1.] -wastehuus och där sammastädes, att för wah-</l>
+          <l>[2.] ras till Nästa Winterting, Hwarest han</l>
+          <l>[3.] sedan wijdare beskedh och Vthslag i sacken</l>
+          <l>[4.] hafwer att förwäntta. §.</l>
+        </p>        
+        <p>[välissä useita sivuja]</p>
+        <pb n="485r" ed="folionumero" facs="506b" />
+        <p>
+          <l>[1.] Anno 1655 den 5 Martij Blef Laga Häredz Wint-</l>
+          <l>[2.] terting hållit medh Allmogen af Asickala Sochn i Jokiois Läns-</l>
+          <l>[3.] mansgårdh, Närwarandes Befallningsmannen öfwer Hållola</l>
+          <l>[4.] Häredt Well:tt Johann Jsacksson och fleere godhe manne, och desse</l>
+          <l>[5.] satho då i Nämbden.</l>
+        </p>
+        <p>
+          <l>[6.] Erich Sigfredsson i Wanaja,&#032;&#032; &#032; &#032;Philip Erichsson i Wesiwechmas</l>
+          <l>[7.] Simon Thomasson i Kalliola,&#032;&#032; &#032; &#032;Thomas Thomasson i Lummiala,</l>
+          <l>[8.] Grels Eskillson i Anianpeldo,&#032;&#032; &#032; &#032;Simon Erichsson i Kurhila, </l>
+          <l>[9.] Hindrich Markusson i Asikala, Matz Henrichsson i Kallekis,</l>
+          <l>[10.] Erich Påålsson i Vra Järwi,&#032;&#032; &#032; &#032;S: S: S: S: S:</l>
+        </p>
+        <p>[välissä useita sivuja]</p>
+        <pb n="487r" ed="folionumero" facs="508b"/>
+        <p>
+          <l>[4.] Den 6 Martij förtogs een Högmåls saak, och fattes </l>
+          <l>[5.] effterskrifne Boofasta Män till een owälld Nämnd som</l>
+          <l>[6.] ähre</l>
+          <l>[7.] Erich Sigfredsson i Wania,&#032;&#032; &#032; &#032;Philip Erichsson i Wesiwechmas,</l>
+          <l>[8.] Simon Thomasson i Kalliala,&#032;&#032; &#032; &#032;Thomas Thomasson i Lumiala,</l>
+          <l>[9.] Grels Eskillson i Anianpeldo,&#032;&#032; &#032; &#032;Simon Erichsson i Kurhila, </l>
+          <l>[10.] Hindrich Markusson i Åsikala, Matz Henrichsson i Kallekis,</l>
+          <l>[11.] Hindrich Eskillsson i Wehmas, Thomas Henrichsson i <unclear>Wijtarla,</unclear></l>
+          <l>[12.] Erich Påålsson i Vra Järwi, Kut Jöransson i Wijtarla.</l>
+        </p>
+        <p>
+          <l>[13.] Framhades een <choice><abbr>ben:<hi rend="superscript">d</hi></abbr><expan>benemd</expan></choice> Thomas Johansson som för Trolldoms</l>
+          <l>[14.] rÿchte widh sijdst hållit höst tingh den 4 Decembris</l>
+          <l>[15.] 1654 Anklagat war. Och såsom han då till een Vpenbar </l>
+          <l>[16.] Trullkarll medh nöijachtige witnen eij bindas kunde,</l>
+          <l>[17.] Alltså blef samma saak till detta Tinget Vpskuten, som</l>
+          <l>[18.] den förra Ransaakningen förmäler, och blef nu alltså </l>
+          <l>[19.] föreskrifne Thomas Johansson på Nÿtt igen för Rätten fram-</l>
+          <l>[20.] ställtter, om samma saak wijdare Ransakat och befun-</l>
+          <l>[21.] nat som föllier.</l>
+        </p>
+        <p>
+          <l>[22.] 1) Först framstegh een Nämbdeman Matz Henrichsson<label type="commentary" n="tuomio16">16</label> ifrån</l>
+          <l>[23.] Kalkis, och effter aflagdan Eedh å Lagboken wittnade</l>
+          <l>[24.] och bekände, säijandes, att för otto åhr sedån, Enär</l>
+          <l>[25.] han tillijka medh denna Thomas Johansson hade warit</l>
+          <l>[26.] stadder i Bårgo Stadh, och där några Kannor Ööll medh</l>
+          <l>[27.] honom druckit tillsamman, Och een af Matz Henrichssons</l>
+          <l>[28.] grannar Erich Mårthensson<label type="commentary" n="tuomio17">17</label> <choice><abbr>ben:<hi rend="superscript">d</hi></abbr><expan>benemd</expan></choice> och så där till kommet</l>
+          <l>[29.] och några reesor Vthur deres Kanna druket, då hade</l>
+          <l>[30.] <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Thomas Johansson sådant förtänckt, och för sam-</l>
+          <l>[31.] ma orsaak kommet i Mangell och handkraffter medh</l>
+          <l>[32.] <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Erich, där Erich Mårthensson sedhan hade fattat</l>
+          <l>[33.] till sin Knijf, som han då nyligen fär i Stadhen Köpt</l>
+          <l>[34.] hade, och Thomas Johansson i samma förehafwande der med</l>
+          <l>[35.] stå wellat, då hade Thomas Wndsagt honom seijandes</l>
+          <l>[36.] iblandh <del>iblandh</del> annat fuult taall, Sillä weitzellä si-</l>
+          <l>[37.] nun pitä sen teuran tekemen, Jostas Kauwan Kÿllä Juosta</l>
+          <l>[38.] saat</l>
+        </p>
+        <pb n="487v" ed="folionumero" facs="509a" />
+        <p>
+          <l>[1.] saat, Och ehuruwäll att <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Erich M<del>at</del><add>o</add>rtensson, honom</l>
+          <l>[2.] medh samma Knijf inthet skadde, så hafwer Thomas Johansson</l>
+          <l>[3.] lijkwäll ändå <add><hi rend="superscript">på</hi></add><unclear>deres</unclear> heemreesa wijdare hafft agg till</l>
+          <l>[4.] <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Erich Mårthensson, som hade hafft een godh häst för</l>
+          <l>[5.] sin släda, och Vndsagt honom således: eij sinun pidä Cau-</l>
+          <l>[6.] wan sinun hewoisellans Kÿndämän, Kÿllä Hän mainitan, </l>
+          <l>[7.] ennen midsommarita, mutta älä näitä minun sanoiani,</l>
+          <l>[8.] kertoi ÿstäwäiseni, framtill Matz hindrichsson honom</l>
+          <l>[9.] swarat hade, eij sinut Jkenä sitä mieltä ole, Men Thomas</l>
+          <l>[10.] swarat och sagt: Minäkö.? En minä sitten ikänens Thomas</l>
+          <l>[11.] ole, Jolleij Hän toten tapahdu, hwareffter Matz Henrichsson</l>
+          <l>[12.] sadhe, att äfwen på den förelagde tijdhen och om Midh-</l>
+          <l>[13.] Sommarn weka, Enär som <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Erich Mårthensson sin</l>
+          <l>[14.] häst Vthaf Plogen löös släpt hade, ähr Biörnen kommen på</l>
+          <l>[15.] åkeren och samma häst nederslaget. Därnäst</l>
+          <l>[16.] sadhe och Matz Hindrichsson, att <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Erich Mårthensson</l>
+          <l>[17.] medh samma Knijf han i Bårgo Kiöpt hade, något der.</l>
+          <l>[18.] effter een sin granne Knut Eskillsson widh Nampn, ihiäl-</l>
+          <l>[19.] slaget, och af daga taget hafwer, och allt sedan Nogsambt</l>
+          <l>[20.] fååt löpa och flÿchtigh wara.</l>
+        </p>
+        <p>
+          <l>[21.] 2) Sedan till dhet andra: Såsom Clemet Erichsson ifrån Puk-</l>
+          <l>[22.] kila, så wäll widh sijdstfållit höst tingh, som nu, wittna-</l>
+          <l>[23.] dhe och bekände, dhet samma sanadhe och <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Matz</l>
+          <l>[24.] Hindrichsson, att <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Thomas Johansson i dhet dhe hade </l>
+          <l>[25.] höördt opå, hade Vndsagt Michell Hansson i Lusij till sin</l>
+          <l>[26.] Wällfärdh, för fhet Michell skulle hafwa låtet honom </l>
+          <l>[27.] i Ländgden införa till att Vthföra sina domare Penningar,</l>
+          <l>[28.] seijandes: Kyllä Perkälen pitä hänen taskuns kerroista Ra-</l>
+          <l>[29.] han Vloswiemän, och ändå, som Matz Hindrichsson berät-</l>
+          <l>[30.] tade, Lagt detta därtill, Jo heneldä wähä ennengin on </l>
+          <l>[31.] wienÿt, mutta wasta paramin ennen Michillin päiwä, hwar</l>
+          <l>[32.] effter och Michell Hansson till dhet högsta beklagade och</l>
+          <l>[33.] sadhe sigh i förleden Sommars, igenom <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Thomases för gär-</l>
+          <l>[34.] nignar hafwa mist sin Rÿttare- och een annan wärck</l>
+          <l>[35.] häst, så wäll som sina Kallfwar, Köör och fåår, som Biör-</l>
+          <l>[36.] nar och Wargar iblandh andra hans grannars fåår och</l>
+          <l>[37.] Booskap sigh till Reefz skulle Vthwaldt hafwa, och förden-</l>
+          <l>[38.] skull flijteligen bedh, dhet <choice><abbr>bem:<hi rend="superscript">t</hi></abbr><expan>bemält</expan></choice> Thomas Johansson fär-</l>
+          <l>[39.] före sitt wäll förtientte straff bekomma måtte: Och ehu-</l>
+          <l>[40.] ruwäll att Thomas Johansson därtill neeka wille, så</l>
+          <l>[41.] förekom lijkwäll Bärendt Matzsson ifrån Ånalisto,</l>
+          <l>[42.] och</l>
+        </p>
+        <pb n="488r" ed="folionumero" facs="509b"/>
+        <p>
+          <l>[1.] och effter sworen Eedh å book honom detta ähr wijdare öff-</l>
+          <l>[2.] wertÿgadhe, Säijandes, att enär dhe på medlest Böneda-</l>
+          <l>[3.] gen hade kommet ifrån Kÿrckian och suttet i Bååten, då </l>
+          <l>[4.] hade Thomas äffwen hafft samtaall medh dem om Lusi</l>
+          <l>[5.] Michell<label type="commentary" n="tuomio18">18</label>, och iblandh annat medh Wänstra Handen weeftat</l>
+          <l>[6.] säijandes, Tuolda caicki Perkelet Hänen Engelinens mengön</l>
+          <l>[7.] pesemän puchdistaman hänen elons elämästäns, och andå</l>
+          <l>[8.] sagt detta därtill, Kÿllä Perkelen pitä hänen elons ja elämäns</l>
+          <l>[9.] Puchdistaman nijn tÿhiäx Cuin hänne Kielens on, ia taskungin</l>
+          <l>[10.] Kerroist Rahan Vlos wiemän.</l>
+        </p>
+        <p>
+          <l>[11.] 3) Och såsom i den förra Ransakningh 2 punct förmäles om </l>
+          <l>[12.] tuänne Påsar medh mull och aska Vthj som iblandh hans</l>
+          <l>[13.] saaker fundne woro, Alltså blef honom därom ähn wij-</l>
+          <l>[14.] dare tillfrågat hwadh han därmedh skulle <add><hi rend="superscript">kunna</hi></add> förrätta, Hwar-</l>
+          <l>[15.] till han inthet annat swarade ähn i förre Ransakningen </l>
+          <l>[16.] förmäles, <choice><abbr> Nembl.</abbr><expan>Nembligen</expan></choice> att hans dotter som till Kallkis bÿÿn</l>
+          <l>[17.] gifft blef, skulle medh dhet första hon in till sin Man kom-</l>
+          <l>[18.] <unclear>mo</unclear> ströö samma Mull på gallfwet Vnder hans fötter, så</l>
+          <l>[19.] skulle hon wäll trijfwas.</l>
+        </p>
+        <p>
+          <l>[20.] 4)Och effter dhet att han widh förrige Ransacknigen som i den</l>
+          <l>[21.] 3 puncten förmålas, bekände sigh kunna boota Siukdomar,</l>
+          <l>[22.] Såsom eenkannerligen rifningen i lijfwet, bådhe på follk och</l>
+          <l>[23.] fää, och han lijkwäll då inthet wille Vthseija på huadh</l>
+          <l>[24.] sätt, eller orda form han dhet göra skulle, alltså blef han</l>
+          <l>[25.] ännu wijdare därom tillspordt, och ehuruwäll han nö-</l>
+          <l>[26.] digt wille dher till, Så bekände han lijkwäll omsijder,</l>
+          <l>[27.] och sade sigh först, fallandes på sin Knää, läsa fader wår,</l>
+          <l>[28.] Troon, och sedan denna effterfölliande Rämsa.</l>
+          <l>[29.] Tauti on tullut taiwahast, Pusku pilwistä pudonnut, Cuhunga minä</l>
+          <l>[30.] pahat panen, Jhosta Jnhimisen, Carwoista capian cansan, Lapin</l>
+          <l>[31.] Lasten öÿ<label type="commentary" n="tuomio24">19</label> sijoilla, Pohian pengeren perällä och fader wår</l>
+          <l>[32.] på nytt igen, därnäst Herra Jumall andacon awun ia heit-</l>
+          <l>[33.] täkön helpon, sillä Syndisellä Jhmisellä cuin minä Rucoilen</l>
+          <l>[34.] edest, alias för Booskapen, tällä Luondocappalella, Jongas</l>
+          <l>[35.] olet Luonut Ichmisen tarpexi, Och detta gör han tre gånger,</l>
+          <l>[36.] blåsandes på Sallt Ööll och watn, hwadh honom hällst till-</l>
+          <l>[37.] handa kommer, och så, sade han, att Gudh hörer hans böön</l>
+          <l>[38.] och dhe blifwa bättre; Däreffter blef honom för-</l>
+          <l>[39.] hållit, att såsom han således kunde boota een af sin siuk-</l>
+          <l>[40.] doom, han och så vice versa skulle kunna skÿnda ondt på</l>
+          <l>[41.] någon annan igen, hwartill han i förstonne inständigt</l>
+          <l>[42.] nekade, Men sedan såsom heela hans wäsende, Vnd-</l>
+          <l>[43.] seijelsser och däropå fölliande skada för honom Vp repe-</l>
+          <l>[44.] terades,</l>
+        </p>
+        <pb n="488v" ed="folionumero" facs="510a"/>
+        <p>
+          <l>[1.] terades, och fördenskull tillfölltz sina onda gärningar att</l>
+          <l>[2.] tillstå och bekänna, då sadhe han sigh allenast bedia ondt</l>
+          <l>[3.] för dem som honom ondt göra och tillfoga, hwilken hans </l>
+          <l>[4.] Böön sedan Gudh skulle höra, och låta dem sådant weder-</l>
+          <l>[5.] fahras; Män enär man wijdare honom granne-</l>
+          <l>[6.] ligen förehöllt och till sinnas förde, 1 Att han för </l>
+          <l>[7.] Trulldom alltijdh är berÿchtat werden, 2. Och för åtta</l>
+          <l>[8.] åhr sedan i Bårgo Vndsagt Erich Mårtensson i Kallkis, att</l>
+          <l>[9.] han medh sin Knijf skulle een sådan slacht göra som han</l>
+          <l>[10.] länge nogh måtte få Löpa före, Såsom och till dhet 3) På </l>
+          <l>[11.] heemreesan ifrån Staden Vndsagt honom på hans häst, </l>
+          <l>[12.] som Nämbdemannen Matz Henrichssson i Kallkis, honom </l>
+          <l>[13.] Eedeligen öfwer tÿgade, och dhet dereffterskedt och händt</l>
+          <l>[14.] ähr, att Biörnen <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Erich Mårthenssons häst på före-</l>
+          <l>[15.] lagdan tijdh och för Midsommars dagen nederslaget <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafwer</expan></choice>.</l>
+          <l>[16.] Såsom och att han siellf een tijdh däreffter, med den Knijf-</l>
+          <l>[17.] wen som han i Bårgo hade hafft i handen och welat slå</l>
+          <l>[18.] honom medh, een sin granne Knut Eskillsson i hiellstuket</l>
+          <l>[19.] och af daga taget hafwer, och bägge hans Vndseijellsser</l>
+          <l>[20.] således på bestämbdan tijdh blifwa fullgiorda. 4) Såsom</l>
+          <l>[21.] och att Michell Hansson i Lusi een stor skada igenom</l>
+          <l>[22.] hans Vndsäijelsseer och till skÿndan lidet och taget hafwer, </l>
+          <l>[23.] medh hwadh mehra, som man Vthj hwars saak om sigh honom </l>
+          <l>[24.] äfwertala, och till sanningens bekännelsse bewaaka kun-</l>
+          <l>[25.] de; Då begÿnte han bitterligen till att gråta, och </l>
+          <l>[26.] bekände omsijder Vppenbarliga sigh icke allenast Vthj</l>
+          <l>[27.] alla desse föregåande honom tillagde saaker och Puncter</l>
+          <l>[28.] skÿlleligh, och een kannerligen att han åffta <choice><abbr>bem:<hi rend="superscript">t</hi></abbr><expan>bemält</expan></choice> Erich</l>
+          <l>[29.] Mårthensson i Kallkis hafwer förgiordt, medh samma sin</l>
+          <l>[30.] knijf att göra man skada, som han sedan på sin granne</l>
+          <l>[31.] Knut Eskilsson fullbordat hafwa, och tillförenne <unclear>förmist</unclear></l>
+          <l>[32.] ståår, Vthan och att han som i förre Ransacknings 4) Punct </l>
+          <l>[33.] förmäles, medh slijka sina kånster hafwer låtet Bärendt </l>
+          <l>[34.] Matzsons i Ånalisto, och fleere andres som han Allenast </l>
+          <l>[35.] fick någon Afwundh till, Hästar till frågan, huru och på</l>
+          <l>[36.] hwadh sätt han sådant allt skulle kunna komma till wägen</l>
+          <l>[37.] wille han inthet Vth medh, Vthan förmeentte wara nogh</l>
+          <l>[38.] Vthgaf, dhet han allreda bekändt hade, Och fördenskull</l>
+          <l>[39.] ställttes</l>
+        </p>
+        <pb n="489r" ed="folionumero" facs="510b" />
+        <p>
+          <l>[1.] ställttes heela denne hendelen Vthj Nämbdens betänkiande,</l>
+          <l>[2.] dhe där om sambt- och sÿnnerligen således sadhe och besläto,</l>
+          <l>[3.] Att alldenstundh åftta <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Thomas Johansson med sina Trull-</l>
+          <l>[4.] doms Konsten och förgärningar mången man icke Allenast</l>
+          <l>[5.] på sin Wällfärdh och egendom stoor skada hafwer låtet</l>
+          <l>[6.] skee och tillfogas, Vthan och förgiordt den eena Menniskian</l>
+          <l>[7.] att afhända sin Nästa och Jäm Christen lijfwet, som han </l>
+          <l>[8.] siellf tillstådt och mekädnt hafwer, Altså Kunde dhe i dhet</l>
+          <l>[9.] fallet eij annat göra, Vthan fälla honom saaken till döden.</l>
+          <l>[10.] Därföre dömbdes och åffta <choice><abbr>bem:<hi rend="superscript">te</hi></abbr><expan>bemälte</expan></choice> Thomas Johansson ifrån</l>
+          <l>[11.] Marjonniemi för sin begågna Trulldom och Förgärningar</l>
+          <l>[12.] effter sin egen Muns bekännellsse och Nämbdens fällande,</l>
+          <l>[13.] att mista lijfwet och steglas eller och å Bååle Brännas,</l>
+          <l>[14.] effter 15 <choice><abbr>Capit:</abbr><expan>Capitel</expan></choice> i Högmåla Ballken,<label type="commentary" n="tuomio26">20</label> som härmedh Vthj</l>
+          <l>[15.] den <choice><abbr>Högl.</abbr><expan>Högloflige</expan></choice> Konunglige Hoffrättens wijdare och gunstige</l>
+          <l>[16.] omdöme Ödmiukeligast heemställes. §.</l>
+        </p>        
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="tuomio1">
+          Thomas Johansson (Tuomas Juhonpoika), Marjoniemen kartanon lampuotitalon isäntä vuoteen 1655. (Wilmi 1988, 250−252.)
+        </note>
+        <note n="tuomio2">
+          Marjoniemi, kylä Heinolassa Ruotsalainen-järven pohjoisrannalla.
+        </note>
+        <note n="tuomio3">
+          Michel (Simonsson) Manninen (Mikko [Simonpoika] Manninen), Padasjoen nimismies (vrt. esim. Asikkalan kesäkäräjät 1.8.1654, I KO a:7, f. 407v). Blomstedtin mukaan Asikkalan itäosissa oli 1640-luvulta 
+          lähtien myös oma nimismies, jonka virkatalo sijaitsi aluksi Lusin kylässä (Vrt. Blomstedt 1981, 306; Wilmi 1988, 251.)
+        </note>
+        <note n="tuomio4">
+          Pulkkila, kylä Päijänteen rannalla Asikkalassa, n. 23 km Marjoniemestä länteen.
+        </note>
+        <note n="tuomio5">
+          Clemet Erichsson (Klemetti Erkinpoika), talonpoika Asikkalan Pulkkilan kylästä, Asikkalan nimismies 1664−1669, elossa vielä vuonna 1682. (Blomstedt 1981, 306.)
+        </note>
+        <note n="tuomio6">
+          Michel Hansson (Mikko Hannunpoika), Mansikkalan rusthollin isäntä Lusin kylässä 1650−1665. Hän oli syyttänyt Asikkalan syyskäräjillä 13.11.1643 Thomas Philpussonia (Tuomas Vilpunpoika), että 
+          tämä oli noitunut karhun tappamaan häneltä tamman (ett Stoodh), mutta vastaaja oli vapautunut syytteestä myötävannojien avulla ja kantaja oli joutunut maksamaan 40 markan sakon kunnianloukkauksesta. 
+          (I KO a:5, f. 13v−14r; Wilmi 1988, 250−251, 628.)
+        </note>
+        <note n="tuomio7">
+          Lusi, kylä Heinolassa Ruotsalainen- järvestä noin viisi kilometriä koilliseen, n. 10 km Marjoniemestä itään.
+        </note>
+        <note n="tuomio8">
+          Hartwig Michelsson (Hartti Mikonpoika) Manninen, Padasjoen nimismies Michel Simonsson Mannisen poika. (Wilmi 1988, 251.)
+        </note>
+        <note n="tuomio9">
+          "Matke miöl": Puunpuru, erityisesti toukan syömän puun puru. (Vrt. SAOB, Maskmjöl: "mjölliknande träavfall som söndergnagts av i trä levande larver, "trämjöl" (förr använt ss. l. i läkemedel)").
+        </note>
+        <note n="tuomio10">
+          Kalkkinen, kylä Asikkalassa Kymijoen rannalla Päijänteen ja Ruotsalainen-järven välillä, n. 12 km Marjoniemestä länteen.
+        </note> 
+        <note n="tuomio11">
+          Vaippilainen, kylä Heinolassa Ruotsalainen-järven pohjoisrannalla, n. 4 km Marjoniemestä pohjoiseen.
+        </note>
+        <note n="tuomio12">
+          Hans Hindrichsson (Hannu Heikinpoika), Marjoniemen kartanon lampuoti 1656−1682. (Wilmi 1988, 633.)
+        </note>
+        <note n="tuomio13">
+          Simon Sigfredsson (Simo Sipinpoika), Jussilan (Vaippilan) talon isäntä Vaippilan kylästä 1662−1667. (Wilmi 1988, 639.)
+        </note>
+        <note n="tuomio14">
+          Onali, kylä Heinolassa Ruotsalainen-järven länsirannalla, n. 4 km Marjoniemestä länteen.
+        </note>
+        <note n="tuomio15">
+          Berendt Matsson, Onalin talon isäntä Onalin kylästä 1634−1680, joskin Wilmillä isännän nimi on "Hartti Matinpoika". (Wilmi 1988, 251, 634.)
+        </note>
+        <note n="tuomio16">
+          Matz Henrichsson (Matti Heikinpoika), lautamies Kalkkisten kylästä 1654−1684 (Blomstedt 1981, 293).
+        </note>
+        <note n="tuomio17">
+          Erich Mårthensson (Erkki Martinpoika), Wilmillä "Erkki Matinpoika" (Wilmi 1988, 251).
+        </note>
+        <note n="tuomio18">
+          Lusi Michell ("Lusin Mikko"), todennäköisesti Michel Hansson (Mikko Hannunpoika) Lusista (ks. yllä).
+        </note>
+        <note n="tuomio24">
+          "öÿ": Kirjoitusmerkkejä "ij" käytetään 1600-luvun käsinkirjoitetussa tekstissä usein merkitsemään sekä y:tä että ij:tä. Usein kirjoittajat eivät tee eroa kirjoitusmerkkien välille, ja merkitys on pääteltävä 
+          kontekstista, jolloin se on tässä editiossa merkitty ÿ:llä. Tässä tuomiokirjassa kirjoittaja piirtää kuitenkin y:n ja ij:n alaslaskevan varren selvästi erilaisiksi (vrt. sÿntisen, sijoilla), joten tässä 
+          tapauksessa voidaan varmuudella sanoa, että kyse on yksiselitteisesti kyse y-kirjaimesta.
+        </note>       
+        <note n="tuomio26">
+          KrML Törkeitten asiain kaari 15 § surmaamisesta myrkyllä tai noituudella, vrt. Kollanius 1648 [Koll1648-189-Kor-15], VKS: 
+          <ref type="link" target="http://kaino.kotus.fi/korpus/vks/meta/lait/koll.ml_rdf.xml">http://kaino.kotus.fi/korpus/vks/meta/lait/koll.ml_rdf.xml</ref>.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

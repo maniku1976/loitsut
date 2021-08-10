@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Karhun nosto I, Vehkalahti 1643</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Tuomikirjojen loitsut</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Kansallisarkisto</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkriptio</resp>
+          <persName>Lari Ahokas / SKS</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kommentaari</resp>
+          <persName>Senni Timonen, Kati Kallio, Lari Ahokas / SKS</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2019-02-18">18.02.2019</date>
+        <availability><p>CC-BY 4.0: https://creativecommons.org/licenses/by/4.0</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Kansallisarkisto, Kihlakunnanoikeuksien renovoidut tuomiokirjat, Lappeen tuomiokunta, I KO a:2 (jj:3), varsinaisten asioiden pöytäkirjat 1639−1643, kuulustelu, 
+              Vehkalahti 21.4.1643, f. 236v,17−20.</repository>
+            <idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="transcription">
+              <bibl>vehkalahti1643a</bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fi-FI">suomi</language>
+        <language ident="se-SE">svenska</language>
+      </langUsage>
+      <particDesc>
+        <person>
+          <persName type="tutkimuskirjallisuus">
+            <forename>Erkki Matinpoika</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <forename>Eerik Matinpoika</forename>
+          </persName>
+          <persName type="tutkimuskirjallisuus">
+            <forename>Eerikki Matinpoika</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <forename>Erich Masson</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <forename>Erich Matzson</forename>
+          </persName>
+          <persName type="asiakirjat">
+            <forename>Erich Madzson</forename>
+          </persName>
+          <residence>
+            <placeName>
+              <settlement>Ummeljoki, Elimäki</settlement>
+            </placeName>
+          </residence>
+          <occupation>noita (trullkarl)</occupation>
+          <state type="rooli_loitsu"><label>alkuperäinen esittäjä</label></state>
+          <state type="rooli_oikeudenkaynti"><label>syytetty</label></state>
+        </person>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <name>Vehkalahti</name>
+          <date when="1643-04-21">21.4.1643</date>
+          <locale>Kymenkartanon kuninkaankartano</locale>
+          <activity>Oikeudenkäynti- tai muistiinpanopaikka</activity>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="236v" ed="folionumero" facs="Varsinai_274a"/>
+        <p>
+          <l>Fram <unclear>hadhes</unclear> åther igen <choice><abbr>förbe:<hi rend="superscript">te</hi></abbr><expan>förbemälte</expan></choice> Erich Masson huilken förmanades at bekenna om sijna 
+            trolldoms kånster, och bekende han sigh inthet annat kunna giöra än att komma Biörnen till giöra skadhe. Och brukar der till <unclear><choice><abbr>dene</abbr><expan>denne</expan></choice></unclear> 
+            process. Man måtte läggia sigh nedh på Jorden uppå Knään och Armarna, och Krafzsa i Jorden Säijandes, </l>
+        </p>
+        <p>
+          <l>Nåus Wijthast Wihain, </l>
+          <l>Kåruest Kåwera Kåura, </l>
+          <l>Siliet Silpaiseman,</l>
+          <l>Kaunist mahan kataman;<label type="commentary" n="loitsu1">1</label></l>
+          <l>Ja mäne Kåchden Kåchdin<label type="commentary" n="loitsu2">2</label></l>
+          <l>sijhen quin minä käsin,<label type="commentary" n="loitsu3">3</label></l>
+          <l>ia ole mies mändyässi. </l>
+        </p>
+        <p>dätta bekende han sigh hafua lärt aff een Tiggiare frå Tawast landh <choice><abbr>be:<hi rend="superscript">dh</hi></abbr><expan>benemdh</expan></choice> Eskill Olufzsson eller och Kårwen. Eskå 
+          och gifuit honom i löön 2 wackor Spannmål. Blef
+        </p>
+        <pb n="237r" ed="folionumero" facs="Varsinai_274b"/>
+        <p>
+          Blef och denne Erich Masson af klädher och Ransakadt om han något skulle hafua hoos sigh huar medh hen kund sidh wäria frå någon <unclear>sam[_?]</unclear> bekennellsse eller elliest annat, Tå 
+            befans at han hadhe eet lijtedh stycke af leer såm war håårt lijka som teghell wnder wänster fothen emellan strumpporna till huadh enda han sådant sadhe wnder fothen wille han inthet bekenna, 
+            wthan omsijdher sadhe Mijn Sånahustro hoon ladhe thet uthi mijn skoo när Jagh blef fängzladhe §.
+        </p>
+        <p>
+          Än bekände han sigh hafua låtidh Biörnen i hiäl slå Eskill Knutssons laamans 2 köör för det laman <choice><abbr>haf:<hi rend="superscript">r</hi></abbr><expan>hafuer</expan></choice> nedher 
+            brutidh och fölt hans grundz gårdh. 
+        </p>
+      </div>
+      <div type="tiedot">
+        <p><emph>Loitsun tallentumiskonteksti</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Erkki Matinpoika (Erich Masson) ja Erkki Niilonpoika (Erich Nilsson), molemmat Elimäen Ummeljoen kylästä, olivat 19.−21.4.1643 Kymenkartanon kuninkaankartanossa käydyillä useamman pitäjän käräjillä 
+          syytettyinä vahingoittavasta noituudesta, esimerkiksi karhun nostamisesta karjan kimppuun ja noitalaulujen laulamisesta tapaninpäivänä. Heidät tuotiin Elimäen käräjille 20.4.1643 vangittuina, sillä 
+          heitä oli syytetty noituudesta jo Elimäen talvikäräjillä 13.−14.3.1643, mutta asian käsittely oli jäänyt kesken asianosaisten poissaolon vuoksi. Miehet mainitaan vuosina 1643−1647 käräjäpöytäkirjoissa 
+          ainakin viisi kertaa (Nenonen 1992, 164).</p> 
+        <p>Ensin tuotiin esiin Erkki Niilonpoika. Everstiluutnantti Johan Patkull todisti, että Erkki oli sotilaana ("Knecht") ollut hänen komppaniassaan Riiassa, karannut sieltä kolmesti ja oli siellä tunnettu 
+          noitakonsteistaan ("Trolldoms kånster") ja muustakin taikuudesta ("loovwerij", pitää usein sisällään ajatuksen sanamagiasta, SAOB: löveri). Esimerkkinä hän mainitsi, että Erkki oli hankkinut takaisin 
+          hänen vaimonsa tädin korut. Erkki kielsi, mutta sanoi kuitenkin, että hyvä että sai korunsa takaisin.</p>
+        <p>Erkki Matinpojasta todisti hänen naapurinsa Markus Multamies (Marcus Erichsson muldamies), että 10 vuotta sitten heinäntekoaikaan Erkki oli varhain aamulla tullut juovuksissa heille ja nukahtanut maahan 
+          kontilleen ("lagt sigh såfua framstupadt på Knään, och armarna wth på Mårcken"). Iltapäivällä herättyään hän oli kysellyt vuorokaudenaikaa ja toistellut: eikö Anjalasta kuulu mitään? Markus ei ollut kuullut, 
+          johon Erkki sanoi, että kohta kuuluu, ja nukahti uudelleen. Iltapäivällä taloon tullut naapuri kertoi uutisen: Anjalan karjan on repinyt karhu. Tähän Erkki Matinpoika heräsi ja tokaisi Markukselle: 
+          "mitäs nyt sanot, pidätkö minua nyt miehenä?" eikä Markus enää uskaltanut vastustaa Erkkiä. Hän kertoi myös toisen esimerkin Erkin uhkailevasta käytöksestä neljä vuotta sitten hänen sisarensa luona Viialassa 
+          (nykyisin Myllykoski Kouvolassa, Kymijoen vastarannalla Ummeljoen kohdalla), jossa miehet olivat juoneet olutta yhdessä ja jolloin Markus oli syyttänyt Erkkiä sisarensa oluenteon pilaamisesta ja sanonut, 
+          että Erkin kaltaiset miehet ansaitsivat tulla tulessa poltetuiksi.</p> 
+        <p>Sitten todisti Lauri Juhonpoika (Lars Johansson) Viialasta molemmista syytetyistä: Edellisenä Pyhän Tapanin päivän iltana hänen kotonaan oli naapureita vieraisilla, kun sisään astuivat Erkki Niilonpoika ja 
+          Erkki Matinpoika. Koska kaikki seudun ihmiset pelkäävät heidän noituuttaan ("trolldom"), hän ei uskaltanut olla antamatta heille juomaa runsaasti. Juovuksiin tultuaan he alkoivat laulaa noitalauluja 
+          ("en hoop trolldoms wijsor"), joista Lauri Juhonpoika saneli katkelman käräjillä (<ref type="link" target=" http://kalevala-dev.ngrok.io/loitsut/items/show/10 ">Kyllä korppi kuuta saapi, Elimäki 1643</ref>). 
+          Vieraat olivat lauluista suuttuneina ajaneet laulajat ulos tuvasta.</p> 
+        <p>Myös kolmea muuta miestä vastaan nostettiin noituuskanteita, mutta asioiden tutkinta jäi heidän osaltaan kesken tai ei tuottanut tarpeeksi todisteita. Yksi heistä oli Erkki Matinpojan poika Lauri, jolta 
+          vielä kysyttiin, voiko hän mennä valalle, että hänen isänsä ei ole noita. Lauri ei halunnut sitä tehdä: "Jumala minua siitä varjelkoon". Toinen oli Eskeli Nuutinpoika Laamainen (Eskell Knutsson laamain) 
+          jota syytettiin Elimäen kirkkoherran tappamisesta noitakeinoin.</p>
+        <p>Seuraavana käräjäpäivänä 21.4.1643 Erkki Matinpoika ja Erkki Niilonpoika tunnustivat Vehkalahden pitäjän lautakunnan edessä kumpikin karhunnostatus-metodinsa niihin kuuluvine loitsuineen (Karhun nosto I, 
+          Vehkalahti 1643; 1643, Karhun nosto II, Vehkalahti 1643). Erkki Matinpoika kertoi tällä keinoin tappaneensa Eskeli Nuutinpoika Laamaisen kaksi lehmää, koska Eskeli on särkenyt hänen aitansa.</p>
+        <p>Erkki Matinpoika riisuttiin ja häneltä etsittiin taikakaluja, joilla hän mahdollisesti suojelee itseään. Hänen vasemman jalkansa alta sukkien välistä löytyikin pieni nahkapala, kova kuin tiili; hän sanoi 
+          että hänen miniänsä sen sinne laittoi, kun hänet vangittiin. Sitten hän paljasti, että eräs Pedher Lambertsson oli sanonut hänelle, että kirkkoherran tappaja asuu Raussilassa. Asia siirrettiin myöhempään 
+          tutkintaan. Halusiko hän pelastaa kaltoin kohtelemansa kyläläisensä Laamaisen, jota syytettiin tästä taposta?</p>
+        <p>Kysyttiin vielä, mitä muuta pahaa Erkki Matinpoika ja Erkki Niilonpoika osaavat noitua − pakkasta, kylmyyttä ja kaikkea muuta, mistä kansa heitä epäili. He eivät tunnustaneet muuta. Heidät kahlittiin ja 
+          vietiin Viipurin linnaan odottamaan tarkempaa tutkintaa.</p> 
+        <p>Erkki Matinpojan ja Erkki Niilonpojan myöhemmät vaiheet ovat osin hämärän peitossa. Toukokuun 1644 Elimäen, Pyhtään ja Vehkalahden ylimääräisten käräjien pöytäkirjassa mainitaan, että "Elimäen noitien" 
+          tuomio (Dhe Elimä Trollkarlans Doom) on lähetetty hovioikeuteen (I KO a:3, 13.5.1644, f. 47v). Nämä arkistot eivät ole säilyneet. Eskeli Nuutinpoika Laamainen vapautui syytteistä syyskäräjillä 1644. Erkki 
+          Matinpoika mainitaan vielä Vehkalahden ja Elimäen käräjäpöytäkirjoissa 1647, jolloin ihmisiltä kyseltiin, onko hän vielä jatkanut pahoja tekojaan, vaikka hänet on määrätty ruoskittavaksi ja karkotettu seudulta 
+          pois. Kävi ilmi, että hänen tiedettiin vielä liikkuvan paikkakunnalla, ja hänet määrättiin kiinni otettavaksi ja rangaistavaksi. (Oksanen 1981, 153.)</p>
+        <p>Tapauksen taustatiedot ovat osin epäselvät.  Erkki Matinpoika ja Erkki Niilonpoika olivat jo Elimäen talvikäräjillä 13.−14.3.1643 syytettyinä noituudesta, ja he olivat selvästi jo valmiiksi noidan maineessa, 
+          sillä heitä nimitetään pöytäkirjassa alusta pitäen noidiksi (Lappee 1642−1650, I KO a:3, f. 14r: "Framhades dhe trollkarlar ifrån Vmmeljoki Erich Nielsson och Erich Matzson…"). Syytteen tarkempaa sisältöä 
+          ei yksilöidä. Erkki Niilonpoika oli puolustautunut syyttämällä kantaja Markus Erkinpoikaa (Multamies) aviorikoksesta kolmannen naapurinsa vaimon kanssa. Tapauksen käsittely talvikäräjillä oli jäänyt kesken 
+          asianosaisten poissaolon vuoksi, mutta sekä Erkki Matinpoika että Erkki Niilonpoika oli vangittu noituussyytteiden vuoksi (em., f. 14v).</p>
+        <p>Taustatietojen puuttuminen kuulustelupöytäkirjasta lienee seurausta tuomarinvirkojen hoidossa tapahtuneista vaihdoksista. Lappeen tuomiokunnan lainlukija Samuel Matsson (Forsman), jonka hallussa Elimäen 
+          talvikäräjien pöytäkirjat olivat (f. 122r/233r), ei ollut päässyt paikalle kuulusteluun, missä tuomarina toimi hänen sijaisenaan Jääsken ja Äyräpään tuomiokunnan lainlukija Erik Hansson. 
+          (Vrt. Blomstedt 1958, 370, 376.) Hän oli sijaistanut Matssonia tämän virassa jo edellisvuonna (Lappee 1639−1642, I KO a:2, f. 86r/199r; f. 120v/231v−121r/232r). Elimäen kuulustelupöytäkirja sisältyykin 
+          otsakkeen "Kymenkartanon lääni" (f. 227v−241r) alla Jääsken ja Äyräpään tuomiokirjaan (nykyisen niteen I KO a:2 f. 1−241), joka sittemmin on sidottu yhteen Lappeen tuomiokirjan (f. 242−303) kanssa. 
+          Noituussyytteen alkuperä peittyy puolestaan toisen lyhyen ajan sisällä tapahtuneen tuomarinvaihdoksen alle: varsinaisesti Porvoon tuomiokuntaan kuuluneen Elimäen sekä Pyhtään pitäjien käräjät olivat vasta 
+          vuoden 1643 alussa siirtyneet Lappeen lainlukija Matssonin hoidettaviksi, eikä syytteen taustoista löydy mainintaa vanhemmista Porvoon tuomiokunnan käräjäpöytäkirjoista (vrt. esim. Porvoo 1636−1643, 
+          I KO a:3, f. 180v−182v).</p> 
+        <p>Kymenkartanon kuninkaankartanossa 19.−21.4.1643 Viipurin ja Kymenkartanon läänien maaherra Carl Mörnerin johdolla pidetty kokoontuminen esiintyy tuomiokirjan nykyisessä hakemistossa useilla otsakkeilla: 
+          "sotaväenotto" [19.4.] (f. 231v, "Knechtskrifningh"), "kuulustelu, Elimäki" [20.4.] (f. 232v, ei otsikkoa, lisäys marginaalissa: "Om någre trullkarlar"), "kuulustelu, hovioikeuden tuomioita, Vehkalahti" 
+          [21.4.] (f. 236v, ei otsikkoa; f. 239v, "Höghmälis Saker", jaoteltuna Äyräpään ja Jääsken kihlakuntien sekä Kymenkartanon läänin alle). f. 239r törkeiden rikosten käsittelyn yhteydessä kokoontumista kutsutaan 
+          "ylimääräisiksi käräjiksi" ("Extraordinarie Tingh"). Tavanomaisten käräjäpöytäkirjojen otsaketietojen puuttuminen kuulusteluilta antaa aiheen olettaa, että kyse on ollut yhdestä ja samasta 19.−21.4. pidetystä 
+          kokoontumisesta, jossa on ollut läsnä myös useamman pitäjän käräjälautakunta omien pitäjiensä oikeusasioita käsittelemässä, jolloin maaherran johtama kokous on toiminut samalla ylimääräisinä käräjinä. (Vrt. 
+          Oksanen 1981, 151.) Useamman pitäjän lautakuntien yhteiset ylimääräiset käräjät eivät olleet poikkeuksellisia Kymenlaaksossa (vrt. esim. I KO a:3 f. 14r, 13.−14.3.1643; f. 46v, 13.5.1644, Vehkalahden, Pyhtään 
+          ja Elimäen lautakunnat).</p> 
+      </div>
+      <div type="tiedot_b">
+        <p><emph>Loitsu</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Erkki Matinpoika ja Erkki Niilonpoika olivat pelättyjä erityisesti sen takia, että he nostattivat karhuja tappamaan vihamiestensä karjaa ja hevosia. Naapurikin muuttui viholliseksi, jos ei 
+          tarjonnut heille tarpeeksi olutta, tai loukkasi heitä muulla tavoin. Heiltä kirjoitettiin oikeudessa muistiin, miten he saivat karhun hyökkäämään karjan kimppuun sekä kummaltakin oma loitsuversionsa.</p>
+        <p>Erkki Matinpojan karhunnostoloitsu käskee karhua eli "vihaista", "kovera-kouraa", nousemaan viidasta ja korvesta, eli yhtä lailla tiheästä nuoresta lehtipuumetsiköstä kuin synkästä kuusimetsästä. 
+          Loitsu nostaa karhun kaatamaan ja silpaisemaan (silpomaan) "sileitä" ja "kaunista" eli lehmiä. Karhun tulee mennä heti tai suoraan kasvotusten lehmiä vastaan ("kohden kohdin"), juuri siihen mihin 
+          loitsija käski ("käsin") ja olemaan mies mentyään eli raatelemaan lehmät.</p>
+        <p>Erkki Matinpoika selosti, että oli käytävä maahan polvien ja käsivarsien varaan ("uppå Knään och Armarna"), siis kontilleen, ja raavittava maata ja samalla sanottava sanat, jotka nostattavat karhun 
+          karjaan. Hän kertoi oppineensa tämän hämäläiseltä kerjäläiseltä nimeltä Eskill Olufzsson eli Korven Esko ("Kårwen. Eskå"), jolle hän oli antanut palkaksi kaksi vakkaa jauhoja. Hän tunnusti tällä keinoin 
+          tapattaneensa karhulla Eskeli Nuutinpoika Laamaisen kaksi lehmää, koska tämä oli rikkonut ja vienyt pois hänen aitansa. Laamainenkin oli käräjillä, syytettynä kirkkoherran taposta noituudella.</p>
+        <p>Matinpojan karhunnostossa kiinnittää huomiota kontillaan olo maassa. Tämä selittää hänen oikeuskäsittelyssä esiin tulleen käytöksensä kymmenen vuotta aiemmin Markus Multamiehen pihalla, kun hän oli 
+          juovuksissa nukahtanut kontilleen. Kyse ei ollutkaan juopon holtittomasta konttailusta, vaan määrätietoisesta noituudesta Anjalan karjan tuhoksi.</p> 
+        <p>Loitsu, jonka Matinpoika oikeudessa tässä yhteydessä esitti, liittyy melko yleiseen niin kutsuttuun nostokarhu-traditioon (SKVR: <hi rend="italics">Karhun nostattaminen toisen karjaan; Karhun 
+          ärsyttäminen hevosen kimppuun</hi>). Toisen karjan tai hevosten tuhoaminen karhun avulla on ollut riidoissa käytetty toimintamalli niin Suomessa kuin Karjalassa. (Tarkka 2005, 281−282.) Matinpojan loitsu 
+          muistuttaa monia myöhemmin muistiinpantuja nostatussanoja, etenkin hämäläisiä, mikä vahvistaa kertomusta hämäläiseltä oppimisesta. Loitsun alkuosa on melko yhtenäinen laajemminkin. Seuraavat "nostantasanat" 
+          Laukaalta ovat alkuosaltaan osin samansäkeisiäkin kuin Matinpojan teksti:</p>
+        <p>
+          <l>Nouse karhu kankahasta</l>
+          <l>Hiekasta hevosen syöjä</l>
+          <l>Viiasta vihanen kissa</l>
+          <l>Korvesta kovero koura</l>
+          <l>Mullikoita murtamahan</l>
+          <l>Hevosia haaskaamahan. (<ref type="link" target="https://skvr.fi/poems?id=skvr09413580">SKVR IX4 1358</ref>)</l>
+        </p>
+        <p>Matinpojan loitsun kolmas ja neljäs säe ovat samat kuin Erkki Niilonpojalla ja puuttuvat myöhemmästä karhunnosto-traditiosta, mikä sekin viittaa joko hämäläiseen aikalaistraditioon, jonka molemmat 
+          ilmoittavat lähteeksi, tai yhteydenpitoon miesten välillä. Matinpojan loitsu ei noudata täysin kalevalamittaa, mikä loitsun alussa johtuu vain sanojen puhekielisistä, lyhyemmistä muodoista. Loitsun 
+          loppu kääntyy miltei proosaan: "Ja mäne Kåchden Kåchdin sijhen quin minä käsin, ia ole mies mändyässi". Näillekin ilmauksille löytyy myöhempiä vastaavuuksia, myös selkeän kalevalamittaisia, läheisin 
+          Hankasalmelta: "Mäne sinne, kuhun käsken! Ole mies mäntyäs, Surmaa suloinen poika! (<ref type="link" target="https://skvr.fi/poems?id=skvr09413760">SKVR IX4 1376</ref>)</p>
+      </div>
+      <div type="tiedot_c">
+        <p><emph>Aikaisemmat transkriptiot</emph> <ref type="more">Avaa &#8594;</ref></p>        
+        <p>Mattila 1945, 42; Mäntylä 1969, 110; Oksanen 1981, 152.</p> 
+      </div>
+      <div type="tiedot_d">
+        <p><emph>Kirjallisuusluettelo</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>Blomstedt, Yrjö 1958: <hi rend="italics">Laamannin- ja kihlakunnantuomarinvirkojen läänittäminen ja hoito Suomessa 1500- ja 1600-luvuilla</hi>. Historiallinen Arkisto 51. Helsinki: Suomen 
+          Historiallinen Seura.<lb/><lb/> 
+          Mattila, Veikko 1945: Anjalan noitaprosessi 1640-luvulla. −  <hi rend="italics">Käräjäpukareita ja käräjäjuttuja: kansamme historiaa tuomiokirjojen valossa. Historian aitta</hi> 10. 
+          Porvoo: WSOY, 30−45.<lb/><lb/>
+          Mäntylä, Ilkka 1969: <hi rend="italics">Ja yhteinen rahvas todisti. Kollaasi 1600-luvun suomalaisista tuomiokirjoista</hi>. Porvoo: WSOY. (Tästä tapauksesta s. 107−111.)<lb/><lb/>
+          Nenonen, Marko 1992: <hi rend="italics">Noituus, taikuus ja noitavainot Ala-Satakunnan, Pohjois-Pohjanmaan ja Viipurin Karjalan maaseudulla vuosina 1620−1700</hi>. Helsinki: Suomen Historiallinen 
+          Seura. (Tästä tapauksesta s. 163−164.)<lb/><lb/>
+          Nenonen, Marko ja Timo Kervinen 1994: <hi rend="italics">Synnin palkka on kuolema: Suomalaiset noidat ja noitavainot 1500−1700-luvuilla</hi>, toimittanut Anne-Riitta Isohella. Helsinki: Otava. 
+          (Tästä tapauksesta s. 216−217.)<lb/><lb/>
+          Oksanen, Eeva-Liisa 1981: <hi rend="italics">Anjalan historia</hi>. Anjala: Anjalankosken kaupunki. (Tästä tapauksesta s. 150−153.)<lb/><lb/>
+          SAOB: <hi rend="italics">Svenska Akademiens Ordbok</hi>. Stockholm: Svenska Akademien. <ref type="link" target="https://www.saob.se/"> https://www.saob.se/</ref><lb/><lb/>
+          SKVR I−XV = <hi rend="italics">Suomen kansan vanhat runot</hi>. 1908−1997. Eri toimittajia. Helsinki: SKS. Käytetty sähköisenä: <hi rend="italics">SKVR-tietokanta</hi>. 2004−. 
+          <ref type="link" target="http://www.skvr.fi"> http://www.skvr.fi</ref>. Käytetty myös <hi rend="italics">Octavo</hi>-liittymän kautta 2018−2020.<lb/><lb/> 
+          SMS: <hi rend="italics">Suomen murteiden sanakirja</hi>. Helsinki: Kotimaisten kielten keskus. Päivittyvä julkaisu. <ref type="link" target="http://kaino.kotus.fi/sms"> 
+            http://kaino.kotus.fi/sms </ref><lb/><lb/>
+          Tarkka, Lotte 2005: <hi rend="italics">Rajarahvaan laulu. Tutkimus Vuokkiniemen kalevalamittaisesta runokulttuurista 1821−1921</hi>. Helsinki: SKS.<lb/><lb/>
+          VKS: Vanhan kirjasuomen sanakirja. Helsinki: Kotimaisten kielten keskus. Päivittyvä julkaisu. <ref type="link" target="http://kaino.kotus.fi/vks"> http://kaino.kotus.fi/vks </ref></p>
+      </div>
+      <div type="nykytulkinta">
+        <p><emph>Loitsu nykyortografialla</emph> <ref type="more">Avaa &#8594;</ref></p>
+        <p>
+          <l>Nous(e) viidast(a) vihain(en),</l> 
+          <l>Korvest(a) kovera koura,</l> 
+          <l>siliet silpaisema(ha)n,</l> 
+          <l>kaunist maahan kaatama(ha)n;</l> 
+          <l>Ja mäne kohden kohdin</l> 
+          <l>siihen kuin minä käsin,</l> 
+          <l>ja ole mies mändyässi.</l>
+        </p>
+      </div>
+      <div type="kommentaarit">
+        <p><emph>Yksityiskohdat</emph> <ref type="more">valitse punainen numero</ref></p>
+        <note n="loitsu1">
+          <hi rend="red">1</hi>. "Siliet Silpaiseman,<lb/>
+          Kaunist mahan kataman;"<lb/><lb/>
+          Erkki Niilonpojalla sama säepari esiintyy hieman lyhyemmässä muodossa: "Siliet Silpuman ja Kaunist Kataman." Samanlaista säeparia ei myöhemmissä karhunnostoloitsuissa ole, 
+          "kaatamahan"-verbiä kyllä: "Toinen siipi pilviä piirtämähän, Toinen maahan kaatamahan! (SKVR X2 4493); Hevosia haastamahan, Karjan laumaa kaatamahan! (SKVR X2 4493). Länsi-inkeriläisissä 
+          <hi rend="italics">Verensulku</hi>-loitsuissa verta kehotetaan herkeämään vuotamasta samankaltaisella säkeellä "Kaunis maaha kaatumasta" (esim. SKVR III3 4390).   
+        </note>
+        <note n="loitsu2">
+          <hi rend="red">2</hi>. "mäne Kåchden Kåchdin"<lb/><lb/>
+          'Mene heti kohti' tai 'tai suoraan luo' (ks. SMS: kohdin, kohden). Säettä ei esiinny myöhemmissä aineistoissa.          
+        </note>
+        <note n="loitsu3">
+          <hi rend="red">3</hi>. "käsin"<lb/><lb/>
+          Tarkoittaa 'käskin'.          
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

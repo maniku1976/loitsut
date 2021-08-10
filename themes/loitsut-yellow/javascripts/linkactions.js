@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
-  
-   $('.tooltip1').on('click', function() {
+  $('.tooltip1').on('click', function() {
     $('#show_col_3').css('padding','1em');
     $('#show_col_3').html($(this).next('span').html());
    });
@@ -53,7 +52,8 @@ $(document).ready(function() {
         var before = comment.html().indexOf(key) - 1;
         var pos_before = comment.html().charAt(before);
         var regex = new RegExp(key, 'gi');
-        if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')' 
+        if ((pos_before == ' ' || pos_before == '(' || pos_before == ';' || pos_before == ',') && (pos_after == ' ' 
+        || pos_after == ';' || pos_after == ',' || pos_after == ')' 
         || pos_after == ':' || pos_after == '.')) {
           comment.html(comment.html().replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>'));
         }
@@ -117,63 +117,43 @@ $(document).ready(function() {
     } 
   });
 
-  $('#info1').on('click', function() {
-    $('#spell_info').find('.tiedot').show();
-    $('#spell_info').find('.tiedot_loitsu').hide();
+  $('.tiedot').find('p:nth-child(1)').on('click', function() {
+    $('.tiedot').find('p:nth-child(n+2)').toggle();
   });
 
-  $('#info2').on('click', function() {
-    $('#spell_info').find('.tiedot').hide();
-    $('#spell_info').find('.tiedot_loitsu').show();
+  $('.tiedot_b').find('p:nth-child(1)').on('click', function() {
+    $('.tiedot_b').find('p:nth-child(n+2)').toggle();
   });
 
-  $('.tiedot').find('.more').on('click', function() {
-    if ($('.tiedot').find('p:nth-child(n+2)').is(':visible')) {
-      $('.tiedot').find('p:nth-child(n+2)').hide();
-    } else {
-      $('.tiedot').find('p:nth-child(n+2)').show();
-    }
+  $('.tiedot_c').find('p:nth-child(1)').on('click', function() {
+    $('.tiedot_c').find('p:nth-child(n+2)').toggle();
   });
 
-  $('.tiedot_b').find('.more').on('click', function() {
-    if ($('.tiedot_b').find('p:nth-child(n+2)').is(':visible')) {
-      $('.tiedot_b').find('p:nth-child(n+2)').hide();
-    } else {
-      $('.tiedot_b').find('p:nth-child(n+2)').show();
-    }
+  $('.tiedot_d').find('p:nth-child(1)').on('click', function() {
+    $('.tiedot_d').find('p:nth-child(n+2)').toggle();
   });
 
-  $('.tiedot_c').find('.more').on('click', function() {
-    if ($('.tiedot_c').find('p:nth-child(n+2)').is(':visible')) {
-      $('.tiedot_c').find('p:nth-child(n+2)').hide();
-    } else {
-      $('.tiedot_c').find('p:nth-child(n+2)').show();
-    }
+  $('.nykytulkinta').find('p:nth-child(1)').on('click', function() {
+    $('.nykytulkinta').find('p:nth-child(n+2)').toggle();
   });
 
-  $('.tiedot_d').find('.more').on('click', function() {
-    if ($('.tiedot_d').find('p:nth-child(n+2)').is(':visible')) {
-      $('.tiedot_d').find('p:nth-child(n+2)').hide();
-    } else {
-      $('.tiedot_d').find('p:nth-child(n+2)').show();
-    }
+  $('.kommentaarit').find('p:nth-child(1)').on('click', function() {
+    $('.kommentaarit').find('p:visible').not('p:first').toggle();
   });
 
-  $('.nykytulkinta').find('.more').on('click', function() {
-    if ($('.nykytulkinta').find('p:nth-child(n+2)').is(':visible')) {
-      $('.nykytulkinta').find('p:nth-child(n+2)').hide();
-    } else {
-      $('.nykytulkinta').find('p:nth-child(n+2)').show();
-    }
+  $('#metadata-link-1').on('click',function() {
+    $('#metadata-content').show('slide',{direction: 'right'},300)
+    .find('#dublin-core-description').find('div:first').hide();
+    $('#metadata-link-1').hide();
+    $('#metadata-link-2').show();
   });
 
-  $('#metadata-link').on('click',function() {
-    if ($('#metadata-content').is(':visible')) {
-      $('#metadata-content').hide('slide',{direction: 'right'},300);
-    } else {
-      $('#metadata-content').show('slide',{direction: 'right'},300);
-    }
+  $('#metadata-link-2').on('click',function() {
+    $('#metadata-content').hide('slide',{direction: 'right'},300);
+    $('#metadata-link-1').show();
+    $('#metadata-link-2').hide();
   });
+
 
   $('.resultsBtn').on('click',function() {
     if ($(this).parent().next('.hl').is(":visible")) {
